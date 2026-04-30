@@ -144,7 +144,7 @@ for child in book39:
 **Note:** The above `get_verse_text` is a simplification suitable for
 extracting the basic consonantal text with vowels and accents.
 For handling ketiv/qere, special letters, legarmeih rendering, etc.,
-see the handler-based approach in `py-example/pysefaria/mam4sef_handlers.py`.
+see the handler-based approach in `py-example/mb_sefaria/mam4sef_handlers.py`.
 
 ## The `py-example/` Program
 
@@ -153,7 +153,7 @@ of reading MAM-simple and producing the MAM-for-Sefaria CSV/HTML output.
 It uses a recursive handler pattern where each element type
 has a registered handler function:
 
-- **`mam4sef_or_ajf.py`** — reads XML, walks the tree with `_handle()`
+- **`mam4sef_or_ajf.py`** — reads JSON, walks the tree with `_handle()`
 - **`mam4sef_handlers.py`** — handler functions for every element type, keyed by `(tag, class)` tuple
 
 This is the canonical reference for how to process the full range of MAM-simple element types.
@@ -198,6 +198,7 @@ Simple verses (no special markup) have a `text` field directly:
 
 ```json
 {
+  "type": "verse",
   "osisID": "Ruth.1.1",
   "yeivinID": "Rut 1:1",
   "text": "וַיְהִ֗י בִּימֵי֙ ..."
@@ -208,6 +209,7 @@ Complex verses (with legarmeih, ketiv/qere, etc.) have a `contents` array instea
 
 ```json
 {
+  "type": "verse",
   "osisID": "Ruth.1.2",
   "yeivinID": "Rut 1:2",
   "contents": [
@@ -223,5 +225,5 @@ Complex verses (with legarmeih, ketiv/qere, etc.) have a `contents` array instea
 1. If the verse object has a `text` field → use it directly.
 2. Otherwise → concatenate the `text` fields of all objects in `contents` where `type == "text"`, in order.
 
-The full set of child element types is the same as in XML (see [Child Element Types](#child-element-types) above).
+Verse objects can be identified by `"type": "verse"`. The full set of child element types is the same as in XML (see [Child Element Types](#child-element-types) above).
 Parashah-marker objects (e.g., `{ "type": "spi-pe2" }`) can appear as children of the root object's `contents` array (between `book39` objects — e.g., between 1 Samuel and 2 Samuel), or as children of `book39`, `chapter`, or `verse` `contents` arrays.
