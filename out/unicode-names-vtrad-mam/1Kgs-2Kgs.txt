@@ -1,4 +1,4 @@
-unicode_names 1Kgs2Kgs
+unicode_names 1Kgs-2Kgs
 1Kings 1:1 in vtrad vtmam
 v,:,h,_,m,·,∵,(mah),l,∵,k.,:
 SPACE

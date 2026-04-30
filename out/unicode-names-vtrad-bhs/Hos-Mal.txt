@@ -1,4 +1,4 @@
-unicode_names HosJoelAmosObadJonahMicNahHabZephHagZechMal
+unicode_names Hos-Mal
 Hosea 1:1 in vtrad vtbhs
 d,·,:,b,_,r,-,y,:,h,o,v,a,(mun),h
 START/STOP lp-legarmeih

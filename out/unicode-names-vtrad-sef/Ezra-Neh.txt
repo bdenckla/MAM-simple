@@ -1,5 +1,5 @@
-unicode_names EzraNeh
-Ezra 1:1 in vtrad vtbhs
+unicode_names Ezra-Neh
+Ezra 1:1 in vtrad vtsef
 v,·,b,i,$,·sh,:,n,_,(mun),τ
 SPACE
 α,_,x,_,(rev),τ
@@ -36,7 +36,7 @@ v,:,g,_,m.,-,b,·,:,m,i,k,:,τ,·,a,(tip),b
 SPACE
 l,‥,α,m,o,(mos),r,(sopa)
 
-Ezra 1:2 in vtrad vtbhs
+Ezra 1:2 in vtrad vtsef
 k,·,o,(mun),h
 SPACE
 α,a,m,_,(rev),r
@@ -77,7 +77,7 @@ SPACE
 SPACE
 b,·,i,(mos),y,h,v,·,d,a,(mos),h,(sopa)
 
-Ezra 1:3 in vtrad vtbhs
+Ezra 1:3 in vtrad vtsef
 m,i,(mos),y,-,b,a,k,∵,(mun),m.
 SPACE
 m,i,k,·,oa,l,-,3,_,m,·,(rev),v,o
@@ -114,7 +114,7 @@ SPACE
 SPACE
 b,·,i,y,r,v,·,$,·sh,a,l,a,(mos),CGJ,i,m.,(sopa)
 
-Ezra 1:4 in vtrad vtbhs
+Ezra 1:4 in vtrad vtsef
 v,:,k,oa,l,-,h,_,n,·,i,$,·sh,:,α,a,(rev),r
 SPACE
 m,i,(mos),k,·,oa,l,-,h,_,m,·,:,q,o,m,v,o,τ,(zarnor)
@@ -149,7 +149,7 @@ SPACE
 SPACE
 b,·,i,y,r,v,·,$,·sh,a,l,a,(mos),CGJ,i,m.,(sopa)
 
-Ezra 1:5 in vtrad vtbhs
+Ezra 1:5 in vtrad vtsef
 v,_,y,·,a,q,(ger),v,·,m,v,·
 SPACE
 r,a,α,$,·sh,‥,(mun),y
@@ -184,7 +184,7 @@ SPACE
 SPACE
 b,·,i,y,r,v,·,$,·sh,a,l,a,(mos),CGJ,i,m.,(sopa)
 
-Ezra 1:6 in vtrad vtbhs
+Ezra 1:6 in vtrad vtsef
 v,:,k,oa,l,-,σ,:,b,i,y,b,o,(mos),τ,‥,y,h,∵,m.,(pash)
 SPACE
 x,i,z,·,:,q,(mun),v,·
@@ -206,7 +206,7 @@ SPACE
 3,_,l,-,k,·,oa,l,-,h,i,τ,:,n,_,d,·,‥,(mos),b,(sopa)
 START/STOP spi-pe2
 
-Ezra 1:7 in vtrad vtbhs
+Ezra 1:7 in vtrad vtsef
 v,:,h,_,m,·,∵,(mun),l,∵,k.,:
 SPACE
 k,·,(zaq_q),v,o,r,∵,$,·sh
@@ -231,7 +231,7 @@ b,·,:,b,‥,(mer),y,τ
 SPACE
 α,:∵,l,o,h,a,(mos),y,v,(sopa)
 
-Ezra 1:8 in vtrad vtbhs
+Ezra 1:8 in vtrad vtsef
 v,_,y,·,(mos),v,o,c,i,y,α,‥,(rev),m.
 SPACE
 k,·,(yet),v,o,r,∵,$,·sh
@@ -255,7 +255,7 @@ SPACE
 l,i,y,h,v,·,d,a,(mos),h,(sopa)
 START/STOP spi-samekh2
 
-Ezra 1:9 in vtrad vtbhs
+Ezra 1:9 in vtrad vtsef
 v,:,α,‥,(tip),l,·,∵,h
 SPACE
 m,i,σ,:,p,·,a,r,a,(atn),m.
@@ -277,7 +277,7 @@ SPACE
 v,:,3,∵,$,·si,:,r,i,(mos),y,m.,(sopa)
 START/STOP spi-samekh2
 
-Ezra 1:10 in vtrad vtbhs
+Ezra 1:10 in vtrad vtsef
 k,·,:,p,v,o,r,‥,(mah),y
 SPACE
 z,a,h,a,b,(pash)
@@ -302,7 +302,7 @@ SPACE
 SPACE
 α,a,(mos),l,∵,p.,(sopa)
 
-Ezra 1:11 in vtrad vtbhs
+Ezra 1:11 in vtrad vtsef
 k,·,oa,l,-,k,·,‥,l,i,y,m.,(pash)
 SPACE
 l,_,z,·,a,h,a,(mun),b
@@ -334,7 +334,7 @@ SPACE
 l,i,y,r,v,·,$,·sh,a,l,a,(mos),CGJ,i,m.,(sopa)
 START/STOP spi-pe2
 
-Ezra 2:1 in vtrad vtbhs
+Ezra 2:1 in vtrad vtsef
 v,:,α,‥,(mun),l,·,∵,h
 START/STOP lp-legarmeih
 SPACE
@@ -375,7 +375,7 @@ SPACE
 SPACE
 l,:,3,i,y,r,(mos),v,o,(sopa)
 
-Ezra 2:2 in vtrad vtbhs
+Ezra 2:2 in vtrad vtsef
 α,:_,$,·sh,∵,r,-,b,·,a,(mun),α,v,·
 SPACE
 3,i,m.,-,z,:,r,u,b,·,a,b,∵,(rev),l
@@ -409,7 +409,7 @@ SPACE
 y,i,$,·si,:,r,a,α,‥,(mos),l,(sopa)
 START/STOP spi-samekh2
 
-Ezra 2:3 in vtrad vtbhs
+Ezra 2:3 in vtrad vtsef
 b,·,:,n,‥,(mun),y
 SPACE
 p,_,r,:,3,o,(zaq_q),$,·sh
@@ -423,7 +423,7 @@ SPACE
 v,·,$,·sh,:,n,a,(mos),y,i,m.,(sopa)
 START/STOP spi-samekh3
 
-Ezra 2:4 in vtrad vtbhs
+Ezra 2:4 in vtrad vtsef
 b,·,:,n,‥,(mun),y
 SPACE
 $,·sh,:,p,_,θ,:,y,a,(zaq_q),h
@@ -437,7 +437,7 @@ SPACE
 v,·,$,·sh,:,n,a,(mos),y,i,m.,(sopa)
 START/STOP spi-samekh3
 
-Ezra 2:5 in vtrad vtbhs
+Ezra 2:5 in vtrad vtsef
 b,·,:,n,‥,(mun),y
 SPACE
 α,a,r,_,(zaq_q),x
@@ -451,7 +451,7 @@ SPACE
 v,:,$,·sh,i,b,:,3,i,(mos),y,m.,(sopa)
 START/STOP spi-samekh3
 
-Ezra 2:6 in vtrad vtbhs
+Ezra 2:6 in vtrad vtsef
 b,·,:,n,‥,(mos),y,-,p,_,x,_,(mer),τ
 SPACE
 m,v,o,α,a,(tev),b
@@ -473,7 +473,7 @@ SPACE
 3,a,$,·si,a,(mos),r,(sopa)
 START/STOP spi-samekh3
 
-Ezra 2:7 in vtrad vtbhs
+Ezra 2:7 in vtrad vtsef
 b,·,:,n,‥,(mun),y
 SPACE
 3,‥,y,l,a,(zaq_q),m.
@@ -487,7 +487,7 @@ SPACE
 v,:,α,_,r,:,b,·,a,3,a,(mos),h,(sopa)
 START/STOP spi-samekh3
 
-Ezra 2:8 in vtrad vtbhs
+Ezra 2:8 in vtrad vtsef
 b,·,:,n,‥,(mun),y
 SPACE
 z,_,τ,·,(zaq_q),v,·,α
@@ -501,7 +501,7 @@ SPACE
 v,_,x,:_,m,i,$,·sh,·,a,(mos),h,(sopa)
 START/STOP spi-samekh3
 
-Ezra 2:9 in vtrad vtbhs
+Ezra 2:9 in vtrad vtsef
 b,·,:,n,‥,(mun),y
 SPACE
 z,_,k,·,a,(zaq_q),y
@@ -513,7 +513,7 @@ SPACE
 v,:,$,·sh,i,$,·sh,·,i,(mos),y,m.,(sopa)
 START/STOP spi-samekh3
 
-Ezra 2:10 in vtrad vtbhs
+Ezra 2:10 in vtrad vtsef
 b,·,:,n,‥,(mun),y
 SPACE
 b,a,n,i,(zaq_q),y
@@ -527,7 +527,7 @@ SPACE
 v,·,$,·sh,:,n,a,(mos),y,i,m.,(sopa)
 START/STOP spi-samekh3
 
-Ezra 2:11 in vtrad vtbhs
+Ezra 2:11 in vtrad vtsef
 b,·,:,n,‥,(mun),y
 SPACE
 b,‥,b,a,(zaq_q),y
@@ -541,7 +541,7 @@ SPACE
 v,·,$,·sh,:,l,o,$,·sh,a,(mos),h,(sopa)
 START/STOP spi-samekh3
 
-Ezra 2:12 in vtrad vtbhs
+Ezra 2:12 in vtrad vtsef
 b,·,:,n,‥,(mun),y
 SPACE
 3,_,z,:,g,·,a,(zaq_q),d
@@ -555,7 +555,7 @@ SPACE
 v,·,$,·sh,:,n,a,(mos),y,i,m.,(sopa)
 START/STOP spi-samekh3
 
-Ezra 2:13 in vtrad vtbhs
+Ezra 2:13 in vtrad vtsef
 b,·,:,n,‥,y,(pash)
 SPACE
 α,:_,d,o,(mun),n,i,y,q,a,(zaq_q),m.
@@ -569,7 +569,7 @@ SPACE
 v,:,$,·sh,i,$,·sh,·,a,(mos),h,(sopa)
 START/STOP spi-samekh3
 
-Ezra 2:14 in vtrad vtbhs
+Ezra 2:14 in vtrad vtsef
 b,·,:,n,‥,(mun),y
 SPACE
 b,i,g,:,v,a,(zaq_q),y
@@ -581,7 +581,7 @@ SPACE
 v,:,$,·sh,i,$,·sh,·,a,(mos),h,(sopa)
 START/STOP spi-samekh3
 
-Ezra 2:15 in vtrad vtbhs
+Ezra 2:15 in vtrad vtsef
 b,·,:,n,‥,(mun),y
 SPACE
 3,a,d,i,(zaq_q),y,n.
@@ -595,7 +595,7 @@ SPACE
 v,:,α,_,r,:,b,·,a,3,a,(mos),h,(sopa)
 START/STOP spi-samekh3
 
-Ezra 2:16 in vtrad vtbhs
+Ezra 2:16 in vtrad vtsef
 b,·,:,n,‥,(mos),y,-,α,a,θ,‥,(mer),r
 SPACE
 l,i,(mos),y,x,i,z,:,q,i,y,·,a,(tip),h
@@ -605,7 +605,7 @@ SPACE
 v,·,$,·sh,:,m,o,n,a,(mos),h,(sopa)
 START/STOP spi-samekh3
 
-Ezra 2:17 in vtrad vtbhs
+Ezra 2:17 in vtrad vtsef
 b,·,:,n,‥,(mun),y
 SPACE
 b,‥,c,a,(zaq_q),y
@@ -619,7 +619,7 @@ SPACE
 v,·,$,·sh,:,l,o,$,·sh,a,(mos),h,(sopa)
 START/STOP spi-samekh3
 
-Ezra 2:18 in vtrad vtbhs
+Ezra 2:18 in vtrad vtsef
 b,·,:,n,‥,(mun),y
 SPACE
 y,v,o,r,a,(zaq_q),h
@@ -631,7 +631,7 @@ SPACE
 3,a,$,·si,a,(mos),r,(sopa)
 START/STOP spi-samekh3
 
-Ezra 2:19 in vtrad vtbhs
+Ezra 2:19 in vtrad vtsef
 b,·,:,n,‥,(mun),y
 SPACE
 x,a,$,·sh,u,(zaq_q),m.
@@ -643,7 +643,7 @@ SPACE
 v,·,$,·sh,:,l,o,$,·sh,a,(mos),h,(sopa)
 START/STOP spi-samekh3
 
-Ezra 2:20 in vtrad vtbhs
+Ezra 2:20 in vtrad vtsef
 b,·,:,n,‥,(mer),y
 SPACE
 g,i,b,·,a,(tip),r
@@ -653,7 +653,7 @@ SPACE
 v,_,x,:_,m,i,$,·sh,·,a,(mos),h,(sopa)
 START/STOP spi-samekh3
 
-Ezra 2:21 in vtrad vtbhs
+Ezra 2:21 in vtrad vtsef
 b,·,:,n,‥,(mun),y
 SPACE
 b,‥,(mos),y,τ,-,l,a,(zaq_q),x,∵,m.
@@ -665,7 +665,7 @@ SPACE
 v,·,$,·sh,:,l,o,$,·sh,a,(mos),h,(sopa)
 START/STOP spi-samekh3
 
-Ezra 2:22 in vtrad vtbhs
+Ezra 2:22 in vtrad vtsef
 α,_,n,:,$,·sh,‥,(mer),y
 SPACE
 n,:,θ,o,p,a,(tip),h
@@ -675,7 +675,7 @@ SPACE
 v,:,$,·sh,i,$,·sh,·,a,(mos),h,(sopa)
 START/STOP spi-samekh3
 
-Ezra 2:23 in vtrad vtbhs
+Ezra 2:23 in vtrad vtsef
 α,_,n,:,$,·sh,‥,(mun),y
 SPACE
 3,:_,n,a,τ,(zaq_q),v,o,τ
@@ -687,7 +687,7 @@ SPACE
 v,·,$,·sh,:,m,o,n,a,(mos),h,(sopa)
 START/STOP spi-samekh3
 
-Ezra 2:24 in vtrad vtbhs
+Ezra 2:24 in vtrad vtsef
 b,·,:,n,‥,(mer),y
 SPACE
 3,_,z,:,m,a,(tip),v,∵,τ
@@ -697,7 +697,7 @@ SPACE
 v,·,$,·sh,:,n,a,(mos),y,i,m.,(sopa)
 START/STOP spi-samekh3
 
-Ezra 2:25 in vtrad vtbhs
+Ezra 2:25 in vtrad vtsef
 b,·,:,n,‥,(qom),y
 SPACE
 q,i,r,:,y,_,(mah),τ
@@ -717,7 +717,7 @@ SPACE
 v,·,$,·sh,:,l,o,$,·sh,a,(mos),h,(sopa)
 START/STOP spi-samekh3
 
-Ezra 2:26 in vtrad vtbhs
+Ezra 2:26 in vtrad vtsef
 b,·,:,n,‥,(mah),y
 SPACE
 h,a,r,a,m,a,h,(pash)
@@ -733,7 +733,7 @@ SPACE
 v,:,α,∵,x,a,(mos),d,(sopa)
 START/STOP spi-samekh3
 
-Ezra 2:27 in vtrad vtbhs
+Ezra 2:27 in vtrad vtsef
 α,_,n,:,$,·sh,‥,(mun),y
 SPACE
 m,i,k,:,m,a,(zaq_q),σ
@@ -745,7 +745,7 @@ SPACE
 v,·,$,·sh,:,n,a,(mos),y,i,m.,(sopa)
 START/STOP spi-samekh3
 
-Ezra 2:28 in vtrad vtbhs
+Ezra 2:28 in vtrad vtsef
 α,_,n,:,$,·sh,‥,(mah),y
 SPACE
 b,‥,(mos),y,τ,-,α,‥,l,(pash)
@@ -759,7 +759,7 @@ SPACE
 v,·,$,·sh,:,l,o,$,·sh,a,(mos),h,(sopa)
 START/STOP spi-samekh3
 
-Ezra 2:29 in vtrad vtbhs
+Ezra 2:29 in vtrad vtsef
 b,·,:,n,‥,(mer),y
 SPACE
 n,:,b,(tip),v,o
@@ -769,7 +769,7 @@ SPACE
 v,·,$,·sh,:,n,a,(mos),y,i,m.,(sopa)
 START/STOP spi-samekh3
 
-Ezra 2:30 in vtrad vtbhs
+Ezra 2:30 in vtrad vtsef
 b,·,:,n,‥,(mun),y
 SPACE
 m,_,g,:,b,·,i,(zaq_q),y,$,·sh
@@ -781,7 +781,7 @@ SPACE
 v,:,$,·sh,i,$,·sh,·,a,(mos),h,(sopa)
 START/STOP spi-samekh3
 
-Ezra 2:31 in vtrad vtbhs
+Ezra 2:31 in vtrad vtsef
 b,·,:,n,‥,y,(pash)
 SPACE
 3,‥,y,l,a,(mun),m.
@@ -797,7 +797,7 @@ SPACE
 v,:,α,_,r,:,b,·,a,3,a,(mos),h,(sopa)
 START/STOP spi-samekh3
 
-Ezra 2:32 in vtrad vtbhs
+Ezra 2:32 in vtrad vtsef
 b,·,:,n,‥,(mun),y
 SPACE
 x,a,r,i,(zaq_q),m.
@@ -809,7 +809,7 @@ SPACE
 v,:,3,∵,$,·si,:,r,i,(mos),y,m.,(sopa)
 START/STOP spi-samekh3
 
-Ezra 2:33 in vtrad vtbhs
+Ezra 2:33 in vtrad vtsef
 b,·,:,n,‥,y,-,l,o,d,(pash)
 SPACE
 x,a,d,i,(mun),y,d
@@ -825,7 +825,7 @@ SPACE
 v,_,x,:_,m,i,$,·sh,·,a,(mos),h,(sopa)
 START/STOP spi-samekh3
 
-Ezra 2:34 in vtrad vtbhs
+Ezra 2:34 in vtrad vtsef
 b,·,:,n,‥,(mun),y
 SPACE
 y,:,r,‥,x,(zaq_q),v,o
@@ -839,7 +839,7 @@ SPACE
 v,_,x,:_,m,i,$,·sh,·,a,(mos),h,(sopa)
 START/STOP spi-samekh3
 
-Ezra 2:35 in vtrad vtbhs
+Ezra 2:35 in vtrad vtsef
 b,·,:,n,‥,(mun),y
 SPACE
 σ,:,n,a,α,a,(zaq_q),h
@@ -855,7 +855,7 @@ SPACE
 v,·,$,·sh,:,l,o,$,·sh,i,(mos),y,m.,(sopa)
 START/STOP spi-samekh2
 
-Ezra 2:36 in vtrad vtbhs
+Ezra 2:36 in vtrad vtsef
 h,_,(mos),k,·,o,h,:_,n,i,(atn),y,m.
 START/STOP spi-pe2
 b,·,:,n,‥,(mah),y
@@ -875,7 +875,7 @@ SPACE
 v,·,$,·sh,:,l,o,$,·sh,a,(mos),h,(sopa)
 START/STOP spi-samekh3
 
-Ezra 2:37 in vtrad vtbhs
+Ezra 2:37 in vtrad vtsef
 b,·,:,n,‥,(mun),y
 SPACE
 α,i,m,·,‥,(zaq_q),r
@@ -887,7 +887,7 @@ SPACE
 v,·,$,·sh,:,n,a,(mos),y,i,m.,(sopa)
 START/STOP spi-samekh3
 
-Ezra 2:38 in vtrad vtbhs
+Ezra 2:38 in vtrad vtsef
 b,·,:,n,‥,(mun),y
 SPACE
 p,_,$,·sh,:,x,(zaq_q),v,·,r
@@ -901,7 +901,7 @@ SPACE
 v,:,$,·sh,i,b,:,3,a,(mos),h,(sopa)
 START/STOP spi-samekh3
 
-Ezra 2:39 in vtrad vtbhs
+Ezra 2:39 in vtrad vtsef
 b,·,:,n,‥,(mun),y
 SPACE
 x,a,r,i,(zaq_q),m.
@@ -913,7 +913,7 @@ SPACE
 3,a,$,·si,a,(mos),r,(sopa)
 START/STOP spi-samekh2
 
-Ezra 2:40 in vtrad vtbhs
+Ezra 2:40 in vtrad vtsef
 h,_,l,:,v,i,y,·,i,(atn),m.
 SPACE
 b,·,:,n,‥,y,-,y,‥,$,·sh,(dar),v,·,3,_
@@ -929,7 +929,7 @@ SPACE
 v,:,α,_,r,:,b,·,a,3,a,(mos),h,(sopa)
 START/STOP spi-samekh3
 
-Ezra 2:41 in vtrad vtbhs
+Ezra 2:41 in vtrad vtsef
 h,_,(mos),m,:,$,·sh,o,r,:,r,i,(atn),y,m.
 SPACE
 b,·,:,n,‥,(mun),y
@@ -943,7 +943,7 @@ SPACE
 v,·,$,·sh,:,m,o,n,a,(mos),h,(sopa)
 START/STOP spi-samekh3
 
-Ezra 2:42 in vtrad vtbhs
+Ezra 2:42 in vtrad vtsef
 b,·,:,n,‥,(mun),y
 SPACE
 h,_,$,·sh,·,o,(mos),3,:_,r,i,(rev),y,m.
@@ -973,7 +973,7 @@ SPACE
 v,:,τ,i,$,·sh,:,3,a,(mos),h,(sopa)
 START/STOP spi-samekh2
 
-Ezra 2:43 in vtrad vtbhs
+Ezra 2:43 in vtrad vtsef
 h,_,n,·,:,τ,i,y,n,i,(atn),y,m.
 SPACE
 b,·,:,n,‥,y,-,c,i,y,x,a,(mer),α
@@ -985,7 +985,7 @@ SPACE
 θ,_,b,·,a,3,(mos),v,o,τ,(sopa)
 START/STOP spi-samekh3
 
-Ezra 2:44 in vtrad vtbhs
+Ezra 2:44 in vtrad vtsef
 b,·,:,n,‥,y,-,q,‥,r,o,(mer),σ
 SPACE
 b,·,:,(mos),n,‥,y,-,σ,i,(mos),y,3,:_,h,a,(tip),α
@@ -995,7 +995,7 @@ SPACE
 p,a,d,(mos),v,o,n.,(sopa)
 START/STOP spi-samekh3
 
-Ezra 2:45 in vtrad vtbhs
+Ezra 2:45 in vtrad vtsef
 b,·,:,n,‥,y,-,l,:,b,a,n,a,(mer),h
 SPACE
 b,:,n,‥,y,-,x,:_,g,a,b,a,(tip),h
@@ -1005,7 +1005,7 @@ SPACE
 3,_,q,·,(mos),v,·,b,(sopa)
 START/STOP spi-samekh3
 
-Ezra 2:46 in vtrad vtbhs
+Ezra 2:46 in vtrad vtsef
 b,·,:,n,‥,y,-,x,a,g,a,(mer),b
 SPACE
 b,·,:,n,‥,y,-
@@ -1023,7 +1023,7 @@ SPACE
 x,a,n,a,(mos),n.,(sopa)
 START/STOP spi-samekh3
 
-Ezra 2:47 in vtrad vtbhs
+Ezra 2:47 in vtrad vtsef
 b,·,:,n,‥,y,-,g,i,d,·,‥,(mer),l
 SPACE
 b,·,:,n,‥,y,-,g,_,(tip),x,_,r
@@ -1033,7 +1033,7 @@ SPACE
 r,:,α,a,y,a,(mos),h,(sopa)
 START/STOP spi-samekh3
 
-Ezra 2:48 in vtrad vtbhs
+Ezra 2:48 in vtrad vtsef
 b,·,:,n,‥,y,-,r,:,c,i,(mer),y,n.
 SPACE
 b,·,:,n,‥,y,-,n,:,q,v,o,d,a,(tip),α
@@ -1043,7 +1043,7 @@ SPACE
 g,_,z,·,a,(mos),m.,(sopa)
 START/STOP spi-samekh3
 
-Ezra 2:49 in vtrad vtbhs
+Ezra 2:49 in vtrad vtsef
 b,·,:,n,‥,y,-,3,u,z,·,a,(mer),α
 SPACE
 b,:,n,‥,y,-,p,a,σ,‥,(tip),x,_
@@ -1053,7 +1053,7 @@ SPACE
 b,‥,σ,a,(mos),y,(sopa)
 START/STOP spi-samekh3
 
-Ezra 2:50 in vtrad vtbhs
+Ezra 2:50 in vtrad vtsef
 b,·,:,n,‥,y,-,α,_,σ,:,n,a,(mer),h
 SPACE
 b,:,n,‥,y,-,m,:,3,v,·,n,i,(tip),y,m.
@@ -1071,7 +1071,7 @@ STOP kq
 (sopa)
 START/STOP spi-samekh3
 
-Ezra 2:51 in vtrad vtbhs
+Ezra 2:51 in vtrad vtsef
 b,·,:,n,‥,y,-,b,_,q,:,b,·,(mer),v,·,q
 SPACE
 b,·,:,n,‥,y,-,x,:_,q,v,·,p,a,(tip),α
@@ -1081,7 +1081,7 @@ SPACE
 x,_,r,:,x,(mos),v,·,r,(sopa)
 START/STOP spi-samekh3
 
-Ezra 2:52 in vtrad vtbhs
+Ezra 2:52 in vtrad vtsef
 b,·,:,n,‥,y,-,b,_,c,:,l,(mer),v,·,τ
 SPACE
 b,·,:,n,‥,y,-,m,:,x,i,y,d,a,(tip),α
@@ -1091,7 +1091,7 @@ SPACE
 x,_,r,:,$,·sh,a,(mos),α,(sopa)
 START/STOP spi-samekh3
 
-Ezra 2:53 in vtrad vtbhs
+Ezra 2:53 in vtrad vtsef
 b,·,:,n,‥,y,-,b,_,r,:,q,(mer),v,o,σ
 SPACE
 b,·,:,(mos),n,‥,y,-,σ,i,(mos),y,σ,:,r,a,(tip),α
@@ -1099,7 +1099,7 @@ SPACE
 b,·,:,n,‥,y,-,τ,a,(mos),m,_,x,(sopa)
 START/STOP spi-samekh3
 
-Ezra 2:54 in vtrad vtbhs
+Ezra 2:54 in vtrad vtsef
 b,·,:,n,‥,(mer),y
 SPACE
 n,:,c,i,(tip),y,x,_
@@ -1109,7 +1109,7 @@ SPACE
 x,:_,θ,i,y,p,a,(mos),α,(sopa)
 START/STOP spi-samekh3
 
-Ezra 2:55 in vtrad vtbhs
+Ezra 2:55 in vtrad vtsef
 b,·,:,n,‥,(tip),y
 SPACE
 3,_,b,:,d,‥,(mun),y
@@ -1125,7 +1125,7 @@ SPACE
 p,:,r,v,·,d,a,(mos),α,(sopa)
 START/STOP spi-samekh3
 
-Ezra 2:56 in vtrad vtbhs
+Ezra 2:56 in vtrad vtsef
 b,·,:,n,‥,y,-,y,_,3,:,l,a,(mer),h
 SPACE
 b,:,n,‥,y,-,d,_,r,:,q,(tip),v,o,n.
@@ -1135,7 +1135,7 @@ SPACE
 g,i,d,·,‥,(mos),l,(sopa)
 START/STOP spi-samekh3
 
-Ezra 2:57 in vtrad vtbhs
+Ezra 2:57 in vtrad vtsef
 b,·,:,n,‥,(dar),y
 SPACE
 $,·sh,:,p,_,θ,:,y,a,(mun),h
@@ -1153,7 +1153,7 @@ SPACE
 α,a,m,i,(mos),y,(sopa)
 START/STOP spi-samekh3
 
-Ezra 2:58 in vtrad vtbhs
+Ezra 2:58 in vtrad vtsef
 k,·,oa,(qom),l,-,h,_,n,·,:,τ,i,y,n,i,(zaq_q),y,m.
 SPACE
 v,·,b,:,n,‥,(tip),y
@@ -1171,7 +1171,7 @@ SPACE
 v,·,$,·sh,:,n,a,(mos),y,i,m.,(sopa)
 START/STOP spi-pe2
 
-Ezra 2:59 in vtrad vtbhs
+Ezra 2:59 in vtrad vtsef
 v,:,α,‥,(rev),l,·,∵,h
 SPACE
 h,a,(mos),3,o,l,i,y,m.,(pash)
@@ -1207,7 +1207,7 @@ SPACE
 h,‥,(mos),m.,(sopa)
 START/STOP spi-samekh3
 
-Ezra 2:60 in vtrad vtbhs
+Ezra 2:60 in vtrad vtsef
 b,·,:,n,‥,y,-,d,:,l,a,y,a,(mer),h
 SPACE
 b,:,n,‥,y,-,θ,v,o,b,i,y,·,a,(tip),h
@@ -1225,7 +1225,7 @@ SPACE
 v,·,$,·sh,:,n,a,(mos),y,i,m.,(sopa)
 START/STOP spi-samekh3
 
-Ezra 2:61 in vtrad vtbhs
+Ezra 2:61 in vtrad vtsef
 v,·,m,i,b,·,:,n,‥,y,(pash)
 SPACE
 h,_,k,·,o,(mun),h,:_,n,i,(zaq_q),y,m.
@@ -1259,7 +1259,7 @@ SPACE
 3,_,l,-,$,·sh,:,m,a,(mos),m.,(sopa)
 START/STOP spi-samekh3
 
-Ezra 2:62 in vtrad vtbhs
+Ezra 2:62 in vtrad vtsef
 α,‥,(rev),l,·,∵,h
 SPACE
 b,·,i,q,:,$,·sh,(dar),v,·
@@ -1276,7 +1276,7 @@ v,_,(mos),y,:,g,o,α,:_,l,(tip),v,·
 SPACE
 m,i,n.,-,h,_,k,·,:,h,u,n,·,a,(mos),h,(sopa)
 
-Ezra 2:63 in vtrad vtbhs
+Ezra 2:63 in vtrad vtsef
 v,_,y,·,o,(mah),α,m,∵,r
 SPACE
 h,_,τ,·,i,r,:,$,·sh,a,(pash),τ,a,α,(pash)
@@ -1301,7 +1301,7 @@ l,:,α,v,·,r,i,(mer),y,m.
 SPACE
 v,·,l,:,τ,u,m,·,i,(mos),y,m.,(sopa)
 
-Ezra 2:64 in vtrad vtbhs
+Ezra 2:64 in vtrad vtsef
 k,·,oa,l,-,h,_,q,·,a,h,a,(tip),l
 SPACE
 k,·,:,α,∵,x,a,(atn),d
@@ -1316,7 +1316,7 @@ $,·sh,:,l,o,$,·sh,-,m,‥,α,(mer),v,o,τ
 SPACE
 $,·sh,i,$,·sh,·,i,(mos),y,m.,(sopa)
 
-Ezra 2:65 in vtrad vtbhs
+Ezra 2:65 in vtrad vtsef
 m,i,(tel_g),l,·,:,b,_,(tel_g),d
 SPACE
 3,_,b,:,d,‥,y,h,∵,(mah),m.
@@ -1345,7 +1345,7 @@ v,·,(mos),m,:,$,·sh,o,r,:,r,(tip),v,o,τ
 SPACE
 m,a,α,τ,a,(mos),y,i,m.,(sopa)
 
-Ezra 2:66 in vtrad vtbhs
+Ezra 2:66 in vtrad vtsef
 σ,v,·,σ,‥,y,h,∵,(zaq_g),m.
 SPACE
 $,·sh,:,b,_,(mer),3
@@ -1365,7 +1365,7 @@ SPACE
 v,_,x,:_,m,i,$,·sh,·,a,(mos),h,(sopa)
 START/STOP spi-samekh3
 
-Ezra 2:67 in vtrad vtbhs
+Ezra 2:67 in vtrad vtsef
 g,·,:,m,_,(qom),l,·,‥,y,h,∵,(zaq_q),m.
 SPACE
 α,_,r,:,b,·,_,(mer),3
@@ -1389,7 +1389,7 @@ SPACE
 v,:,3,∵,$,·si,:,r,i,(mos),y,m.,(sopa)
 START/STOP spi-pe2
 
-Ezra 2:68 in vtrad vtbhs
+Ezra 2:68 in vtrad vtsef
 v,·,m,‥,r,a,α,$,·sh,‥,y,(pash)
 SPACE
 h,a,(mos),α,a,b,(zaq_q),v,o,τ
@@ -1414,7 +1414,7 @@ l,:,h,_,3,:_,m,i,y,d,(tip),v,o
 SPACE
 3,_,l,-,m,:,k,v,o,n,(mos),v,o,(sopa)
 
-Ezra 2:69 in vtrad vtbhs
+Ezra 2:69 in vtrad vtsef
 k,·,:,k,o,x,a,(rev),m.
 SPACE
 n,a,τ,:,n,v,·,(zarnor)
@@ -1446,7 +1446,7 @@ SPACE
 m,‥,α,a,(mos),h,(sopa)
 START/STOP spi-samekh2
 
-Ezra 2:70 in vtrad vtbhs
+Ezra 2:70 in vtrad vtsef
 v,_,y,·,‥,$,·sh,:,b,(mun),v,·
 SPACE
 h,_,k,·,o,h,:_,n,i,(mun),y,m.
@@ -1468,7 +1468,7 @@ SPACE
 b,·,:,3,a,r,‥,y,h,∵,(mos),m.,(sopa)
 START/STOP spi-samekh2
 
-Ezra 3:1 in vtrad vtbhs
+Ezra 3:1 in vtrad vtsef
 v,_,y,·,i,g,·,_,3,(pash)
 SPACE
 h,_,x,o,(mun),d,∵,$,·sh
@@ -1492,7 +1492,7 @@ SPACE
 α,∵,l,-,y,:,r,v,·,$,·sh,a,l,a,(mos),CGJ,i,m.,(sopa)
 START/STOP spi-samekh2
 
-Ezra 3:2 in vtrad vtbhs
+Ezra 3:2 in vtrad vtsef
 v,_,y,·,a,(tel_q),q,oa,m.,(tel_q)
 SPACE
 y,‥,$,·sh,(qom),v,·,3,_
@@ -1531,7 +1531,7 @@ m,o,$,·sh,∵,(mer),h
 SPACE
 α,i,y,$,·sh,-,h,a,α,:∵,l,o,h,i,(mos),y,m.,(sopa)
 
-Ezra 3:3 in vtrad vtbhs
+Ezra 3:3 in vtrad vtsef
 v,_,y,·,a,k,i,(mah),y,n,v,·
 SPACE
 h,_,m,·,i,z,:,b,·,‥,(pash),x,_,(pash)
@@ -1569,7 +1569,7 @@ l,_,b,·,o,(mer),q,∵,r
 SPACE
 v,:,l,a,3,a,(mos),r,∵,b,(sopa)
 
-Ezra 3:4 in vtrad vtbhs
+Ezra 3:4 in vtrad vtsef
 v,_,(mos),y,·,_,3,:_,$,·si,(tev),v,·
 SPACE
 α,∵,τ,-,x,_,(mer),g
@@ -1592,7 +1592,7 @@ d,·,:,b,_,r,-,y,(mer),v,o,m.
 SPACE
 b,·,:,y,v,o,m,(mos),v,o,(sopa)
 
-Ezra 3:5 in vtrad vtbhs
+Ezra 3:5 in vtrad vtsef
 v,:,α,_,x,:_,r,‥,y,-,k,‥,(ger_2),n.
 SPACE
 3,o,l,_,(mah),τ
@@ -1615,7 +1615,7 @@ n,:,d,a,b,a,(tip),h
 SPACE
 l,_,y,h,o,v,a,(mos),h,(sopa)
 
-Ezra 3:6 in vtrad vtbhs
+Ezra 3:6 in vtrad vtsef
 m,i,y,·,(mah),v,o,m.
 SPACE
 α,∵,x,a,d,(pash)
@@ -1640,7 +1640,7 @@ l,o,(mer),α
 SPACE
 y,u,σ,·,a,(mos),d,(sopa)
 
-Ezra 3:7 in vtrad vtbhs
+Ezra 3:7 in vtrad vtsef
 v,_,y,·,i,(qom),τ,·,:,n,v,·,-,k,∵,(zaq_q),σ,∵,p.
 SPACE
 l,_,x,o,c,:,b,i,(tip),y,m.
@@ -1678,7 +1678,7 @@ SPACE
 3,:_,l,‥,y,h,∵,(mos),m.,(sopa)
 START/STOP spi-pe2
 
-Ezra 3:8 in vtrad vtbhs
+Ezra 3:8 in vtrad vtsef
 v,·,b,_,$,·sh,·,a,n,a,(mun),h
 SPACE
 h,_,$,·sh,·,‥,n,i,(rev),y,τ
@@ -1738,7 +1738,7 @@ SPACE
 SPACE
 b,·,‥,y,τ,-,y,:,h,o,v,a,(mos),h,(sopa)
 
-Ezra 3:9 in vtrad vtbhs
+Ezra 3:9 in vtrad vtsef
 v,_,y,·,_,3,:_,m,o,(mun),d
 SPACE
 y,‥,$,·sh,(paz),v,·,3,_
@@ -1775,7 +1775,7 @@ v,_,α,:_,x,‥,y,h,∵,(tip),m.
 SPACE
 h,_,l,:,v,i,y,·,i,(mos),m.,(sopa)
 
-Ezra 3:10 in vtrad vtbhs
+Ezra 3:10 in vtrad vtsef
 v,:,y,i,σ,·,:,d,(mer),v,·
 SPACE
 h,_,b,·,o,n,i,(tip),y,m.
@@ -1808,7 +1808,7 @@ d,·,a,v,i,(mer),y,d
 SPACE
 m,∵,(mos),l,∵,k.,:,-,y,i,$,·si,:,r,a,α,‥,(mos),l,(sopa)
 
-Ezra 3:11 in vtrad vtbhs
+Ezra 3:11 in vtrad vtsef
 v,_,(mos),(tel_g),y,·,_,3,:_,n,(tel_g),v,·
 SPACE
 b,·,:,h,_,l,·,‥,(qom),l
@@ -1845,7 +1845,7 @@ h,v,·,σ,_,(mer),d
 SPACE
 b,·,‥,y,τ,-,y,:,h,o,v,a,(mos),h,(sopa)
 
-Ezra 3:12 in vtrad vtbhs
+Ezra 3:12 in vtrad vtsef
 v,:,r,_,b,·,i,(paz),y,m.
 SPACE
 m,‥,h,_,k,·,o,h,:_,n,i,(mun),y,m.
@@ -1890,7 +1890,7 @@ l,:,h,a,r,i,(mer),y,m.
 SPACE
 q,(mos),v,o,l,(sopa)
 
-Ezra 3:13 in vtrad vtbhs
+Ezra 3:13 in vtrad vtsef
 v,:,α,‥,(mun),y,n.
 SPACE
 h,a,3,a,(rev),m.
@@ -1926,7 +1926,7 @@ SPACE
 3,_,d,-,l,:,m,‥,r,a,x,(mos),v,o,q,(sopa)
 START/STOP spi-pe2
 
-Ezra 4:1 in vtrad vtbhs
+Ezra 4:1 in vtrad vtsef
 v,_,(mos),y,·,i,$,·sh,:,m,:,3,(zaq_q),v,·
 SPACE
 c,a,r,‥,(mer),y
@@ -1949,7 +1949,7 @@ SPACE
 SPACE
 y,i,$,·si,:,r,a,α,‥,(mos),l,(sopa)
 
-Ezra 4:2 in vtrad vtbhs
+Ezra 4:2 in vtrad vtsef
 v,_,y,·,i,g,·,:,$,·sh,(qom),v,·
 SPACE
 α,∵,l,-,z,:,r,u,b,·,a,b,∵,(ger),l
@@ -2004,7 +2004,7 @@ SPACE
 SPACE
 p,·,o,(mos),h,(sopa)
 
-Ezra 4:3 in vtrad vtbhs
+Ezra 4:3 in vtrad vtsef
 v,_,y,·,o,(tel_q),α,m,∵,r,(tel_q)
 SPACE
 l,a,h,∵,(qom),m.
@@ -2055,7 +2055,7 @@ k,·,(mer),v,o,r,∵,$,·sh
 SPACE
 m,∵,(mos),l,∵,k.,:,-,p,·,a,r,a,(mos),σ,(sopa)
 
-Ezra 4:4 in vtrad vtbhs
+Ezra 4:4 in vtrad vtsef
 v,_,y,:,h,i,y,(pash)
 SPACE
 3,_,m.,-,h,a,α,a,(zaq_q),r,∵,c.
@@ -2079,7 +2079,7 @@ SPACE
 SPACE
 l,i,b,:,n,(mos),v,o,τ,(sopa)
 
-Ezra 4:5 in vtrad vtbhs
+Ezra 4:5 in vtrad vtsef
 v,:,σ,o,k,:,r,i,(dar),y,m.
 SPACE
 3,:_,l,‥,y,h,∵,(tev),m.
@@ -2104,7 +2104,7 @@ d,·,a,r,:,y,a,(mer),v,∵,$,·sh
 SPACE
 m,∵,(mos),l,∵,k.,:,-,p,·,a,r,a,(mos),σ,(sopa)
 
-Ezra 4:6 in vtrad vtbhs
+Ezra 4:6 in vtrad vtsef
 v,·,b,:,m,_,l,:,k,v,·,τ,(pash)
 SPACE
 α,:_,x,_,$,·sh,:,v,‥,r,(zaq_q),v,o,$,·sh
@@ -2124,7 +2124,7 @@ SPACE
 v,i,y,r,v,·,$,·sh,a,l,a,(mos),CGJ,i,m.,(sopa)
 START/STOP spi-samekh2
 
-Ezra 4:7 in vtrad vtbhs
+Ezra 4:7 in vtrad vtsef
 v,·,b,i,y,m,‥,(mun),y
 SPACE
 α,_,r,:,τ,·,_,x,:,$,·sh,_,(rev),$,·si,:,τ,·,a,α
@@ -2160,7 +2160,7 @@ SPACE
 α,:_,r,a,m,i,(mos),y,τ,(sopa)
 START/STOP spi-pe2
 
-Ezra 4:8 in vtrad vtbhs
+Ezra 4:8 in vtrad vtsef
 r,:,x,(mun),v,·,m.
 SPACE
 b,·,:,3,‥,l,-,θ,:,3,‥,(rev),m.
@@ -2183,7 +2183,7 @@ m,_,l,:,k,·,a,(tip),α
 SPACE
 k,·,:,n,‥,(mos),m,a,α,(sopa)
 
-Ezra 4:9 in vtrad vtbhs
+Ezra 4:9 in vtrad vtsef
 α,:∵,d,_,(ger),y,i,n.
 SPACE
 r,:,x,(mun),v,·,m.
@@ -2230,7 +2230,7 @@ STOP kq
 SPACE
 3,‥,l,:,m,a,y,‥,(mos),α,(sopa)
 
-Ezra 4:10 in vtrad vtbhs
+Ezra 4:10 in vtrad vtsef
 v,·,$,·sh,:,α,a,(mun),r
 SPACE
 α,u,m,·,_,y,·,a,(rev),α
@@ -2261,7 +2261,7 @@ SPACE
 SPACE
 v,·,k,:,3,∵,(mos),n,∵,τ,(sopa)
 
-Ezra 4:11 in vtrad vtbhs
+Ezra 4:11 in vtrad vtsef
 d,·,:,n,a,h,(pash)
 SPACE
 p,·,_,r,:,$,·sh,∵,(mun),g,∵,n.
@@ -2294,7 +2294,7 @@ SPACE
 v,·,k,:,3,∵,(mos),n,∵,τ,(sopa)
 START/STOP spi-pe2
 
-Ezra 4:12 in vtrad vtbhs
+Ezra 4:12 in vtrad vtsef
 y,:,d,i,(pash),y,3,_,(pash)
 SPACE
 l,∵,h,:∵,v,‥,(mun),α
@@ -2348,7 +2348,7 @@ SPACE
 y,_,x,i,(mos),y,θ,v,·,(sopa)
 START/STOP spi-samekh2
 
-Ezra 4:13 in vtrad vtbhs
+Ezra 4:13 in vtrad vtsef
 k,·,:,3,_,(rev),n.
 SPACE
 y,:,d,i,(pash),y,3,_,(pash)
@@ -2386,7 +2386,7 @@ SPACE
 τ,·,:,h,_,n,:,z,i,(mos),q,(sopa)
 START/STOP spi-samekh2
 
-Ezra 4:14 in vtrad vtbhs
+Ezra 4:14 in vtrad vtsef
 k,·,:,3,_,(rev),n.
 SPACE
 k,·,oa,l,-,q,:a,b,‥,l,(pash)
@@ -2415,7 +2415,7 @@ v,:,h,v,o,d,_,(mer),3,:,n,a,α
 SPACE
 l,:,m,_,l,:,k,·,a,(mos),α,(sopa)
 
-Ezra 4:15 in vtrad vtbhs
+Ezra 4:15 in vtrad vtsef
 d,·,i,(paz),y
 SPACE
 y,:,b,_,q,·,_,r,(tel_q)
@@ -2468,7 +2468,7 @@ d,a,(tip),k.,:
 SPACE
 h,oa,(mos),x,a,r,:,b,_,(mos),τ,(sopa)
 
-Ezra 4:16 in vtrad vtbhs
+Ezra 4:16 in vtrad vtsef
 m,:,h,v,o,d,:,3,i,(mah),y,n.
 SPACE
 α,:_,n,_,(pash),x,:,n,a,h,(pash)
@@ -2506,7 +2506,7 @@ SPACE
 l,a,(mos),k.,:,(sopa)
 START/STOP spi-pe2
 
-Ezra 4:17 in vtrad vtbhs
+Ezra 4:17 in vtrad vtsef
 p,·,i,τ,:,g,a,m,a,(ger_2),α
 SPACE
 $,·sh,:,l,_,(mun),x
@@ -2540,7 +2540,7 @@ SPACE
 v,·,k,:,3,∵,(mos),τ,(sopa)
 START/STOP spi-pe2
 
-Ezra 4:18 in vtrad vtbhs
+Ezra 4:18 in vtrad vtsef
 n,i,$,·sh,:,τ,·,:,v,a,n,a,(zaq_g),α
 SPACE
 d,·,i,(mer),y
@@ -2555,7 +2555,7 @@ q,:∵,r,i,(tip),y
 SPACE
 q,oa,d,a,m,a,(mos),y,(sopa)
 
-Ezra 4:19 in vtrad vtbhs
+Ezra 4:19 in vtrad vtsef
 v,·,m,i,n,·,i,y,(zarnor)
 SPACE
 $,·si,i,(mun),y,m.
@@ -2586,7 +2586,7 @@ v,:,α,∵,$,·sh,:,τ,·,_,d,·,(tip),v,·,r
 SPACE
 m,i,τ,:,3,:_,b,∵,d,-,b,·,_,(mos),h,·,(sopa)
 
-Ezra 4:20 in vtrad vtbhs
+Ezra 4:20 in vtrad vtsef
 v,·,m,_,l,:,k,i,(mun),y,n.
 SPACE
 τ,·,_,q,·,i,y,p,i,(rev),y,n.
@@ -2613,7 +2613,7 @@ m,i,τ,:,y,:,h,‥,(mer),b
 SPACE
 l,:,h,(mos),v,o,n.,(sopa)
 
-Ezra 4:21 in vtrad vtbhs
+Ezra 4:21 in vtrad vtsef
 k,·,:,3,_,n.,(pash)
 SPACE
 $,·si,i,(mun),y,m,v,·
@@ -2640,7 +2640,7 @@ SPACE
 SPACE
 y,i,τ,·,:,$,·si,a,(mos),m.,(sopa)
 
-Ezra 4:22 in vtrad vtbhs
+Ezra 4:22 in vtrad vtsef
 v,·,z,:,h,i,y,r,i,(mer),y,n.
 SPACE
 h,:∵,v,(tev),v,o
@@ -2662,7 +2662,7 @@ SPACE
 m,_,l,:,k,i,(mos),y,n.,(sopa)
 START/STOP spi-samekh2
 
-Ezra 4:23 in vtrad vtbhs
+Ezra 4:23 in vtrad vtsef
 α,:∵,d,_,(rev),y,i,n.
 SPACE
 m,i,n.,-,d,·,i,(ger_2),y
@@ -2704,7 +2704,7 @@ SPACE
 v,:,x,a,(mos),y,i,l,(sopa)
 START/STOP spi-samekh2
 
-Ezra 4:24 in vtrad vtbhs
+Ezra 4:24 in vtrad vtsef
 b,·,‥,α,d,_,(rev),y,i,n.
 SPACE
 b,·,:,θ,‥,l,_,τ,(pash)
@@ -2734,7 +2734,7 @@ SPACE
 m,∵,(mos),l,∵,k.,:,-,p,·,a,r,a,(mos),σ,(sopa)
 START/STOP spi-pe2
 
-Ezra 5:1 in vtrad vtbhs
+Ezra 5:1 in vtrad vtsef
 v,:,h,i,τ,:,n,_,b,·,i,(ger_2),y
 SPACE
 x,_,g,·,_,(mun),y
@@ -2773,7 +2773,7 @@ SPACE
 3,:_,l,‥,y,h,(mos),v,o,n.,(sopa)
 START/STOP spi-samekh2
 
-Ezra 5:2 in vtrad vtbhs
+Ezra 5:2 in vtrad vtsef
 b,·,‥,α,d,_,(paz),y,i,n.
 SPACE
 q,a,(tel_g),m,v,·
@@ -2811,7 +2811,7 @@ SPACE
 l,:,h,(mos),v,o,n.,(sopa)
 START/STOP spi-pe2
 
-Ezra 5:3 in vtrad vtbhs
+Ezra 5:3 in vtrad vtsef
 b,·,‥,h,·,-,z,i,m,:,n,a,α,(tel_q)
 SPACE
 α,:_,τ,a,(qom),h
@@ -2854,7 +2854,7 @@ d,:,n,a,(tip),h
 SPACE
 l,:,$,·sh,_,k,:,l,a,l,a,(mos),h,(sopa)
 
-Ezra 5:4 in vtrad vtbhs
+Ezra 5:4 in vtrad vtsef
 α,:∵,d,_,(mer),y,i,n.
 SPACE
 k,·,:,n,‥,(tip),m,a,α
@@ -2875,7 +2875,7 @@ b,i,n,:,y,a,n,a,(tip),α
 SPACE
 b,·,a,n,_,(mos),y,i,n.,(sopa)
 
-Ezra 5:5 in vtrad vtbhs
+Ezra 5:5 in vtrad vtsef
 v,:,3,‥,(mun),y,n.
 SPACE
 α,:∵,l,a,h,:_,h,o,(rev),m.
@@ -2905,7 +2905,7 @@ SPACE
 3,_,l,-,d,·,:,n,a,(mos),h,(sopa)
 START/STOP spi-pe2
 
-Ezra 5:6 in vtrad vtbhs
+Ezra 5:6 in vtrad vtsef
 p,·,_,r,:,$,·sh,∵,(mun),g,∵,n.
 SPACE
 α,i,(tel_g),g,·,_,r,:,τ,·,a,(tel_g),α
@@ -2937,7 +2937,7 @@ SPACE
 SPACE
 m,_,l,:,k,·,a,(mos),α,(sopa)
 
-Ezra 5:7 in vtrad vtbhs
+Ezra 5:7 in vtrad vtsef
 p,·,i,τ,:,g,a,m,a,(tip),α
 SPACE
 $,·sh,:,l,_,(mun),x,v,·
@@ -2959,7 +2959,7 @@ SPACE
 k,o,(mos),l,·,a,α,(sopa)
 START/STOP spi-samekh2
 
-Ezra 5:8 in vtrad vtbhs
+Ezra 5:8 in vtrad vtsef
 y,:,d,i,(mun),y,3,_
 START/STOP lp-legarmeih
 SPACE
@@ -3005,7 +3005,7 @@ v,·,m,_,c,:,l,_,(mer),x
 SPACE
 b,·,:,y,∵,d,:,h,o,(mos),m.,(sopa)
 
-Ezra 5:9 in vtrad vtbhs
+Ezra 5:9 in vtrad vtsef
 α,:∵,d,_,(rev),y,i,n.
 SPACE
 $,·sh,:,α,‥,(pash),l,:,n,a,α,(pash)
@@ -3038,7 +3038,7 @@ d,:,n,a,(tip),h
 SPACE
 l,:,$,·sh,_,k,:,l,a,l,a,(mos),h,(sopa)
 
-Ezra 5:10 in vtrad vtbhs
+Ezra 5:10 in vtrad vtsef
 v,:,α,_,(dar),p.
 SPACE
 $,·sh,:,m,a,h,a,τ,:,h,o,(tev),m.
@@ -3060,7 +3060,7 @@ SPACE
 b,:,r,a,α,$,·sh,‥,y,h,o,(mos),m.,(sopa)
 START/STOP spi-pe2
 
-Ezra 5:11 in vtrad vtbhs
+Ezra 5:11 in vtrad vtsef
 v,·,k,:,n,‥,(mer),m,a,α
 SPACE
 p,i,τ,:,g,a,m,a,(tip),α
@@ -3107,7 +3107,7 @@ b,·,:,n,a,(tip),h,i,y
 SPACE
 v,:,$,·sh,_,k,:,l,:,l,‥,(mos),h,·,(sopa)
 
-Ezra 5:12 in vtrad vtbhs
+Ezra 5:12 in vtrad vtsef
 l,a,h,‥,(rev),n.
 SPACE
 m,i,n.,-,d,·,i,(qom),y
@@ -3152,7 +3152,7 @@ SPACE
 l,:,b,a,b,∵,(mos),l,(sopa)
 START/STOP spi-pe2
 
-Ezra 5:13 in vtrad vtbhs
+Ezra 5:13 in vtrad vtsef
 b,·,:,r,_,m.,(pash)
 SPACE
 b,·,i,$,·sh,:,n,_,(mun),τ
@@ -3181,7 +3181,7 @@ d,:,n,a,(tip),h
 SPACE
 l,i,b,·,:,n,‥,(mos),α,(sopa)
 
-Ezra 5:14 in vtrad vtbhs
+Ezra 5:14 in vtrad vtsef
 v,:,(tel_g),α,_,(tel_g),p.
 SPACE
 m,a,α,n,_,y,·,a,(mun),α
@@ -3242,7 +3242,7 @@ p,∵,x,a,(tip),h
 SPACE
 $,·si,a,m,‥,(mos),h,·,(sopa)
 
-Ezra 5:15 in vtrad vtbhs
+Ezra 5:15 in vtrad vtsef
 v,_,α,:_,m,_,r,-,l,‥,(sha),h,·
 START/STOP lp-legarmeih
 SPACE
@@ -3278,7 +3278,7 @@ SPACE
 3,_,l,-,α,_,τ,:,r,‥,(mos),h,·,(sopa)
 START/STOP spi-pe2
 
-Ezra 5:16 in vtrad vtbhs
+Ezra 5:16 in vtrad vtsef
 α,:∵,d,_,(pash),y,i,n.,(pash)
 SPACE
 $,·sh,‥,$,·sh,:,b,·,_,c,·,_,(mun),r
@@ -3309,7 +3309,7 @@ v,:,l,a,(mer),α
 SPACE
 $,·sh,:,l,i,(mos),m.,(sopa)
 
-Ezra 5:17 in vtrad vtbhs
+Ezra 5:17 in vtrad vtsef
 v,·,k,:,3,_,(ger_2),n.
 SPACE
 h,‥,(dar),n.
@@ -3363,7 +3363,7 @@ SPACE
 3,:_,l,∵,(mos),y,n,a,α,(sopa)
 START/STOP spi-pe2
 
-Ezra 6:1 in vtrad vtbhs
+Ezra 6:1 in vtrad vtsef
 b,·,‥,α,d,_,(tev),y,i,n.
 SPACE
 d,·,a,r,:,y,a,(mer),v,∵,$,·sh
@@ -3391,7 +3391,7 @@ SPACE
 SPACE
 b,·,:,b,a,b,∵,(mos),l,(sopa)
 
-Ezra 6:2 in vtrad vtbhs
+Ezra 6:2 in vtrad vtsef
 v,:,h,i,$,·sh,:,τ,·,:,k,_,(mun),x
 SPACE
 b,·,:,α,_,x,:,m,:,τ,a,(rev),α
@@ -3415,7 +3415,7 @@ SPACE
 d,·,i,k,:,r,v,o,n,a,(mos),h,‾,(sopa)
 START/STOP spi-pe2
 
-Ezra 6:3 in vtrad vtbhs
+Ezra 6:3 in vtrad vtsef
 b,·,i,$,·sh,:,n,_,(qom),τ
 SPACE
 x,:_,d,a,(ger),h
@@ -3462,7 +3462,7 @@ SPACE
 SPACE
 $,·sh,i,τ,·,i,(mos),y,n.,(sopa)
 
-Ezra 6:4 in vtrad vtbhs
+Ezra 6:4 in vtrad vtsef
 n,i,d,:,b,·,a,k,i,(ger_2),y,n.
 SPACE
 d,·,i,y,-,α,∵,(mah),b,∵,n.
@@ -3486,7 +3486,7 @@ SPACE
 τ,·,i,τ,:,y,:,h,i,(mos),b,(sopa)
 START/STOP spi-samekh2
 
-Ezra 6:5 in vtrad vtbhs
+Ezra 6:5 in vtrad vtsef
 v,:,(tel_g),α,_,(tel_g),p.
 SPACE
 m,a,α,n,‥,(mun),y
@@ -3530,7 +3530,7 @@ SPACE
 α,:∵,l,a,h,a,(mos),α,(sopa)
 START/STOP spi-samekh2
 
-Ezra 6:6 in vtrad vtbhs
+Ezra 6:6 in vtrad vtsef
 k,·,:,3,_,(paz),n.
 SPACE
 τ,·,_,(tel_g),τ,·,:,n,_,(tel_g),y
@@ -3559,7 +3559,7 @@ h,:_,v,(tip),v,o
 SPACE
 m,i,n.,-,τ,·,_,m,·,a,(mos),h,(sopa)
 
-Ezra 6:7 in vtrad vtbhs
+Ezra 6:7 in vtrad vtsef
 $,·sh,:,b,u,(zaq_g),q,v,·
 SPACE
 l,_,3,:_,b,i,y,d,_,(tip),τ
@@ -3584,7 +3584,7 @@ y,i,b,:,n,(mer),v,o,n.
 SPACE
 3,_,l,-,α,_,τ,:,r,‥,(mos),h,·,(sopa)
 
-Ezra 6:8 in vtrad vtbhs
+Ezra 6:8 in vtrad vtsef
 v,·,m,i,n,·,i,y,(zarnor)
 SPACE
 $,·si,i,(mun),y,m.
@@ -3635,7 +3635,7 @@ d,·,i,y,-,l,a,(mer),α
 SPACE
 l,:,b,_,θ,·,a,l,a,(mos),α,(sopa)
 
-Ezra 6:9 in vtrad vtbhs
+Ezra 6:9 in vtrad vtsef
 v,·,m,a,(mun),h
 SPACE
 x,_,$,·sh,:,x,a,(paz),n.
@@ -3683,7 +3683,7 @@ d,·,i,y,-,l,a,(mer),α
 SPACE
 $,·sh,a,l,(mos),v,·,(sopa)
 
-Ezra 6:10 in vtrad vtbhs
+Ezra 6:10 in vtrad vtsef
 d,·,i,(mos),y,-,l,∵,h,:∵,v,xxfv,(dar),n.
 SPACE
 m,:,h,_,q,:,r,:,b,i,(tev),y,n.
@@ -3702,7 +3702,7 @@ m,_,l,:,k,·,a,(tip),α
 SPACE
 v,·,b,:,n,(mos),v,o,h,i,y,(sopa)
 
-Ezra 6:11 in vtrad vtbhs
+Ezra 6:11 in vtrad vtsef
 v,·,m,i,n,·,i,y,(zarnor)
 SPACE
 $,·si,i,(mun),y,m.
@@ -3741,7 +3741,7 @@ y,i,τ,:,3,:_,b,‥,(tip),d
 SPACE
 3,_,l,-,d,·,:,n,a,(mos),h,(sopa)
 
-Ezra 6:12 in vtrad vtbhs
+Ezra 6:12 in vtrad vtsef
 v,‥,(mos),α,l,a,h,a,(ger_2),α
 SPACE
 d,·,i,(mun),y
@@ -3790,7 +3790,7 @@ SPACE
 y,i,τ,:,3,:_,b,i,(mos),d,(sopa)
 START/STOP spi-pe2
 
-Ezra 6:13 in vtrad vtbhs
+Ezra 6:13 in vtrad vtsef
 α,:∵,(tel_g),d,_,(tel_g),y,i,n.
 SPACE
 τ,·,_,τ,·,:,n,_,(ger_2),y
@@ -3819,7 +3819,7 @@ SPACE
 SPACE
 3,:_,b,_,(mos),d,v,·,(sopa)
 
-Ezra 6:14 in vtrad vtbhs
+Ezra 6:14 in vtrad vtsef
 v,:,$,·si,a,b,‥,(mah),y
 SPACE
 y,:,h,v,·,d,a,y,‥,α,(pash)
@@ -3867,7 +3867,7 @@ m,∵,(mer),l,∵,k.,:
 SPACE
 p,·,a,r,a,(mos),σ,(sopa)
 
-Ezra 6:15 in vtrad vtbhs
+Ezra 6:15 in vtrad vtsef
 v,:,$,·sh,‥,y,c,i,y,α,(pash)
 SPACE
 b,·,_,y,:,τ,a,(mun),h
@@ -3895,7 +3895,7 @@ SPACE
 m,_,l,:,k,·,a,(mos),α,(sopa)
 START/STOP spi-pe2
 
-Ezra 6:16 in vtrad vtbhs
+Ezra 6:16 in vtrad vtsef
 v,_,3,:_,b,_,(mun),d,v,·
 SPACE
 b,:,n,‥,(mos),y,-,y,i,(tel_g),$,·si,:,r,a,α,‥,(tel_g),l
@@ -3916,7 +3916,7 @@ d,:,n,a,(tip),h
 SPACE
 b,·,:,x,∵,d,:,v,a,(mos),h,(sopa)
 
-Ezra 6:17 in vtrad vtbhs
+Ezra 6:17 in vtrad vtsef
 v,:,h,_,q,:,r,i,(rev),b,v,·
 SPACE
 l,_,x,:_,n,u,k,·,_,τ,(zarnor)
@@ -3962,7 +3962,7 @@ $,·sh,i,b,:,θ,‥,(mer),y
 SPACE
 y,i,$,·si,:,r,a,α,‥,(mos),l,(sopa)
 
-Ezra 6:18 in vtrad vtbhs
+Ezra 6:18 in vtrad vtsef
 v,_,h,:_,q,i,(qom),y,m,v,·
 SPACE
 k,a,h,:_,n,_,y,·,a,(ger),α
@@ -3988,7 +3988,7 @@ SPACE
 m,o,$,·sh,∵,(mos),h,(sopa)
 START/STOP spi-pe2
 
-Ezra 6:19 in vtrad vtbhs
+Ezra 6:19 in vtrad vtsef
 v,_,y,·,_,3,:_,$,·si,(mer),v,·
 SPACE
 b,:,n,‥,y,-,h,_,g,·,v,o,l,a,(tip),h
@@ -4003,7 +4003,7 @@ l,_,x,o,(mer),d,∵,$,·sh
 SPACE
 h,a,r,i,α,$,·sh,(mos),v,o,n.,(sopa)
 
-Ezra 6:20 in vtrad vtbhs
+Ezra 6:20 in vtrad vtsef
 k,·,i,(mun),y
 SPACE
 h,i,(mos),θ,·,_,h,:_,r,(ger_2),v,·
@@ -4032,7 +4032,7 @@ h,_,k,·,o,h,:_,n,i,(tip),y,m.
 SPACE
 v,:,l,a,h,∵,(mos),m.,(sopa)
 
-Ezra 6:21 in vtrad vtbhs
+Ezra 6:21 in vtrad vtsef
 v,_,y,·,o,α,k,:,l,(mun),v,·
 SPACE
 b,:,n,‥,(mos),y,-,y,i,$,·si,:,r,a,α,‥,(rev),l
@@ -4059,7 +4059,7 @@ SPACE
 SPACE
 y,i,$,·si,:,r,a,α,‥,(mos),l,(sopa)
 
-Ezra 6:22 in vtrad vtbhs
+Ezra 6:22 in vtrad vtsef
 v,_,y,·,_,(mos),3,:_,$,·si,(dar),v,·
 SPACE
 x,_,g,-,m,_,c,·,(tev),v,o,τ
@@ -4098,7 +4098,7 @@ SPACE
 y,i,$,·si,:,r,a,α,‥,(mos),l,(sopa)
 START/STOP spi-pe2
 
-Ezra 7:1 in vtrad vtbhs
+Ezra 7:1 in vtrad vtsef
 v,:,α,_,x,_,r,(pash)
 SPACE
 h,_,d,·,:,b,a,r,i,(mun),y,m.
@@ -4119,28 +4119,28 @@ b,·,∵,n.,-,3,:_,z,_,r,:,y,a,(tip),h
 SPACE
 b,·,∵,n.,-,x,i,l,:,q,i,y,·,a,(mos),h,(sopa)
 
-Ezra 7:2 in vtrad vtbhs
+Ezra 7:2 in vtrad vtsef
 b,·,∵,n.,-,$,·sh,_,l,·,(mer),v,·,m.
 SPACE
 b,·,∵,n.,-,c,a,d,(tip),v,o,q
 SPACE
 b,·,∵,n.,-,α,:_,x,i,y,θ,(mos),v,·,b,(sopa)
 
-Ezra 7:3 in vtrad vtbhs
+Ezra 7:3 in vtrad vtsef
 b,·,∵,n.,-,α,:_,m,_,r,:,y,a,(mer),h
 SPACE
 b,∵,n.,-,3,:_,z,_,r,:,y,a,(tip),h
 SPACE
 b,·,∵,n.,-,m,:,r,a,y,(mos),v,o,τ,(sopa)
 
-Ezra 7:4 in vtrad vtbhs
+Ezra 7:4 in vtrad vtsef
 b,·,∵,n.,-,z,:,r,_,(mos),x,:,y,a,(mer),h
 SPACE
 b,∵,n.,-,3,u,z,·,i,(tip),y
 SPACE
 b,·,∵,n.,-,b,·,u,q,·,i,(mos),y,(sopa)
 
-Ezra 7:5 in vtrad vtbhs
+Ezra 7:5 in vtrad vtsef
 b,·,∵,n.,-,α,:_,b,i,y,$,·sh,(rev),v,·,3,_
 SPACE
 b,·,∵,n.,-,p,·,i,(mos),y,n,:,x,a,σ,(pash)
@@ -4153,7 +4153,7 @@ h,_,k,·,o,h,‥,(tip),n.
 SPACE
 h,a,r,o,(mos),α,$,·sh,(sopa)
 
-Ezra 7:6 in vtrad vtbhs
+Ezra 7:6 in vtrad vtsef
 h,(mah),v,·,α
 SPACE
 3,∵,z,:,r,a,α,(pash)
@@ -4193,7 +4193,7 @@ SPACE
 b,·,_,q,·,a,$,·sh,a,τ,(mos),v,o,(sopa)
 START/STOP spi-pe2
 
-Ezra 7:7 in vtrad vtbhs
+Ezra 7:7 in vtrad vtsef
 v,_,y,·,_,(mos),3,:_,l,(mun),v,·
 SPACE
 m,i,b,·,:,n,‥,(mos),y,-,y,i,(tel_g),$,·si,:,r,a,α,‥,(tel_g),l
@@ -4216,7 +4216,7 @@ l,:,α,_,r,:,τ,·,_,x,:,$,·sh,_,(mer),σ,:,τ,·,:,α
 SPACE
 h,_,m,·,∵,(mos),l,∵,k.,:,(sopa)
 
-Ezra 7:8 in vtrad vtbhs
+Ezra 7:8 in vtrad vtsef
 v,_,y,·,a,b,o,(mer),α
 SPACE
 y,:,r,v,·,$,·sh,a,l,_,(tip),CGJ,i,m.
@@ -4233,7 +4233,7 @@ h,_,$,·sh,·,:,b,i,y,3,i,(tip),y,τ
 SPACE
 l,_,m,·,∵,(mos),l,∵,k.,:,(sopa)
 
-Ezra 7:9 in vtrad vtbhs
+Ezra 7:9 in vtrad vtsef
 k,·,i,(rev),y
 SPACE
 b,·,:,α,∵,x,a,d,(pash)
@@ -4266,7 +4266,7 @@ h,_,θ,·,v,o,b,a,(mer),h
 SPACE
 3,a,l,a,(mos),y,v,(sopa)
 
-Ezra 7:10 in vtrad vtbhs
+Ezra 7:10 in vtrad vtsef
 k,·,i,(mah),y
 SPACE
 3,∵,z,:,r,a,α,(pash)
@@ -4292,7 +4292,7 @@ SPACE
 v,·,m,i,$,·sh,:,p,·,a,(mos),θ,(sopa)
 START/STOP spi-samekh2
 
-Ezra 7:11 in vtrad vtbhs
+Ezra 7:11 in vtrad vtsef
 v,:,z,∵,(mun),h
 START/STOP lp-legarmeih
 SPACE
@@ -4325,7 +4325,7 @@ SPACE
 3,_,l,-,y,i,$,·si,:,r,a,α,‥,(mos),l,(sopa)
 START/STOP spi-pe2
 
-Ezra 7:12 in vtrad vtbhs
+Ezra 7:12 in vtrad vtsef
 α,_,(qom),r,:,τ,·,_,x,:,$,·sh,_,(zaq_q),σ,:,τ,·,:,α
 SPACE
 m,∵,(tip),l,∵,k.,:
@@ -4348,7 +4348,7 @@ g,·,:,m,i,(tip),y,r
 SPACE
 v,·,k,:,3,∵,(mos),n,∵,τ,(sopa)
 
-Ezra 7:13 in vtrad vtbhs
+Ezra 7:13 in vtrad vtsef
 m,i,n,·,i,y,(zarnor)
 SPACE
 $,·si,i,(mun),y,m.
@@ -4377,7 +4377,7 @@ SPACE
 SPACE
 y,:,h,a,(mos),k.,:,(sopa)
 
-Ezra 7:14 in vtrad vtbhs
+Ezra 7:14 in vtrad vtsef
 k,·,oa,l,-,q,:a,b,‥,(rev),l
 SPACE
 d,·,i,y,(tel_q)
@@ -4406,7 +4406,7 @@ d,·,i,(mer),y
 SPACE
 b,i,y,d,a,(mos),k.,:,(sopa)
 
-Ezra 7:15 in vtrad vtbhs
+Ezra 7:15 in vtrad vtsef
 v,·,l,:,h,‥,y,b,a,l,a,(tip),h
 SPACE
 k,·,:,σ,_,(mun),p.
@@ -4429,7 +4429,7 @@ b,i,(mos),y,r,v,·,$,·sh,:,l,∵,(tip),m.
 SPACE
 m,i,$,·sh,:,k,·,:,n,‥,(mos),h,·,(sopa)
 
-Ezra 7:16 in vtrad vtbhs
+Ezra 7:16 in vtrad vtsef
 v,:,k,o,l,(pash)
 SPACE
 k,·,:,σ,_,(mun),p.
@@ -4464,7 +4464,7 @@ d,·,i,(mer),y
 SPACE
 b,i,y,r,v,·,$,·sh,:,l,∵,(mos),m.,(sopa)
 
-Ezra 7:17 in vtrad vtbhs
+Ezra 7:17 in vtrad vtsef
 k,·,oa,l,-,q,:a,b,‥,(mun),l
 SPACE
 d,·,:,n,a,h,(tel_q)
@@ -4503,7 +4503,7 @@ d,·,i,(mer),y
 SPACE
 b,i,y,r,v,·,$,·sh,:,l,∵,(mos),m.,(sopa)
 
-Ezra 7:18 in vtrad vtbhs
+Ezra 7:18 in vtrad vtsef
 v,·,m,a,(mun),h
 SPACE
 d,i,y,(tel_q)
@@ -4543,7 +4543,7 @@ SPACE
 SPACE
 τ,·,_,3,_,b,:,d,(mos),v,·,n.,(sopa)
 
-Ezra 7:19 in vtrad vtbhs
+Ezra 7:19 in vtrad vtsef
 v,·,m,a,(mos),α,n,_,y,·,a,α,(pash)
 SPACE
 d,·,i,(mos),y,-,m,i,τ,:,y,_,h,:_,b,i,(mun),y,n.
@@ -4564,7 +4564,7 @@ SPACE
 SPACE
 y,:,r,v,·,$,·sh,:,l,∵,(mos),m.,(sopa)
 
-Ezra 7:20 in vtrad vtbhs
+Ezra 7:20 in vtrad vtsef
 v,·,$,·sh,:,α,a,(rev),r
 SPACE
 x,_,$,·sh,:,x,v,·,τ,(pash)
@@ -4587,7 +4587,7 @@ g,·,i,n,:,z,‥,(mer),y
 SPACE
 m,_,l,:,k,·,a,(mos),α,(sopa)
 
-Ezra 7:21 in vtrad vtbhs
+Ezra 7:21 in vtrad vtsef
 v,·,(tel_g),m,i,n,·,i,(tel_g),y
 SPACE
 α,:_,n,a,(ger_2),h
@@ -4632,7 +4632,7 @@ SPACE
 SPACE
 y,i,τ,:,3,:_,b,i,(mos),d,(sopa)
 
-Ezra 7:22 in vtrad vtbhs
+Ezra 7:22 in vtrad vtsef
 3,_,d,-,k,·,:,σ,_,p.,(zarnor)
 SPACE
 k,·,_,k,·,:,r,i,(mun),y,n.
@@ -4663,7 +4663,7 @@ d,·,i,y,-,l,a,(mer),α
 SPACE
 k,:,τ,a,(mos),b,(sopa)
 
-Ezra 7:23 in vtrad vtbhs
+Ezra 7:23 in vtrad vtsef
 k,·,oa,l,-,d,·,i,(rev),y
 SPACE
 m,i,n.,-,θ,_,(pash),3,_,m.,(pash)
@@ -4694,7 +4694,7 @@ m,_,l,:,k,·,a,(tip),α
 SPACE
 v,·,b,:,n,(mos),v,o,h,i,y,(sopa)
 
-Ezra 7:24 in vtrad vtbhs
+Ezra 7:24 in vtrad vtsef
 v,·,l,:,k,o,(mun),m.
 SPACE
 m,:,h,v,o,d,:,3,i,(rev),y,n.
@@ -4734,7 +4734,7 @@ SPACE
 3,:_,l,‥,y,h,o,(mos),m.,(sopa)
 START/STOP spi-pe2
 
-Ezra 7:25 in vtrad vtbhs
+Ezra 7:25 in vtrad vtsef
 v,:,α,_,(mun),n,:,τ,·,:
 SPACE
 3,∵,z,:,r,a,(rev),α
@@ -4784,7 +4784,7 @@ y,a,d,_,(tip),3
 SPACE
 τ,·,:,h,v,o,d,:,3,(mos),v,·,n.,(sopa)
 
-Ezra 7:26 in vtrad vtbhs
+Ezra 7:26 in vtrad vtsef
 v,:,k,oa,l,-,d,·,i,y,-,l,a,α,(tel_q)
 SPACE
 l,∵,h,:∵,v,‥,(qom),α
@@ -4833,7 +4833,7 @@ SPACE
 v,:,l,∵,α,:∵,σ,v,·,r,i,(mos),y,n.,(sopa)
 START/STOP spi-pe2
 
-Ezra 7:27 in vtrad vtbhs
+Ezra 7:27 in vtrad vtsef
 b,·,a,r,(mer),v,·,k.,:
 SPACE
 y,:,h,o,v,a,(tip),h
@@ -4862,7 +4862,7 @@ SPACE
 SPACE
 b,·,i,y,r,v,·,$,·sh,a,l,a,(mos),CGJ,i,m.,(sopa)
 
-Ezra 7:28 in vtrad vtbhs
+Ezra 7:28 in vtrad vtsef
 v,:,3,a,l,_,(mun),y
 SPACE
 h,i,θ,·,a,h,-,x,∵,(rev),σ,∵,d
@@ -4900,7 +4900,7 @@ SPACE
 3,i,m,·,i,(mos),y,(sopa)
 START/STOP spi-pe2
 
-Ezra 8:1 in vtrad vtbhs
+Ezra 8:1 in vtrad vtsef
 v,:,α,‥,(tev),l,·,∵,h
 SPACE
 r,a,α,$,·sh,‥,(mer),y
@@ -4922,7 +4922,7 @@ SPACE
 m,i,b,·,a,b,∵,(mos),l,(sopa)
 START/STOP spi-samekh3
 
-Ezra 8:2 in vtrad vtbhs
+Ezra 8:2 in vtrad vtsef
 m,i,b,·,:,n,‥,(mah),y
 SPACE
 p,i,(mos),y,n,:,x,a,σ,(pash)
@@ -4942,7 +4942,7 @@ SPACE
 x,_,θ,·,(mos),v,·,$,·sh,(sopa)
 START/STOP spi-samekh3
 
-Ezra 8:3 in vtrad vtbhs
+Ezra 8:3 in vtrad vtsef
 m,i,b,·,:,n,‥,(mun),y
 SPACE
 $,·sh,:,k,_,n,:,y,a,(zaq_q),h
@@ -4964,7 +4964,7 @@ SPACE
 v,_,x,:_,m,i,$,·sh,·,i,(mos),y,m.,(sopa)
 START/STOP spi-samekh3
 
-Ezra 8:4 in vtrad vtbhs
+Ezra 8:4 in vtrad vtsef
 m,i,b,·,:,n,‥,y,(pash)
 SPACE
 p,·,_,x,_,(mun),τ
@@ -4982,7 +4982,7 @@ SPACE
 h,_,z,·,:,k,a,r,i,(mos),y,m.,(sopa)
 START/STOP spi-samekh3
 
-Ezra 8:5 in vtrad vtbhs
+Ezra 8:5 in vtrad vtsef
 m,i,b,·,:,n,‥,(mer),y
 SPACE
 $,·sh,:,k,_,n,:,y,a,(tip),h
@@ -4998,7 +4998,7 @@ SPACE
 h,_,z,·,:,k,a,r,i,(mos),y,m.,(sopa)
 START/STOP spi-samekh3
 
-Ezra 8:6 in vtrad vtbhs
+Ezra 8:6 in vtrad vtsef
 v,·,m,i,b,·,:,n,‥,(mun),y
 SPACE
 3,a,d,i,(zaq_q),y,n.
@@ -5014,7 +5014,7 @@ SPACE
 h,_,z,·,:,k,a,r,i,(mos),y,m.,(sopa)
 START/STOP spi-samekh3
 
-Ezra 8:7 in vtrad vtbhs
+Ezra 8:7 in vtrad vtsef
 v,·,m,i,b,·,:,n,‥,(mun),y
 SPACE
 3,‥,y,l,a,(zaq_q),m.
@@ -5030,7 +5030,7 @@ SPACE
 h,_,z,·,:,k,a,r,i,(mos),y,m.,(sopa)
 START/STOP spi-samekh3
 
-Ezra 8:8 in vtrad vtbhs
+Ezra 8:8 in vtrad vtsef
 v,·,m,i,b,·,:,n,‥,(mun),y
 SPACE
 $,·sh,:,p,_,θ,:,y,a,(zaq_q),h
@@ -5046,7 +5046,7 @@ SPACE
 h,_,z,·,:,k,a,r,i,(mos),y,m.,(sopa)
 START/STOP spi-samekh3
 
-Ezra 8:9 in vtrad vtbhs
+Ezra 8:9 in vtrad vtsef
 m,i,b,·,:,n,‥,(mun),y
 SPACE
 y,v,o,α,a,(zaq_q),b
@@ -5066,7 +5066,7 @@ SPACE
 h,_,z,·,:,k,a,r,i,(mos),y,m.,(sopa)
 START/STOP spi-samekh3
 
-Ezra 8:10 in vtrad vtbhs
+Ezra 8:10 in vtrad vtsef
 v,·,m,i,b,·,:,n,‥,(mer),y
 SPACE
 $,·sh,:,l,v,o,m,i,(tip),y,τ
@@ -5082,7 +5082,7 @@ SPACE
 h,_,z,·,:,k,a,r,i,(mos),y,m.,(sopa)
 START/STOP spi-samekh3
 
-Ezra 8:11 in vtrad vtbhs
+Ezra 8:11 in vtrad vtsef
 v,·,m,i,b,·,:,n,‥,(mun),y
 SPACE
 b,‥,b,_,(zaq_q),y
@@ -5100,7 +5100,7 @@ SPACE
 h,_,z,·,:,k,a,r,i,(mos),y,m.,(sopa)
 START/STOP spi-samekh3
 
-Ezra 8:12 in vtrad vtbhs
+Ezra 8:12 in vtrad vtsef
 v,·,m,i,b,·,:,n,‥,(mun),y
 SPACE
 3,_,z,:,g,·,a,(zaq_q),d
@@ -5118,7 +5118,7 @@ SPACE
 h,_,z,·,:,k,a,r,i,(mos),y,m.,(sopa)
 START/STOP spi-samekh3
 
-Ezra 8:13 in vtrad vtbhs
+Ezra 8:13 in vtrad vtsef
 v,·,m,i,b,·,:,n,‥,(mun),y
 SPACE
 α,:_,d,o,n,i,y,q,a,m.,(zarnor)
@@ -5142,7 +5142,7 @@ SPACE
 h,_,z,·,:,k,a,r,i,(mos),y,m.,(sopa)
 START/STOP spi-samekh3
 
-Ezra 8:14 in vtrad vtbhs
+Ezra 8:14 in vtrad vtsef
 v,·,m,i,b,·,:,n,‥,(mer),y
 SPACE
 b,i,g,:,v,_,(tip),y
@@ -5165,7 +5165,7 @@ SPACE
 h,_,z,·,:,k,a,r,i,(mos),y,m.,(sopa)
 START/STOP spi-pe2
 
-Ezra 8:15 in vtrad vtbhs
+Ezra 8:15 in vtrad vtsef
 v,a,(mos),α,∵,q,:,b,·,:,c,‥,(rev),m.
 SPACE
 α,∵,l,-,h,_,n,·,a,h,a,r,(pash)
@@ -5196,7 +5196,7 @@ l,o,α,-,m,a,c,a,(mer),α,τ,i,y
 SPACE
 $,·sh,a,(mos),m.,(sopa)
 
-Ezra 8:16 in vtrad vtbhs
+Ezra 8:16 in vtrad vtsef
 v,a,α,∵,$,·sh,:,l,:,x,a,(paz),h
 SPACE
 l,∵,α,:∵,l,i,y,3,∵,(paz),z,∵,r
@@ -5225,7 +5225,7 @@ v,·,l,:,α,∵,l,:,n,a,τ,a,(tip),n.
 SPACE
 m,:,b,i,y,n,i,(mos),y,m.,(sopa)
 
-Ezra 8:17 in vtrad vtbhs
+Ezra 8:17 in vtrad vtsef
 START kq
 START kq-k
 v,α,v,c,α,h
@@ -5278,7 +5278,7 @@ l,:,b,‥,(mer),y,τ
 SPACE
 α,:∵,l,o,h,‥,(mos),y,n,v,·,(sopa)
 
-Ezra 8:18 in vtrad vtbhs
+Ezra 8:18 in vtrad vtsef
 v,_,y,·,a,b,i,(qom),y,α,·,v,·
 SPACE
 l,a,(ger),n,v,·
@@ -5311,7 +5311,7 @@ $,·sh,:,m,o,n,a,(mer),h
 SPACE
 3,a,$,·si,a,(mos),r,(sopa)
 
-Ezra 8:19 in vtrad vtbhs
+Ezra 8:19 in vtrad vtsef
 v,:,α,∵,(qom),τ,-,x,:_,$,·sh,_,b,:,y,a,(zaq_q),h
 SPACE
 v,:,α,i,τ,·,(mer),v,o
@@ -5329,7 +5329,7 @@ SPACE
 3,∵,$,·si,:,r,i,(mos),y,m.,(sopa)
 START/STOP spi-samekh2
 
-Ezra 8:20 in vtrad vtbhs
+Ezra 8:20 in vtrad vtsef
 v,·,m,i,n.,-,h,_,n,·,:,τ,i,y,n,i,(rev),y,m.
 SPACE
 $,·sh,∵,n,·,a,τ,_,(qom),n.
@@ -5354,7 +5354,7 @@ n,i,q,·,:,b,(mer),v,·
 SPACE
 b,:,$,·sh,‥,m,(mos),v,o,τ,(sopa)
 
-Ezra 8:21 in vtrad vtbhs
+Ezra 8:21 in vtrad vtsef
 v,a,α,∵,q,:,r,a,(qom),α
 SPACE
 $,·sh,a,(mer),m.
@@ -5385,7 +5385,7 @@ v,·,l,:,θ,_,p,·,‥,(tip),n,v,·
 SPACE
 v,·,l,:,k,oa,l,-,r,:,k,v,·,$,·sh,‥,(mos),n,v,·,(sopa)
 
-Ezra 8:22 in vtrad vtbhs
+Ezra 8:22 in vtrad vtsef
 k,·,i,(mun),y
 SPACE
 b,o,(rev),$,·sh,:,τ,·,i,y
@@ -5424,7 +5424,7 @@ SPACE
 SPACE
 k,·,oa,l,-,3,o,z,:,b,a,(mos),y,v,(sopa)
 
-Ezra 8:23 in vtrad vtbhs
+Ezra 8:23 in vtrad vtsef
 v,_,n,·,a,c,(tev),v,·,m,a,h
 SPACE
 v,_,n,·,:,b,_,q,:,$,·sh,a,(mer),h
@@ -5437,7 +5437,7 @@ v,_,y,·,‥,3,a,τ,‥,(tip),r
 SPACE
 l,a,(mos),n,v,·,(sopa)
 
-Ezra 8:24 in vtrad vtbhs
+Ezra 8:24 in vtrad vtsef
 v,a,α,_,b,:,d,·,i,(tev),y,l,a,h
 SPACE
 m,i,$,·si,·,a,r,‥,(mer),y
@@ -5458,7 +5458,7 @@ m,‥,α,:_,x,‥,y,h,∵,(tip),m.
 SPACE
 3,:_,$,·si,a,r,a,(mos),h,(sopa)
 
-Ezra 8:25 in vtrad vtbhs
+Ezra 8:25 in vtrad vtsef
 START kq
 START kq-k
 v,α,$,q,v,l,h
@@ -5492,7 +5492,7 @@ v,:,k,oa,l,-,y,i,$,·si,:,r,a,α,‥,(tip),l
 SPACE
 h,_,n,·,i,m,:,c,a,α,i,(mos),y,m.,(sopa)
 
-Ezra 8:26 in vtrad vtbhs
+Ezra 8:26 in vtrad vtsef
 v,a,α,∵,$,·sh,:,q,:,l,a,(qom),h
 SPACE
 3,_,l,-,y,a,d,a,(ger),m.
@@ -5517,7 +5517,7 @@ m,‥,α,a,(mer),h
 SPACE
 k,i,k,·,a,(mos),r,(sopa)
 
-Ezra 8:27 in vtrad vtbhs
+Ezra 8:27 in vtrad vtsef
 v,·,k,:,p,o,r,‥,(mah),y
 SPACE
 z,a,h,a,b,(pash)
@@ -5542,7 +5542,7 @@ x,:_,m,v,·,d,o,(tip),τ
 SPACE
 k,·,_,z,·,a,h,a,(mos),b,(sopa)
 
-Ezra 8:28 in vtrad vtbhs
+Ezra 8:28 in vtrad vtsef
 v,a,α,o,m,:,r,a,(mun),h
 SPACE
 α,:_,l,‥,h,∵,(rev),m.
@@ -5569,7 +5569,7 @@ SPACE
 SPACE
 α,:_,b,o,τ,‥,y,k,∵,(mos),m.,(sopa)
 
-Ezra 8:29 in vtrad vtbhs
+Ezra 8:29 in vtrad vtsef
 $,·sh,i,q,:,d,(mun),v,·
 SPACE
 v,:,$,·sh,i,m,:,r,(rev),v,·
@@ -5596,7 +5596,7 @@ b,·,‥,(mer),y,τ
 SPACE
 y,:,h,o,v,a,(mos),h,(sopa)
 
-Ezra 8:30 in vtrad vtbhs
+Ezra 8:30 in vtrad vtsef
 v,:,q,i,b,·,:,l,v,·,(pash)
 SPACE
 h,_,k,·,o,h,:_,n,i,(mun),y,m.
@@ -5620,7 +5620,7 @@ SPACE
 α,:∵,l,o,h,‥,(mos),y,n,v,·,(sopa)
 START/STOP spi-pe2
 
-Ezra 8:31 in vtrad vtbhs
+Ezra 8:31 in vtrad vtsef
 v,_,(mos),n,·,i,σ,·,:,3,a,(ger_2),h
 SPACE
 m,i,n,·,:,h,_,(mun),r
@@ -5655,7 +5655,7 @@ v,:,α,v,o,r,‥,(tip),b
 SPACE
 3,_,l,-,h,_,d,·,a,(mos),r,∵,k.,:,(sopa)
 
-Ezra 8:32 in vtrad vtbhs
+Ezra 8:32 in vtrad vtsef
 v,_,n,·,a,b,(tip),v,o,α
 SPACE
 y,:,r,v,·,$,·sh,a,l,a,(atn),CGJ,i,m.
@@ -5668,7 +5668,7 @@ y,a,m,i,(mer),y,m.
 SPACE
 $,·sh,:,l,o,$,·sh,a,(mos),h,(sopa)
 
-Ezra 8:33 in vtrad vtbhs
+Ezra 8:33 in vtrad vtsef
 v,·,b,_,y,·,(mun),v,o,m.
 SPACE
 h,a,r,:,b,i,y,3,i,(paz),y
@@ -5711,7 +5711,7 @@ b,∵,n.,-,b,·,i,n,·,(tip),v,·,y
 SPACE
 h,_,l,:,v,i,y,·,i,(mos),m.,(sopa)
 
-Ezra 8:34 in vtrad vtbhs
+Ezra 8:34 in vtrad vtsef
 b,·,:,m,i,σ,:,p,·,a,(mer),r
 SPACE
 b,·,:,m,i,$,·sh,:,q,a,(tip),l
@@ -5727,7 +5727,7 @@ SPACE
 h,_,h,i,(mos),y,α,(sopa)
 START/STOP spi-pe2
 
-Ezra 8:35 in vtrad vtbhs
+Ezra 8:35 in vtrad vtsef
 h,_,(tel_g),b,·,a,α,i,(tel_g),y,m.
 SPACE
 m,‥,(mos),h,_,$,·sh,·,:,b,i,(qom),y
@@ -5777,7 +5777,7 @@ SPACE
 l,_,y,h,o,v,a,(mos),h,(sopa)
 START/STOP spi-pe2
 
-Ezra 8:36 in vtrad vtbhs
+Ezra 8:36 in vtrad vtsef
 v,_,(mos),y,·,i,τ,·,:,n,(mun),v,·
 START/STOP lp-legarmeih
 SPACE
@@ -5804,7 +5804,7 @@ SPACE
 h,a,α,:∵,l,o,h,i,(mos),y,m.,(sopa)
 START/STOP spi-samekh2
 
-Ezra 9:1 in vtrad vtbhs
+Ezra 9:1 in vtrad vtsef
 v,·,k,:,k,_,l,·,(mun),v,o,τ
 SPACE
 α,‥,(rev),l,·,∵,h
@@ -5849,7 +5849,7 @@ h,_,m,·,i,c,:,r,i,(tip),y
 SPACE
 v,:,h,a,α,:∵,m,o,r,i,(mos),y,(sopa)
 
-Ezra 9:2 in vtrad vtbhs
+Ezra 9:2 in vtrad vtsef
 k,·,i,(mos),y,-,n,a,$,·si,:,α,(mun),v,·
 SPACE
 m,i,b,·,:,n,o,(mos),τ,‥,y,h,∵,(rev),m.
@@ -5882,7 +5882,7 @@ h,_,z,·,∵,(tip),h
 SPACE
 r,i,α,$,·sh,v,o,n,a,(mos),h,(sopa)
 
-Ezra 9:3 in vtrad vtbhs
+Ezra 9:3 in vtrad vtsef
 v,·,k,:,$,·sh,oa,m,:,3,i,y,(pash)
 SPACE
 α,∵,τ,-,h,_,d,·,a,b,a,(mun),r
@@ -5907,7 +5907,7 @@ v,a,α,‥,$,·sh,:,b,a,(tip),h
 SPACE
 m,:,$,·sh,v,o,m,‥,(mos),m.,(sopa)
 
-Ezra 9:4 in vtrad vtbhs
+Ezra 9:4 in vtrad vtsef
 v,:,α,‥,l,_,(mun),y
 SPACE
 y,‥,α,a,σ,:,p,(rev),v,·
@@ -5938,7 +5938,7 @@ l,:,m,i,n,:,x,_,(mer),τ
 SPACE
 h,a,3,a,(mos),r,∵,b,(sopa)
 
-Ezra 9:5 in vtrad vtbhs
+Ezra 9:5 in vtrad vtsef
 v,·,b,:,m,i,n,:,x,_,(mun),τ
 SPACE
 h,a,3,∵,(rev),r,∵,b
@@ -5965,7 +5965,7 @@ SPACE
 SPACE
 α,:∵,l,o,h,a,(mos),y,(sopa)
 
-Ezra 9:6 in vtrad vtbhs
+Ezra 9:6 in vtrad vtsef
 v,a,α,o,m,:,r,a,(rev),h
 SPACE
 α,:∵,l,o,h,_,y,(pash)
@@ -6000,7 +6000,7 @@ SPACE
 SPACE
 l,_,$,·sh,·,a,m,a,(mos),y,i,m.,(sopa)
 
-Ezra 9:7 in vtrad vtbhs
+Ezra 9:7 in vtrad vtsef
 m,i,y,m,‥,(mun),y
 SPACE
 α,:_,b,o,τ,‥,(rev),y,n,v,·
@@ -6048,7 +6048,7 @@ k,·,:,h,_,y,·,(mer),v,o,m.
 SPACE
 h,_,z,·,∵,(mos),h,(sopa)
 
-Ezra 9:8 in vtrad vtbhs
+Ezra 9:8 in vtrad vtsef
 v,:,3,_,τ,·,a,(paz),h
 SPACE
 k,·,i,m,:,3,_,θ,-,r,∵,(tel_q),g,_,3,(tel_q)
@@ -6092,7 +6092,7 @@ m,:,3,_,(tip),θ
 SPACE
 b,·,:,3,_,b,:,d,u,τ,‥,(mos),n,v,·,(sopa)
 
-Ezra 9:9 in vtrad vtbhs
+Ezra 9:9 in vtrad vtsef
 k,·,i,(mos),y,-,3,:_,b,a,d,i,(mun),y,m.
 SPACE
 α,:_,n,_,(zaq_q),x,:,n,v,·
@@ -6138,7 +6138,7 @@ SPACE
 v,·,b,i,y,r,v,·,$,·sh,a,l,a,(mos),CGJ,i,m.,(sopa)
 START/STOP spi-samekh2
 
-Ezra 9:10 in vtrad vtbhs
+Ezra 9:10 in vtrad vtsef
 v,:,3,_,τ,·,a,(tev),h
 SPACE
 m,_,h,-,n,·,o,α,m,_,(mer),r
@@ -6153,7 +6153,7 @@ SPACE
 SPACE
 m,i,c,:,v,xxfv,τ,∵,(mos),y,k.,a,(sopa)
 
-Ezra 9:11 in vtrad vtbhs
+Ezra 9:11 in vtrad vtsef
 α,:_,$,·sh,∵,(mun),r
 SPACE
 c,i,v,·,i,(rev),y,τ,a
@@ -6200,7 +6200,7 @@ SPACE
 SPACE
 b,·,:,θ,u,m,:,α,a,τ,a,(mos),m.,(sopa)
 
-Ezra 9:12 in vtrad vtbhs
+Ezra 9:12 in vtrad vtsef
 v,:,(tel_g),3,_,τ,·,a,(tel_g),h
 SPACE
 b,·,:,(mos),n,v,o,τ,‥,y,k,∵,(ger_2),m.
@@ -6239,7 +6239,7 @@ l,i,b,:,n,‥,y,k,∵,(tip),m.
 SPACE
 3,_,d,-,3,v,o,l,a,(mos),m.,(sopa)
 
-Ezra 9:13 in vtrad vtbhs
+Ezra 9:13 in vtrad vtsef
 v,:,α,_,(mos),x,:_,r,‥,y,(pash)
 SPACE
 k,·,oa,l,-,h,_,b,·,a,(mun),α
@@ -6275,7 +6275,7 @@ p,·,:,l,‥,y,θ,a,(tip),h
 SPACE
 k,·,a,z,o,(mos),α,τ,(sopa)
 
-Ezra 9:14 in vtrad vtbhs
+Ezra 9:14 in vtrad vtsef
 h,:_,n,a,$,·sh,v,·,b,(pash)
 SPACE
 l,:,h,a,p,‥,(mun),r
@@ -6303,7 +6303,7 @@ SPACE
 v,·,p,:,l,‥,y,θ,a,(mos),h,(sopa)
 START/STOP spi-samekh2
 
-Ezra 9:15 in vtrad vtbhs
+Ezra 9:15 in vtrad vtsef
 y,:,h,o,v,a,(ger_2),h
 SPACE
 α,:∵,l,o,h,‥,(mah),y
@@ -6339,7 +6339,7 @@ SPACE
 3,_,l,-,z,o,(mos),α,τ,(sopa)
 START/STOP spi-pe2
 
-Ezra 10:1 in vtrad vtbhs
+Ezra 10:1 in vtrad vtsef
 v,·,k,:,h,i,τ,:,p,·,_,l,·,‥,(mah),l
 SPACE
 3,∵,z,:,r,a,α,(pash)
@@ -6379,7 +6379,7 @@ SPACE
 h,_,r,:,b,·,‥,h,-,b,∵,(mos),k,∵,h,(sopa)
 START/STOP spi-pe2
 
-Ezra 10:2 in vtrad vtbhs
+Ezra 10:2 in vtrad vtsef
 v,_,y,·,_,(tel_q),3,_,n.,(tel_q)
 SPACE
 $,·sh,:,k,_,n,:,y,a,(qom),h
@@ -6425,7 +6425,7 @@ l,:,y,i,$,·si,:,r,a,α,‥,(tip),l
 SPACE
 3,_,l,-,z,o,(mos),α,τ,(sopa)
 
-Ezra 10:3 in vtrad vtbhs
+Ezra 10:3 in vtrad vtsef
 v,:,3,_,τ,·,a,(mun),h
 SPACE
 n,i,(mos),k,:,r,oa,τ,-,b,·,:,r,i,(mun),y,τ
@@ -6455,7 +6455,7 @@ SPACE
 y,‥,3,a,$,·si,∵,(mos),h,(sopa)
 START/STOP spi-pe2
 
-Ezra 10:4 in vtrad vtbhs
+Ezra 10:4 in vtrad vtsef
 q,(tev),v,·,m.
 SPACE
 k,·,i,(mos),y,-,3,a,l,∵,(mer),y,k.,a
@@ -6471,7 +6471,7 @@ SPACE
 v,_,3,:_,$,·si,‥,(mos),h,(sopa)
 START/STOP spi-pe2
 
-Ezra 10:5 in vtrad vtbhs
+Ezra 10:5 in vtrad vtsef
 v,_,y,·,a,(mun),q,oa,m.
 SPACE
 3,∵,z,:,r,a,(paz),α
@@ -6494,7 +6494,7 @@ h,_,z,·,∵,(tip),h
 SPACE
 v,_,y,·,i,$,·sh,·,a,b,‥,(mos),3,v,·,(sopa)
 
-Ezra 10:6 in vtrad vtbhs
+Ezra 10:6 in vtrad vtsef
 v,_,y,·,a,(mun),q,oa,m.
 SPACE
 3,∵,z,:,r,a,(rev),α
@@ -6533,7 +6533,7 @@ SPACE
 SPACE
 h,_,g,·,v,o,l,a,(mos),h,(sopa)
 
-Ezra 10:7 in vtrad vtbhs
+Ezra 10:7 in vtrad vtsef
 v,_,y,·,_,3,:_,b,i,(qom),y,r,v,·
 SPACE
 q,(ger),v,o,l
@@ -6552,7 +6552,7 @@ l,:,h,i,q,·,a,b,‥,(tip),c.
 SPACE
 y,:,r,v,·,$,·sh,a,l,a,(mos),CGJ,i,m.,(sopa)
 
-Ezra 10:8 in vtrad vtbhs
+Ezra 10:8 in vtrad vtsef
 v,:,k,o,l,(tel_q)
 SPACE
 α,:_,$,·sh,∵,(qom),r
@@ -6582,7 +6582,7 @@ SPACE
 h,_,g,·,v,o,l,a,(mos),h,(sopa)
 START/STOP spi-pe2
 
-Ezra 10:9 in vtrad vtbhs
+Ezra 10:9 in vtrad vtsef
 v,_,y,·,i,q,·,a,b,:,c,(mun),v,·
 SPACE
 k,oa,l,-,α,_,n,:,$,·sh,‥,(mos),y,-,y,:,h,v,·,d,a,h,(tel_q)
@@ -6622,7 +6622,7 @@ SPACE
 v,·,m,‥,h,_,g,·,:,$,·sh,a,m,i,(mos),y,m.,(sopa)
 START/STOP spi-pe2
 
-Ezra 10:10 in vtrad vtbhs
+Ezra 10:10 in vtrad vtsef
 v,_,y,·,a,(qom),q,oa,m.
 SPACE
 3,∵,z,:,r,a,(mah),α
@@ -6649,7 +6649,7 @@ SPACE
 SPACE
 y,i,$,·si,:,r,a,α,‥,(mos),l,(sopa)
 
-Ezra 10:11 in vtrad vtbhs
+Ezra 10:11 in vtrad vtsef
 v,:,3,_,τ,·,a,(rev),h
 SPACE
 τ,·,:,n,(mer),v,·
@@ -6675,7 +6675,7 @@ SPACE
 h,_,n,·,oa,k,:,r,i,y,·,(mos),v,o,τ,(sopa)
 START/STOP spi-samekh2
 
-Ezra 10:12 in vtrad vtbhs
+Ezra 10:12 in vtrad vtsef
 v,_,y,·,_,(mos),3,:_,n,(dar),v,·
 SPACE
 k,oa,(mos),l,-,h,_,q,·,a,h,a,(tev),l
@@ -6701,7 +6701,7 @@ SPACE
 SPACE
 l,_,3,:_,$,·si,(mos),v,o,τ,(sopa)
 
-Ezra 10:13 in vtrad vtbhs
+Ezra 10:13 in vtrad vtsef
 α,:_,b,a,(ger_2),l
 SPACE
 h,a,3,a,(mer),m.
@@ -6738,7 +6738,7 @@ b,·,_,d,·,a,b,a,(mer),r
 SPACE
 h,_,z,·,∵,(mos),h,(sopa)
 
-Ezra 10:14 in vtrad vtbhs
+Ezra 10:14 in vtrad vtsef
 y,_,(mos),3,_,m,:,d,v,·,-,n,a,(mun),α
 SPACE
 $,·si,a,(tel_g),r,‥,(tel_g),y,n,v,·
@@ -6789,7 +6789,7 @@ SPACE
 h,_,z,·,∵,(mos),h,(sopa)
 START/STOP spi-samekh2
 
-Ezra 10:15 in vtrad vtbhs
+Ezra 10:15 in vtrad vtsef
 α,_,(mun),k.,:
 SPACE
 y,v,o,n,a,τ,a,(dar),n.
@@ -6812,7 +6812,7 @@ h,_,l,·,‥,v,i,(tip),y
 SPACE
 3,:_,z,a,r,u,(mos),m.,(sopa)
 
-Ezra 10:16 in vtrad vtbhs
+Ezra 10:16 in vtrad vtsef
 v,_,y,·,_,(mos),3,:_,$,·si,v,·,-,k,‥,n.,(zarnor)
 SPACE
 b,·,:,n,‥,(mun),y
@@ -6853,7 +6853,7 @@ l,:,d,_,r,:,y,(tip),v,o,$,·sh
 SPACE
 h,_,d,·,a,b,a,(mos),r,(sopa)
 
-Ezra 10:17 in vtrad vtbhs
+Ezra 10:17 in vtrad vtsef
 v,_,y,:,k,_,l,·,(mun),v,·
 SPACE
 b,_,k,·,o,(zaq_q),l
@@ -6877,7 +6877,7 @@ SPACE
 h,a,r,i,α,$,·sh,(mos),v,o,n.,(sopa)
 START/STOP spi-pe2
 
-Ezra 10:18 in vtrad vtbhs
+Ezra 10:18 in vtrad vtsef
 v,_,y,·,i,m,·,a,c,‥,α,(pash)
 SPACE
 m,i,b,·,:,n,‥,(mun),y
@@ -6908,7 +6908,7 @@ v,:,y,a,r,i,(tip),y,b
 SPACE
 v,·,g,:,d,_,l,:,y,a,(mos),h,(sopa)
 
-Ezra 10:19 in vtrad vtbhs
+Ezra 10:19 in vtrad vtsef
 v,_,y,·,i,τ,·,:,n,(mer),v,·
 SPACE
 y,a,d,a,(tip),m.
@@ -6924,7 +6924,7 @@ SPACE
 3,_,l,-,α,_,$,·sh,:,m,a,τ,a,(mos),m.,(sopa)
 START/STOP spi-samekh3
 
-Ezra 10:20 in vtrad vtbhs
+Ezra 10:20 in vtrad vtsef
 v,·,m,i,b,·,:,n,‥,(mun),y
 SPACE
 α,i,m,·,‥,(zaq_q),r
@@ -6934,7 +6934,7 @@ SPACE
 v,·,z,:,b,_,d,:,y,a,(mos),h,(sopa)
 START/STOP spi-samekh3
 
-Ezra 10:21 in vtrad vtbhs
+Ezra 10:21 in vtrad vtsef
 v,·,m,i,b,·,:,n,‥,(tip),y
 SPACE
 x,a,r,i,(atn),m.
@@ -6950,7 +6950,7 @@ SPACE
 v,:,3,u,z,·,i,y,·,a,(mos),h,(sopa)
 START/STOP spi-samekh3
 
-Ezra 10:22 in vtrad vtbhs
+Ezra 10:22 in vtrad vtsef
 v,·,m,i,b,·,:,n,‥,(tip),y
 SPACE
 p,·,_,$,·sh,:,x,(atn),v,·,r
@@ -6968,7 +6968,7 @@ SPACE
 v,:,α,∵,l,:,3,a,$,·si,a,(mos),h,(sopa)
 START/STOP spi-samekh3
 
-Ezra 10:23 in vtrad vtbhs
+Ezra 10:23 in vtrad vtsef
 v,·,m,i,(mos),n.,-,h,_,l,:,v,i,y,·,i,(atn),m.
 SPACE
 y,v,o,z,a,b,a,(mun),d
@@ -6988,7 +6988,7 @@ SPACE
 v,∵,α,:∵,l,i,y,3,∵,(mos),z,∵,r,(sopa)
 START/STOP spi-samekh3
 
-Ezra 10:24 in vtrad vtbhs
+Ezra 10:24 in vtrad vtsef
 v,·,m,i,n.,-,h,_,m,:,$,·sh,o,r,:,r,i,(tip),y,m.
 SPACE
 α,∵,l,:,y,a,$,·sh,i,(atn),y,b
@@ -7002,7 +7002,7 @@ SPACE
 v,:,α,v,·,r,i,(mos),y,(sopa)
 START/STOP spi-samekh3
 
-Ezra 10:25 in vtrad vtbhs
+Ezra 10:25 in vtrad vtsef
 v,·,m,i,(mos),y,·,i,$,·si,:,r,a,α,‥,(atn),l
 SPACE
 m,i,b,·,:,n,‥,(mun),y
@@ -7024,7 +7024,7 @@ SPACE
 v,·,b,:,n,a,y,a,(mos),h,(sopa)
 START/STOP spi-samekh3
 
-Ezra 10:26 in vtrad vtbhs
+Ezra 10:26 in vtrad vtsef
 v,·,m,i,b,·,:,n,‥,(tip),y
 SPACE
 3,‥,y,l,a,(atn),m.
@@ -7042,7 +7042,7 @@ SPACE
 v,:,α,‥,l,i,y,·,a,(mos),h,(sopa)
 START/STOP spi-samekh3
 
-Ezra 10:27 in vtrad vtbhs
+Ezra 10:27 in vtrad vtsef
 v,·,m,i,b,·,:,n,‥,(tip),y
 SPACE
 z,_,τ,·,(atn),v,·,α
@@ -7060,7 +7060,7 @@ SPACE
 v,_,3,:_,z,i,y,z,a,(mos),α,(sopa)
 START/STOP spi-samekh3
 
-Ezra 10:28 in vtrad vtbhs
+Ezra 10:28 in vtrad vtsef
 v,·,m,i,b,·,:,n,‥,(tip),y
 SPACE
 b,·,‥,b,a,(atn),y
@@ -7074,7 +7074,7 @@ SPACE
 3,_,τ,:,l,a,(mos),y,(sopa)
 START/STOP spi-samekh3
 
-Ezra 10:29 in vtrad vtbhs
+Ezra 10:29 in vtrad vtsef
 v,·,m,i,b,·,:,n,‥,(tip),y
 SPACE
 b,·,a,n,i,(atn),y
@@ -7100,7 +7100,7 @@ STOP kq
 (sopa)
 START/STOP spi-samekh3
 
-Ezra 10:30 in vtrad vtbhs
+Ezra 10:30 in vtrad vtsef
 v,·,m,i,b,·,:,n,‥,(tev),y
 SPACE
 p,·,_,x,_,(mer),τ
@@ -7124,7 +7124,7 @@ SPACE
 v,·,m,:,n,_,$,·sh,·,∵,(mos),h,(sopa)
 START/STOP spi-samekh3
 
-Ezra 10:31 in vtrad vtbhs
+Ezra 10:31 in vtrad vtsef
 v,·,b,:,n,‥,(tip),y
 SPACE
 x,a,r,i,(atn),m.
@@ -7140,7 +7140,7 @@ SPACE
 $,·sh,i,m,:,3,(mos),v,o,n.,(sopa)
 START/STOP spi-samekh3
 
-Ezra 10:32 in vtrad vtbhs
+Ezra 10:32 in vtrad vtsef
 b,·,i,n,:,y,a,m,i,(mer),n.
 SPACE
 m,_,l,·,(tip),v,·,k.,:
@@ -7148,7 +7148,7 @@ SPACE
 $,·sh,:,m,_,r,:,y,a,(mos),h,(sopa)
 START/STOP spi-samekh3
 
-Ezra 10:33 in vtrad vtbhs
+Ezra 10:33 in vtrad vtsef
 m,i,b,·,:,n,‥,(tip),y
 SPACE
 x,a,$,·sh,u,(atn),m.
@@ -7168,7 +7168,7 @@ SPACE
 $,·sh,i,m,:,3,i,(mos),y,(sopa)
 START/STOP spi-samekh3
 
-Ezra 10:34 in vtrad vtbhs
+Ezra 10:34 in vtrad vtsef
 m,i,b,·,:,n,‥,(mun),y
 SPACE
 b,a,n,i,(zaq_q),y
@@ -7180,7 +7180,7 @@ SPACE
 v,:,α,v,·,α,‥,(mos),l,(sopa)
 START/STOP spi-samekh3
 
-Ezra 10:35 in vtrad vtbhs
+Ezra 10:35 in vtrad vtsef
 b,·,:,n,a,y,a,(mer),h
 SPACE
 b,‥,d,:,y,a,(tip),h
@@ -7196,7 +7196,7 @@ STOP kq
 (sopa)
 START/STOP spi-samekh3
 
-Ezra 10:36 in vtrad vtbhs
+Ezra 10:36 in vtrad vtsef
 v,_,n,:,y,a,(mer),h
 SPACE
 m,:,r,‥,m,(tip),v,o,τ
@@ -7204,7 +7204,7 @@ SPACE
 α,∵,l,:,y,a,$,·sh,i,(mos),y,b,(sopa)
 START/STOP spi-samekh3
 
-Ezra 10:37 in vtrad vtbhs
+Ezra 10:37 in vtrad vtsef
 m,_,τ,·,_,n,:,y,a,(mer),h
 SPACE
 m,_,τ,·,:,n,_,(tip),y
@@ -7220,7 +7220,7 @@ STOP kq
 (sopa)
 START/STOP spi-samekh3
 
-Ezra 10:38 in vtrad vtbhs
+Ezra 10:38 in vtrad vtsef
 v,·,b,a,n,i,(mer),y
 SPACE
 v,·,b,i,n,·,(tip),v,·,y
@@ -7228,7 +7228,7 @@ SPACE
 $,·sh,i,m,:,3,i,(mos),y,(sopa)
 START/STOP spi-samekh3
 
-Ezra 10:39 in vtrad vtbhs
+Ezra 10:39 in vtrad vtsef
 v,:,$,·sh,∵,(mos),l,∵,m,:,y,a,(mer),h
 SPACE
 v,:,n,a,τ,a,(tip),n.
@@ -7236,7 +7236,7 @@ SPACE
 v,_,3,:_,d,a,y,a,(mos),h,(sopa)
 START/STOP spi-samekh3
 
-Ezra 10:40 in vtrad vtbhs
+Ezra 10:40 in vtrad vtsef
 m,_,k,:,n,_,d,:,b,_,(mer),y
 SPACE
 $,·sh,a,$,·sh,_,(tip),y
@@ -7244,7 +7244,7 @@ SPACE
 $,·sh,a,r,a,(mos),y,(sopa)
 START/STOP spi-samekh3
 
-Ezra 10:41 in vtrad vtbhs
+Ezra 10:41 in vtrad vtsef
 3,:_,z,_,r,:,α,‥,(mer),l
 SPACE
 v,:,$,·sh,∵,l,∵,m,:,y,a,(tip),h,v,·
@@ -7252,7 +7252,7 @@ SPACE
 $,·sh,:,m,_,r,:,y,a,(mos),h,(sopa)
 START/STOP spi-samekh3
 
-Ezra 10:42 in vtrad vtbhs
+Ezra 10:42 in vtrad vtsef
 $,·sh,_,l,·,(mer),v,·,m.
 SPACE
 α,:_,m,_,r,:,y,a,(tip),h
@@ -7260,7 +7260,7 @@ SPACE
 y,v,o,σ,‥,(mos),p.,(sopa)
 START/STOP spi-samekh3
 
-Ezra 10:43 in vtrad vtbhs
+Ezra 10:43 in vtrad vtsef
 m,i,b,·,:,n,‥,(tip),y
 SPACE
 n,:,b,(atn),v,o
@@ -7286,7 +7286,7 @@ v,:,y,v,o,α,‥,(tip),l
 SPACE
 b,·,:,n,a,y,a,(mos),h,(sopa)
 
-Ezra 10:44 in vtrad vtbhs
+Ezra 10:44 in vtrad vtsef
 k,·,oa,l,-,α,‥,(zaq_g),l,·,∵,h
 SPACE
 START kq
@@ -7313,7 +7313,7 @@ SPACE
 b,·,a,n,i,(mos),y,m.,(sopa)
 START/STOP spi-pe2
 
-Nehemiah 1:1 in vtrad vtbhs
+Nehemiah 1:1 in vtrad vtsef
 d,·,i,b,:,r,‥,(mer),y
 SPACE
 n,:,x,∵,m,:,y,a,(tip),h
@@ -7339,7 +7339,7 @@ b,·,:,$,·sh,v,·,$,·sh,_,(mer),n.
 SPACE
 h,_,b,·,i,y,r,a,(mos),h,(sopa)
 
-Nehemiah 1:2 in vtrad vtbhs
+Nehemiah 1:2 in vtrad vtsef
 v,_,y,·,a,b,o,(qom),α
 SPACE
 x,:_,n,a,(ger),n,i,y
@@ -7366,7 +7366,7 @@ m,i,n.,-,h,_,$,·sh,·,∵,(tip),b,i,y
 SPACE
 v,:,3,_,l,-,y,:,r,v,·,$,·sh,a,l,a,(mos),CGJ,i,m.,(sopa)
 
-Nehemiah 1:3 in vtrad vtbhs
+Nehemiah 1:3 in vtrad vtsef
 v,_,y,·,o,α,m,:,r,v,·,(zarnor)
 SPACE
 l,i,y,(seg_a)
@@ -7399,7 +7399,7 @@ n,i,c,·,:,τ,(mer),v,·
 SPACE
 b,a,α,‥,(mos),$,·sh,(sopa)
 
-Nehemiah 1:4 in vtrad vtbhs
+Nehemiah 1:4 in vtrad vtsef
 v,_,y,:,h,i,(ger_2),y
 SPACE
 k,·,:,$,·sh,oa,m,:,3,i,(mun),y
@@ -7429,7 +7429,7 @@ SPACE
 SPACE
 h,_,$,·sh,·,a,m,a,(mos),y,i,m.,(sopa)
 
-Nehemiah 1:5 in vtrad vtbhs
+Nehemiah 1:5 in vtrad vtsef
 v,a,α,o,m,_,(rev),r
 SPACE
 α,a,(mos),n,·,a,(mah),α
@@ -7458,7 +7458,7 @@ v,·,l,:,$,·sh,o,m,:,r,‥,(mer),y
 SPACE
 m,i,c,:,v,xxfv,τ,a,(mos),y,v,(sopa)
 
-Nehemiah 1:6 in vtrad vtbhs
+Nehemiah 1:6 in vtrad vtsef
 τ,·,:,h,i,(mun),y
 SPACE
 n,a,(mun),α
@@ -7513,7 +7513,7 @@ v,·,b,‥,y,τ,-,α,a,b,i,(tip),y
 SPACE
 x,a,θ,a,(mos),α,n,v,·,(sopa)
 
-Nehemiah 1:7 in vtrad vtbhs
+Nehemiah 1:7 in vtrad vtsef
 x,:_,b,o,(tip),l
 SPACE
 x,a,b,_,(mun),l,:,n,v,·
@@ -7536,7 +7536,7 @@ SPACE
 SPACE
 3,_,b,:,d,·,∵,(mos),k.,a,(sopa)
 
-Nehemiah 1:8 in vtrad vtbhs
+Nehemiah 1:8 in vtrad vtsef
 z,:,k,oa,r,-,n,a,α,(pash)
 SPACE
 α,∵,τ,-,h,_,d,·,a,b,a,(zaq_q),r
@@ -7563,7 +7563,7 @@ SPACE
 SPACE
 b,·,a,3,_,m,·,i,(mos),y,m.,(sopa)
 
-Nehemiah 1:9 in vtrad vtbhs
+Nehemiah 1:9 in vtrad vtsef
 v,:,$,·sh,_,b,:,τ,·,∵,(mun),m.
 SPACE
 α,‥,l,_,(zaq_q),y
@@ -7609,7 +7609,7 @@ SPACE
 SPACE
 $,·sh,a,(mos),m.,(sopa)
 
-Nehemiah 1:10 in vtrad vtbhs
+Nehemiah 1:10 in vtrad vtsef
 v,:,h,‥,(mer),m.
 SPACE
 3,:_,b,a,d,∵,(tip),y,k.,a
@@ -7628,7 +7628,7 @@ v,·,b,:,y,a,d,:,k.,a,(tip)
 SPACE
 h,_,x,:_,z,a,q,a,(mos),h,(sopa)
 
-Nehemiah 1:11 in vtrad vtbhs
+Nehemiah 1:11 in vtrad vtsef
 α,a,n,·,a,(mun),α
 SPACE
 α,:_,d,o,n,a,(rev),y
@@ -7678,7 +7678,7 @@ SPACE
 l,_,m,·,∵,(mos),l,∵,k.,:,(sopa)
 START/STOP spi-pe2
 
-Nehemiah 2:1 in vtrad vtbhs
+Nehemiah 2:1 in vtrad vtsef
 v,_,y,:,h,i,(mun),y
 START/STOP lp-legarmeih
 SPACE
@@ -7712,7 +7712,7 @@ r,_,(tip),3
 SPACE
 l,:,p,a,n,a,(mos),y,v,(sopa)
 
-Nehemiah 2:2 in vtrad vtbhs
+Nehemiah 2:2 in vtrad vtsef
 v,_,y,·,o,(tel_q),α,m,∵,r,(tel_q)
 SPACE
 l,i,(qom),y
@@ -7748,7 +7748,7 @@ h,_,r,:,b,·,‥,(mer),h
 SPACE
 m,:,α,o,(mos),d,(sopa)
 
-Nehemiah 2:3 in vtrad vtbhs
+Nehemiah 2:3 in vtrad vtsef
 v,a,α,o,m,_,(mun),r
 SPACE
 l,_,m,·,∵,(zaq_q),l,∵,k.,:
@@ -7781,7 +7781,7 @@ SPACE
 SPACE
 b,a,α,‥,(mos),$,·sh,(sopa)
 
-Nehemiah 2:4 in vtrad vtbhs
+Nehemiah 2:4 in vtrad vtsef
 v,_,y,·,o,(mah),α,m,∵,r
 SPACE
 l,i,y,(pash)
@@ -7800,7 +7800,7 @@ SPACE
 SPACE
 h,_,$,·sh,·,a,m,a,(mos),y,i,m.,(sopa)
 
-Nehemiah 2:5 in vtrad vtbhs
+Nehemiah 2:5 in vtrad vtsef
 v,a,α,o,m,_,(mun),r
 SPACE
 l,_,m,·,∵,(zaq_q),l,∵,k.,:
@@ -7829,7 +7829,7 @@ SPACE
 SPACE
 v,:,α,∵,b,:,n,∵,(mos),n,·,a,h,(sopa)
 
-Nehemiah 2:6 in vtrad vtbhs
+Nehemiah 2:6 in vtrad vtsef
 v,_,y,·,o,(tel_q),α,m,∵,r,(tel_q)
 SPACE
 l,i,(qom),y
@@ -7865,7 +7865,7 @@ l,(tip),v,o
 SPACE
 z,:,m,a,(mos),n.,(sopa)
 
-Nehemiah 2:7 in vtrad vtbhs
+Nehemiah 2:7 in vtrad vtsef
 v,a,α,v,o,m,_,r,(zarnor)
 SPACE
 l,_,m,·,∵,(seg_a),l,∵,k.,:,(seg_a)
@@ -7894,7 +7894,7 @@ SPACE
 SPACE
 α,∵,l,-,y,:,h,v,·,d,a,(mos),h,(sopa)
 
-Nehemiah 2:8 in vtrad vtbhs
+Nehemiah 2:8 in vtrad vtsef
 v,:,α,i,g,·,∵,(paz),r,∵,τ
 SPACE
 α,∵,l,-,α,a,σ,a,p.,(tel_q)
@@ -7941,7 +7941,7 @@ h,_,θ,·,v,o,b,a,(mer),h
 SPACE
 3,a,l,a,(mos),y,(sopa)
 
-Nehemiah 2:9 in vtrad vtbhs
+Nehemiah 2:9 in vtrad vtsef
 v,a,(mos),α,a,b,(rev),v,o,α
 SPACE
 α,∵,(mos),l,-,p,·,_,(mos),x,:_,v,v,o,τ,(pash)
@@ -7973,7 +7973,7 @@ SPACE
 v,·,p,a,r,a,$,·sh,i,(mos),y,m.,(sopa)
 START/STOP spi-pe2
 
-Nehemiah 2:10 in vtrad vtbhs
+Nehemiah 2:10 in vtrad vtsef
 v,_,y,·,i,$,·sh,:,m,_,(ger_2),3
 SPACE
 σ,_,n,:,b,_,l,·,_,(mun),θ
@@ -8006,7 +8006,7 @@ l,i,b,:,n,‥,(mer),y
 SPACE
 y,i,$,·si,:,r,a,α,‥,(mos),l,(sopa)
 
-Nehemiah 2:11 in vtrad vtbhs
+Nehemiah 2:11 in vtrad vtsef
 v,a,α,a,b,(tip),v,o,α
 SPACE
 α,∵,l,-,y,:,r,v,·,$,·sh,a,l,a,(atn),CGJ,i,m.
@@ -8017,7 +8017,7 @@ y,a,m,i,(mer),y,m.
 SPACE
 $,·sh,:,l,o,$,·sh,a,(mos),h,(sopa)
 
-Nehemiah 2:12 in vtrad vtbhs
+Nehemiah 2:12 in vtrad vtsef
 v,a,α,a,q,(mun),v,·,m.
 START/STOP lp-legarmeih
 SPACE
@@ -8065,7 +8065,7 @@ r,o,k,‥,(mer),b
 SPACE
 b,·,a,(mos),h,·,(sopa)
 
-Nehemiah 2:13 in vtrad vtbhs
+Nehemiah 2:13 in vtrad vtsef
 v,a,α,‥,c,:,α,a,(qom),h
 SPACE
 b,:,$,·sh,_,(mos),3,_,r,-,h,_,g,·,_,(ger),y,:,α
@@ -8108,7 +8108,7 @@ SPACE
 SPACE
 b,a,α,‥,(mos),$,·sh,(sopa)
 
-Nehemiah 2:14 in vtrad vtbhs
+Nehemiah 2:14 in vtrad vtsef
 v,a,α,∵,(mos),3,:∵,b,o,r,(pash)
 SPACE
 α,∵,l,-,$,·sh,_,(mun),3,_,r
@@ -8127,7 +8127,7 @@ l,_,3,:_,b,o,(mer),r
 SPACE
 τ,·,_,x,:,τ,·,a,(mos),y,(sopa)
 
-Nehemiah 2:15 in vtrad vtbhs
+Nehemiah 2:15 in vtrad vtsef
 v,a,α,:∵,h,i,(qom),y
 SPACE
 3,o,l,∵,(mah),h
@@ -8152,7 +8152,7 @@ h,_,g,·,_,(tip),y,:,α
 SPACE
 v,a,α,a,$,·sh,(mos),v,·,b,(sopa)
 
-Nehemiah 2:16 in vtrad vtbhs
+Nehemiah 2:16 in vtrad vtsef
 v,:,h,_,σ,·,:,g,a,n,i,(rev),y,m.
 SPACE
 l,o,(mah),α
@@ -8189,7 +8189,7 @@ l,o,(mer),α
 SPACE
 h,i,g,·,_,(mos),d,:,τ,·,i,y,(sopa)
 
-Nehemiah 2:17 in vtrad vtbhs
+Nehemiah 2:17 in vtrad vtsef
 v,a,α,v,o,m,_,(mun),r
 SPACE
 α,:_,l,‥,h,∵,(rev),m.
@@ -8232,7 +8232,7 @@ SPACE
 SPACE
 x,∵,r,:,p,·,a,(mos),h,(sopa)
 
-Nehemiah 2:18 in vtrad vtbhs
+Nehemiah 2:18 in vtrad vtsef
 v,a,α,_,g,·,i,(qom),y,d
 SPACE
 l,a,h,∵,(ger),m.
@@ -8268,7 +8268,7 @@ SPACE
 l,_,θ,·,v,o,b,a,(mos),h,(sopa)
 START/STOP spi-pe2
 
-Nehemiah 2:19 in vtrad vtbhs
+Nehemiah 2:19 in vtrad vtsef
 v,_,y,·,i,$,·sh,:,m,_,3,(tel_q)
 SPACE
 σ,_,n,:,b,_,l,·,_,(qom),θ
@@ -8314,7 +8314,7 @@ SPACE
 SPACE
 m,o,r,:,d,i,(mos),y,m.,(sopa)
 
-Nehemiah 2:20 in vtrad vtbhs
+Nehemiah 2:20 in vtrad vtsef
 v,a,α,a,$,·sh,i,(qom),y,b
 SPACE
 α,v,o,τ,a,(ger),m.
@@ -8354,7 +8354,7 @@ SPACE
 b,·,i,y,r,v,·,$,·sh,a,l,a,(mos),CGJ,i,m.,(sopa)
 START/STOP spi-pe2
 
-Nehemiah 3:1 in vtrad vtbhs
+Nehemiah 3:1 in vtrad vtsef
 v,_,y,·,a,(paz),q,oa,m.
 SPACE
 α,∵,l,:,y,a,$,·sh,i,y,b,(tel_q)
@@ -8394,7 +8394,7 @@ SPACE
 x,:_,n,_,n,:,α,‥,(mos),l,(sopa)
 START/STOP spi-samekh3
 
-Nehemiah 3:2 in vtrad vtbhs
+Nehemiah 3:2 in vtrad vtsef
 v,:,3,_,l,-,y,a,d,(mer),v,o
 SPACE
 b,a,n,(tip),v,·
@@ -8412,7 +8412,7 @@ SPACE
 b,·,∵,n.,-,α,i,m,:,r,i,(mos),y,(sopa)
 START/STOP spi-samekh3
 
-Nehemiah 3:3 in vtrad vtbhs
+Nehemiah 3:3 in vtrad vtsef
 v,:,α,‥,τ,(pash)
 SPACE
 $,·sh,_,(mun),3,_,r
@@ -8438,7 +8438,7 @@ SPACE
 v,·,b,:,r,i,y,x,a,(mos),y,v,(sopa)
 START/STOP spi-samekh3
 
-Nehemiah 3:4 in vtrad vtbhs
+Nehemiah 3:4 in vtrad vtsef
 v,:,3,_,l,-,y,a,d,a,(mun),m.
 SPACE
 h,∵,x,:∵,z,i,(rev),y,q
@@ -8468,7 +8468,7 @@ SPACE
 b,·,∵,(mos),n.,-,b,·,_,3,:_,n,a,(mos),α,(sopa)
 START/STOP spi-samekh3
 
-Nehemiah 3:5 in vtrad vtbhs
+Nehemiah 3:5 in vtrad vtsef
 v,:,3,_,l,-,y,a,d,a,(tip),m.
 SPACE
 h,∵,x,:∵,z,i,(mun),y,q,v,·
@@ -8486,7 +8486,7 @@ SPACE
 α,:_,d,o,n,‥,y,h,∵,(mos),m.,(sopa)
 START/STOP spi-samekh3
 
-Nehemiah 3:6 in vtrad vtbhs
+Nehemiah 3:6 in vtrad vtsef
 v,:,α,‥,τ,(tel_q)
 SPACE
 $,·sh,_,(qom),3,_,r
@@ -8516,7 +8516,7 @@ SPACE
 v,·,b,:,r,i,y,x,a,(mos),y,v,(sopa)
 START/STOP spi-samekh3
 
-Nehemiah 3:7 in vtrad vtbhs
+Nehemiah 3:7 in vtrad vtsef
 v,:,3,_,l,-,y,a,d,a,(qom),m.
 SPACE
 h,∵,x,:∵,z,i,(ger),y,q
@@ -8544,7 +8544,7 @@ SPACE
 h,_,n,·,a,h,a,(mos),r,(sopa)
 START/STOP spi-samekh3
 
-Nehemiah 3:8 in vtrad vtbhs
+Nehemiah 3:8 in vtrad vtsef
 3,_,l,-,y,a,d,(mun),v,o
 SPACE
 h,∵,x,:∵,z,i,(rev),y,q
@@ -8574,7 +8574,7 @@ SPACE
 h,a,r,:,x,a,b,a,(mos),h,(sopa)
 START/STOP spi-samekh3
 
-Nehemiah 3:9 in vtrad vtbhs
+Nehemiah 3:9 in vtrad vtsef
 v,:,3,_,l,-,y,a,d,a,(mah),m.
 SPACE
 h,∵,x,:∵,z,i,y,q,(pash)
@@ -8592,7 +8592,7 @@ SPACE
 y,:,r,v,·,$,·sh,a,l,a,(mos),CGJ,i,m.,(sopa)
 START/STOP spi-samekh3
 
-Nehemiah 3:10 in vtrad vtbhs
+Nehemiah 3:10 in vtrad vtsef
 v,:,3,_,l,-,y,a,d,a,(dar),m.
 SPACE
 h,∵,x,:∵,z,i,(tev),y,q
@@ -8614,7 +8614,7 @@ SPACE
 b,·,∵,n.,-,x,:_,$,·sh,_,b,:,n,:,y,a,(mos),h,(sopa)
 START/STOP spi-samekh3
 
-Nehemiah 3:11 in vtrad vtbhs
+Nehemiah 3:11 in vtrad vtsef
 m,i,d,·,a,(mun),h
 SPACE
 $,·sh,‥,n,i,(rev),y,τ
@@ -8638,7 +8638,7 @@ SPACE
 h,_,τ,·,_,n,·,v,·,r,i,(mos),y,m.,(sopa)
 START/STOP spi-samekh3
 
-Nehemiah 3:12 in vtrad vtbhs
+Nehemiah 3:12 in vtrad vtsef
 v,:,3,_,l,-,y,a,d,(mun),v,o
 SPACE
 h,∵,x,:∵,z,i,(rev),y,q
@@ -8660,7 +8660,7 @@ SPACE
 v,·,b,:,n,v,o,τ,a,(mos),y,v,(sopa)
 START/STOP spi-samekh3
 
-Nehemiah 3:13 in vtrad vtbhs
+Nehemiah 3:13 in vtrad vtsef
 α,‥,τ,(tel_q)
 SPACE
 $,·sh,_,(qom),3,_,r
@@ -8699,7 +8699,7 @@ $,·sh,_,(mer),3,_,r
 SPACE
 h,a,$,·sh,:,p,(mos),v,o,τ,(sopa)
 
-Nehemiah 3:14 in vtrad vtbhs
+Nehemiah 3:14 in vtrad vtsef
 v,:,α,‥,(mun),τ
 START/STOP lp-legarmeih
 SPACE
@@ -8732,7 +8732,7 @@ SPACE
 v,·,b,:,r,i,y,x,a,(mos),y,v,(sopa)
 START/STOP spi-samekh3
 
-Nehemiah 3:15 in vtrad vtbhs
+Nehemiah 3:15 in vtrad vtsef
 v,:,α,‥,τ,(tel_q)
 SPACE
 $,·sh,_,(qom),3,_,r
@@ -8791,7 +8791,7 @@ SPACE
 d,·,a,v,i,(mos),y,d,(sopa)
 START/STOP spi-samekh3
 
-Nehemiah 3:16 in vtrad vtbhs
+Nehemiah 3:16 in vtrad vtsef
 α,_,x,:_,r,a,(mah),y,v
 SPACE
 h,∵,x,:∵,z,i,y,q,(pash)
@@ -8825,7 +8825,7 @@ SPACE
 h,_,g,·,i,b,·,o,r,i,(mos),y,m.,(sopa)
 START/STOP spi-samekh3
 
-Nehemiah 3:17 in vtrad vtbhs
+Nehemiah 3:17 in vtrad vtsef
 α,_,x,:_,r,a,(tev),y,v
 SPACE
 h,∵,x,:∵,z,i,(mer),y,q,v,·
@@ -8849,7 +8849,7 @@ SPACE
 l,:,p,i,l,:,k,·,(mos),v,o,(sopa)
 START/STOP spi-samekh3
 
-Nehemiah 3:18 in vtrad vtbhs
+Nehemiah 3:18 in vtrad vtsef
 α,_,x,:_,r,a,y,v,(pash)
 SPACE
 h,∵,x,:∵,z,i,(mun),y,q,v,·
@@ -8869,7 +8869,7 @@ SPACE
 q,:,3,i,y,l,a,(mos),h,(sopa)
 START/STOP spi-samekh3
 
-Nehemiah 3:19 in vtrad vtbhs
+Nehemiah 3:19 in vtrad vtsef
 v,_,y,:,x,_,z,·,‥,(qom),q
 SPACE
 3,_,l,-,y,a,d,(ger),v,o
@@ -8895,7 +8895,7 @@ SPACE
 h,_,m,·,i,q,:,c,o,(mos),3,_,(sopa)
 START/STOP spi-samekh3
 
-Nehemiah 3:20 in vtrad vtbhs
+Nehemiah 3:20 in vtrad vtsef
 α,_,x,:_,r,a,(qom),y,v
 SPACE
 h,∵,x,:∵,r,a,(dar),h
@@ -8931,7 +8931,7 @@ SPACE
 h,_,g,·,a,d,(mos),v,o,l,(sopa)
 START/STOP spi-samekh3
 
-Nehemiah 3:21 in vtrad vtbhs
+Nehemiah 3:21 in vtrad vtsef
 α,_,x,:_,r,a,(mun),y,v
 SPACE
 h,∵,x,:∵,z,i,(rev),y,q
@@ -8959,7 +8959,7 @@ SPACE
 α,∵,l,:,y,a,$,·sh,i,(mos),y,b,(sopa)
 START/STOP spi-samekh3
 
-Nehemiah 3:22 in vtrad vtbhs
+Nehemiah 3:22 in vtrad vtsef
 v,:,α,_,x,:_,r,a,(tev),y,v
 SPACE
 h,∵,x,:∵,z,i,(mer),y,q,v,·
@@ -8970,7 +8970,7 @@ SPACE
 SPACE
 h,_,k,·,i,k,·,a,(mos),r,(sopa)
 
-Nehemiah 3:23 in vtrad vtbhs
+Nehemiah 3:23 in vtrad vtsef
 α,_,x,:_,r,a,(qom),y,v
 SPACE
 h,∵,x,:∵,z,i,(dar),y,q
@@ -8998,7 +8998,7 @@ SPACE
 b,·,‥,y,τ,(mos),v,o,(sopa)
 START/STOP spi-samekh3
 
-Nehemiah 3:24 in vtrad vtbhs
+Nehemiah 3:24 in vtrad vtsef
 α,_,x,:_,r,a,(mun),y,v
 SPACE
 h,∵,x,:∵,z,i,(rev),y,q
@@ -9019,7 +9019,7 @@ SPACE
 SPACE
 v,:,3,_,d,-,h,_,p,·,i,n,·,a,(mos),h,(sopa)
 
-Nehemiah 3:25 in vtrad vtbhs
+Nehemiah 3:25 in vtrad vtsef
 p,·,a,l,a,(mun),l
 SPACE
 b,·,∵,n.,-,α,v,·,z,_,y,(zarnor)
@@ -9051,7 +9051,7 @@ SPACE
 b,∵,n.,-,p,·,_,r,:,3,o,(mos),$,·sh,(sopa)
 START/STOP spi-samekh3
 
-Nehemiah 3:26 in vtrad vtbhs
+Nehemiah 3:26 in vtrad vtsef
 v,:,h,_,(qom),n,·,:,τ,i,y,n,i,(zaq_q),y,m.
 SPACE
 h,a,y,(mer),v,·
@@ -9075,7 +9075,7 @@ SPACE
 h,_,y,·,v,o,c,‥,(mos),α,(sopa)
 START/STOP spi-samekh3
 
-Nehemiah 3:27 in vtrad vtbhs
+Nehemiah 3:27 in vtrad vtsef
 α,_,x,:_,r,a,(tev),y,v
 SPACE
 h,∵,x,:∵,z,i,(mer),y,q,v,·
@@ -9100,7 +9100,7 @@ x,v,o,m,_,(mer),τ
 SPACE
 h,a,3,o,(mos),p,∵,l,(sopa)
 
-Nehemiah 3:28 in vtrad vtbhs
+Nehemiah 3:28 in vtrad vtsef
 m,‥,3,_,(mun),l
 START/STOP lp-legarmeih
 SPACE
@@ -9119,7 +9119,7 @@ SPACE
 b,·,‥,y,τ,(mos),v,o,(sopa)
 START/STOP spi-samekh3
 
-Nehemiah 3:29 in vtrad vtbhs
+Nehemiah 3:29 in vtrad vtsef
 α,_,x,:_,r,a,(dar),y,v
 SPACE
 h,∵,x,:∵,z,i,(tev),y,q
@@ -9147,7 +9147,7 @@ SPACE
 h,_,m,·,i,z,:,r,a,(mos),x,(sopa)
 START/STOP spi-samekh3
 
-Nehemiah 3:30 in vtrad vtbhs
+Nehemiah 3:30 in vtrad vtsef
 START kq
 START kq-k
 α,x,r,y
@@ -9186,7 +9186,7 @@ SPACE
 n,i,$,·sh,:,k,·,a,τ,(mos),v,o,(sopa)
 START/STOP spi-samekh3
 
-Nehemiah 3:31 in vtrad vtbhs
+Nehemiah 3:31 in vtrad vtsef
 START kq
 START kq-k
 α,x,r,y
@@ -9220,7 +9220,7 @@ SPACE
 SPACE
 h,_,p,·,i,n,·,a,(mos),h,(sopa)
 
-Nehemiah 3:32 in vtrad vtbhs
+Nehemiah 3:32 in vtrad vtsef
 v,·,b,‥,(qom),y,n.
 SPACE
 3,:_,l,i,y,·,_,(mah),τ
@@ -9238,7 +9238,7 @@ SPACE
 v,:,h,a,r,o,k,:,l,i,(mos),y,m.,(sopa)
 START/STOP spi-pe2
 
-Nehemiah 3:33 in vtrad vtbhs
+Nehemiah 3:33 in vtrad vtsef
 v,_,y,:,h,i,(ger_2),y
 SPACE
 k,·,_,α,:_,$,·sh,∵,(dar),r
@@ -9265,7 +9265,7 @@ v,_,y,·,_,l,:,3,‥,(tip),g
 SPACE
 3,_,l,-,h,_,y,·,:,h,v,·,d,i,(mos),y,m.,(sopa)
 
-Nehemiah 3:34 in vtrad vtbhs
+Nehemiah 3:34 in vtrad vtsef
 v,_,y,·,o,(mun),α,m,∵,r
 START/STOP lp-legarmeih
 SPACE
@@ -9309,7 +9309,7 @@ v,:,h,‥,(mer),m,·,a,h
 SPACE
 $,·si,:,r,v,·,p,(mos),v,o,τ,(sopa)
 
-Nehemiah 3:35 in vtrad vtbhs
+Nehemiah 3:35 in vtrad vtsef
 v,:,θ,v,o,b,i,y,·,a,(mer),h
 SPACE
 h,a,3,_,m,·,o,n,i,(tip),y
@@ -9335,7 +9335,7 @@ SPACE
 α,_,b,:,n,‥,y,h,∵,(mos),m.,(sopa)
 START/STOP spi-pe2
 
-Nehemiah 3:36 in vtrad vtbhs
+Nehemiah 3:36 in vtrad vtsef
 $,·sh,:,m,_,(mah),3
 SPACE
 α,:∵,l,o,h,‥,(pash),y,n,v,·,(pash)
@@ -9358,7 +9358,7 @@ b,·,:,α,∵,(mer),r,∵,c.
 SPACE
 $,·sh,i,b,:,y,a,(mos),h,(sopa)
 
-Nehemiah 3:37 in vtrad vtbhs
+Nehemiah 3:37 in vtrad vtsef
 v,:,α,_,l,-,τ,·,:,k,_,σ,(pash)
 SPACE
 3,_,l,-,3,:_,v,xxfv,n,a,(zaq_q),m.
@@ -9377,7 +9377,7 @@ l,:,n,∵,(mer),g,∵,d
 SPACE
 h,_,b,·,v,o,n,i,(mos),y,m.,(sopa)
 
-Nehemiah 3:38 in vtrad vtbhs
+Nehemiah 3:38 in vtrad vtsef
 v,_,n,·,i,b,:,n,∵,h,(pash)
 SPACE
 α,∵,τ,-,h,_,(mun),x,v,o,m,a,(zaq_q),h
@@ -9397,7 +9397,7 @@ SPACE
 l,_,3,:_,$,·si,(mos),v,o,τ,(sopa)
 START/STOP spi-pe2
 
-Nehemiah 4:1 in vtrad vtbhs
+Nehemiah 4:1 in vtrad vtsef
 v,_,y,:,h,i,(mun),y
 SPACE
 k,_,α,:_,$,·sh,∵,(mun),r
@@ -9434,7 +9434,7 @@ l,a,h,∵,(tip),m.
 SPACE
 m,:,α,o,(mos),d,(sopa)
 
-Nehemiah 4:2 in vtrad vtbhs
+Nehemiah 4:2 in vtrad vtsef
 v,_,y,·,i,q,:,$,·sh,:,r,(mah),v,·
 SPACE
 k,u,l,·,a,m.,(pash)
@@ -9453,7 +9453,7 @@ l,(tip),v,o
 SPACE
 τ,·,v,o,3,a,(mos),h,(sopa)
 
-Nehemiah 4:3 in vtrad vtbhs
+Nehemiah 4:3 in vtrad vtsef
 v,_,n,·,i,τ,:,p,·,_,l,·,‥,(tip),l
 SPACE
 α,∵,l,-,α,:∵,l,o,h,‥,(atn),y,n,v,·
@@ -9470,7 +9470,7 @@ v,a,l,_,(tip),y,:,l,a,h
 SPACE
 m,i,p,·,:,n,‥,y,h,∵,(mos),m.,(sopa)
 
-Nehemiah 4:4 in vtrad vtbhs
+Nehemiah 4:4 in vtrad vtsef
 v,_,y,·,o,(mun),α,m,∵,r
 SPACE
 y,:,h,v,·,d,a,(rev),h
@@ -9495,7 +9495,7 @@ l,i,b,:,n,(tip),v,o,τ
 SPACE
 b,·,_,x,v,o,m,a,(mos),h,(sopa)
 
-Nehemiah 4:5 in vtrad vtbhs
+Nehemiah 4:5 in vtrad vtsef
 v,_,y,·,o,α,m,:,r,(mun),v,·
 SPACE
 c,a,r,‥,(rev),y,n,v,·
@@ -9520,7 +9520,7 @@ v,:,h,i,$,·sh,:,b,·,_,(tip),τ,:,n,v,·
 SPACE
 α,∵,τ,-,h,_,m,·,:,l,a,α,k,a,(mos),h,(sopa)
 
-Nehemiah 4:6 in vtrad vtbhs
+Nehemiah 4:6 in vtrad vtsef
 v,_,(mos),y,:,h,i,y,(pash)
 SPACE
 k,·,_,α,:_,$,·sh,∵,r,-,b,·,a,(mun),α,v,·
@@ -9545,7 +9545,7 @@ SPACE
 SPACE
 3,a,l,‥,(mos),y,n,v,·,(sopa)
 
-Nehemiah 4:7 in vtrad vtbhs
+Nehemiah 4:7 in vtrad vtsef
 v,a,(mos),α,_,3,:_,m,i,(ger_2),y,d
 SPACE
 m,i,(mos),τ,·,_,x,:,τ,·,:,y,(dar),v,o,τ
@@ -9577,7 +9577,7 @@ r,oa,m,:,x,‥,y,h,∵,(tip),m.
 SPACE
 v,:,q,_,$,·sh,·,:,τ,o,τ,‥,y,h,∵,(mos),m.,(sopa)
 
-Nehemiah 4:8 in vtrad vtbhs
+Nehemiah 4:8 in vtrad vtsef
 v,a,α,‥,(mun),r,∵,α
 SPACE
 v,a,α,a,q,(rev),v,·,m.
@@ -9617,7 +9617,7 @@ SPACE
 v,·,b,a,τ,·,‥,y,k,∵,(mos),m.,(sopa)
 START/STOP spi-pe2
 
-Nehemiah 4:9 in vtrad vtbhs
+Nehemiah 4:9 in vtrad vtsef
 v,_,y,:,h,i,(ger_2),y
 SPACE
 k,·,_,(mos),α,:_,$,·sh,∵,r,-,$,·sh,a,m,:,3,(mah),v,·
@@ -9651,7 +9651,7 @@ SPACE
 SPACE
 α,∵,l,-,m,:,l,_,α,k,:,τ,·,(mos),v,o,(sopa)
 
-Nehemiah 4:10 in vtrad vtbhs
+Nehemiah 4:10 in vtrad vtsef
 v,_,y,:,h,i,(mun),y
 START/STOP lp-legarmeih
 SPACE
@@ -9687,7 +9687,7 @@ k,·,oa,l,-,b,·,‥,(mer),y,τ
 SPACE
 y,:,h,v,·,d,a,(mos),h,(sopa)
 
-Nehemiah 4:11 in vtrad vtbhs
+Nehemiah 4:11 in vtrad vtsef
 h,_,b,·,v,o,n,i,(dar),y,m.
 SPACE
 b,·,_,x,v,o,m,a,(tev),h
@@ -9712,7 +9712,7 @@ m,_,x,:_,z,∵,(mer),q,∵,τ
 SPACE
 h,_,$,·sh,·,a,(mos),l,_,x,(sopa)
 
-Nehemiah 4:12 in vtrad vtbhs
+Nehemiah 4:12 in vtrad vtsef
 v,:,h,_,(qom),b,·,v,o,n,i,(zaq_q),y,m.
 SPACE
 α,i,(mer),y,$,·sh
@@ -9731,7 +9731,7 @@ b,·,_,$,·sh,·,v,o,p,a,(tip),r
 SPACE
 α,∵,c,:,l,i,(mos),y,(sopa)
 
-Nehemiah 4:13 in vtrad vtbhs
+Nehemiah 4:13 in vtrad vtsef
 v,a,α,o,m,_,(ger_2),r
 SPACE
 α,∵,l,-,h,_,x,o,r,i,(mah),y,m.
@@ -9760,7 +9760,7 @@ SPACE
 SPACE
 m,‥,α,a,x,i,(mos),y,v,(sopa)
 
-Nehemiah 4:14 in vtrad vtbhs
+Nehemiah 4:14 in vtrad vtsef
 b,·,i,m,:,q,(rev),v,o,m.
 SPACE
 α,:_,$,·sh,∵,(mah),r
@@ -9783,7 +9783,7 @@ y,i,l,·,a,(mer),x,∵,m.
 SPACE
 l,a,(mos),n,v,·,(sopa)
 
-Nehemiah 4:15 in vtrad vtbhs
+Nehemiah 4:15 in vtrad vtsef
 v,_,α,:_,n,_,(tip),x,:,n,v,·
 SPACE
 3,o,$,·si,i,(mun),y,m.
@@ -9806,7 +9806,7 @@ c,‥,(mer),α,τ
 SPACE
 h,_,k,·,v,o,k,a,b,i,(mos),y,m.,(sopa)
 
-Nehemiah 4:16 in vtrad vtbhs
+Nehemiah 4:16 in vtrad vtsef
 g,·,_,(mun),m.
 SPACE
 b,·,a,3,‥,(mah),τ
@@ -9837,7 +9837,7 @@ v,:,h,_,y,·,(mer),v,o,m.
 SPACE
 m,:,l,a,α,k,a,(mos),h,(sopa)
 
-Nehemiah 4:17 in vtrad vtbhs
+Nehemiah 4:17 in vtrad vtsef
 v,:,α,‥,(qom),y,n.
 SPACE
 α,:_,n,i,(ger),y
@@ -9867,7 +9867,7 @@ SPACE
 h,_,m,·,a,(mos),y,i,m.,(sopa)
 START/STOP spi-pe2
 
-Nehemiah 5:1 in vtrad vtbhs
+Nehemiah 5:1 in vtrad vtsef
 v,_,τ,·,:,h,i,(qom),y
 SPACE
 c,_,3,:_,q,_,(mer),τ
@@ -9882,7 +9882,7 @@ SPACE
 SPACE
 h,_,y,·,:,h,v,·,d,i,(mos),y,m.,(sopa)
 
-Nehemiah 5:2 in vtrad vtbhs
+Nehemiah 5:2 in vtrad vtsef
 v,:,y,‥,$,·sh,(pash)
 SPACE
 α,:_,$,·sh,∵,(mun),r
@@ -9905,7 +9905,7 @@ v,:,n,o,α,k,:,l,a,(mer),h
 SPACE
 v,:,n,i,x,:,y,∵,(mos),h,(sopa)
 
-Nehemiah 5:3 in vtrad vtbhs
+Nehemiah 5:3 in vtrad vtsef
 v,:,y,‥,$,·sh,(pash)
 SPACE
 α,:_,$,·sh,∵,(mun),r
@@ -9928,7 +9928,7 @@ d,a,g,a,(tip),n.
 SPACE
 b,·,a,r,a,3,a,(mos),b,(sopa)
 
-Nehemiah 5:4 in vtrad vtbhs
+Nehemiah 5:4 in vtrad vtsef
 v,:,y,‥,$,·sh,(pash)
 SPACE
 α,:_,$,·sh,∵,(mun),r
@@ -9947,7 +9947,7 @@ $,·si,:,d,o,τ,‥,(tip),y,n,v,·
 SPACE
 v,·,k,:,r,a,m,‥,(mos),y,n,v,·,(sopa)
 
-Nehemiah 5:5 in vtrad vtbhs
+Nehemiah 5:5 in vtrad vtsef
 v,:,3,_,τ,·,a,(rev),h
 SPACE
 k,·,i,b,:,$,·si,_,(mah),r
@@ -9990,7 +9990,7 @@ v,·,k,:,r,a,m,‥,(tip),y,n,v,·
 SPACE
 l,_,α,:_,x,‥,r,i,(mos),y,m.,(sopa)
 
-Nehemiah 5:6 in vtrad vtbhs
+Nehemiah 5:6 in vtrad vtsef
 v,_,y,·,i,(mer),x,_,r
 SPACE
 l,i,(tip),y
@@ -10009,7 +10009,7 @@ h,_,d,·,:,b,a,r,i,(mer),y,m.
 SPACE
 h,a,α,‥,(mos),l,·,∵,h,(sopa)
 
-Nehemiah 5:7 in vtrad vtbhs
+Nehemiah 5:7 in vtrad vtsef
 v,_,y,·,i,m,·,a,l,‥,(qom),k.,:
 SPACE
 l,i,b,·,i,(ger),y
@@ -10049,7 +10049,7 @@ q,:,h,i,l,·,a,(mer),h
 SPACE
 g,:,d,v,o,l,a,(mos),h,(sopa)
 
-Nehemiah 5:8 in vtrad vtbhs
+Nehemiah 5:8 in vtrad vtsef
 v,a,α,o,m,:,r,a,(mun),h
 SPACE
 l,a,h,∵,(rev),m.
@@ -10087,7 +10087,7 @@ SPACE
 d,·,a,b,a,(mos),r,(sopa)
 START/STOP spi-pe2
 
-Nehemiah 5:9 in vtrad vtbhs
+Nehemiah 5:9 in vtrad vtsef
 START kq
 START kq-k
 v,y,α,m,r
@@ -10119,7 +10119,7 @@ h,_,g,·,v,o,y,i,(mer),m.
 SPACE
 α,v,o,y,:,b,‥,(mos),y,n,v,·,(sopa)
 
-Nehemiah 5:10 in vtrad vtbhs
+Nehemiah 5:10 in vtrad vtsef
 v,:,g,_,m.,-,α,:_,n,i,y,(pash)
 SPACE
 α,_,x,_,(mun),y
@@ -10140,7 +10140,7 @@ SPACE
 SPACE
 h,_,z,·,∵,(mos),h,(sopa)
 
-Nehemiah 5:11 in vtrad vtbhs
+Nehemiah 5:11 in vtrad vtsef
 h,a,$,·sh,i,(tel_q),y,b,v,·,(tel_q)
 SPACE
 n,a,(qom),α
@@ -10175,7 +10175,7 @@ n,o,$,·sh,i,(mer),y,m.
 SPACE
 b,·,a,h,∵,(mos),m.,(sopa)
 
-Nehemiah 5:12 in vtrad vtbhs
+Nehemiah 5:12 in vtrad vtsef
 v,_,y,·,o,α,m,:,r,(mun),v,·
 SPACE
 n,a,$,·sh,i,(rev),y,b
@@ -10208,7 +10208,7 @@ k,·,_,d,·,a,b,a,(mer),r
 SPACE
 h,_,z,·,∵,(mos),h,(sopa)
 
-Nehemiah 5:13 in vtrad vtbhs
+Nehemiah 5:13 in vtrad vtsef
 g,·,_,m.,-,x,oa,c,:,n,i,(mun),y
 SPACE
 n,a,3,_,(rev),r,:,τ,·,i,y
@@ -10261,7 +10261,7 @@ k,·,_,d,·,a,b,a,(mer),r
 SPACE
 h,_,z,·,∵,(mos),h,(sopa)
 
-Nehemiah 5:14 in vtrad vtbhs
+Nehemiah 5:14 in vtrad vtsef
 g,·,_,(ger_2),m.
 SPACE
 m,i,y,·,(mun),v,o,m.
@@ -10313,7 +10313,7 @@ l,o,(mer),α
 SPACE
 α,a,k,_,(mos),l,:,τ,·,i,y,(sopa)
 
-Nehemiah 5:15 in vtrad vtbhs
+Nehemiah 5:15 in vtrad vtsef
 v,:,h,_,p,·,_,x,v,o,τ,(tel_q)
 SPACE
 h,a,r,i,α,$,·sh,o,n,i,(qom),y,m.
@@ -10358,7 +10358,7 @@ y,i,r,:,α,_,(mer),τ
 SPACE
 α,:∵,l,o,h,i,(mos),y,m.,(sopa)
 
-Nehemiah 5:16 in vtrad vtbhs
+Nehemiah 5:16 in vtrad vtsef
 v,:,(tel_g),g,_,(tel_g),m.
 SPACE
 b,·,i,m,:,l,∵,(ger),α,k,∵,τ
@@ -10383,7 +10383,7 @@ $,·sh,a,(tip),m.
 SPACE
 3,_,l,-,h,_,m,·,:,l,a,α,k,a,(mos),h,(sopa)
 
-Nehemiah 5:17 in vtrad vtbhs
+Nehemiah 5:17 in vtrad vtsef
 v,:,h,_,y,·,:,h,v,·,d,i,(qom),y,m.
 SPACE
 v,:,h,_,σ,·,:,g,a,n,i,(ger),y,m.
@@ -10404,7 +10404,7 @@ SPACE
 SPACE
 3,_,l,-,$,·sh,u,l,:,x,a,n,i,(mos),y,(sopa)
 
-Nehemiah 5:18 in vtrad vtbhs
+Nehemiah 5:18 in vtrad vtsef
 v,_,α,:_,$,·sh,∵,r,(tel_q)
 SPACE
 h,a,y,a,(qom),h
@@ -10455,7 +10455,7 @@ SPACE
 SPACE
 h,_,z,·,∵,(mos),h,(sopa)
 
-Nehemiah 5:19 in vtrad vtbhs
+Nehemiah 5:19 in vtrad vtsef
 z,oa,k,:,r,a,h,-,l,·,i,(mer),y
 SPACE
 α,:∵,l,o,h,_,(tip),y
@@ -10471,7 +10471,7 @@ SPACE
 h,_,z,·,∵,(mos),h,(sopa)
 START/STOP spi-pe2
 
-Nehemiah 6:1 in vtrad vtbhs
+Nehemiah 6:1 in vtrad vtsef
 v,_,y,:,h,i,(mun),y
 SPACE
 k,_,α,:_,$,·sh,∵,(mun),r
@@ -10514,7 +10514,7 @@ l,o,α,-,h,∵,3,:∵,m,_,(mer),d,:,τ,·,i,y
 SPACE
 b,_,$,·sh,·,:,3,a,r,i,(mos),y,m.,(sopa)
 
-Nehemiah 6:2 in vtrad vtbhs
+Nehemiah 6:2 in vtrad vtsef
 v,_,y,·,i,$,·sh,:,l,_,(qom),x
 SPACE
 σ,_,n,:,b,_,l,·,_,(mah),θ
@@ -10547,7 +10547,7 @@ l,i,(tip),y
 SPACE
 r,a,3,a,(mos),h,(sopa)
 
-Nehemiah 6:3 in vtrad vtbhs
+Nehemiah 6:3 in vtrad vtsef
 v,a,α,∵,$,·sh,:,l,:,x,a,(qom),h
 SPACE
 3,:_,l,‥,y,h,∵,(mah),m.
@@ -10584,7 +10584,7 @@ v,:,y,a,r,_,d,:,τ,·,i,(tip),y
 SPACE
 α,:_,l,‥,y,k,∵,(mos),m.,(sopa)
 
-Nehemiah 6:4 in vtrad vtbhs
+Nehemiah 6:4 in vtrad vtsef
 v,_,y,·,i,$,·sh,:,l,:,x,(mer),v,·
 SPACE
 α,‥,l,_,(tev),y
@@ -10606,7 +10606,7 @@ SPACE
 h,_,z,·,∵,(mos),h,(sopa)
 START/STOP spi-pe2
 
-Nehemiah 6:5 in vtrad vtbhs
+Nehemiah 6:5 in vtrad vtsef
 v,_,y,·,i,$,·sh,:,l,_,x,(tel_q)
 SPACE
 α,‥,l,_,(qom),y
@@ -10629,7 +10629,7 @@ p,·,:,τ,v,·,x,a,(tip),h
 SPACE
 b,·,:,y,a,d,(mos),v,o,(sopa)
 
-Nehemiah 6:6 in vtrad vtbhs
+Nehemiah 6:6 in vtrad vtsef
 k,·,a,τ,(mun),v,·,b
 SPACE
 b,·,a,(rev),h,·
@@ -10670,7 +10670,7 @@ k,·,_,d,·,:,b,a,r,i,(tip),y,m.
 SPACE
 h,a,α,‥,(mos),l,·,∵,h,(sopa)
 
-Nehemiah 6:7 in vtrad vtbhs
+Nehemiah 6:7 in vtrad vtsef
 v,:,g,_,m.,-,n,:,b,i,y,α,i,(paz),y,m.
 SPACE
 h,∵,3,:∵,m,_,(mun),d,:,τ,·,a
@@ -10706,7 +10706,7 @@ SPACE
 y,_,x,:,d,·,a,(mos),v,(sopa)
 START/STOP spi-pe2
 
-Nehemiah 6:8 in vtrad vtbhs
+Nehemiah 6:8 in vtrad vtsef
 v,a,α,∵,$,·sh,:,l,:,x,a,(mah),h
 SPACE
 α,‥,l,a,y,v,(pash)
@@ -10735,7 +10735,7 @@ SPACE
 SPACE
 b,v,o,d,a,(mos),α,m.,(sopa)
 
-Nehemiah 6:9 in vtrad vtbhs
+Nehemiah 6:9 in vtrad vtsef
 k,·,i,(mun),y
 SPACE
 k,u,l,·,a,(rev),m.
@@ -10762,7 +10762,7 @@ x,_,z,·,‥,(mer),q
 SPACE
 α,∵,τ,-,y,a,d,a,(mos),y,(sopa)
 
-Nehemiah 6:10 in vtrad vtbhs
+Nehemiah 6:10 in vtrad vtsef
 v,_,α,:_,n,i,y,-,b,a,(rev),α,τ,i,y
 SPACE
 b,·,‥,(mun),y,τ
@@ -10807,7 +10807,7 @@ b,·,a,α,i,(mer),y,m.
 SPACE
 l,:,h,oa,r,:,g,∵,(mos),k.,a,(sopa)
 
-Nehemiah 6:11 in vtrad vtbhs
+Nehemiah 6:11 in vtrad vtsef
 v,a,α,o,m,:,r,a,(rev),h
 SPACE
 h,_,α,i,(mah),y,$,·sh
@@ -10830,7 +10830,7 @@ l,o,(tip),α
 SPACE
 α,a,b,(mos),v,o,α,(sopa)
 
-Nehemiah 6:12 in vtrad vtbhs
+Nehemiah 6:12 in vtrad vtsef
 v,a,α,_,k,·,i,(zaq_g),y,r,a,h
 SPACE
 v,:,h,i,n,·,‥,(mer),h
@@ -10853,7 +10853,7 @@ v,:,σ,_,n,:,b,_,l,·,_,(tip),θ
 SPACE
 $,·si,:,k,a,r,(mos),v,o,(sopa)
 
-Nehemiah 6:13 in vtrad vtbhs
+Nehemiah 6:13 in vtrad vtsef
 l,:,m,_,(mah),3,_,n.
 SPACE
 $,·si,a,k,v,·,r,(pash)
@@ -10879,7 +10879,7 @@ SPACE
 y,:,x,a,(mos),r,:,p,(mos),v,·,n,i,y,(sopa)
 START/STOP spi-pe2
 
-Nehemiah 6:14 in vtrad vtbhs
+Nehemiah 6:14 in vtrad vtsef
 z,oa,k,:,r,a,(dar),h
 SPACE
 α,:∵,l,o,h,_,(tev),y
@@ -10910,7 +10910,7 @@ m,:,y,a,(mos),r,:,α,i,(mer),y,m.
 SPACE
 α,v,o,τ,i,(mos),y,(sopa)
 
-Nehemiah 6:15 in vtrad vtbhs
+Nehemiah 6:15 in vtrad vtsef
 v,_,τ,·,i,$,·sh,:,l,_,m.,(pash)
 SPACE
 h,_,(mos),x,v,o,m,a,(zaq_q),h
@@ -10928,7 +10928,7 @@ SPACE
 y,(mos),v,o,m.,(sopa)
 START/STOP spi-pe2
 
-Nehemiah 6:16 in vtrad vtbhs
+Nehemiah 6:16 in vtrad vtsef
 v,_,y,:,h,i,(rev),y
 SPACE
 k,·,_,α,:_,$,·sh,∵,(mah),r
@@ -10965,7 +10965,7 @@ h,_,m,·,:,l,a,α,k,a,(mer),h
 SPACE
 h,_,z,·,o,(mos),α,τ,(sopa)
 
-Nehemiah 6:17 in vtrad vtbhs
+Nehemiah 6:17 in vtrad vtsef
 g,·,_,(mun),m.
 START/STOP lp-legarmeih
 SPACE
@@ -10993,7 +10993,7 @@ b,·,a,α,(mer),v,o,τ
 SPACE
 α,:_,l,‥,y,h,∵,(mos),m.,(sopa)
 
-Nehemiah 6:18 in vtrad vtbhs
+Nehemiah 6:18 in vtrad vtsef
 k,·,i,y,-,r,_,b,·,i,(mun),y,m.
 SPACE
 b,·,i,(mos),y,h,v,·,d,a,(rev),h
@@ -11024,7 +11024,7 @@ b,·,∵,(mer),n.
 SPACE
 b,·,∵,(mos),r,∵,k,:,y,a,(mos),h,(sopa)
 
-Nehemiah 6:19 in vtrad vtbhs
+Nehemiah 6:19 in vtrad vtsef
 g,·,_,(mun),m.
 SPACE
 θ,v,o,b,o,τ,a,(rev),y,v
@@ -11052,7 +11052,7 @@ SPACE
 l,:,y,a,(mos),r,:,α,‥,(mos),n,i,y,(sopa)
 START/STOP spi-pe2
 
-Nehemiah 7:1 in vtrad vtbhs
+Nehemiah 7:1 in vtrad vtsef
 v,_,y,:,h,i,(rev),y
 SPACE
 k,·,_,α,:_,$,·sh,∵,(mah),r
@@ -11073,7 +11073,7 @@ v,:,h,_,m,:,$,·sh,o,r,:,r,i,(tip),y,m.
 SPACE
 v,:,h,_,l,:,v,i,y,·,i,(mos),m.,(sopa)
 
-Nehemiah 7:2 in vtrad vtbhs
+Nehemiah 7:2 in vtrad vtsef
 v,a,α,:_,c,_,v,·,∵,(ger_2),h
 SPACE
 α,∵,τ,-,x,:_,n,a,(mun),n,i,y
@@ -11100,7 +11100,7 @@ SPACE
 SPACE
 m,‥,r,_,b,·,i,(mos),y,m.,(sopa)
 
-Nehemiah 7:3 in vtrad vtbhs
+Nehemiah 7:3 in vtrad vtsef
 START kq
 START kq-k
 v,y,α,m,r
@@ -11154,7 +11154,7 @@ n,∵,(mer),g,∵,d
 SPACE
 b,·,‥,y,τ,(mos),v,o,(sopa)
 
-Nehemiah 7:4 in vtrad vtbhs
+Nehemiah 7:4 in vtrad vtsef
 v,:,h,a,3,i,(ger_2),y,r
 SPACE
 r,_,x,:_,b,_,(mah),τ
@@ -11175,7 +11175,7 @@ b,·,a,τ,·,i,(tip),y,m.
 SPACE
 b,·,:,n,v,·,y,i,(mos),m.,(sopa)
 
-Nehemiah 7:5 in vtrad vtbhs
+Nehemiah 7:5 in vtrad vtsef
 v,_,y,·,i,τ,·,‥,(mah),n.
 SPACE
 α,:∵,l,o,h,_,y,(pash)
@@ -11209,7 +11209,7 @@ SPACE
 b,·,(mos),v,o,(sopa)
 START/STOP spi-pe2
 
-Nehemiah 7:6 in vtrad vtbhs
+Nehemiah 7:6 in vtrad vtsef
 α,‥,(mun),l,·,∵,h
 START/STOP lp-legarmeih
 SPACE
@@ -11243,7 +11243,7 @@ SPACE
 SPACE
 l,:,3,i,y,r,(mos),v,o,(sopa)
 
-Nehemiah 7:7 in vtrad vtbhs
+Nehemiah 7:7 in vtrad vtsef
 h,_,b,·,a,α,i,(mun),y,m.
 SPACE
 3,i,m.,-,z,:,r,u,b,·,a,b,∵,(rev),l
@@ -11279,7 +11279,7 @@ SPACE
 y,i,$,·si,:,r,a,α,‥,(mos),l,(sopa)
 START/STOP spi-samekh3
 
-Nehemiah 7:8 in vtrad vtbhs
+Nehemiah 7:8 in vtrad vtsef
 b,·,:,n,‥,(mun),y
 SPACE
 p,_,r,:,3,o,(zaq_q),$,·sh
@@ -11293,7 +11293,7 @@ SPACE
 v,·,$,·sh,:,n,a,(mos),y,i,m.,(sopa)
 START/STOP spi-samekh3
 
-Nehemiah 7:9 in vtrad vtbhs
+Nehemiah 7:9 in vtrad vtsef
 b,·,:,n,‥,(mun),y
 SPACE
 $,·sh,:,p,_,θ,:,y,a,(zaq_q),h
@@ -11307,7 +11307,7 @@ SPACE
 v,·,$,·sh,:,n,a,(mos),y,i,m.,(sopa)
 START/STOP spi-samekh3
 
-Nehemiah 7:10 in vtrad vtbhs
+Nehemiah 7:10 in vtrad vtsef
 b,·,:,n,‥,(mun),y
 SPACE
 α,a,r,_,(zaq_q),x
@@ -11321,7 +11321,7 @@ SPACE
 v,·,$,·sh,:,n,a,(mos),y,i,m.,(sopa)
 START/STOP spi-samekh3
 
-Nehemiah 7:11 in vtrad vtbhs
+Nehemiah 7:11 in vtrad vtsef
 b,·,:,n,‥,(mos),y,-,p,_,x,_,(mer),τ
 SPACE
 m,v,o,α,a,(tev),b
@@ -11343,7 +11343,7 @@ SPACE
 3,a,$,·si,a,(mos),r,(sopa)
 START/STOP spi-samekh3
 
-Nehemiah 7:12 in vtrad vtbhs
+Nehemiah 7:12 in vtrad vtsef
 b,·,:,n,‥,(mun),y
 SPACE
 3,‥,y,l,a,(zaq_q),m.
@@ -11357,7 +11357,7 @@ SPACE
 v,:,α,_,r,:,b,·,a,3,a,(mos),h,(sopa)
 START/STOP spi-samekh3
 
-Nehemiah 7:13 in vtrad vtbhs
+Nehemiah 7:13 in vtrad vtsef
 b,·,:,n,‥,(mun),y
 SPACE
 z,_,τ,·,(zaq_q),v,·,α
@@ -11371,7 +11371,7 @@ SPACE
 v,_,x,:_,m,i,$,·sh,·,a,(mos),h,(sopa)
 START/STOP spi-samekh3
 
-Nehemiah 7:14 in vtrad vtbhs
+Nehemiah 7:14 in vtrad vtsef
 b,·,:,n,‥,(mun),y
 SPACE
 z,_,k,·,a,(zaq_q),y
@@ -11383,7 +11383,7 @@ SPACE
 v,:,$,·sh,i,$,·sh,·,i,(mos),y,m.,(sopa)
 START/STOP spi-samekh3
 
-Nehemiah 7:15 in vtrad vtbhs
+Nehemiah 7:15 in vtrad vtsef
 b,·,:,n,‥,(mun),y
 SPACE
 b,i,n,·,(zaq_q),v,·,y
@@ -11397,7 +11397,7 @@ SPACE
 v,·,$,·sh,:,m,o,n,a,(mos),h,(sopa)
 START/STOP spi-samekh3
 
-Nehemiah 7:16 in vtrad vtbhs
+Nehemiah 7:16 in vtrad vtsef
 b,·,:,n,‥,(mun),y
 SPACE
 b,‥,b,a,(zaq_q),y
@@ -11411,7 +11411,7 @@ SPACE
 v,·,$,·sh,:,m,o,n,a,(mos),h,(sopa)
 START/STOP spi-samekh3
 
-Nehemiah 7:17 in vtrad vtbhs
+Nehemiah 7:17 in vtrad vtsef
 b,·,:,n,‥,(mun),y
 SPACE
 3,_,z,:,g,·,a,(zaq_q),d
@@ -11427,7 +11427,7 @@ SPACE
 v,·,$,·sh,:,n,a,(mos),y,i,m.,(sopa)
 START/STOP spi-samekh3
 
-Nehemiah 7:18 in vtrad vtbhs
+Nehemiah 7:18 in vtrad vtsef
 b,·,:,n,‥,y,(pash)
 SPACE
 α,:_,d,o,(mun),n,i,y,q,a,(zaq_q),m.
@@ -11441,7 +11441,7 @@ SPACE
 v,:,$,·sh,i,b,:,3,a,(mos),h,(sopa)
 START/STOP spi-samekh3
 
-Nehemiah 7:19 in vtrad vtbhs
+Nehemiah 7:19 in vtrad vtsef
 b,·,:,n,‥,(mun),y
 SPACE
 b,i,g,:,v,a,(zaq_q),y
@@ -11453,7 +11453,7 @@ SPACE
 v,:,$,·sh,i,b,:,3,a,(mos),h,(sopa)
 START/STOP spi-samekh3
 
-Nehemiah 7:20 in vtrad vtbhs
+Nehemiah 7:20 in vtrad vtsef
 b,·,:,n,‥,(mun),y
 SPACE
 3,a,d,i,(zaq_q),y,n.
@@ -11467,7 +11467,7 @@ SPACE
 v,_,x,:_,m,i,$,·sh,·,a,(mos),h,(sopa)
 START/STOP spi-samekh3
 
-Nehemiah 7:21 in vtrad vtbhs
+Nehemiah 7:21 in vtrad vtsef
 b,·,:,n,‥,(mos),y,-,α,a,θ,‥,(mer),r
 SPACE
 l,:,x,i,z,:,q,i,y,·,a,(tip),h
@@ -11477,7 +11477,7 @@ SPACE
 v,·,$,·sh,:,m,o,n,a,(mos),h,(sopa)
 START/STOP spi-samekh3
 
-Nehemiah 7:22 in vtrad vtbhs
+Nehemiah 7:22 in vtrad vtsef
 b,·,:,n,‥,(mun),y
 SPACE
 x,a,$,·sh,u,(zaq_q),m.
@@ -11491,7 +11491,7 @@ SPACE
 v,·,$,·sh,:,m,o,n,a,(mos),h,(sopa)
 START/STOP spi-samekh3
 
-Nehemiah 7:23 in vtrad vtbhs
+Nehemiah 7:23 in vtrad vtsef
 b,·,:,n,‥,(mun),y
 SPACE
 b,‥,c,a,(zaq_q),y
@@ -11505,7 +11505,7 @@ SPACE
 v,:,α,_,r,:,b,·,a,3,a,(mos),h,(sopa)
 START/STOP spi-samekh3
 
-Nehemiah 7:24 in vtrad vtbhs
+Nehemiah 7:24 in vtrad vtsef
 b,·,:,n,‥,(mun),y
 SPACE
 x,a,r,i,(zaq_q),y,p.
@@ -11517,7 +11517,7 @@ SPACE
 3,a,$,·si,a,(mos),r,(sopa)
 START/STOP spi-samekh3
 
-Nehemiah 7:25 in vtrad vtbhs
+Nehemiah 7:25 in vtrad vtsef
 b,·,:,n,‥,(mer),y
 SPACE
 g,i,b,:,3,(tip),v,o,n.
@@ -11527,7 +11527,7 @@ SPACE
 v,_,x,:_,m,i,$,·sh,·,a,(mos),h,(sopa)
 START/STOP spi-samekh3
 
-Nehemiah 7:26 in vtrad vtbhs
+Nehemiah 7:26 in vtrad vtsef
 α,_,n,:,$,·sh,‥,(mah),y
 SPACE
 b,‥,(mos),y,τ,-,l,∵,(pash),x,∵,m.,(pash)
@@ -11541,7 +11541,7 @@ SPACE
 v,·,$,·sh,:,m,o,n,a,(mos),h,(sopa)
 START/STOP spi-samekh3
 
-Nehemiah 7:27 in vtrad vtbhs
+Nehemiah 7:27 in vtrad vtsef
 α,_,n,:,$,·sh,‥,(mun),y
 SPACE
 3,:_,n,a,τ,(zaq_q),v,o,τ
@@ -11553,7 +11553,7 @@ SPACE
 v,·,$,·sh,:,m,o,n,a,(mos),h,(sopa)
 START/STOP spi-samekh3
 
-Nehemiah 7:28 in vtrad vtbhs
+Nehemiah 7:28 in vtrad vtsef
 α,_,n,:,$,·sh,‥,(mer),y
 SPACE
 b,‥,y,τ,-,3,_,z,:,m,a,(tip),v,∵,τ
@@ -11563,7 +11563,7 @@ SPACE
 v,·,$,·sh,:,n,a,(mos),y,i,m.,(sopa)
 START/STOP spi-samekh3
 
-Nehemiah 7:29 in vtrad vtbhs
+Nehemiah 7:29 in vtrad vtsef
 α,_,n,:,$,·sh,‥,(qom),y
 SPACE
 q,i,r,:,y,_,(mah),τ
@@ -11583,7 +11583,7 @@ SPACE
 v,·,$,·sh,:,l,o,$,·sh,a,(mos),h,(sopa)
 START/STOP spi-samekh3
 
-Nehemiah 7:30 in vtrad vtbhs
+Nehemiah 7:30 in vtrad vtsef
 α,_,n,:,$,·sh,‥,(mah),y
 SPACE
 h,a,(mos),r,a,m,a,h,(pash)
@@ -11599,7 +11599,7 @@ SPACE
 v,:,α,∵,x,a,(mos),d,(sopa)
 START/STOP spi-samekh3
 
-Nehemiah 7:31 in vtrad vtbhs
+Nehemiah 7:31 in vtrad vtsef
 α,_,n,:,$,·sh,‥,(mun),y
 SPACE
 m,i,k,:,m,a,(zaq_q),σ
@@ -11611,7 +11611,7 @@ SPACE
 v,·,$,·sh,:,n,a,(mos),y,i,m.,(sopa)
 START/STOP spi-samekh3
 
-Nehemiah 7:32 in vtrad vtbhs
+Nehemiah 7:32 in vtrad vtsef
 α,_,n,:,$,·sh,‥,(mah),y
 SPACE
 b,‥,(mos),y,τ,-,α,‥,l,(pash)
@@ -11625,7 +11625,7 @@ SPACE
 v,·,$,·sh,:,l,o,$,·sh,a,(mos),h,(sopa)
 START/STOP spi-samekh3
 
-Nehemiah 7:33 in vtrad vtbhs
+Nehemiah 7:33 in vtrad vtsef
 α,_,n,:,$,·sh,‥,(mer),y
 SPACE
 n,:,b,(tev),v,o
@@ -11637,7 +11637,7 @@ SPACE
 v,·,$,·sh,:,n,a,(mos),y,i,m.,(sopa)
 START/STOP spi-samekh3
 
-Nehemiah 7:34 in vtrad vtbhs
+Nehemiah 7:34 in vtrad vtsef
 b,·,:,n,‥,y,(pash)
 SPACE
 3,‥,y,l,a,(mun),m.
@@ -11653,7 +11653,7 @@ SPACE
 v,:,α,_,r,:,b,·,a,3,a,(mos),h,(sopa)
 START/STOP spi-samekh3
 
-Nehemiah 7:35 in vtrad vtbhs
+Nehemiah 7:35 in vtrad vtsef
 b,·,:,n,‥,(mun),y
 SPACE
 x,a,r,i,(zaq_q),m.
@@ -11665,7 +11665,7 @@ SPACE
 v,:,3,∵,$,·si,:,r,i,(mos),y,m.,(sopa)
 START/STOP spi-samekh3
 
-Nehemiah 7:36 in vtrad vtbhs
+Nehemiah 7:36 in vtrad vtsef
 b,·,:,n,‥,(mun),y
 SPACE
 y,:,r,‥,x,(zaq_q),v,o
@@ -11679,7 +11679,7 @@ SPACE
 v,_,x,:_,m,i,$,·sh,·,a,(mos),h,(sopa)
 START/STOP spi-samekh3
 
-Nehemiah 7:37 in vtrad vtbhs
+Nehemiah 7:37 in vtrad vtsef
 b,·,:,n,‥,y,-,l,o,d,(pash)
 SPACE
 x,a,d,i,(mun),y,d
@@ -11695,7 +11695,7 @@ SPACE
 v,:,α,∵,x,a,(mos),d,(sopa)
 START/STOP spi-samekh3
 
-Nehemiah 7:38 in vtrad vtbhs
+Nehemiah 7:38 in vtrad vtsef
 b,·,:,n,‥,(mun),y
 SPACE
 σ,:,n,a,α,a,(zaq_q),h
@@ -11711,7 +11711,7 @@ SPACE
 v,·,$,·sh,:,l,o,$,·sh,i,(mos),y,m.,(sopa)
 START/STOP spi-pe2
 
-Nehemiah 7:39 in vtrad vtbhs
+Nehemiah 7:39 in vtrad vtsef
 h,_,(mos),k,·,o,h,:_,n,i,(atn),y,m.
 SPACE
 b,·,:,n,‥,(mah),y
@@ -11731,7 +11731,7 @@ SPACE
 v,·,$,·sh,:,l,o,$,·sh,a,(mos),h,(sopa)
 START/STOP spi-samekh3
 
-Nehemiah 7:40 in vtrad vtbhs
+Nehemiah 7:40 in vtrad vtsef
 b,·,:,n,‥,(mun),y
 SPACE
 α,i,m,·,‥,(zaq_q),r
@@ -11743,7 +11743,7 @@ SPACE
 v,·,$,·sh,:,n,a,(mos),y,i,m.,(sopa)
 START/STOP spi-samekh3
 
-Nehemiah 7:41 in vtrad vtbhs
+Nehemiah 7:41 in vtrad vtsef
 b,·,:,n,‥,(mun),y
 SPACE
 p,_,$,·sh,:,x,(zaq_q),v,·,r
@@ -11757,7 +11757,7 @@ SPACE
 v,:,$,·sh,i,b,:,3,a,(mos),h,(sopa)
 START/STOP spi-samekh3
 
-Nehemiah 7:42 in vtrad vtbhs
+Nehemiah 7:42 in vtrad vtsef
 b,·,:,n,‥,(mun),y
 SPACE
 x,a,r,i,(zaq_q),m.
@@ -11769,7 +11769,7 @@ SPACE
 3,a,$,·si,a,(mos),r,(sopa)
 START/STOP spi-samekh2
 
-Nehemiah 7:43 in vtrad vtbhs
+Nehemiah 7:43 in vtrad vtsef
 h,_,l,:,v,i,y,·,i,(atn),m.
 SPACE
 b,·,:,n,‥,(mos),y,-,y,‥,$,·sh,(dar),v,·,3,_
@@ -11785,7 +11785,7 @@ SPACE
 v,:,α,_,r,:,b,·,a,3,a,(mos),h,(sopa)
 START/STOP spi-samekh3
 
-Nehemiah 7:44 in vtrad vtbhs
+Nehemiah 7:44 in vtrad vtsef
 h,_,(mos),m,:,$,·sh,o,r,:,r,i,(atn),y,m.
 SPACE
 b,·,:,n,‥,(mun),y
@@ -11799,7 +11799,7 @@ SPACE
 v,·,$,·sh,:,m,o,n,a,(mos),h,(sopa)
 START/STOP spi-samekh3
 
-Nehemiah 7:45 in vtrad vtbhs
+Nehemiah 7:45 in vtrad vtsef
 h,_,$,·sh,·,o,(mos),3,:_,r,i,(rev),y,m.
 SPACE
 b,·,:,n,‥,(mos),y,-,$,·sh,_,l,·,u,(mah),m.
@@ -11825,7 +11825,7 @@ SPACE
 v,·,$,·sh,:,m,o,n,a,(mos),h,(sopa)
 START/STOP spi-pe2
 
-Nehemiah 7:46 in vtrad vtbhs
+Nehemiah 7:46 in vtrad vtsef
 h,_,n,·,:,τ,i,y,n,i,(atn),y,m.
 SPACE
 b,·,:,n,‥,y,-,c,i,x,a,(mer),α
@@ -11837,7 +11837,7 @@ SPACE
 θ,_,b,·,a,3,(mos),v,o,τ,(sopa)
 START/STOP spi-samekh3
 
-Nehemiah 7:47 in vtrad vtbhs
+Nehemiah 7:47 in vtrad vtsef
 b,·,:,n,‥,y,-,q,‥,y,r,o,(mer),σ
 SPACE
 b,·,:,n,‥,y,-,σ,i,y,3,a,(tip),α
@@ -11847,7 +11847,7 @@ SPACE
 p,a,d,(mos),v,o,n.,(sopa)
 START/STOP spi-samekh3
 
-Nehemiah 7:48 in vtrad vtbhs
+Nehemiah 7:48 in vtrad vtsef
 b,·,:,n,‥,y,-,l,:,b,a,n,a,(mer),h
 SPACE
 b,:,n,‥,y,-,x,:_,g,a,b,a,(tip),α
@@ -11857,7 +11857,7 @@ SPACE
 $,·sh,_,l,:,m,a,(mos),y,(sopa)
 START/STOP spi-samekh3
 
-Nehemiah 7:49 in vtrad vtbhs
+Nehemiah 7:49 in vtrad vtsef
 b,·,:,n,‥,y,-,x,a,n,a,(mer),n.
 SPACE
 b,·,:,n,‥,y,-,g,i,d,·,‥,(tip),l
@@ -11865,7 +11865,7 @@ SPACE
 b,·,:,n,‥,y,-,g,a,(mos),x,_,r,(sopa)
 START/STOP spi-samekh3
 
-Nehemiah 7:50 in vtrad vtbhs
+Nehemiah 7:50 in vtrad vtsef
 b,·,:,n,‥,y,-,r,:,α,a,y,a,(mer),h
 SPACE
 b,:,n,‥,y,-,r,:,c,i,(tip),y,n.
@@ -11875,7 +11875,7 @@ SPACE
 n,:,q,v,o,d,a,(mos),α,(sopa)
 START/STOP spi-samekh3
 
-Nehemiah 7:51 in vtrad vtbhs
+Nehemiah 7:51 in vtrad vtsef
 b,·,:,n,‥,y,-,g,_,z,·,a,(mer),m.
 SPACE
 b,·,:,n,‥,y,-,3,u,z,·,a,(tip),α
@@ -11885,7 +11885,7 @@ SPACE
 p,a,σ,‥,(mos),x,_,(sopa)
 START/STOP spi-samekh3
 
-Nehemiah 7:52 in vtrad vtbhs
+Nehemiah 7:52 in vtrad vtsef
 b,·,:,n,‥,y,-,b,‥,σ,_,(mer),y
 SPACE
 b,·,:,n,‥,y,-,m,:,3,v,·,n,i,(tip),y,m.
@@ -11903,7 +11903,7 @@ STOP kq
 (sopa)
 START/STOP spi-samekh3
 
-Nehemiah 7:53 in vtrad vtbhs
+Nehemiah 7:53 in vtrad vtsef
 b,·,:,n,‥,y,-,b,_,q,:,b,·,(mer),v,·,q
 SPACE
 b,·,:,n,‥,(mos),y,-,x,:_,q,v,·,p,a,(tip),α
@@ -11913,7 +11913,7 @@ SPACE
 x,_,r,:,x,(mos),v,·,r,(sopa)
 START/STOP spi-samekh3
 
-Nehemiah 7:54 in vtrad vtbhs
+Nehemiah 7:54 in vtrad vtsef
 b,·,:,n,‥,y,-,b,_,c,:,l,i,(mer),y,τ
 SPACE
 b,·,:,n,‥,(mos),y,-,m,:,x,i,y,d,a,(tip),α
@@ -11923,7 +11923,7 @@ SPACE
 x,_,r,:,$,·sh,a,(mos),α,(sopa)
 START/STOP spi-samekh3
 
-Nehemiah 7:55 in vtrad vtbhs
+Nehemiah 7:55 in vtrad vtsef
 b,·,:,n,‥,y,-,b,_,r,:,q,(mer),v,o,σ
 SPACE
 b,·,:,(mos),n,‥,y,-,σ,i,(mos),y,σ,:,r,a,(tip),α
@@ -11931,7 +11931,7 @@ SPACE
 b,·,:,n,‥,y,-,τ,a,(mos),m,_,x,(sopa)
 START/STOP spi-samekh3
 
-Nehemiah 7:56 in vtrad vtbhs
+Nehemiah 7:56 in vtrad vtsef
 b,·,:,n,‥,(mer),y
 SPACE
 n,:,c,i,(tip),y,x,_
@@ -11941,7 +11941,7 @@ SPACE
 x,:_,θ,i,y,p,a,(mos),α,(sopa)
 START/STOP spi-samekh3
 
-Nehemiah 7:57 in vtrad vtbhs
+Nehemiah 7:57 in vtrad vtsef
 b,·,:,n,‥,(tip),y
 SPACE
 3,_,b,:,d,‥,(mun),y
@@ -11957,7 +11957,7 @@ SPACE
 p,:,r,i,y,d,a,(mos),α,(sopa)
 START/STOP spi-samekh3
 
-Nehemiah 7:58 in vtrad vtbhs
+Nehemiah 7:58 in vtrad vtsef
 b,·,:,n,‥,y,-,y,_,3,:,l,a,(mer),α
 SPACE
 b,:,n,‥,y,-,d,_,r,:,q,(tip),v,o,n.
@@ -11967,7 +11967,7 @@ SPACE
 g,i,d,·,‥,(mos),l,(sopa)
 START/STOP spi-samekh3
 
-Nehemiah 7:59 in vtrad vtbhs
+Nehemiah 7:59 in vtrad vtsef
 b,·,:,n,‥,(dar),y
 SPACE
 $,·sh,:,p,_,θ,:,y,a,(mun),h
@@ -11985,7 +11985,7 @@ SPACE
 α,a,m,(mos),v,o,n.,(sopa)
 START/STOP spi-samekh3
 
-Nehemiah 7:60 in vtrad vtbhs
+Nehemiah 7:60 in vtrad vtsef
 k,·,oa,(qom),l,-,h,_,n,·,:,τ,i,y,n,i,(zaq_q),y,m.
 SPACE
 v,·,b,:,n,‥,(tip),y
@@ -12003,7 +12003,7 @@ SPACE
 v,·,$,·sh,:,n,a,(mos),y,i,m.,(sopa)
 START/STOP spi-pe2
 
-Nehemiah 7:61 in vtrad vtbhs
+Nehemiah 7:61 in vtrad vtsef
 v,:,α,‥,(rev),l,·,∵,h
 SPACE
 h,a,(mos),3,v,o,l,i,y,m.,(pash)
@@ -12039,7 +12039,7 @@ SPACE
 h,‥,(mos),m.,(sopa)
 START/STOP spi-samekh3
 
-Nehemiah 7:62 in vtrad vtbhs
+Nehemiah 7:62 in vtrad vtsef
 b,·,:,n,‥,y,-,d,:,l,a,y,a,(mer),h
 SPACE
 b,:,n,‥,(mos),y,-,θ,v,o,b,i,y,·,a,(tip),h
@@ -12057,7 +12057,7 @@ SPACE
 v,·,$,·sh,:,n,a,(mos),y,i,m.,(sopa)
 START/STOP spi-pe2
 
-Nehemiah 7:63 in vtrad vtbhs
+Nehemiah 7:63 in vtrad vtsef
 v,·,m,i,n.,-,h,_,k,·,o,(mun),h,:_,n,i,(zaq_q),y,m.
 SPACE
 b,·,:,n,‥,(mer),y
@@ -12088,7 +12088,7 @@ v,_,y,·,i,q,·,a,r,‥,(tip),α
 SPACE
 3,_,l,-,$,·sh,:,m,a,(mos),m.,(sopa)
 
-Nehemiah 7:64 in vtrad vtbhs
+Nehemiah 7:64 in vtrad vtsef
 α,‥,(rev),l,·,∵,h
 SPACE
 b,·,i,q,:,$,·sh,(dar),v,·
@@ -12105,7 +12105,7 @@ v,_,y,:,g,o,(mos),α,:_,l,(tip),v,·
 SPACE
 m,i,n.,-,h,_,k,·,:,h,u,n,·,a,(mos),h,(sopa)
 
-Nehemiah 7:65 in vtrad vtbhs
+Nehemiah 7:65 in vtrad vtsef
 v,_,y,·,o,(mah),α,m,∵,r
 SPACE
 h,_,τ,·,i,r,:,$,·sh,a,(pash),τ,a,α,(pash)
@@ -12130,7 +12130,7 @@ l,:,α,v,·,r,i,(mer),y,m.
 SPACE
 v,:,τ,u,m,·,i,(mos),y,m.,(sopa)
 
-Nehemiah 7:66 in vtrad vtbhs
+Nehemiah 7:66 in vtrad vtsef
 k,·,oa,l,-,h,_,q,·,a,h,a,(tip),l
 SPACE
 k,·,:,α,∵,x,a,(atn),d
@@ -12145,7 +12145,7 @@ $,·sh,:,l,o,$,·sh,-,m,‥,α,(mer),v,o,τ
 SPACE
 v,:,$,·sh,i,$,·sh,·,i,(mos),y,m.,(sopa)
 
-Nehemiah 7:67 in vtrad vtbhs
+Nehemiah 7:67 in vtrad vtsef
 m,i,(tel_g),l,·,:,b,_,(tel_g),d
 SPACE
 3,_,b,:,d,‥,y,h,∵,(mah),m.
@@ -12179,7 +12179,7 @@ SPACE
 v,_,x,:_,m,i,$,·sh,·,a,(mos),h,(sopa)
 START/STOP spi-samekh3
 
-Nehemiah 7:68 in vtrad vtbhs
+Nehemiah 7:68 in vtrad vtsef
 g,·,:,m,_,l,·,i,(zaq_g),y,m.
 SPACE
 α,_,r,:,b,·,_,(mer),3
@@ -12202,7 +12202,7 @@ m,‥,α,(tip),v,o,τ
 SPACE
 v,:,3,∵,$,·si,:,r,i,(mos),y,m.,(sopa)
 
-Nehemiah 7:69 in vtrad vtbhs
+Nehemiah 7:69 in vtrad vtsef
 v,·,m,i,q,:,c,a,τ,(pash)
 SPACE
 r,a,α,$,·sh,‥,(mun),y
@@ -12239,7 +12239,7 @@ v,_,x,:_,m,‥,(mer),$,·sh
 SPACE
 m,‥,α,(mos),v,o,τ,(sopa)
 
-Nehemiah 7:70 in vtrad vtbhs
+Nehemiah 7:70 in vtrad vtsef
 v,·,m,‥,(mos),r,a,α,$,·sh,‥,(mun),y
 SPACE
 h,a,(mos),α,a,b,(rev),v,o,τ
@@ -12266,7 +12266,7 @@ SPACE
 SPACE
 v,·,m,a,α,τ,a,(mos),y,i,m.,(sopa)
 
-Nehemiah 7:71 in vtrad vtbhs
+Nehemiah 7:71 in vtrad vtsef
 v,_,α,:_,$,·sh,∵,(mun),r
 SPACE
 n,a,τ,:,n,v,·,(zarnor)
@@ -12297,7 +12297,7 @@ $,·sh,i,$,·sh,·,i,(mer),y,m.
 SPACE
 v,:,$,·sh,i,b,:,3,a,(mos),h,(sopa)
 
-Nehemiah 7:72 in vtrad vtbhs
+Nehemiah 7:72 in vtrad vtsef
 v,_,y,·,‥,$,·sh,:,b,(mun),v,·
 SPACE
 h,_,k,·,o,h,:_,n,i,(mun),y,m.
@@ -12328,7 +12328,7 @@ y,i,$,·si,:,r,a,α,‥,(tip),l
 SPACE
 b,·,:,3,a,r,‥,y,h,∵,(mos),m.,(sopa)
 
-Nehemiah 8:1 in vtrad vtbhs
+Nehemiah 8:1 in vtrad vtsef
 v,_,y,·,‥,α,a,σ,:,p,(mah),v,·
 SPACE
 k,oa,l,-,h,a,3,a,m.,(pash)
@@ -12365,7 +12365,7 @@ y,:,h,o,v,a,(tip),h
 SPACE
 α,∵,τ,-,y,i,$,·si,:,r,a,α,‥,(mos),l,(sopa)
 
-Nehemiah 8:2 in vtrad vtbhs
+Nehemiah 8:2 in vtrad vtsef
 v,_,y,·,a,b,i,(mun),y,α
 SPACE
 3,∵,z,:,r,a,(mun),α
@@ -12396,7 +12396,7 @@ l,_,x,o,(mer),d,∵,$,·sh
 SPACE
 h,_,$,·sh,·,:,b,i,y,3,i,(mos),y,(sopa)
 
-Nehemiah 8:3 in vtrad vtbhs
+Nehemiah 8:3 in vtrad vtsef
 v,_,y,·,i,q,:,r,a,α,-,b,v,o,(tel_q)
 SPACE
 l,i,p,:,n,‥,(qom),y
@@ -12432,7 +12432,7 @@ SPACE
 SPACE
 h,_,τ,·,v,o,r,a,(mos),h,(sopa)
 
-Nehemiah 8:4 in vtrad vtbhs
+Nehemiah 8:4 in vtrad vtsef
 v,_,(mos),y,·,_,3,:_,m,o,(ger_2),d
 SPACE
 3,∵,z,:,r,a,(mun),α
@@ -12482,7 +12482,7 @@ SPACE
 m,:,$,·sh,u,l,·,a,(mos),m.,(sopa)
 START/STOP spi-pe2
 
-Nehemiah 8:5 in vtrad vtbhs
+Nehemiah 8:5 in vtrad vtsef
 v,_,y,·,i,p,:,τ,·,_,(qom),x
 SPACE
 3,∵,z,:,r,a,(mah),α
@@ -12505,7 +12505,7 @@ SPACE
 SPACE
 k,oa,l,-,h,a,3,a,(mos),m.,(sopa)
 
-Nehemiah 8:6 in vtrad vtbhs
+Nehemiah 8:6 in vtrad vtsef
 v,_,y,:,b,a,(mun),r,∵,k.,:
 SPACE
 3,∵,z,:,r,a,(zaq_q),α
@@ -12538,7 +12538,7 @@ SPACE
 SPACE
 α,a,(mos),r,:,c,a,h,(sopa)
 
-Nehemiah 8:7 in vtrad vtbhs
+Nehemiah 8:7 in vtrad vtsef
 v,:,y,‥,$,·sh,(paz),v,·,3,_
 SPACE
 v,·,b,a,n,i,(paz),y
@@ -12578,7 +12578,7 @@ v,:,h,a,3,a,(tip),m.
 SPACE
 3,_,l,-,3,oa,m,:,d,a,(mos),m.,(sopa)
 
-Nehemiah 8:8 in vtrad vtbhs
+Nehemiah 8:8 in vtrad vtsef
 v,_,(mos),y,·,i,q,:,r,:,α,(mer),v,·
 SPACE
 b,_,σ,·,‥,(tev),p,∵,r
@@ -12598,7 +12598,7 @@ SPACE
 b,·,_,m,·,i,q,:,r,a,(mos),α,(sopa)
 START/STOP spi-pe2
 
-Nehemiah 8:9 in vtrad vtbhs
+Nehemiah 8:9 in vtrad vtsef
 v,_,y,·,o,(mun),α,m,∵,r
 SPACE
 n,:,x,∵,m,:,y,a,(mun),h
@@ -12645,7 +12645,7 @@ SPACE
 SPACE
 h,_,τ,·,v,o,r,a,(mos),h,(sopa)
 
-Nehemiah 8:10 in vtrad vtbhs
+Nehemiah 8:10 in vtrad vtsef
 v,_,y,·,o,(mun),α,m,∵,r
 SPACE
 l,a,h,∵,(paz),m.
@@ -12686,7 +12686,7 @@ h,i,(mer),y,α
 SPACE
 m,a,(mos),3,u,z,·,:,k,∵,(mos),m.,(sopa)
 
-Nehemiah 8:11 in vtrad vtbhs
+Nehemiah 8:11 in vtrad vtsef
 v,:,h,_,l,:,v,i,y,·,i,(ger_2),m.
 SPACE
 m,_,x,:,$,·sh,i,(mah),y,m.
@@ -12705,7 +12705,7 @@ q,a,d,o,(atn),$,·sh
 SPACE
 v,:,α,_,l,-,τ,·,‥,3,a,c,‥,(mos),b,v,·,(sopa)
 
-Nehemiah 8:12 in vtrad vtbhs
+Nehemiah 8:12 in vtrad vtsef
 v,_,y,·,‥,l,:,k,(qom),v,·
 SPACE
 k,oa,l,-,h,a,3,a,(ger),m.
@@ -12737,7 +12737,7 @@ SPACE
 l,a,h,∵,(mos),m.,(sopa)
 START/STOP spi-pe2
 
-Nehemiah 8:13 in vtrad vtbhs
+Nehemiah 8:13 in vtrad vtsef
 v,·,b,_,y,·,(mun),v,o,m.
 SPACE
 h,_,$,·sh,·,‥,n,i,(paz),y
@@ -12764,7 +12764,7 @@ SPACE
 SPACE
 h,_,τ,·,v,o,r,a,(mos),h,(sopa)
 
-Nehemiah 8:14 in vtrad vtbhs
+Nehemiah 8:14 in vtrad vtsef
 v,_,(mos),y,·,i,m,:,c,:,α,(tip),v,·
 SPACE
 k,·,a,τ,(mun),v,·,b
@@ -12793,7 +12793,7 @@ b,·,_,x,o,(mer),d,∵,$,·sh
 SPACE
 h,_,$,·sh,·,:,b,i,y,3,i,(mos),y,(sopa)
 
-Nehemiah 8:15 in vtrad vtbhs
+Nehemiah 8:15 in vtrad vtsef
 v,_,α,:_,$,·sh,∵,(mun),r
 SPACE
 y,_,$,·sh,:,m,i,(rev),y,3,v,·
@@ -12841,7 +12841,7 @@ SPACE
 k,·,_,k,·,a,τ,(mos),v,·,b,(sopa)
 START/STOP spi-samekh2
 
-Nehemiah 8:16 in vtrad vtbhs
+Nehemiah 8:16 in vtrad vtsef
 v,_,y,·,‥,c,:,α,(mun),v,·
 SPACE
 h,a,3,a,m.,(zarnor)
@@ -12879,7 +12879,7 @@ SPACE
 α,∵,p,:,r,a,(mos),y,i,m.,(sopa)
 START/STOP spi-samekh2
 
-Nehemiah 8:17 in vtrad vtbhs
+Nehemiah 8:17 in vtrad vtsef
 v,_,y,·,_,(mos),3,:_,$,·si,(mun),v,·
 SPACE
 k,oa,(mos),l,-,h,_,(tel_g),q,·,a,h,a,(tel_g),l
@@ -12924,7 +12924,7 @@ g,·,:,d,v,o,l,a,(mer),h
 SPACE
 m,:,α,o,(mos),d,(sopa)
 
-Nehemiah 8:18 in vtrad vtbhs
+Nehemiah 8:18 in vtrad vtsef
 v,_,(tel_g),y,·,i,q,:,r,a,(tel_g),α
 SPACE
 b,·,:,σ,‥,(qom),p,∵,r
@@ -12962,7 +12962,7 @@ SPACE
 k,·,_,m,·,i,$,·sh,:,p,·,a,(mos),θ,(sopa)
 START/STOP spi-pe2
 
-Nehemiah 9:1 in vtrad vtbhs
+Nehemiah 9:1 in vtrad vtsef
 v,·,b,:,y,v,o,m.,(tel_q)
 SPACE
 3,∵,$,·si,:,r,i,(qom),y,m.
@@ -12985,7 +12985,7 @@ v,_,α,:_,d,a,m,a,(tip),h
 SPACE
 3,:_,l,‥,y,h,∵,(mos),m.,(sopa)
 
-Nehemiah 9:2 in vtrad vtbhs
+Nehemiah 9:2 in vtrad vtsef
 v,_,y,·,i,b,·,a,(mos),d,:,l,v,·,(pash)
 SPACE
 z,∵,(mun),r,_,3
@@ -13008,7 +13008,7 @@ v,_,3,:_,v,xxfv,n,(tip),v,o,τ
 SPACE
 α,:_,b,o,τ,‥,y,h,∵,(mos),m.,(sopa)
 
-Nehemiah 9:3 in vtrad vtbhs
+Nehemiah 9:3 in vtrad vtsef
 v,_,y,·,a,q,(pash),v,·,m,v,·,(pash)
 SPACE
 3,_,l,-,3,oa,m,:,d,a,(zaq_q),m.
@@ -13038,7 +13038,7 @@ SPACE
 α,:∵,l,o,h,‥,y,h,∵,(mos),m.,(sopa)
 START/STOP spi-pe2
 
-Nehemiah 9:4 in vtrad vtbhs
+Nehemiah 9:4 in vtrad vtsef
 v,_,y,·,a,(ger),q,oa,m.
 SPACE
 3,_,(mos),l,-,m,_,(mos),3,:_,l,‥,(mun),h
@@ -13071,7 +13071,7 @@ SPACE
 SPACE
 α,:∵,l,o,h,‥,y,h,∵,(mos),m.,(sopa)
 
-Nehemiah 9:5 in vtrad vtbhs
+Nehemiah 9:5 in vtrad vtsef
 v,_,y,·,o,α,m,:,r,(mun),v,·
 SPACE
 h,_,l,:,v,i,y,·,i,(paz),m.
@@ -13116,7 +13116,7 @@ SPACE
 SPACE
 v,·,τ,:,h,i,l,·,a,(mos),h,(sopa)
 
-Nehemiah 9:6 in vtrad vtbhs
+Nehemiah 9:6 in vtrad vtsef
 α,_,τ,·,a,h,-,h,(mun),v,·,α
 SPACE
 y,:,h,o,v,a,h,(zarnor)
@@ -13168,7 +13168,7 @@ l,:,k.,a,(mer)
 SPACE
 m,i,$,·sh,:,τ,·,_,x,:_,v,i,(mos),y,m.,(sopa)
 
-Nehemiah 9:7 in vtrad vtbhs
+Nehemiah 9:7 in vtrad vtsef
 α,_,τ,·,a,h,-,h,v,·,α,(pash)
 SPACE
 y,:,h,o,v,a,(mun),h
@@ -13193,7 +13193,7 @@ $,·sh,·,:,m,(tip),v,o
 SPACE
 α,_,b,:,r,a,h,a,(mos),m.,(sopa)
 
-Nehemiah 9:8 in vtrad vtbhs
+Nehemiah 9:8 in vtrad vtsef
 v,·,m,a,c,a,(mun),α,τ,a
 SPACE
 α,∵,τ,-,l,:,b,a,b,v,o,(zarnor)
@@ -13238,7 +13238,7 @@ c,_,d,·,i,(tip),y,q
 SPACE
 α,a,(mos),τ,·,a,h,(sopa)
 
-Nehemiah 9:9 in vtrad vtbhs
+Nehemiah 9:9 in vtrad vtsef
 v,_,τ,·,‥,(tev),r,∵,α
 SPACE
 α,∵,τ,-,3,:a,n,i,(mer),y
@@ -13253,7 +13253,7 @@ $,·sh,a,m,_,(tip),3,:,τ,·,a
 SPACE
 3,_,l,-,y,_,m.,-,σ,(mos),v,·,p.,(sopa)
 
-Nehemiah 9:10 in vtrad vtbhs
+Nehemiah 9:10 in vtrad vtsef
 v,_,(tel_g),τ,·,i,τ,·,‥,(tel_g),n.
 SPACE
 α,o,τ,o,(qom),τ
@@ -13286,7 +13286,7 @@ k,·,:,h,_,y,·,(mer),v,o,m.
 SPACE
 h,_,z,·,∵,(mos),h,(sopa)
 
-Nehemiah 9:11 in vtrad vtbhs
+Nehemiah 9:11 in vtrad vtsef
 v,:,h,_,y,·,a,m.,(pash)
 SPACE
 b,·,a,q,_,(mun),3,:,τ,·,a
@@ -13311,7 +13311,7 @@ b,·,:,m,_,(mer),y,i,m.
 SPACE
 3,_,z,·,i,(mos),y,m.,(sopa)
 
-Nehemiah 9:12 in vtrad vtbhs
+Nehemiah 9:12 in vtrad vtsef
 v,·,b,:,3,_,m,·,(mun),v,·,d
 SPACE
 3,a,n,a,(zaq_q),n.
@@ -13336,7 +13336,7 @@ SPACE
 SPACE
 y,‥,(mos),l,:,k,v,·,-,b,a,(mos),h,·,(sopa)
 
-Nehemiah 9:13 in vtrad vtbhs
+Nehemiah 9:13 in vtrad vtsef
 v,:,3,_,(mah),l
 SPACE
 h,_,r,-,σ,i,y,n,_,y,(pash)
@@ -13367,7 +13367,7 @@ v,·,m,i,c,:,v,xxfv,(tip),τ
 SPACE
 θ,v,o,b,i,(mos),y,m.,(sopa)
 
-Nehemiah 9:14 in vtrad vtbhs
+Nehemiah 9:14 in vtrad vtsef
 v,:,α,∵,τ,-,$,·sh,_,b,·,_,(mer),τ
 SPACE
 q,oa,d,:,$,·sh,:,k.,a,(tip)
@@ -13392,7 +13392,7 @@ m,o,$,·sh,∵,(mer),h
 SPACE
 3,_,b,:,d,·,∵,(mos),k.,a,(sopa)
 
-Nehemiah 9:15 in vtrad vtbhs
+Nehemiah 9:15 in vtrad vtsef
 v,:,(tel_g),l,∵,(tel_g),x,∵,m.
 SPACE
 m,i,$,·sh,·,a,m,_,(ger),y,i,m.
@@ -13431,7 +13431,7 @@ l,a,τ,‥,(mer),τ
 SPACE
 l,a,h,∵,(mos),m.,(sopa)
 
-Nehemiah 9:16 in vtrad vtbhs
+Nehemiah 9:16 in vtrad vtsef
 v,:,h,‥,(mer),m.
 SPACE
 v,_,α,:_,b,o,τ,‥,(tip),y,n,v,·
@@ -13448,7 +13448,7 @@ $,·sh,a,m,:,3,(tip),v,·
 SPACE
 α,∵,l,-,m,i,c,:,v,xxfv,τ,∵,(mos),y,k.,a,(sopa)
 
-Nehemiah 9:17 in vtrad vtbhs
+Nehemiah 9:17 in vtrad vtsef
 v,_,y,:,m,a,α,:_,n,(mun),v,·
 SPACE
 l,i,$,·sh,:,m,o,(rev),3,_
@@ -13501,7 +13501,7 @@ v,:,l,o,(mer),α
 SPACE
 3,:_,z,_,b,:,τ,·,a,(mos),m.,(sopa)
 
-Nehemiah 9:18 in vtrad vtbhs
+Nehemiah 9:18 in vtrad vtsef
 α,_,(rev),p.
 SPACE
 k,·,i,(mos),y,-,3,a,$,·si,(mah),v,·
@@ -13530,7 +13530,7 @@ n,∵,α,a,c,(tip),v,o,τ
 SPACE
 g,·,:,d,o,l,(mos),v,o,τ,(sopa)
 
-Nehemiah 9:19 in vtrad vtbhs
+Nehemiah 9:19 in vtrad vtsef
 v,:,α,_,τ,·,a,h,(pash)
 SPACE
 b,·,:,r,_,x,:_,m,∵,(mun),y,k.,a
@@ -13573,7 +13573,7 @@ SPACE
 SPACE
 y,‥,(mos),l,:,k,v,·,-,b,a,(mos),h,·,(sopa)
 
-Nehemiah 9:20 in vtrad vtbhs
+Nehemiah 9:20 in vtrad vtsef
 v,:,r,v,·,x,:_,k.,a,(pash)
 SPACE
 h,_,θ,·,v,o,b,a,(zaq_q),h
@@ -13596,7 +13596,7 @@ l,a,h,∵,(tip),m.
 SPACE
 l,i,c,:,m,a,α,a,(mos),m.,(sopa)
 
-Nehemiah 9:21 in vtrad vtbhs
+Nehemiah 9:21 in vtrad vtsef
 v,:,α,_,r,:,b,·,a,3,i,(mer),y,m.
 SPACE
 $,·sh,a,n,a,(tev),h
@@ -13621,7 +13621,7 @@ l,o,(mer),α
 SPACE
 b,a,c,‥,(mos),q,v,·,(sopa)
 
-Nehemiah 9:22 in vtrad vtbhs
+Nehemiah 9:22 in vtrad vtsef
 v,_,τ,·,i,τ,·,‥,(qom),n.
 SPACE
 l,a,h,∵,(mah),m.
@@ -13652,7 +13652,7 @@ SPACE
 SPACE
 m,∵,(mos),l,∵,k.,:,-,h,_,b,·,a,$,·sh,a,(mos),n.,(sopa)
 
-Nehemiah 9:23 in vtrad vtbhs
+Nehemiah 9:23 in vtrad vtsef
 v,·,b,:,n,‥,y,h,∵,(mun),m.
 SPACE
 h,i,r,:,b,·,i,(zaq_q),y,τ,a
@@ -13673,7 +13673,7 @@ l,a,b,(mer),v,o,α
 SPACE
 l,a,r,a,(mos),$,·sh,∵,τ,(sopa)
 
-Nehemiah 9:24 in vtrad vtbhs
+Nehemiah 9:24 in vtrad vtsef
 v,_,y,·,a,b,o,(mah),α,v,·
 SPACE
 h,_,b,·,a,n,i,y,m.,(pash)
@@ -13708,7 +13708,7 @@ b,·,a,h,∵,(tip),m.
 SPACE
 k,·,i,r,:,c,v,o,n,a,(mos),m.,(sopa)
 
-Nehemiah 9:25 in vtrad vtbhs
+Nehemiah 9:25 in vtrad vtsef
 v,_,(mos),y,·,i,l,:,k,·,:,d,(ger_2),v,·
 SPACE
 3,a,r,i,(mun),y,m.
@@ -13751,7 +13751,7 @@ b,·,:,θ,v,·,b,:,k.,a,(mer)
 SPACE
 h,_,g,·,a,d,(mos),v,o,l,(sopa)
 
-Nehemiah 9:26 in vtrad vtbhs
+Nehemiah 9:26 in vtrad vtsef
 v,_,y,·,_,m,:,r,(qom),v,·
 SPACE
 v,_,(mos),y,·,i,m,:,r,:,d,(ger),v,·
@@ -13784,7 +13784,7 @@ n,∵,α,a,c,(tip),v,o,τ
 SPACE
 g,·,:,d,v,o,l,o,(mos),τ,(sopa)
 
-Nehemiah 9:27 in vtrad vtbhs
+Nehemiah 9:27 in vtrad vtsef
 v,_,(mos),τ,·,i,τ,·,:,n,‥,m.,(pash)
 SPACE
 b,·,:,y,_,(mun),d
@@ -13825,7 +13825,7 @@ m,i,y,·,_,(mer),d
 SPACE
 c,a,r,‥,y,h,∵,(mos),m.,(sopa)
 
-Nehemiah 9:28 in vtrad vtbhs
+Nehemiah 9:28 in vtrad vtsef
 v,·,k,:,n,(mun),v,o,x,_
 SPACE
 l,a,h,∵,(zaq_q),m.
@@ -13866,7 +13866,7 @@ r,_,b,·,(mer),v,o,τ
 SPACE
 3,i,τ,·,i,(mos),y,m.,(sopa)
 
-Nehemiah 9:29 in vtrad vtbhs
+Nehemiah 9:29 in vtrad vtsef
 v,_,τ,·,a,(qom),3,_,d
 SPACE
 b,·,a,h,∵,(ger),m.
@@ -13909,7 +13909,7 @@ v,:,l,o,(mer),α
 SPACE
 $,·sh,a,m,‥,(mos),3,v,·,(sopa)
 
-Nehemiah 9:30 in vtrad vtbhs
+Nehemiah 9:30 in vtrad vtsef
 v,_,τ,·,i,m,:,$,·sh,o,(mah),k.,:
 SPACE
 3,:_,l,‥,y,h,∵,m.,(pash)
@@ -13938,7 +13938,7 @@ SPACE
 SPACE
 h,a,α,:_,r,a,c,o,(mos),τ,(sopa)
 
-Nehemiah 9:31 in vtrad vtbhs
+Nehemiah 9:31 in vtrad vtsef
 v,·,(mos),b,:,r,_,x,:_,m,∵,(dar),y,k.,a
 SPACE
 h,a,r,_,b,·,i,(tev),y,m.
@@ -13959,7 +13959,7 @@ v,:,r,_,x,(tip),v,·,m.
 SPACE
 α,a,(mos),τ,·,a,h,(sopa)
 
-Nehemiah 9:32 in vtrad vtbhs
+Nehemiah 9:32 in vtrad vtsef
 v,:,3,_,τ,·,a,(mun),h
 SPACE
 α,:∵,(tel_g),l,o,h,‥,(tel_g),y,n,v,·
@@ -14012,7 +14012,7 @@ h,_,y,·,(mer),v,o,m.
 SPACE
 h,_,z,·,∵,(mos),h,(sopa)
 
-Nehemiah 9:33 in vtrad vtbhs
+Nehemiah 9:33 in vtrad vtsef
 v,:,α,_,τ,·,a,(mun),h
 SPACE
 c,_,d,·,i,(zaq_q),y,q
@@ -14031,7 +14031,7 @@ v,_,α,:_,n,_,(mer),x,:,n,v,·
 SPACE
 h,i,r,:,$,·sh,a,(mos),3,:,n,v,·,(sopa)
 
-Nehemiah 9:34 in vtrad vtbhs
+Nehemiah 9:34 in vtrad vtsef
 v,:,α,∵,τ,-,m,:,l,a,k,‥,(mah),y,n,v,·
 SPACE
 $,·si,a,r,‥,(pash),y,n,v,·,(pash)
@@ -14060,7 +14060,7 @@ h,_,3,i,y,d,o,(tip),τ,a
 SPACE
 b,·,a,h,∵,(mos),m.,(sopa)
 
-Nehemiah 9:35 in vtrad vtbhs
+Nehemiah 9:35 in vtrad vtsef
 v,:,h,‥,(mun),m.
 SPACE
 b,·,:,m,_,l,:,k,v,·,τ,a,m.,(tel_q)
@@ -14093,7 +14093,7 @@ m,i,m,·,_,(mos),3,_,l,:,l,‥,y,h,∵,(tip),m.
 SPACE
 h,a,r,a,3,i,(mos),y,m.,(sopa)
 
-Nehemiah 9:36 in vtrad vtbhs
+Nehemiah 9:36 in vtrad vtsef
 h,i,n,·,‥,(tev),h
 SPACE
 α,:_,n,_,(mer),x,:,n,v,·
@@ -14122,7 +14122,7 @@ SPACE
 SPACE
 3,a,l,∵,(mos),y,h,a,(sopa)
 
-Nehemiah 9:37 in vtrad vtbhs
+Nehemiah 9:37 in vtrad vtsef
 v,·,τ,:,b,v,·,α,a,τ,a,(mun),h,·
 SPACE
 m,_,r,:,b,·,a,(rev),h
@@ -14152,7 +14152,7 @@ SPACE
 α,:_,n,a,(mos),x,:,n,v,·,(sopa)
 START/STOP spi-pe2
 
-Nehemiah 10:1 in vtrad vtbhs
+Nehemiah 10:1 in vtrad vtsef
 v,·,b,:,k,oa,l,-,z,o,(zaq_g),α,τ
 SPACE
 α,:_,n,_,(tev),x,:,n,v,·
@@ -14173,7 +14173,7 @@ l,:,v,i,y,·,‥,(tip),n,v,·
 SPACE
 k,·,o,h,:_,n,‥,(mos),y,n,v,·,(sopa)
 
-Nehemiah 10:2 in vtrad vtbhs
+Nehemiah 10:2 in vtrad vtsef
 v,:,3,_,(tip),l
 SPACE
 h,_,x,:_,τ,v,·,m,i,(atn),y,m.
@@ -14186,49 +14186,49 @@ b,·,∵,n.,-,x,:_,k,_,l,:,y,a,(tip),h
 SPACE
 v,:,c,i,d,:,q,i,y,·,a,(mos),h,(sopa)
 
-Nehemiah 10:3 in vtrad vtbhs
+Nehemiah 10:3 in vtrad vtsef
 $,·si,:,r,a,y,a,(mer),h
 SPACE
 3,:_,z,_,r,:,y,a,(tip),h
 SPACE
 y,i,r,:,m,:,y,a,(mos),h,(sopa)
 
-Nehemiah 10:4 in vtrad vtbhs
+Nehemiah 10:4 in vtrad vtsef
 p,·,_,$,·sh,:,x,(mer),v,·,r
 SPACE
 α,:_,m,_,r,:,y,a,(tip),h
 SPACE
 m,_,l,:,k,·,i,y,·,a,(mos),h,(sopa)
 
-Nehemiah 10:5 in vtrad vtbhs
+Nehemiah 10:5 in vtrad vtsef
 x,_,θ,·,(mer),v,·,$,·sh
 SPACE
 $,·sh,:,b,_,n,:,y,a,(tip),h
 SPACE
 m,_,l,·,(mos),v,·,k.,:,(sopa)
 
-Nehemiah 10:6 in vtrad vtbhs
+Nehemiah 10:6 in vtrad vtsef
 x,a,r,i,(mer),m.
 SPACE
 m,:,r,‥,m,(tip),v,o,τ
 SPACE
 3,o,(mos),b,_,d,:,y,a,(mos),h,(sopa)
 
-Nehemiah 10:7 in vtrad vtbhs
+Nehemiah 10:7 in vtrad vtsef
 d,·,a,n,i,y,·,‥,(mer),α,l
 SPACE
 g,·,i,n,·,:,τ,(tip),v,o,n.
 SPACE
 b,·,a,r,(mos),v,·,k.,:,(sopa)
 
-Nehemiah 10:8 in vtrad vtbhs
+Nehemiah 10:8 in vtrad vtsef
 m,:,$,·sh,u,l,·,a,(mer),m.
 SPACE
 α,:_,b,i,y,·,a,(tip),h
 SPACE
 m,i,y,·,a,m,i,(mos),n.,(sopa)
 
-Nehemiah 10:9 in vtrad vtbhs
+Nehemiah 10:9 in vtrad vtsef
 m,_,(mos),3,_,z,:,y,a,(mer),h
 SPACE
 b,i,l,:,g,·,_,(tip),y
@@ -14239,7 +14239,7 @@ SPACE
 SPACE
 h,_,k,·,o,h,:_,n,i,(mos),y,m.,(sopa)
 
-Nehemiah 10:10 in vtrad vtbhs
+Nehemiah 10:10 in vtrad vtsef
 v,:,(mos),h,_,l,:,v,i,y,·,i,(atn),m.
 SPACE
 v,:,y,‥,$,·sh,(pash),v,·,3,_,(pash)
@@ -14254,7 +14254,7 @@ x,‥,n,a,d,a,(tip),d
 SPACE
 q,_,d,:,m,i,y,α,‥,(mos),l,(sopa)
 
-Nehemiah 10:11 in vtrad vtbhs
+Nehemiah 10:11 in vtrad vtsef
 v,_,α,:_,x,‥,y,h,∵,(atn),m.
 SPACE
 $,·sh,:,b,_,n,:,y,a,(dar),h
@@ -14267,21 +14267,21 @@ p,·,:,l,a,α,y,a,(mer),h
 SPACE
 x,a,n,a,(mos),n.,(sopa)
 
-Nehemiah 10:12 in vtrad vtbhs
+Nehemiah 10:12 in vtrad vtsef
 m,i,y,k,a,(mer),α
 SPACE
 r,:,x,(tip),v,o,b
 SPACE
 x,:_,$,·sh,_,b,:,y,a,(mos),h,(sopa)
 
-Nehemiah 10:13 in vtrad vtbhs
+Nehemiah 10:13 in vtrad vtsef
 z,_,k,·,(mer),v,·,r
 SPACE
 $,·sh,‥,r,‥,(mos),b,:,y,a,(tip),h
 SPACE
 $,·sh,:,b,_,n,:,y,a,(mos),h,(sopa)
 
-Nehemiah 10:14 in vtrad vtbhs
+Nehemiah 10:14 in vtrad vtsef
 h,v,o,d,i,y,·,a,(mer),h
 SPACE
 b,a,n,i,(tip),y
@@ -14289,7 +14289,7 @@ SPACE
 b,·,:,n,i,(mos),y,n,v,·,(sopa)
 START/STOP spi-samekh2
 
-Nehemiah 10:15 in vtrad vtbhs
+Nehemiah 10:15 in vtrad vtsef
 r,a,α,$,·sh,‥,(tip),y
 SPACE
 h,a,3,a,(atn),m.
@@ -14306,35 +14306,35 @@ z,_,τ,·,(tip),v,·,α
 SPACE
 b,·,a,n,i,(mos),y,(sopa)
 
-Nehemiah 10:16 in vtrad vtbhs
+Nehemiah 10:16 in vtrad vtsef
 b,·,u,n,·,i,(mer),y
 SPACE
 3,_,z,:,g,·,a,(tip),d
 SPACE
 b,·,‥,b,a,(mos),y,(sopa)
 
-Nehemiah 10:17 in vtrad vtbhs
+Nehemiah 10:17 in vtrad vtsef
 α,:_,d,o,n,i,y,·,a,(mer),h
 SPACE
 b,i,g,:,v,_,(tip),y
 SPACE
 3,a,d,i,(mos),y,n.,(sopa)
 
-Nehemiah 10:18 in vtrad vtbhs
+Nehemiah 10:18 in vtrad vtsef
 α,a,θ,‥,(mer),r
 SPACE
 x,i,z,:,q,i,y,·,a,(tip),h
 SPACE
 3,_,z,·,(mos),v,·,r,(sopa)
 
-Nehemiah 10:19 in vtrad vtbhs
+Nehemiah 10:19 in vtrad vtsef
 h,v,o,d,i,y,·,a,(mer),h
 SPACE
 x,a,$,·sh,u,(tip),m.
 SPACE
 b,·,‥,c,a,(mos),y,(sopa)
 
-Nehemiah 10:20 in vtrad vtbhs
+Nehemiah 10:20 in vtrad vtsef
 x,a,r,i,(mer),y,p.
 SPACE
 3,:_,n,a,τ,(tip),v,o,τ
@@ -14349,63 +14349,63 @@ STOP kq-q
 STOP kq
 (sopa)
 
-Nehemiah 10:21 in vtrad vtbhs
+Nehemiah 10:21 in vtrad vtsef
 m,_,g,:,p,·,i,y,3,a,(mer),$,·sh
 SPACE
 m,:,$,·sh,u,l,·,a,(tip),m.
 SPACE
 x,‥,z,i,(mos),y,r,(sopa)
 
-Nehemiah 10:22 in vtrad vtbhs
+Nehemiah 10:22 in vtrad vtsef
 m,:,$,·sh,‥,y,z,_,b,:,α,‥,(mer),l
 SPACE
 c,a,d,(tip),v,o,q
 SPACE
 y,_,d,·,(mos),v,·,3,_,(sopa)
 
-Nehemiah 10:23 in vtrad vtbhs
+Nehemiah 10:23 in vtrad vtsef
 p,·,:,l,_,θ,:,y,a,(mer),h
 SPACE
 x,a,n,a,(tip),n.
 SPACE
 3,:_,n,a,y,a,(mos),h,(sopa)
 
-Nehemiah 10:24 in vtrad vtbhs
+Nehemiah 10:24 in vtrad vtsef
 h,v,o,$,·sh,‥,(mer),3,_
 SPACE
 x,:_,n,_,n,:,y,a,(tip),h
 SPACE
 x,_,$,·sh,·,(mos),v,·,b,(sopa)
 
-Nehemiah 10:25 in vtrad vtbhs
+Nehemiah 10:25 in vtrad vtsef
 h,_,l,·,v,o,x,‥,(mer),$,·sh
 SPACE
 p,·,i,l,:,x,a,(tip),α
 SPACE
 $,·sh,v,o,b,‥,(mos),q,(sopa)
 
-Nehemiah 10:26 in vtrad vtbhs
+Nehemiah 10:26 in vtrad vtsef
 r,:,x,(mer),v,·,m.
 SPACE
 x,:_,$,·sh,_,b,:,n,a,(tip),h
 SPACE
 m,_,3,:_,$,·si,‥,y,a,(mos),h,(sopa)
 
-Nehemiah 10:27 in vtrad vtbhs
+Nehemiah 10:27 in vtrad vtsef
 v,_,α,:_,x,i,y,·,a,(mer),h
 SPACE
 x,a,n,a,(tip),n.
 SPACE
 3,a,n,a,(mos),n.,(sopa)
 
-Nehemiah 10:28 in vtrad vtbhs
+Nehemiah 10:28 in vtrad vtsef
 m,_,l,·,(mer),v,·,k.,:
 SPACE
 x,a,r,i,(tip),m.
 SPACE
 b,·,_,3,:_,n,a,(mos),h,(sopa)
 
-Nehemiah 10:29 in vtrad vtbhs
+Nehemiah 10:29 in vtrad vtsef
 v,·,$,·sh,:,α,a,(mun),r
 SPACE
 h,a,3,a,(paz),m.
@@ -14442,7 +14442,7 @@ y,v,o,d,‥,(mer),3,_
 SPACE
 m,‥,b,i,(mos),y,n.,(sopa)
 
-Nehemiah 10:30 in vtrad vtbhs
+Nehemiah 10:30 in vtrad vtsef
 m,_,x,:_,z,i,y,q,i,(mun),y,m.
 SPACE
 3,_,l,-,α,:_,x,‥,y,h,∵,m.,(zarnor)
@@ -14485,7 +14485,7 @@ v,·,m,i,$,·sh,:,p,·,a,θ,a,(tip),y,v
 SPACE
 v,:,x,u,q,·,a,(mos),y,v,(sopa)
 
-Nehemiah 10:31 in vtrad vtbhs
+Nehemiah 10:31 in vtrad vtsef
 v,_,α,:_,$,·sh,∵,(tev),r
 SPACE
 l,o,α,-,n,i,τ,·,‥,(mer),n.
@@ -14504,7 +14504,7 @@ n,i,q,·,_,(tip),x
 SPACE
 l,:,b,a,n,‥,(mos),y,n,v,·,(sopa)
 
-Nehemiah 10:32 in vtrad vtbhs
+Nehemiah 10:32 in vtrad vtsef
 v,:,3,_,m,·,‥,(mun),y
 SPACE
 h,a,α,a,(paz),r,∵,c.
@@ -14541,7 +14541,7 @@ v,·,m,_,$,·sh,·,a,(mer),α
 SPACE
 k,oa,l,-,y,a,(mos),d,(sopa)
 
-Nehemiah 10:33 in vtrad vtbhs
+Nehemiah 10:33 in vtrad vtsef
 v,:,h,∵,3,:∵,m,_,(mah),d,:,n,v,·
 SPACE
 3,a,l,‥,(pash),y,n,v,·,(pash)
@@ -14564,7 +14564,7 @@ b,·,‥,(mer),y,τ
 SPACE
 α,:∵,l,o,h,‥,(mos),y,n,v,·,(sopa)
 
-Nehemiah 10:34 in vtrad vtbhs
+Nehemiah 10:34 in vtrad vtsef
 l,:,l,∵,(mun),x,∵,m.
 SPACE
 h,_,(mos),m,·,_,3,:_,r,∵,(paz),k,∵,τ
@@ -14598,7 +14598,7 @@ SPACE
 b,·,‥,y,τ,-,α,:∵,l,o,h,‥,(mos),y,n,v,·,(sopa)
 START/STOP spi-samekh2
 
-Nehemiah 10:35 in vtrad vtbhs
+Nehemiah 10:35 in vtrad vtsef
 v,:,h,_,g,·,v,o,r,a,l,(qom),v,o,τ
 SPACE
 h,i,p,·,_,(ger),l,:,n,v,·
@@ -14641,7 +14641,7 @@ k,·,_,k,·,a,τ,(tip),v,·,b
 SPACE
 b,·,_,τ,·,v,o,r,a,(mos),h,(sopa)
 
-Nehemiah 10:36 in vtrad vtbhs
+Nehemiah 10:36 in vtrad vtsef
 v,·,l,:,h,a,b,i,(ger_2),y,α
 SPACE
 α,∵,τ,-,b,·,i,k,·,v,·,r,‥,(mun),y
@@ -14662,7 +14662,7 @@ l,:,b,‥,(tip),y,τ
 SPACE
 y,:,h,o,v,a,(mos),h,(sopa)
 
-Nehemiah 10:37 in vtrad vtbhs
+Nehemiah 10:37 in vtrad vtsef
 v,:,α,∵,τ,-,b,·,:,k,o,r,(mah),v,o,τ
 SPACE
 b,·,a,n,‥,(pash),y,n,v,·,(pash)
@@ -14693,7 +14693,7 @@ b,·,:,b,‥,(mer),y,τ
 SPACE
 α,:∵,l,o,h,‥,(mos),y,n,v,·,(sopa)
 
-Nehemiah 10:38 in vtrad vtbhs
+Nehemiah 10:38 in vtrad vtsef
 v,:,α,∵,τ,-,r,‥,α,$,·sh,i,(mun),y,τ
 SPACE
 3,:_,r,i,y,σ,o,τ,‥,(mun),y,n,v,·
@@ -14734,7 +14734,7 @@ SPACE
 SPACE
 3,:_,b,o,d,a,τ,‥,(mos),n,v,·,(sopa)
 
-Nehemiah 10:39 in vtrad vtbhs
+Nehemiah 10:39 in vtrad vtsef
 v,:,h,a,y,a,(qom),h
 SPACE
 h,_,k,·,o,h,‥,(dar),n.
@@ -14765,7 +14765,7 @@ l,:,b,‥,(mer),y,τ
 SPACE
 h,a,α,v,o,c,a,(mos),r,(sopa)
 
-Nehemiah 10:40 in vtrad vtbhs
+Nehemiah 10:40 in vtrad vtsef
 k,·,i,(mun),y
 SPACE
 α,∵,l,-,h,_,(tel_g),l,·,:,$,·sh,a,k,(tel_g),v,o,τ
@@ -14808,7 +14808,7 @@ SPACE
 SPACE
 α,:∵,l,o,h,‥,(mos),y,n,v,·,(sopa)
 
-Nehemiah 11:1 in vtrad vtbhs
+Nehemiah 11:1 in vtrad vtsef
 v,_,y,·,‥,$,·sh,:,b,(mer),v,·
 SPACE
 $,·si,a,r,‥,(mos),y,-,h,a,3,a,(tip),m.
@@ -14844,7 +14844,7 @@ h,_,y,·,a,d,(tip),v,o,τ
 SPACE
 b,·,∵,3,a,r,i,(mos),y,m.,(sopa)
 
-Nehemiah 11:2 in vtrad vtbhs
+Nehemiah 11:2 in vtrad vtsef
 v,_,(mos),y,:,b,a,r,:,k,(tip),v,·
 SPACE
 h,a,3,a,(atn),m.
@@ -14860,7 +14860,7 @@ SPACE
 b,·,i,y,r,v,·,$,·sh,a,l,a,(mos),CGJ,i,m.,(sopa)
 START/STOP spi-pe2
 
-Nehemiah 11:3 in vtrad vtbhs
+Nehemiah 11:3 in vtrad vtsef
 v,:,α,‥,(pash),l,·,∵,h,(pash)
 SPACE
 r,a,α,$,·sh,‥,(mun),y
@@ -14899,7 +14899,7 @@ SPACE
 SPACE
 $,·sh,:,l,o,m,o,(mos),h,(sopa)
 
-Nehemiah 11:4 in vtrad vtbhs
+Nehemiah 11:4 in vtrad vtsef
 v,·,b,i,(mos),y,r,v,·,$,·sh,a,l,_,(pash),CGJ,i,m.,(pash)
 SPACE
 y,a,(mos),$,·sh,:,b,(zaq_q),v,·
@@ -14930,7 +14930,7 @@ b,∵,n.,-,m,_,h,:_,l,_,l,:,α,‥,(tip),l
 SPACE
 m,i,b,·,:,n,‥,y,-,p,a,(mos),r,∵,c.,(sopa)
 
-Nehemiah 11:5 in vtrad vtbhs
+Nehemiah 11:5 in vtrad vtsef
 v,·,m,_,3,:_,$,·si,‥,y,a,(mun),h
 SPACE
 b,∵,n.,-,b,·,a,r,(mun),v,·,k.,:
@@ -14947,7 +14947,7 @@ b,·,∵,n.,-,z,:,k,_,r,:,y,a,(tip),h
 SPACE
 b,·,∵,n.,-,h,_,$,·sh,·,i,l,o,n,i,(mos),y,(sopa)
 
-Nehemiah 11:6 in vtrad vtbhs
+Nehemiah 11:6 in vtrad vtsef
 k,·,oa,l,-,b,·,:,n,‥,y,-,p,∵,(zaq_g),r,∵,c.
 SPACE
 h,_,y,·,o,$,·sh,:,b,i,(tip),y,m.
@@ -14965,7 +14965,7 @@ SPACE
 α,_,n,:,$,·sh,‥,y,-,x,a,(mos),y,i,l,(sopa)
 START/STOP spi-pe2
 
-Nehemiah 11:7 in vtrad vtbhs
+Nehemiah 11:7 in vtrad vtsef
 v,:,α,‥,(tip),l,·,∵,h
 SPACE
 b,·,:,n,‥,(mun),y
@@ -14988,7 +14988,7 @@ b,·,∵,n.,-,α,i,(mos),y,τ,i,y,α,‥,(tip),l
 SPACE
 b,·,∵,n.,-,y,:,$,·sh,_,(mos),3,:,y,a,(mos),h,(sopa)
 
-Nehemiah 11:8 in vtrad vtbhs
+Nehemiah 11:8 in vtrad vtsef
 v,:,α,_,x,:_,r,a,(tip),y,v
 SPACE
 g,·,_,b,·,_,(mun),y
@@ -15003,7 +15003,7 @@ SPACE
 SPACE
 v,·,$,·sh,:,m,o,n,a,(mos),h,(sopa)
 
-Nehemiah 11:9 in vtrad vtbhs
+Nehemiah 11:9 in vtrad vtsef
 v,:,y,v,o,α,‥,(mer),l
 SPACE
 b,·,∵,n.,-,z,i,k,:,r,i,(tip),y
@@ -15021,7 +15021,7 @@ SPACE
 m,i,$,·sh,:,n,∵,(mos),h,(sopa)
 START/STOP spi-pe2
 
-Nehemiah 11:10 in vtrad vtbhs
+Nehemiah 11:10 in vtrad vtsef
 m,i,n.,-,h,_,(mos),k,·,o,h,:_,n,i,(atn),y,m.
 SPACE
 y,:,d,_,(mos),3,:,y,a,(mer),h
@@ -15030,7 +15030,7 @@ b,∵,n.,-,y,v,o,y,a,r,i,(tip),y,b
 SPACE
 y,a,k,i,(mos),y,n.,(sopa)
 
-Nehemiah 11:11 in vtrad vtbhs
+Nehemiah 11:11 in vtrad vtsef
 $,·si,:,r,a,y,a,(qom),h
 SPACE
 b,∵,n.,-,x,i,l,:,q,i,y,·,a,(ger),h
@@ -15049,7 +15049,7 @@ b,·,‥,(mer),y,τ
 SPACE
 h,a,α,:∵,l,o,h,i,(mos),y,m.,(sopa)
 
-Nehemiah 11:12 in vtrad vtbhs
+Nehemiah 11:12 in vtrad vtsef
 v,_,α,:_,x,‥,y,h,∵,(rev),m.
 SPACE
 3,o,$,·si,‥,(mah),h
@@ -15080,7 +15080,7 @@ b,·,∵,n.,-,p,·,_,$,·sh,:,x,(tip),v,·,r
 SPACE
 b,·,∵,n.,-,m,_,l,:,k,·,i,y,·,a,(mos),h,(sopa)
 
-Nehemiah 11:13 in vtrad vtbhs
+Nehemiah 11:13 in vtrad vtsef
 v,:,α,∵,x,a,y,v,(pash)
 SPACE
 r,a,α,$,·sh,i,(mun),y,m.
@@ -15103,7 +15103,7 @@ b,·,∵,n.,-,m,:,$,·sh,i,l,·,‥,m,(tip),v,o,τ
 SPACE
 b,·,∵,n.,-,α,i,m,·,‥,(mos),r,(sopa)
 
-Nehemiah 11:14 in vtrad vtbhs
+Nehemiah 11:14 in vtrad vtsef
 v,_,α,:_,x,‥,y,h,∵,m.,(pash)
 SPACE
 g,·,i,b,·,o,(mun),r,‥,y
@@ -15125,7 +15125,7 @@ SPACE
 b,·,∵,n.,-,h,_,g,·,:,d,v,o,l,i,(mos),y,m.,(sopa)
 START/STOP spi-samekh2
 
-Nehemiah 11:15 in vtrad vtbhs
+Nehemiah 11:15 in vtrad vtsef
 v,·,m,i,(mos),n.,-,h,_,l,:,v,i,y,·,i,(atn),m.
 SPACE
 $,·sh,:,m,_,3,:,y,a,(dar),h
@@ -15138,7 +15138,7 @@ b,·,∵,n.,-,x,:_,$,·sh,_,b,:,y,a,(tip),h
 SPACE
 b,·,∵,n.,-,b,·,v,·,n,·,i,(mos),y,(sopa)
 
-Nehemiah 11:16 in vtrad vtbhs
+Nehemiah 11:16 in vtrad vtsef
 v,:,$,·sh,_,b,·,:,τ,_,(qom),y
 SPACE
 v,:,y,v,o,z,a,b,a,(ger),d
@@ -15155,7 +15155,7 @@ m,‥,r,a,α,$,·sh,‥,(tip),y
 SPACE
 h,_,l,:,v,i,y,·,i,(mos),m.,(sopa)
 
-Nehemiah 11:17 in vtrad vtbhs
+Nehemiah 11:17 in vtrad vtsef
 v,·,m,_,τ,·,_,n,:,y,a,(mun),h
 SPACE
 b,∵,n.,-,m,i,(tel_g),y,k,a,(tel_g),α
@@ -15195,7 +15195,7 @@ STOP kq-k
 STOP kq
 (sopa)
 
-Nehemiah 11:18 in vtrad vtbhs
+Nehemiah 11:18 in vtrad vtsef
 k,·,oa,l,-,h,_,l,:,v,i,y,·,i,m.,(pash)
 SPACE
 b,·,:,3,i,(mun),y,r
@@ -15209,7 +15209,7 @@ SPACE
 v,:,α,_,r,:,b,·,a,3,a,(mos),h,(sopa)
 START/STOP spi-pe2
 
-Nehemiah 11:19 in vtrad vtbhs
+Nehemiah 11:19 in vtrad vtsef
 v,:,h,_,$,·sh,·,(mos),v,o,3,:_,r,i,y,m.,(pash)
 SPACE
 3,_,q,·,(mun),v,·,b
@@ -15228,7 +15228,7 @@ $,·sh,i,b,:,3,i,(mer),y,m.
 SPACE
 v,·,$,·sh,:,n,a,(mos),y,i,m.,(sopa)
 
-Nehemiah 11:20 in vtrad vtbhs
+Nehemiah 11:20 in vtrad vtsef
 v,·,$,·sh,:,α,a,(qom),r
 SPACE
 y,i,$,·si,:,r,a,α,‥,(ger),l
@@ -15245,7 +15245,7 @@ SPACE
 SPACE
 b,·,:,n,_,x,:_,l,a,τ,(mos),v,o,(sopa)
 
-Nehemiah 11:21 in vtrad vtbhs
+Nehemiah 11:21 in vtrad vtsef
 v,:,h,_,n,·,:,τ,i,y,n,i,(tip),y,m.
 SPACE
 y,o,$,·sh,:,b,i,(mun),y,m.
@@ -15259,7 +15259,7 @@ SPACE
 3,_,l,-,h,_,n,·,:,τ,i,y,n,i,(mos),y,m.,(sopa)
 START/STOP spi-pe2
 
-Nehemiah 11:22 in vtrad vtbhs
+Nehemiah 11:22 in vtrad vtsef
 v,·,p,:,q,i,(mah),y,d
 SPACE
 h,_,l,:,v,i,y,·,i,m.,(pash)
@@ -15288,7 +15288,7 @@ m,:,l,∵,(mer),α,k,∵,τ
 SPACE
 b,·,‥,y,τ,-,h,a,α,:∵,l,o,h,i,(mos),y,m.,(sopa)
 
-Nehemiah 11:23 in vtrad vtbhs
+Nehemiah 11:23 in vtrad vtsef
 k,·,i,(mos),y,-,m,i,c,:,v,_,(mer),τ
 SPACE
 h,_,m,·,∵,(tip),l,∵,k.,:
@@ -15303,7 +15303,7 @@ d,·,:,b,_,r,-,y,(mer),v,o,m.
 SPACE
 b,·,:,y,v,o,m,(mos),v,o,(sopa)
 
-Nehemiah 11:24 in vtrad vtbhs
+Nehemiah 11:24 in vtrad vtsef
 v,·,p,:,τ,_,(mos),x,:,y,a,(qom),h
 SPACE
 b,∵,n.,-,m,:,$,·sh,‥,(mos),y,z,_,b,:,α,‥,(ger),l
@@ -15320,7 +15320,7 @@ l,:,k,oa,l,-,d,·,a,b,a,(tip),r
 SPACE
 l,a,3,a,(mos),m.,(sopa)
 
-Nehemiah 11:25 in vtrad vtbhs
+Nehemiah 11:25 in vtrad vtsef
 v,:,α,∵,l,-,h,_,x,:_,c,‥,r,i,(tip),y,m.
 SPACE
 b,·,i,$,·si,:,d,o,τ,a,(atn),m.
@@ -15345,7 +15345,7 @@ v,·,b,i,(mos),y,q,·,_,b,:,c,:,α,‥,(tip),l
 SPACE
 v,_,x,:_,c,‥,r,∵,(mos),y,h,a,(sopa)
 
-Nehemiah 11:26 in vtrad vtbhs
+Nehemiah 11:26 in vtrad vtsef
 v,·,b,:,y,‥,$,·sh,(mer),v,·,3,_
 SPACE
 v,·,b,:,m,o,l,a,d,a,(tip),h
@@ -15354,7 +15354,7 @@ v,·,b,:,b,‥,(mer),y,τ
 SPACE
 p,·,a,(mos),l,∵,θ,(sopa)
 
-Nehemiah 11:27 in vtrad vtbhs
+Nehemiah 11:27 in vtrad vtsef
 v,·,b,_,x,:_,c,_,(mer),r
 SPACE
 $,·sh,v,·,3,a,(tev),l
@@ -15365,14 +15365,14 @@ $,·sh,∵,(tip),b,_,3
 SPACE
 v,·,b,:,n,o,τ,∵,(mos),y,h,a,(sopa)
 
-Nehemiah 11:28 in vtrad vtbhs
+Nehemiah 11:28 in vtrad vtsef
 v,·,b,:,c,i,(mos),q,:,l,_,(mer),g
 SPACE
 v,·,b,i,m,:,k,o,n,a,(tip),h
 SPACE
 v,·,b,i,b,:,n,o,τ,∵,(mos),y,h,a,(sopa)
 
-Nehemiah 11:29 in vtrad vtbhs
+Nehemiah 11:29 in vtrad vtsef
 v,·,b,:,3,‥,(mer),y,n.
 SPACE
 r,i,m,·,(tev),v,o,n.
@@ -15381,7 +15381,7 @@ v,·,b,:,c,oa,r,:,3,a,(tip),h
 SPACE
 v,·,b,:,y,_,r,:,m,(mos),v,·,τ,(sopa)
 
-Nehemiah 11:30 in vtrad vtbhs
+Nehemiah 11:30 in vtrad vtsef
 z,a,n,o,(mah),x,_
 SPACE
 3,:_,d,u,l,·,a,m.,(pash)
@@ -15404,7 +15404,7 @@ SPACE
 SPACE
 h,i,n,·,o,(mos),m.,(sopa)
 
-Nehemiah 11:31 in vtrad vtbhs
+Nehemiah 11:31 in vtrad vtsef
 v,·,b,:,n,‥,(mer),y
 SPACE
 b,i,n,:,y,a,m,i,(tip),n.
@@ -15419,28 +15419,28 @@ v,·,b,‥,(mos),y,τ,-,α,‥,(tip),l
 SPACE
 v,·,b,:,n,o,τ,∵,(mos),y,h,a,(sopa)
 
-Nehemiah 11:32 in vtrad vtbhs
+Nehemiah 11:32 in vtrad vtsef
 3,:_,n,a,τ,(mer),v,o,τ
 SPACE
 n,o,(tip),b
 SPACE
 3,:_,n,a,(mos),n,:,y,a,(mos),h,(sopa)
 
-Nehemiah 11:33 in vtrad vtbhs
+Nehemiah 11:33 in vtrad vtsef
 x,a,c,(mer),v,o,r
 START/STOP lp-paseq
 r,a,m,a,(tip),h
 SPACE
 g,·,i,τ,·,a,(mos),y,i,m.,(sopa)
 
-Nehemiah 11:34 in vtrad vtbhs
+Nehemiah 11:34 in vtrad vtsef
 x,a,d,i,(mer),y,d
 SPACE
 c,:,b,o,3,i,(tip),y,m.
 SPACE
 n,:,b,_,l,·,a,(mos),θ,(sopa)
 
-Nehemiah 11:35 in vtrad vtbhs
+Nehemiah 11:35 in vtrad vtsef
 l,o,(mer),d
 SPACE
 v,:,α,v,o,n,(tip),v,o
@@ -15449,7 +15449,7 @@ g,·,‥,(mer),y
 SPACE
 h,_,x,:_,r,a,$,·sh,i,(mos),y,m.,(sopa)
 
-Nehemiah 11:36 in vtrad vtbhs
+Nehemiah 11:36 in vtrad vtsef
 v,·,m,i,(qom),n.,-,h,_,l,:,v,i,y,·,i,(zaq_q),m.
 SPACE
 m,_,x,:,l,:,q,(mer),v,o,τ
@@ -15459,7 +15459,7 @@ SPACE
 l,:,b,i,n,:,y,a,m,i,(mos),y,n.,(sopa)
 START/STOP spi-pe2
 
-Nehemiah 12:1 in vtrad vtbhs
+Nehemiah 12:1 in vtrad vtsef
 v,:,α,‥,(pash),l,·,∵,h,(pash)
 SPACE
 h,_,k,·,o,h,:_,n,i,(mun),y,m.
@@ -15482,42 +15482,42 @@ y,i,r,:,m,:,y,a,(tip),h
 SPACE
 3,∵,z,:,r,a,(mos),α,(sopa)
 
-Nehemiah 12:2 in vtrad vtbhs
+Nehemiah 12:2 in vtrad vtsef
 α,:_,m,_,r,:,y,a,(mer),h
 SPACE
 m,_,l,·,(tip),v,·,k.,:
 SPACE
 x,_,θ,·,(mos),v,·,$,·sh,(sopa)
 
-Nehemiah 12:3 in vtrad vtbhs
+Nehemiah 12:3 in vtrad vtsef
 $,·sh,:,k,_,n,:,y,a,(mer),h
 SPACE
 r,:,x,u,(tip),m.
 SPACE
 m,:,r,‥,m,o,(mos),τ,(sopa)
 
-Nehemiah 12:4 in vtrad vtbhs
+Nehemiah 12:4 in vtrad vtsef
 3,i,d,·,(mer),v,o,α
 SPACE
 g,i,n,·,:,τ,(tip),v,o,y
 SPACE
 α,:_,b,i,y,·,a,(mos),h,(sopa)
 
-Nehemiah 12:5 in vtrad vtbhs
+Nehemiah 12:5 in vtrad vtsef
 m,i,y,·,a,m,i,(mer),y,n.
 SPACE
 m,_,(mos),3,_,d,:,y,a,(tip),h
 SPACE
 b,·,i,l,:,g,·,a,(mos),h,(sopa)
 
-Nehemiah 12:6 in vtrad vtbhs
+Nehemiah 12:6 in vtrad vtsef
 $,·sh,:,m,_,(mos),3,:,y,a,(mer),h
 SPACE
 v,:,y,v,o,y,a,r,i,(tip),y,b
 SPACE
 y,:,d,_,(mos),3,:,y,a,(mos),h,(sopa)
 
-Nehemiah 12:7 in vtrad vtbhs
+Nehemiah 12:7 in vtrad vtsef
 σ,_,l,·,(mun),v,·
 SPACE
 3,a,m,(zaq_q),v,o,q
@@ -15539,7 +15539,7 @@ SPACE
 y,‥,$,·sh,(mos),v,·,3,_,(sopa)
 START/STOP spi-pe2
 
-Nehemiah 12:8 in vtrad vtbhs
+Nehemiah 12:8 in vtrad vtsef
 v,:,h,_,l,:,v,i,y,·,i,(rev),m.
 SPACE
 y,‥,$,·sh,(dar),v,·,3,_
@@ -15560,7 +15560,7 @@ h,(mer),v,·,α
 SPACE
 v,:,α,∵,x,a,(mos),y,v,(sopa)
 
-Nehemiah 12:9 in vtrad vtbhs
+Nehemiah 12:9 in vtrad vtsef
 v,·,b,_,q,:,b,·,u,(mos),q,:,y,a,(qom),h
 SPACE
 START kq
@@ -15578,7 +15578,7 @@ l,:,n,∵,g,:,d,·,a,(tip),m.
 SPACE
 l,:,m,i,$,·sh,:,m,a,r,(mos),v,o,τ,(sopa)
 
-Nehemiah 12:10 in vtrad vtbhs
+Nehemiah 12:10 in vtrad vtsef
 v,:,y,‥,$,·sh,(tip),v,·,3,_
 SPACE
 h,v,o,l,i,(mun),y,d
@@ -15595,7 +15595,7 @@ v,:,α,∵,l,:,y,a,$,·sh,i,(tip),y,b
 SPACE
 α,∵,τ,-,y,v,o,y,a,d,a,(mos),3,(sopa)
 
-Nehemiah 12:11 in vtrad vtbhs
+Nehemiah 12:11 in vtrad vtsef
 v,:,y,v,o,y,a,d,a,3,(pash)
 SPACE
 h,v,o,l,i,(mun),y,d
@@ -15608,7 +15608,7 @@ h,v,o,l,i,(mer),y,d
 SPACE
 α,∵,τ,-,y,_,d,·,(mos),v,·,3,_,(sopa)
 
-Nehemiah 12:12 in vtrad vtbhs
+Nehemiah 12:12 in vtrad vtsef
 v,·,b,i,y,m,‥,y,(pash)
 SPACE
 y,(mos),v,o,y,a,q,i,(zaq_q),y,m.
@@ -15629,7 +15629,7 @@ l,:,y,i,r,:,m,:,y,a,(tip),h
 SPACE
 x,:_,n,_,n,:,y,a,(mos),h,(sopa)
 
-Nehemiah 12:13 in vtrad vtbhs
+Nehemiah 12:13 in vtrad vtsef
 l,:,3,∵,z,:,r,a,(mun),α
 SPACE
 m,:,$,·sh,u,l,·,a,(zaq_q),m.
@@ -15638,7 +15638,7 @@ l,_,α,:_,m,_,r,:,y,a,(tip),h
 SPACE
 y,:,h,v,o,x,a,n,a,(mos),n.,(sopa)
 
-Nehemiah 12:14 in vtrad vtbhs
+Nehemiah 12:14 in vtrad vtsef
 START kq
 START kq-k
 l,m,l,v,k,y
@@ -15654,7 +15654,7 @@ l,i,$,·sh,:,b,_,n,:,y,a,(tip),h
 SPACE
 y,v,o,σ,‥,(mos),p.,(sopa)
 
-Nehemiah 12:15 in vtrad vtbhs
+Nehemiah 12:15 in vtrad vtsef
 l,:,x,a,r,i,(mun),m.
 SPACE
 3,_,d,:,n,a,(zaq_q),α
@@ -15663,7 +15663,7 @@ l,i,m,:,r,a,y,(tip),v,o,τ
 SPACE
 x,∵,l,:,q,a,(mos),y,(sopa)
 
-Nehemiah 12:16 in vtrad vtbhs
+Nehemiah 12:16 in vtrad vtsef
 START kq
 START kq-k
 l,3,d,y,α
@@ -15679,7 +15679,7 @@ l,:,g,i,n,·,:,τ,(mer),v,o,n.
 SPACE
 m,:,$,·sh,u,l,·,a,(mos),m.,(sopa)
 
-Nehemiah 12:17 in vtrad vtbhs
+Nehemiah 12:17 in vtrad vtsef
 l,_,α,:_,b,i,y,·,a,(tip),h
 SPACE
 z,i,k,:,r,i,(atn),y
@@ -15690,7 +15690,7 @@ l,:,m,v,o,3,_,d,:,y,a,(tip),h
 SPACE
 p,·,i,l,:,θ,a,(mos),y,(sopa)
 
-Nehemiah 12:18 in vtrad vtbhs
+Nehemiah 12:18 in vtrad vtsef
 l,:,b,i,l,:,g,·,a,(mun),h
 SPACE
 $,·sh,_,m,·,(zaq_q),v,·,3,_
@@ -15699,7 +15699,7 @@ l,i,(mos),$,·sh,:,m,_,3,:,y,a,(tip),h
 SPACE
 y,:,h,v,o,n,a,τ,a,(mos),n.,(sopa)
 
-Nehemiah 12:19 in vtrad vtbhs
+Nehemiah 12:19 in vtrad vtsef
 v,·,l,:,y,v,o,y,a,r,i,(mun),y,b
 SPACE
 m,_,τ,·,:,n,_,(zaq_q),y
@@ -15708,7 +15708,7 @@ l,i,(mos),y,d,_,(mos),3,:,y,a,(tip),h
 SPACE
 3,u,z,·,i,(mos),y,(sopa)
 
-Nehemiah 12:20 in vtrad vtbhs
+Nehemiah 12:20 in vtrad vtsef
 l,:,σ,_,l,·,_,(mer),y
 SPACE
 q,_,l,·,a,(tip),y
@@ -15717,7 +15717,7 @@ l,:,3,a,m,(mer),v,o,q
 SPACE
 3,‥,(mos),b,∵,r,(sopa)
 
-Nehemiah 12:21 in vtrad vtbhs
+Nehemiah 12:21 in vtrad vtsef
 l,:,x,i,l,:,q,i,y,·,a,(mun),h
 SPACE
 x,:_,$,·sh,_,b,:,y,a,(zaq_q),h
@@ -15726,7 +15726,7 @@ l,i,(mos),y,d,_,(mos),3,:,y,a,(tip),h
 SPACE
 n,:,τ,_,n,:,α,‥,(mos),l,(sopa)
 
-Nehemiah 12:22 in vtrad vtbhs
+Nehemiah 12:22 in vtrad vtsef
 h,_,l,:,v,i,y,·,i,m.,(tel_q)
 SPACE
 b,·,i,y,m,‥,(qom),y
@@ -15754,7 +15754,7 @@ SPACE
 h,_,p,·,a,(mos),r,:,σ,i,(mos),y,(sopa)
 START/STOP spi-pe2
 
-Nehemiah 12:23 in vtrad vtbhs
+Nehemiah 12:23 in vtrad vtsef
 b,·,:,n,‥,(mah),y
 SPACE
 l,‥,v,i,y,(pash)
@@ -15777,7 +15777,7 @@ y,(mos),v,o,x,a,n,a,(mer),n.
 SPACE
 b,·,∵,n.,-,α,∵,l,:,y,a,$,·sh,i,(mos),y,b,(sopa)
 
-Nehemiah 12:24 in vtrad vtbhs
+Nehemiah 12:24 in vtrad vtsef
 v,:,r,a,α,$,·sh,‥,(mun),y
 SPACE
 h,_,(tel_g),l,:,v,i,y,·,i,(tel_g),m.
@@ -15810,7 +15810,7 @@ l,:,3,u,m,·,_,(mer),τ
 SPACE
 m,i,$,·sh,:,m,a,(mos),r,(sopa)
 
-Nehemiah 12:25 in vtrad vtbhs
+Nehemiah 12:25 in vtrad vtsef
 m,_,τ,·,_,n,:,y,a,(dar),h
 SPACE
 v,·,b,_,q,:,b,·,u,(mos),q,:,y,a,(tev),h
@@ -15833,7 +15833,7 @@ b,·,_,α,:_,σ,u,p,·,‥,(tip),y
 SPACE
 h,_,$,·sh,·,:,3,a,r,i,(mos),y,m.,(sopa)
 
-Nehemiah 12:26 in vtrad vtbhs
+Nehemiah 12:26 in vtrad vtsef
 α,‥,(zaq_g),l,·,∵,h
 SPACE
 b,·,i,y,m,‥,(tev),y
@@ -15857,7 +15857,7 @@ SPACE
 h,_,σ,·,v,o,p,‥,(mos),r,(sopa)
 START/STOP spi-pe2
 
-Nehemiah 12:27 in vtrad vtbhs
+Nehemiah 12:27 in vtrad vtsef
 v,·,b,_,x,:_,n,u,k,·,_,(ger_2),τ
 SPACE
 x,v,o,m,_,(mun),τ
@@ -15890,7 +15890,7 @@ n,:,b,a,l,i,(mer),y,m.
 SPACE
 v,·,b,:,k,i,n,·,o,r,(mos),v,o,τ,(sopa)
 
-Nehemiah 12:28 in vtrad vtbhs
+Nehemiah 12:28 in vtrad vtsef
 v,_,y,·,‥,α,a,(mun),σ,:,p,(zaq_q),v,·
 SPACE
 b,·,:,n,‥,(tip),y
@@ -15907,7 +15907,7 @@ v,·,m,i,n.,-,x,_,c,:,r,‥,(tip),y
 SPACE
 n,:,θ,o,p,a,τ,i,(mos),y,(sopa)
 
-Nehemiah 12:29 in vtrad vtbhs
+Nehemiah 12:29 in vtrad vtsef
 v,·,m,i,b,·,‥,y,τ,(pash)
 SPACE
 h,_,g,·,i,l,:,g,·,a,(zaq_q),l
@@ -15932,7 +15932,7 @@ SPACE
 SPACE
 y,:,r,v,·,$,·sh,a,l,a,(mos),CGJ,i,m.,(sopa)
 
-Nehemiah 12:30 in vtrad vtbhs
+Nehemiah 12:30 in vtrad vtsef
 v,_,y,·,i,(mos),θ,·,_,h,:_,r,(zaq_q),v,·
 SPACE
 h,_,k,·,o,h,:_,n,i,(tip),y,m.
@@ -15947,7 +15947,7 @@ v,:,α,∵,τ,-,h,_,$,·sh,·,:,3,a,r,i,(tip),y,m.
 SPACE
 v,:,α,∵,τ,-,h,_,x,v,o,m,a,(mos),h,(sopa)
 
-Nehemiah 12:31 in vtrad vtbhs
+Nehemiah 12:31 in vtrad vtsef
 v,a,α,_,3,:_,l,∵,h,(pash)
 SPACE
 α,∵,τ,-,$,·si,a,r,‥,(mun),y
@@ -15978,7 +15978,7 @@ l,:,$,·sh,_,(tip),3,_,r
 SPACE
 h,a,α,_,$,·sh,:,p,·,o,(mos),τ,(sopa)
 
-Nehemiah 12:32 in vtrad vtbhs
+Nehemiah 12:32 in vtrad vtsef
 v,_,y,·,‥,(mah),l,∵,k.,:
 SPACE
 α,_,x,:_,r,‥,y,h,∵,m.,(pash)
@@ -15991,14 +15991,14 @@ $,·si,a,r,‥,(mer),y
 SPACE
 y,:,h,v,·,d,a,(mos),h,(sopa)
 
-Nehemiah 12:33 in vtrad vtbhs
+Nehemiah 12:33 in vtrad vtsef
 v,_,3,:_,z,_,r,:,y,a,(mer),h
 SPACE
 3,∵,z,:,r,a,(tip),α
 SPACE
 v,·,m,:,$,·sh,u,l,·,a,(mos),m.,(sopa)
 
-Nehemiah 12:34 in vtrad vtbhs
+Nehemiah 12:34 in vtrad vtsef
 y,:,h,v,·,d,a,h,(pash)
 SPACE
 v,·,b,i,n,:,y,a,m,i,(zaq_q),n.
@@ -16008,7 +16008,7 @@ SPACE
 v,:,y,i,r,:,m,:,y,a,(mos),h,(sopa)
 START/STOP spi-pe2
 
-Nehemiah 12:35 in vtrad vtbhs
+Nehemiah 12:35 in vtrad vtsef
 v,·,m,i,b,·,:,n,‥,(mer),y
 SPACE
 h,_,k,·,o,h,:_,n,i,(tip),y,m.
@@ -16029,7 +16029,7 @@ b,·,∵,n.,-,z,_,k,·,(tip),v,·,r
 SPACE
 b,·,∵,n.,-,α,a,σ,a,(mos),p.,(sopa)
 
-Nehemiah 12:36 in vtrad vtbhs
+Nehemiah 12:36 in vtrad vtsef
 v,:,(mos),α,∵,x,a,(paz),y,v
 SPACE
 $,·sh,:,(mos),m,_,3,:,y,a,(paz),h
@@ -16062,7 +16062,7 @@ h,_,σ,·,v,o,p,‥,(tip),r
 SPACE
 l,i,p,:,n,‥,y,h,∵,(mos),m.,(sopa)
 
-Nehemiah 12:37 in vtrad vtbhs
+Nehemiah 12:37 in vtrad vtsef
 v,:,3,_,l,(tel_q)
 SPACE
 $,·sh,_,(qom),3,_,r
@@ -16097,7 +16097,7 @@ h,_,m,·,_,(tip),y,i,m.
 SPACE
 m,i,z,:,r,a,(mos),x,(sopa)
 
-Nehemiah 12:38 in vtrad vtbhs
+Nehemiah 12:38 in vtrad vtsef
 v,:,h,_,τ,·,v,o,d,a,(dar),h
 SPACE
 h,_,$,·sh,·,‥,n,i,(tev),y,τ
@@ -16130,7 +16130,7 @@ h,_,x,v,o,m,a,(mer),h
 SPACE
 h,a,r,:,x,a,b,a,(mos),h,(sopa)
 
-Nehemiah 12:39 in vtrad vtbhs
+Nehemiah 12:39 in vtrad vtsef
 v,·,m,‥,3,_,(mun),l
 SPACE
 l,:,$,·sh,_,(mos),3,_,r,-,α,∵,(tel_g),p,:,r,_,(tel_g),y,i,m.
@@ -16163,7 +16163,7 @@ b,·,:,$,·sh,_,(tip),3,_,r
 SPACE
 h,_,m,·,_,θ,·,a,r,a,(mos),h,(sopa)
 
-Nehemiah 12:40 in vtrad vtbhs
+Nehemiah 12:40 in vtrad vtsef
 v,_,(mos),τ,·,_,3,:_,m,o,(tev),d,:,n,a,h
 SPACE
 $,·sh,:,τ,·,‥,(mer),y
@@ -16182,7 +16182,7 @@ h,_,σ,·,:,g,a,n,i,(tip),y,m.
 SPACE
 3,i,m,·,i,(mos),y,(sopa)
 
-Nehemiah 12:41 in vtrad vtbhs
+Nehemiah 12:41 in vtrad vtsef
 v,:,h,_,k,·,o,h,:_,n,i,(paz),y,m.
 SPACE
 α,∵,l,:,y,a,q,i,(paz),y,m.
@@ -16201,7 +16201,7 @@ x,:_,n,_,n,:,y,a,(tip),h
 SPACE
 b,·,_,x,:_,c,o,c,:,r,(mos),v,o,τ,(sopa)
 
-Nehemiah 12:42 in vtrad vtbhs
+Nehemiah 12:42 in vtrad vtsef
 v,·,m,_,3,:_,$,·si,‥,y,a,(qom),h
 SPACE
 v,·,(mos),$,·sh,:,m,_,(mos),3,:,y,a,(ger),h
@@ -16226,7 +16226,7 @@ v,:,y,i,(mos),z,:,r,_,x,:,y,a,(tip),h
 SPACE
 h,_,p,·,a,q,i,(mos),y,d,(sopa)
 
-Nehemiah 12:43 in vtrad vtbhs
+Nehemiah 12:43 in vtrad vtsef
 v,_,y,·,i,z,:,b,·,:,x,(mun),v,·
 SPACE
 b,_,y,·,v,o,m.,-,h,_,(tel_g),h,(tel_g),v,·,α
@@ -16263,7 +16263,7 @@ y,:,r,v,·,$,·sh,a,l,_,(tip),CGJ,i,m.
 SPACE
 m,‥,r,a,x,(mos),v,o,q,(sopa)
 
-Nehemiah 12:44 in vtrad vtbhs
+Nehemiah 12:44 in vtrad vtsef
 v,_,y,·,i,p,·,a,q,:,d,(mun),v,·
 SPACE
 b,_,y,·,v,o,m.,(tel_q)
@@ -16310,7 +16310,7 @@ v,:,3,_,l,-,h,_,l,:,v,i,y,·,i,(tip),m.
 SPACE
 h,a,3,o,m,:,d,i,(mos),y,m.,(sopa)
 
-Nehemiah 12:45 in vtrad vtbhs
+Nehemiah 12:45 in vtrad vtsef
 v,_,(mos),y,·,i,$,·sh,:,m,:,r,(ger_2),v,·
 SPACE
 m,i,$,·sh,:,m,∵,(mah),r,∵,τ
@@ -16333,7 +16333,7 @@ $,·sh,:,l,o,m,o,(mer),h
 SPACE
 b,:,n,(mos),v,o,(sopa)
 
-Nehemiah 12:46 in vtrad vtbhs
+Nehemiah 12:46 in vtrad vtsef
 k,·,i,(mos),y,-,b,i,y,m,‥,(mer),y
 SPACE
 d,a,v,i,(tev),y,d
@@ -16359,7 +16359,7 @@ v,:,h,o,d,(tip),v,o,τ
 SPACE
 l,‥,(mos),α,l,o,h,i,(mos),y,m.,(sopa)
 
-Nehemiah 12:47 in vtrad vtbhs
+Nehemiah 12:47 in vtrad vtsef
 v,:,k,oa,l,-,y,i,$,·si,:,r,a,α,‥,l,(tel_q)
 SPACE
 b,·,i,y,m,‥,(qom),y
@@ -16395,7 +16395,7 @@ SPACE
 α,_,h,:_,r,o,(mos),n.,(sopa)
 START/STOP spi-pe2
 
-Nehemiah 13:1 in vtrad vtbhs
+Nehemiah 13:1 in vtrad vtsef
 b,·,_,y,·,(mun),v,o,m.
 SPACE
 h,_,h,(rev),v,·,α
@@ -16430,7 +16430,7 @@ h,a,α,:∵,l,o,h,i,(tip),y,m.
 SPACE
 3,_,d,-,3,v,o,l,a,(mos),m.,(sopa)
 
-Nehemiah 13:2 in vtrad vtbhs
+Nehemiah 13:2 in vtrad vtsef
 k,·,i,(mun),y
 SPACE
 l,o,(dar),α
@@ -16461,7 +16461,7 @@ h,_,q,·,:,l,a,l,a,(tip),h
 SPACE
 l,i,b,:,r,a,k,a,(mos),h,(sopa)
 
-Nehemiah 13:3 in vtrad vtbhs
+Nehemiah 13:3 in vtrad vtsef
 v,_,y,:,h,i,(tip),y
 SPACE
 k,·,:,$,·sh,oa,m,:,3,a,(mun),m.
@@ -16474,7 +16474,7 @@ k,oa,l,-,3,‥,(tip),r,∵,b
 SPACE
 m,i,y,·,i,$,·si,:,r,a,α,‥,(mos),l,(sopa)
 
-Nehemiah 13:4 in vtrad vtbhs
+Nehemiah 13:4 in vtrad vtsef
 v,:,l,i,p,:,n,‥,(mun),y
 SPACE
 m,i,z,·,∵,(zaq_q),h
@@ -16493,7 +16493,7 @@ q,a,r,(tip),v,o,b
 SPACE
 l,:,θ,v,o,b,i,y,·,a,(mos),h,(sopa)
 
-Nehemiah 13:5 in vtrad vtbhs
+Nehemiah 13:5 in vtrad vtsef
 v,_,y,·,_,(qom),3,_,$,·si
 SPACE
 l,(ger),v,o
@@ -16536,7 +16536,7 @@ v,·,τ,:,r,v,·,m,_,(tip),τ
 SPACE
 h,_,k,·,o,h,:_,n,i,(mos),y,m.,(sopa)
 
-Nehemiah 13:6 in vtrad vtbhs
+Nehemiah 13:6 in vtrad vtsef
 v,·,b,:,k,oa,l,-,z,∵,(zaq_g),h
 SPACE
 l,o,(mer),α
@@ -16569,7 +16569,7 @@ n,i,$,·sh,:,α,_,(mer),l,:,τ,·,i,y
 SPACE
 m,i,n.,-,h,_,m,·,∵,(mos),l,∵,k.,:,(sopa)
 
-Nehemiah 13:7 in vtrad vtbhs
+Nehemiah 13:7 in vtrad vtsef
 v,a,α,a,b,(tip),v,o,α
 SPACE
 l,i,(mos),y,r,v,·,$,·sh,a,l,a,(atn),CGJ,i,m.
@@ -16598,7 +16598,7 @@ b,·,‥,(mer),y,τ
 SPACE
 h,a,α,:∵,l,o,h,i,(mos),y,m.,(sopa)
 
-Nehemiah 13:8 in vtrad vtbhs
+Nehemiah 13:8 in vtrad vtsef
 v,_,y,·,‥,(mer),r,_,(mos),3
 SPACE
 l,i,(tip),y
@@ -16615,7 +16615,7 @@ h,_,x,(tip),v,·,c.
 SPACE
 m,i,n.,-,h,_,l,·,i,$,·sh,:,k,·,a,(mos),h,(sopa)
 
-Nehemiah 13:9 in vtrad vtbhs
+Nehemiah 13:9 in vtrad vtsef
 v,a,α,o,(mun),m,:,r,a,(zaq_q),h
 SPACE
 v,_,(mos),y,:,θ,_,h,:_,r,(tip),v,·
@@ -16637,7 +16637,7 @@ SPACE
 v,:,h,_,l,·,:,b,v,o,n,a,(mos),h,(sopa)
 START/STOP spi-pe2
 
-Nehemiah 13:10 in vtrad vtbhs
+Nehemiah 13:10 in vtrad vtsef
 v,a,α,‥,(mun),d,:,3,a,(zaq_q),h
 SPACE
 k,·,i,(mos),y,-,m,:,n,a,y,(mer),v,o,τ
@@ -16660,7 +16660,7 @@ SPACE
 SPACE
 h,_,m,·,:,l,a,α,k,a,(mos),h,(sopa)
 
-Nehemiah 13:11 in vtrad vtbhs
+Nehemiah 13:11 in vtrad vtsef
 v,a,α,a,r,i,(pash),y,b,a,h,(pash)
 SPACE
 α,∵,τ,-,h,_,σ,·,:,g,a,n,i,(zaq_q),y,m.
@@ -16679,7 +16679,7 @@ v,a,(mos),α,_,3,:_,m,i,d,‥,(tip),m.
 SPACE
 3,_,l,-,3,oa,m,:,d,a,(mos),m.,(sopa)
 
-Nehemiah 13:12 in vtrad vtbhs
+Nehemiah 13:12 in vtrad vtsef
 v,:,k,oa,l,-,y,:,h,v,·,d,a,(rev),h
 SPACE
 h,‥,b,i,(ger),y,α,v,·
@@ -16694,7 +16694,7 @@ v,:,h,_,y,·,i,c,:,h,a,(tip),r
 SPACE
 l,a,α,v,o,c,a,r,(mos),v,o,τ,(sopa)
 
-Nehemiah 13:13 in vtrad vtbhs
+Nehemiah 13:13 in vtrad vtsef
 v,a,α,v,o,c,:,r,a,(mun),h
 SPACE
 3,_,l,-,α,(tel_g),v,o,c,a,r,(tel_g),v,o,τ
@@ -16732,7 +16732,7 @@ SPACE
 l,_,α,:_,x,‥,y,h,∵,(mos),m.,(sopa)
 START/STOP spi-pe2
 
-Nehemiah 13:14 in vtrad vtbhs
+Nehemiah 13:14 in vtrad vtsef
 z,oa,k,:,r,a,h,-,l,·,i,(mer),y
 SPACE
 α,:∵,l,o,h,_,(tip),y
@@ -16753,7 +16753,7 @@ SPACE
 SPACE
 v,·,b,:,m,i,$,·sh,:,m,a,r,a,(mos),y,v,(sopa)
 
-Nehemiah 13:15 in vtrad vtbhs
+Nehemiah 13:15 in vtrad vtsef
 b,·,_,y,·,a,m,i,(mun),y,m.
 SPACE
 h,a,h,‥,(paz),m,·,a,h
@@ -16798,7 +16798,7 @@ m,i,k,:,r,a,(mer),m.
 SPACE
 c,a,(mos),y,i,d,(sopa)
 
-Nehemiah 13:16 in vtrad vtbhs
+Nehemiah 13:16 in vtrad vtsef
 v,:,h,_,c,·,o,r,i,y,m.,(pash)
 SPACE
 y,a,(mun),$,·sh,:,b,v,·
@@ -16821,7 +16821,7 @@ y,:,h,v,·,d,a,(tip),h
 SPACE
 v,·,b,i,y,r,v,·,$,·sh,a,l,a,(mos),CGJ,i,m.,(sopa)
 
-Nehemiah 13:17 in vtrad vtbhs
+Nehemiah 13:17 in vtrad vtsef
 v,a,α,a,r,i,(zaq_g),y,b,a,h
 SPACE
 α,‥,(tip),τ
@@ -16852,7 +16852,7 @@ SPACE
 SPACE
 h,_,$,·sh,·,_,b,·,a,(mos),τ,(sopa)
 
-Nehemiah 13:18 in vtrad vtbhs
+Nehemiah 13:18 in vtrad vtsef
 h,:_,l,(qom),v,o,α
 SPACE
 k,o,(mah),h
@@ -16892,7 +16892,7 @@ SPACE
 α,∵,τ,-,h,_,$,·sh,·,_,b,·,a,(mos),τ,(sopa)
 START/STOP spi-pe2
 
-Nehemiah 13:19 in vtrad vtbhs
+Nehemiah 13:19 in vtrad vtsef
 v,_,y,:,h,i,(paz),y
 SPACE
 k,·,_,α,:_,$,·sh,∵,(mun),r
@@ -16941,7 +16941,7 @@ b,·,:,y,(mer),v,o,m.
 SPACE
 h,_,$,·sh,·,_,b,·,a,(mos),τ,(sopa)
 
-Nehemiah 13:20 in vtrad vtbhs
+Nehemiah 13:20 in vtrad vtsef
 v,_,y,·,a,l,i,(qom),y,n,v,·
 SPACE
 h,a,r,o,k,:,l,i,(ger),y,m.
@@ -16958,7 +16958,7 @@ p,·,_,(mer),3,_,m.
 SPACE
 v,·,$,·sh,:,τ,·,a,(mos),y,i,m.,(sopa)
 
-Nehemiah 13:21 in vtrad vtbhs
+Nehemiah 13:21 in vtrad vtsef
 v,a,α,a,3,i,(mun),y,d,a,h
 SPACE
 b,a,h,∵,(rev),m.
@@ -16994,7 +16994,7 @@ SPACE
 b,·,_,$,·sh,·,_,b,·,a,(mos),τ,(sopa)
 START/STOP spi-pe2
 
-Nehemiah 13:22 in vtrad vtbhs
+Nehemiah 13:22 in vtrad vtsef
 v,a,α,o,m,:,r,a,(mun),h
 SPACE
 l,_,l,:,v,i,y,·,i,(rev),m.
@@ -17032,7 +17032,7 @@ SPACE
 x,_,σ,:,d,·,∵,(mos),k.,a,(sopa)
 START/STOP spi-pe2
 
-Nehemiah 13:23 in vtrad vtbhs
+Nehemiah 13:23 in vtrad vtsef
 g,·,_,(mun),m.
 START/STOP lp-legarmeih
 SPACE
@@ -17068,7 +17068,7 @@ STOP kq
 SPACE
 m,v,o,α,:_,b,i,y,·,(mos),v,o,τ,(sopa)
 
-Nehemiah 13:24 in vtrad vtbhs
+Nehemiah 13:24 in vtrad vtsef
 v,·,b,:,n,‥,y,h,∵,(rev),m.
 SPACE
 x,:_,c,i,y,(pash)
@@ -17091,7 +17091,7 @@ SPACE
 SPACE
 v,a,3,a,(mos),m.,(sopa)
 
-Nehemiah 13:25 in vtrad vtbhs
+Nehemiah 13:25 in vtrad vtsef
 v,a,α,a,r,i,(mah),y,b
 SPACE
 3,i,m,·,a,m.,(pash)
@@ -17124,7 +17124,7 @@ l,i,b,:,n,‥,y,k,∵,(tip),m.
 SPACE
 v,:,l,a,k,∵,(mos),m.,(sopa)
 
-Nehemiah 13:26 in vtrad vtbhs
+Nehemiah 13:26 in vtrad vtsef
 h,:_,l,(mun),v,o,α
 SPACE
 3,_,l,-,α,‥,(mun),l,·,∵,h
@@ -17167,7 +17167,7 @@ h,_,n,·,a,$,·sh,i,(tip),y,m.
 SPACE
 h,_,n,·,oa,k,:,r,i,y,·,(mos),v,o,τ,(sopa)
 
-Nehemiah 13:27 in vtrad vtbhs
+Nehemiah 13:27 in vtrad vtsef
 v,:,l,a,k,∵,(mun),m.
 SPACE
 h,:_,n,i,$,·sh,:,m,_,(rev),3
@@ -17192,7 +17192,7 @@ n,a,$,·sh,i,(mer),y,m.
 SPACE
 n,oa,k,:,r,i,y,·,(mos),v,o,τ,(sopa)
 
-Nehemiah 13:28 in vtrad vtbhs
+Nehemiah 13:28 in vtrad vtsef
 v,·,m,i,b,·,:,n,‥,(qom),y
 SPACE
 y,v,o,y,a,d,a,(mah),3
@@ -17213,7 +17213,7 @@ v,a,α,_,b,:,r,i,y,x,‥,(tip),h,v,·
 SPACE
 m,‥,3,a,l,a,(mos),y,(sopa)
 
-Nehemiah 13:29 in vtrad vtbhs
+Nehemiah 13:29 in vtrad vtsef
 z,oa,k,:,r,a,(mer),h
 SPACE
 l,a,h,∵,(tip),m.
@@ -17232,7 +17232,7 @@ h,_,k,·,:,h,u,n,·,a,(tip),h
 SPACE
 v,:,h,_,l,:,v,i,y,·,i,(mos),m.,(sopa)
 
-Nehemiah 13:30 in vtrad vtbhs
+Nehemiah 13:30 in vtrad vtsef
 v,:,θ,i,(mos),h,_,r,:,τ,·,i,(tip),y,m.
 SPACE
 m,i,k,·,oa,l,-,n,‥,k,a,(atn),r
@@ -17249,7 +17249,7 @@ SPACE
 SPACE
 b,·,i,m,:,l,_,α,k,:,τ,·,(mos),v,o,(sopa)
 
-Nehemiah 13:31 in vtrad vtbhs
+Nehemiah 13:31 in vtrad vtsef
 v,·,l,:,q,u,r,:,b,·,_,(dar),n.
 SPACE
 h,a,3,‥,c,i,(tev),y,m.

@@ -12,8 +12,8 @@ def bk24_bkgs(bk39ids):
     for bk39id in bk39ids:
         bk24id = tbn.bk24id(bk39id)
         bkids_of_bk24 = tbn.bk39ids_of_bk24(bk24id)
-        osis_ids_of_bk24 = map(_osis_id_of_bkid, bkids_of_bk24)
-        osis_bk24na = "".join(osis_ids_of_bk24)
+        ids = tuple(map(_osis_id_of_bkid, bkids_of_bk24))
+        osis_bk24na = ids[0] if len(ids) == 1 else f"{ids[0]}-{ids[-1]}"
         bkg_dic[osis_bk24na] = bkids_of_bk24
     bkgs = tuple(_bkg_make(*item) for item in bkg_dic.items())
     return bkgs

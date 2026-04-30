@@ -14,7 +14,7 @@ out/
   json-vtrad-mam/   # JSON, MAM native versification
 ```
 
-Each folder contains one file per book group (e.g., `Job.xml` / `Job.json`, `Gen.xml` / `Gen.json`, `1Sam2Sam.xml` / `1Sam2Sam.json`).
+Each folder contains one file per book group (e.g., `Job.xml` / `Job.json`, `Gen.xml` / `Gen.json`, `1Sam-2Sam.xml` / `1Sam-2Sam.json`).
 Within each format, the three versification folders differ only in versification — the text content is the same.
 
 The JSON format mirrors the XML structure: the same hierarchy (book group → book → chapter → verse → child elements) and the same element types appear in both, with XML elements and attributes mapped to JSON objects and fields. See [JSON Structure](#json-structure) below.
