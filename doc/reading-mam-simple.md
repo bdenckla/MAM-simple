@@ -38,7 +38,8 @@ The JSON format mirrors the XML structure: the same hierarchy (book group → bo
 ```
 
 Parashah elements (`spi-pe2`, `spi-pe3`, `spi-samekh2`, `spi-samekh3`)
-can appear both between chapters (as children of `book39`)
+can appear between chapters (as children of `book39`),
+between books (as children of `book24` — e.g., between 1 Samuel and 2 Samuel),
 and within verses (as children of `verse`).
 
 ## How Verse Text Is Stored
@@ -165,7 +166,7 @@ The root object has two fields:
 | Field | Value |
 |-------|-------|
 | `versification-tradition` | `"vtbhs"`, `"vtsef"`, or `"vtmam"` |
-| `contents` | Array of `book39` objects |
+| `contents` | Array of `book39` objects and parashah-marker objects |
 
 ### Book39 object
 
@@ -223,4 +224,4 @@ Complex verses (with legarmeih, ketiv/qere, etc.) have a `contents` array instea
 2. Otherwise → concatenate the `text` fields of all objects in `contents` where `type == "text"`, in order.
 
 The full set of child element types is the same as in XML (see [Child Element Types](#child-element-types) above).
-Parashah-marker objects (e.g., `{ "type": "spi-pe2" }`) can appear as children of `book39`, `chapter`, or `verse` `contents` arrays.
+Parashah-marker objects (e.g., `{ "type": "spi-pe2" }`) can appear as children of the root object's `contents` array (between `book39` objects — e.g., between 1 Samuel and 2 Samuel), or as children of `book39`, `chapter`, or `verse` `contents` arrays.
