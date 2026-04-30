@@ -17,8 +17,8 @@ This repo also has a program, `py-example/main_mam4sef.py`,
 that is an example of how the XML can be used.
 This program uses the XML to create the Sefaria-format (CSV/HTML) version of MAM.
 
-The source of this data is the
-[MAM Google Sheet](https://docs.google.com/spreadsheets/d/1mkQyj6by1AtBUabpbaxaZq9Z2X3pX8ZpwG91ZCSOEYs/edit#gid=920165745).
+The source of this data is
+[MAM-parsed](https://github.com/bdenckla/MAM-parsed)/plus.
 
 Other versions/formats of MAM (each with their tradeoffs) include:
 
