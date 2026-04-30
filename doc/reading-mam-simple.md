@@ -99,8 +99,8 @@ interspersed with markup elements:
 | `<scrdfftar>` | Targeted scroll-difference note |
 | `<sdt-target>` | The `<scrdfftar>` target |
 | `<sdt-note>` | The `<scrdfftar>` note itself |
-| `<spi-samekh2>`, `<spi-samekh3>` | Samekh parashah markers |
-| `<spi-pe2>`, `<spi-pe3>` | Pe parashah markers |
+| `<spi-samekh2>`, `<spi-samekh3>` | Parashah setumah markers |
+| `<spi-pe2>`, `<spi-pe3>` | Parashah petuḥah markers |
 | `<spi-invnun>` | Inverted nun |
 
 ## Verse Attributes
