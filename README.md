@@ -25,11 +25,10 @@ Other versions/formats of MAM (each with their tradeoffs) include:
 * [MAM-parsed](https://github.com/bdenckla/MAM-parsed)
 * [MAM for Sefaria](https://github.com/bdenckla/MAM-for-Sefaria)
 
-One obscure-but-cool feature of this XML format
-is that the `<verse>` element has attributes
-that describe the way in which the versification (BHS or Sefaria)
-differs from MAM's native versification.
-Here are three abbreviated examples:
+One obscure-but-cool feature of the MAM-simple data
+is that the BHS and Sefaria versions describe
+the way in which their versifications differ from MAM's native versification.
+Here are three abbreviated examples, using the XML format:
 ```xml
 <verse osisID="1Sam.24.1"
        contents-corresponds-to="a full verse in MAM"
@@ -40,7 +39,7 @@ Here are three abbreviated examples:
 <verse osisID="Josh.21.36"
        contents-corresponds-to="no verse in MAM"/>
 ```
-As you can see above, these versification-related attributes are
+As you can see above, the versification-related attributes are
 `contents-corresponds-to` and `osisID-of-MAM-src`.
 The `contents-corresponds-to` attribute can take on one of three values:
 
