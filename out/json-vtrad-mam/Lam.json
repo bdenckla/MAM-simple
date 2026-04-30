@@ -11,6 +11,7 @@
           "osisID": "Lam.1",
           "contents": [
             {
+              "type": "verse",
               "osisID": "Lam.1.1",
               "yeivinID": "Lam 1:1",
               "ends-with-sampe": "samekh2",
@@ -32,6 +33,7 @@
               "type": "spi-samekh2"
             },
             {
+              "type": "verse",
               "osisID": "Lam.1.2",
               "yeivinID": "Lam 1:2",
               "starts-with-sampe": "samekh2",
@@ -42,6 +44,7 @@
               "type": "spi-samekh2"
             },
             {
+              "type": "verse",
               "osisID": "Lam.1.3",
               "yeivinID": "Lam 1:3",
               "starts-with-sampe": "samekh2",
@@ -52,6 +55,7 @@
               "type": "spi-samekh2"
             },
             {
+              "type": "verse",
               "osisID": "Lam.1.4",
               "yeivinID": "Lam 1:4",
               "starts-with-sampe": "samekh2",
@@ -62,6 +66,7 @@
               "type": "spi-samekh2"
             },
             {
+              "type": "verse",
               "osisID": "Lam.1.5",
               "yeivinID": "Lam 1:5",
               "starts-with-sampe": "samekh2",
@@ -72,6 +77,7 @@
               "type": "spi-samekh2"
             },
             {
+              "type": "verse",
               "osisID": "Lam.1.6",
               "yeivinID": "Lam 1:6",
               "starts-with-sampe": "samekh2",
@@ -104,6 +110,7 @@
               "type": "spi-samekh2"
             },
             {
+              "type": "verse",
               "osisID": "Lam.1.7",
               "yeivinID": "Lam 1:7",
               "starts-with-sampe": "samekh2",
@@ -114,6 +121,7 @@
               "type": "spi-samekh2"
             },
             {
+              "type": "verse",
               "osisID": "Lam.1.8",
               "yeivinID": "Lam 1:8",
               "starts-with-sampe": "samekh2",
@@ -124,6 +132,7 @@
               "type": "spi-samekh2"
             },
             {
+              "type": "verse",
               "osisID": "Lam.1.9",
               "yeivinID": "Lam 1:9",
               "starts-with-sampe": "samekh2",
@@ -134,6 +143,7 @@
               "type": "spi-samekh2"
             },
             {
+              "type": "verse",
               "osisID": "Lam.1.10",
               "yeivinID": "Lam 1:10",
               "starts-with-sampe": "samekh2",
@@ -144,6 +154,7 @@
               "type": "spi-samekh2"
             },
             {
+              "type": "verse",
               "osisID": "Lam.1.11",
               "yeivinID": "Lam 1:11",
               "starts-with-sampe": "samekh2",
@@ -176,6 +187,7 @@
               "type": "spi-samekh2"
             },
             {
+              "type": "verse",
               "osisID": "Lam.1.12",
               "yeivinID": "Lam 1:12",
               "starts-with-sampe": "samekh2",
@@ -208,6 +220,7 @@
               "type": "spi-samekh2"
             },
             {
+              "type": "verse",
               "osisID": "Lam.1.13",
               "yeivinID": "Lam 1:13",
               "starts-with-sampe": "samekh2",
@@ -218,6 +231,7 @@
               "type": "spi-samekh2"
             },
             {
+              "type": "verse",
               "osisID": "Lam.1.14",
               "yeivinID": "Lam 1:14",
               "starts-with-sampe": "samekh2",
@@ -228,6 +242,7 @@
               "type": "spi-samekh2"
             },
             {
+              "type": "verse",
               "osisID": "Lam.1.15",
               "yeivinID": "Lam 1:15",
               "starts-with-sampe": "samekh2",
@@ -250,6 +265,7 @@
               "type": "spi-samekh2"
             },
             {
+              "type": "verse",
               "osisID": "Lam.1.16",
               "yeivinID": "Lam 1:16",
               "starts-with-sampe": "samekh2",
@@ -279,6 +295,7 @@
               "type": "spi-samekh2"
             },
             {
+              "type": "verse",
               "osisID": "Lam.1.17",
               "yeivinID": "Lam 1:17",
               "starts-with-sampe": "samekh2",
@@ -289,6 +306,7 @@
               "type": "spi-samekh2"
             },
             {
+              "type": "verse",
               "osisID": "Lam.1.18",
               "yeivinID": "Lam 1:18",
               "starts-with-sampe": "samekh2",
@@ -321,6 +339,7 @@
               "type": "spi-samekh2"
             },
             {
+              "type": "verse",
               "osisID": "Lam.1.19",
               "yeivinID": "Lam 1:19",
               "starts-with-sampe": "samekh2",
@@ -331,6 +350,7 @@
               "type": "spi-samekh2"
             },
             {
+              "type": "verse",
               "osisID": "Lam.1.20",
               "yeivinID": "Lam 1:20",
               "starts-with-sampe": "samekh2",
@@ -341,6 +361,7 @@
               "type": "spi-samekh2"
             },
             {
+              "type": "verse",
               "osisID": "Lam.1.21",
               "yeivinID": "Lam 1:21",
               "starts-with-sampe": "samekh2",
@@ -351,6 +372,7 @@
               "type": "spi-samekh2"
             },
             {
+              "type": "verse",
               "osisID": "Lam.1.22",
               "yeivinID": "Lam 1:22",
               "starts-with-sampe": "samekh2",
@@ -367,6 +389,7 @@
           "osisID": "Lam.2",
           "contents": [
             {
+              "type": "verse",
               "osisID": "Lam.2.1",
               "yeivinID": "Lam 2:1",
               "starts-with-sampe": "pe2",
@@ -389,6 +412,7 @@
               "type": "spi-samekh2"
             },
             {
+              "type": "verse",
               "osisID": "Lam.2.2",
               "yeivinID": "Lam 2:2",
               "starts-with-sampe": "samekh2",
@@ -421,6 +445,7 @@
               "type": "spi-samekh2"
             },
             {
+              "type": "verse",
               "osisID": "Lam.2.3",
               "yeivinID": "Lam 2:3",
               "starts-with-sampe": "samekh2",
@@ -431,6 +456,7 @@
               "type": "spi-samekh2"
             },
             {
+              "type": "verse",
               "osisID": "Lam.2.4",
               "yeivinID": "Lam 2:4",
               "starts-with-sampe": "samekh2",
@@ -441,6 +467,7 @@
               "type": "spi-samekh2"
             },
             {
+              "type": "verse",
               "osisID": "Lam.2.5",
               "yeivinID": "Lam 2:5",
               "starts-with-sampe": "samekh2",
@@ -463,6 +490,7 @@
               "type": "spi-samekh2"
             },
             {
+              "type": "verse",
               "osisID": "Lam.2.6",
               "yeivinID": "Lam 2:6",
               "starts-with-sampe": "samekh2",
@@ -485,6 +513,7 @@
               "type": "spi-samekh2"
             },
             {
+              "type": "verse",
               "osisID": "Lam.2.7",
               "yeivinID": "Lam 2:7",
               "starts-with-sampe": "samekh2",
@@ -507,6 +536,7 @@
               "type": "spi-samekh2"
             },
             {
+              "type": "verse",
               "osisID": "Lam.2.8",
               "yeivinID": "Lam 2:8",
               "starts-with-sampe": "samekh2",
@@ -529,6 +559,7 @@
               "type": "spi-samekh2"
             },
             {
+              "type": "verse",
               "osisID": "Lam.2.9",
               "yeivinID": "Lam 2:9",
               "starts-with-sampe": "samekh2",
@@ -561,6 +592,7 @@
               "type": "spi-samekh2"
             },
             {
+              "type": "verse",
               "osisID": "Lam.2.10",
               "yeivinID": "Lam 2:10",
               "starts-with-sampe": "samekh2",
@@ -571,6 +603,7 @@
               "type": "spi-samekh2"
             },
             {
+              "type": "verse",
               "osisID": "Lam.2.11",
               "yeivinID": "Lam 2:11",
               "starts-with-sampe": "samekh2",
@@ -581,6 +614,7 @@
               "type": "spi-samekh2"
             },
             {
+              "type": "verse",
               "osisID": "Lam.2.12",
               "yeivinID": "Lam 2:12",
               "starts-with-sampe": "samekh2",
@@ -591,6 +625,7 @@
               "type": "spi-samekh2"
             },
             {
+              "type": "verse",
               "osisID": "Lam.2.13",
               "yeivinID": "Lam 2:13",
               "starts-with-sampe": "samekh2",
@@ -601,6 +636,7 @@
               "type": "spi-samekh2"
             },
             {
+              "type": "verse",
               "osisID": "Lam.2.14",
               "yeivinID": "Lam 2:14",
               "starts-with-sampe": "samekh2",
@@ -633,6 +669,7 @@
               "type": "spi-samekh2"
             },
             {
+              "type": "verse",
               "osisID": "Lam.2.15",
               "yeivinID": "Lam 2:15",
               "starts-with-sampe": "samekh2",
@@ -643,6 +680,7 @@
               "type": "spi-samekh2"
             },
             {
+              "type": "verse",
               "osisID": "Lam.2.16",
               "yeivinID": "Lam 2:16",
               "starts-with-sampe": "samekh2",
@@ -653,6 +691,7 @@
               "type": "spi-samekh2"
             },
             {
+              "type": "verse",
               "osisID": "Lam.2.17",
               "yeivinID": "Lam 2:17",
               "starts-with-sampe": "samekh2",
@@ -663,6 +702,7 @@
               "type": "spi-samekh2"
             },
             {
+              "type": "verse",
               "osisID": "Lam.2.18",
               "yeivinID": "Lam 2:18",
               "starts-with-sampe": "samekh2",
@@ -673,6 +713,7 @@
               "type": "spi-samekh2"
             },
             {
+              "type": "verse",
               "osisID": "Lam.2.19",
               "yeivinID": "Lam 2:19",
               "starts-with-sampe": "samekh2",
@@ -712,6 +753,7 @@
               "type": "spi-samekh2"
             },
             {
+              "type": "verse",
               "osisID": "Lam.2.20",
               "yeivinID": "Lam 2:20",
               "starts-with-sampe": "samekh2",
@@ -722,6 +764,7 @@
               "type": "spi-samekh2"
             },
             {
+              "type": "verse",
               "osisID": "Lam.2.21",
               "yeivinID": "Lam 2:21",
               "starts-with-sampe": "samekh2",
@@ -732,6 +775,7 @@
               "type": "spi-samekh2"
             },
             {
+              "type": "verse",
               "osisID": "Lam.2.22",
               "yeivinID": "Lam 2:22",
               "starts-with-sampe": "samekh2",
@@ -748,6 +792,7 @@
           "osisID": "Lam.3",
           "contents": [
             {
+              "type": "verse",
               "osisID": "Lam.3.1",
               "yeivinID": "Lam 3:1",
               "starts-with-sampe": "pe2",
@@ -758,6 +803,7 @@
               "type": "spi-samekh3"
             },
             {
+              "type": "verse",
               "osisID": "Lam.3.2",
               "yeivinID": "Lam 3:2",
               "starts-with-sampe": "samekh3",
@@ -768,6 +814,7 @@
               "type": "spi-samekh3"
             },
             {
+              "type": "verse",
               "osisID": "Lam.3.3",
               "yeivinID": "Lam 3:3",
               "starts-with-sampe": "samekh3",
@@ -778,6 +825,7 @@
               "type": "spi-samekh2"
             },
             {
+              "type": "verse",
               "osisID": "Lam.3.4",
               "yeivinID": "Lam 3:4",
               "starts-with-sampe": "samekh2",
@@ -788,6 +836,7 @@
               "type": "spi-samekh3"
             },
             {
+              "type": "verse",
               "osisID": "Lam.3.5",
               "yeivinID": "Lam 3:5",
               "starts-with-sampe": "samekh3",
@@ -798,6 +847,7 @@
               "type": "spi-samekh3"
             },
             {
+              "type": "verse",
               "osisID": "Lam.3.6",
               "yeivinID": "Lam 3:6",
               "starts-with-sampe": "samekh3",
@@ -808,6 +858,7 @@
               "type": "spi-samekh2"
             },
             {
+              "type": "verse",
               "osisID": "Lam.3.7",
               "yeivinID": "Lam 3:7",
               "starts-with-sampe": "samekh2",
@@ -818,6 +869,7 @@
               "type": "spi-samekh3"
             },
             {
+              "type": "verse",
               "osisID": "Lam.3.8",
               "yeivinID": "Lam 3:8",
               "starts-with-sampe": "samekh3",
@@ -828,6 +880,7 @@
               "type": "spi-samekh3"
             },
             {
+              "type": "verse",
               "osisID": "Lam.3.9",
               "yeivinID": "Lam 3:9",
               "starts-with-sampe": "samekh3",
@@ -838,6 +891,7 @@
               "type": "spi-samekh2"
             },
             {
+              "type": "verse",
               "osisID": "Lam.3.10",
               "yeivinID": "Lam 3:10",
               "starts-with-sampe": "samekh2",
@@ -870,6 +924,7 @@
               "type": "spi-samekh3"
             },
             {
+              "type": "verse",
               "osisID": "Lam.3.11",
               "yeivinID": "Lam 3:11",
               "starts-with-sampe": "samekh3",
@@ -880,6 +935,7 @@
               "type": "spi-samekh3"
             },
             {
+              "type": "verse",
               "osisID": "Lam.3.12",
               "yeivinID": "Lam 3:12",
               "starts-with-sampe": "samekh3",
@@ -890,6 +946,7 @@
               "type": "spi-samekh2"
             },
             {
+              "type": "verse",
               "osisID": "Lam.3.13",
               "yeivinID": "Lam 3:13",
               "starts-with-sampe": "samekh2",
@@ -900,6 +957,7 @@
               "type": "spi-samekh3"
             },
             {
+              "type": "verse",
               "osisID": "Lam.3.14",
               "yeivinID": "Lam 3:14",
               "starts-with-sampe": "samekh3",
@@ -910,6 +968,7 @@
               "type": "spi-samekh3"
             },
             {
+              "type": "verse",
               "osisID": "Lam.3.15",
               "yeivinID": "Lam 3:15",
               "starts-with-sampe": "samekh3",
@@ -920,6 +979,7 @@
               "type": "spi-samekh2"
             },
             {
+              "type": "verse",
               "osisID": "Lam.3.16",
               "yeivinID": "Lam 3:16",
               "starts-with-sampe": "samekh2",
@@ -930,6 +990,7 @@
               "type": "spi-samekh3"
             },
             {
+              "type": "verse",
               "osisID": "Lam.3.17",
               "yeivinID": "Lam 3:17",
               "starts-with-sampe": "samekh3",
@@ -940,6 +1001,7 @@
               "type": "spi-samekh3"
             },
             {
+              "type": "verse",
               "osisID": "Lam.3.18",
               "yeivinID": "Lam 3:18",
               "starts-with-sampe": "samekh3",
@@ -950,6 +1012,7 @@
               "type": "spi-samekh2"
             },
             {
+              "type": "verse",
               "osisID": "Lam.3.19",
               "yeivinID": "Lam 3:19",
               "starts-with-sampe": "samekh2",
@@ -960,6 +1023,7 @@
               "type": "spi-samekh3"
             },
             {
+              "type": "verse",
               "osisID": "Lam.3.20",
               "yeivinID": "Lam 3:20",
               "starts-with-sampe": "samekh3",
@@ -992,6 +1056,7 @@
               "type": "spi-samekh3"
             },
             {
+              "type": "verse",
               "osisID": "Lam.3.21",
               "yeivinID": "Lam 3:21",
               "starts-with-sampe": "samekh3",
@@ -1002,6 +1067,7 @@
               "type": "spi-samekh2"
             },
             {
+              "type": "verse",
               "osisID": "Lam.3.22",
               "yeivinID": "Lam 3:22",
               "starts-with-sampe": "samekh2",
@@ -1012,6 +1078,7 @@
               "type": "spi-samekh3"
             },
             {
+              "type": "verse",
               "osisID": "Lam.3.23",
               "yeivinID": "Lam 3:23",
               "starts-with-sampe": "samekh3",
@@ -1022,6 +1089,7 @@
               "type": "spi-samekh3"
             },
             {
+              "type": "verse",
               "osisID": "Lam.3.24",
               "yeivinID": "Lam 3:24",
               "starts-with-sampe": "samekh3",
@@ -1032,6 +1100,7 @@
               "type": "spi-samekh2"
             },
             {
+              "type": "verse",
               "osisID": "Lam.3.25",
               "yeivinID": "Lam 3:25",
               "starts-with-sampe": "samekh2",
@@ -1042,6 +1111,7 @@
               "type": "spi-samekh3"
             },
             {
+              "type": "verse",
               "osisID": "Lam.3.26",
               "yeivinID": "Lam 3:26",
               "starts-with-sampe": "samekh3",
@@ -1052,6 +1122,7 @@
               "type": "spi-samekh3"
             },
             {
+              "type": "verse",
               "osisID": "Lam.3.27",
               "yeivinID": "Lam 3:27",
               "starts-with-sampe": "samekh3",
@@ -1062,6 +1133,7 @@
               "type": "spi-samekh2"
             },
             {
+              "type": "verse",
               "osisID": "Lam.3.28",
               "yeivinID": "Lam 3:28",
               "starts-with-sampe": "samekh2",
@@ -1072,6 +1144,7 @@
               "type": "spi-samekh3"
             },
             {
+              "type": "verse",
               "osisID": "Lam.3.29",
               "yeivinID": "Lam 3:29",
               "starts-with-sampe": "samekh3",
@@ -1082,6 +1155,7 @@
               "type": "spi-samekh3"
             },
             {
+              "type": "verse",
               "osisID": "Lam.3.30",
               "yeivinID": "Lam 3:30",
               "starts-with-sampe": "samekh3",
@@ -1092,6 +1166,7 @@
               "type": "spi-samekh2"
             },
             {
+              "type": "verse",
               "osisID": "Lam.3.31",
               "yeivinID": "Lam 3:31",
               "starts-with-sampe": "samekh2",
@@ -1102,6 +1177,7 @@
               "type": "spi-samekh3"
             },
             {
+              "type": "verse",
               "osisID": "Lam.3.32",
               "yeivinID": "Lam 3:32",
               "starts-with-sampe": "samekh3",
@@ -1112,6 +1188,7 @@
               "type": "spi-samekh3"
             },
             {
+              "type": "verse",
               "osisID": "Lam.3.33",
               "yeivinID": "Lam 3:33",
               "starts-with-sampe": "samekh3",
@@ -1122,6 +1199,7 @@
               "type": "spi-samekh2"
             },
             {
+              "type": "verse",
               "osisID": "Lam.3.34",
               "yeivinID": "Lam 3:34",
               "starts-with-sampe": "samekh2",
@@ -1132,6 +1210,7 @@
               "type": "spi-samekh3"
             },
             {
+              "type": "verse",
               "osisID": "Lam.3.35",
               "yeivinID": "Lam 3:35",
               "starts-with-sampe": "samekh3",
@@ -1142,6 +1221,7 @@
               "type": "spi-samekh3"
             },
             {
+              "type": "verse",
               "osisID": "Lam.3.36",
               "yeivinID": "Lam 3:36",
               "starts-with-sampe": "samekh3",
@@ -1178,6 +1258,7 @@
               "type": "spi-samekh2"
             },
             {
+              "type": "verse",
               "osisID": "Lam.3.37",
               "yeivinID": "Lam 3:37",
               "starts-with-sampe": "samekh2",
@@ -1188,6 +1269,7 @@
               "type": "spi-samekh3"
             },
             {
+              "type": "verse",
               "osisID": "Lam.3.38",
               "yeivinID": "Lam 3:38",
               "starts-with-sampe": "samekh3",
@@ -1198,6 +1280,7 @@
               "type": "spi-samekh3"
             },
             {
+              "type": "verse",
               "osisID": "Lam.3.39",
               "yeivinID": "Lam 3:39",
               "starts-with-sampe": "samekh3",
@@ -1221,6 +1304,7 @@
               "type": "spi-samekh2"
             },
             {
+              "type": "verse",
               "osisID": "Lam.3.40",
               "yeivinID": "Lam 3:40",
               "starts-with-sampe": "samekh2",
@@ -1231,6 +1315,7 @@
               "type": "spi-samekh3"
             },
             {
+              "type": "verse",
               "osisID": "Lam.3.41",
               "yeivinID": "Lam 3:41",
               "starts-with-sampe": "samekh3",
@@ -1241,6 +1326,7 @@
               "type": "spi-samekh3"
             },
             {
+              "type": "verse",
               "osisID": "Lam.3.42",
               "yeivinID": "Lam 3:42",
               "starts-with-sampe": "samekh3",
@@ -1251,6 +1337,7 @@
               "type": "spi-samekh2"
             },
             {
+              "type": "verse",
               "osisID": "Lam.3.43",
               "yeivinID": "Lam 3:43",
               "starts-with-sampe": "samekh2",
@@ -1261,6 +1348,7 @@
               "type": "spi-samekh3"
             },
             {
+              "type": "verse",
               "osisID": "Lam.3.44",
               "yeivinID": "Lam 3:44",
               "starts-with-sampe": "samekh3",
@@ -1271,6 +1359,7 @@
               "type": "spi-samekh3"
             },
             {
+              "type": "verse",
               "osisID": "Lam.3.45",
               "yeivinID": "Lam 3:45",
               "starts-with-sampe": "samekh3",
@@ -1281,6 +1370,7 @@
               "type": "spi-samekh2"
             },
             {
+              "type": "verse",
               "osisID": "Lam.3.46",
               "yeivinID": "Lam 3:46",
               "starts-with-sampe": "samekh2",
@@ -1291,6 +1381,7 @@
               "type": "spi-samekh3"
             },
             {
+              "type": "verse",
               "osisID": "Lam.3.47",
               "yeivinID": "Lam 3:47",
               "starts-with-sampe": "samekh3",
@@ -1301,6 +1392,7 @@
               "type": "spi-samekh3"
             },
             {
+              "type": "verse",
               "osisID": "Lam.3.48",
               "yeivinID": "Lam 3:48",
               "starts-with-sampe": "samekh3",
@@ -1311,6 +1403,7 @@
               "type": "spi-samekh2"
             },
             {
+              "type": "verse",
               "osisID": "Lam.3.49",
               "yeivinID": "Lam 3:49",
               "starts-with-sampe": "samekh2",
@@ -1321,6 +1414,7 @@
               "type": "spi-samekh3"
             },
             {
+              "type": "verse",
               "osisID": "Lam.3.50",
               "yeivinID": "Lam 3:50",
               "starts-with-sampe": "samekh3",
@@ -1331,6 +1425,7 @@
               "type": "spi-samekh3"
             },
             {
+              "type": "verse",
               "osisID": "Lam.3.51",
               "yeivinID": "Lam 3:51",
               "starts-with-sampe": "samekh3",
@@ -1341,6 +1436,7 @@
               "type": "spi-samekh2"
             },
             {
+              "type": "verse",
               "osisID": "Lam.3.52",
               "yeivinID": "Lam 3:52",
               "starts-with-sampe": "samekh2",
@@ -1351,6 +1447,7 @@
               "type": "spi-samekh3"
             },
             {
+              "type": "verse",
               "osisID": "Lam.3.53",
               "yeivinID": "Lam 3:53",
               "starts-with-sampe": "samekh3",
@@ -1361,6 +1458,7 @@
               "type": "spi-samekh3"
             },
             {
+              "type": "verse",
               "osisID": "Lam.3.54",
               "yeivinID": "Lam 3:54",
               "starts-with-sampe": "samekh3",
@@ -1371,6 +1469,7 @@
               "type": "spi-samekh2"
             },
             {
+              "type": "verse",
               "osisID": "Lam.3.55",
               "yeivinID": "Lam 3:55",
               "starts-with-sampe": "samekh2",
@@ -1381,6 +1480,7 @@
               "type": "spi-samekh3"
             },
             {
+              "type": "verse",
               "osisID": "Lam.3.56",
               "yeivinID": "Lam 3:56",
               "starts-with-sampe": "samekh3",
@@ -1391,6 +1491,7 @@
               "type": "spi-samekh3"
             },
             {
+              "type": "verse",
               "osisID": "Lam.3.57",
               "yeivinID": "Lam 3:57",
               "starts-with-sampe": "samekh3",
@@ -1401,6 +1502,7 @@
               "type": "spi-samekh2"
             },
             {
+              "type": "verse",
               "osisID": "Lam.3.58",
               "yeivinID": "Lam 3:58",
               "starts-with-sampe": "samekh2",
@@ -1411,6 +1513,7 @@
               "type": "spi-samekh3"
             },
             {
+              "type": "verse",
               "osisID": "Lam.3.59",
               "yeivinID": "Lam 3:59",
               "starts-with-sampe": "samekh3",
@@ -1421,6 +1524,7 @@
               "type": "spi-samekh3"
             },
             {
+              "type": "verse",
               "osisID": "Lam.3.60",
               "yeivinID": "Lam 3:60",
               "starts-with-sampe": "samekh3",
@@ -1431,6 +1535,7 @@
               "type": "spi-samekh2"
             },
             {
+              "type": "verse",
               "osisID": "Lam.3.61",
               "yeivinID": "Lam 3:61",
               "starts-with-sampe": "samekh2",
@@ -1441,6 +1546,7 @@
               "type": "spi-samekh3"
             },
             {
+              "type": "verse",
               "osisID": "Lam.3.62",
               "yeivinID": "Lam 3:62",
               "starts-with-sampe": "samekh3",
@@ -1451,6 +1557,7 @@
               "type": "spi-samekh3"
             },
             {
+              "type": "verse",
               "osisID": "Lam.3.63",
               "yeivinID": "Lam 3:63",
               "starts-with-sampe": "samekh3",
@@ -1461,6 +1568,7 @@
               "type": "spi-samekh2"
             },
             {
+              "type": "verse",
               "osisID": "Lam.3.64",
               "yeivinID": "Lam 3:64",
               "starts-with-sampe": "samekh2",
@@ -1471,6 +1579,7 @@
               "type": "spi-samekh3"
             },
             {
+              "type": "verse",
               "osisID": "Lam.3.65",
               "yeivinID": "Lam 3:65",
               "starts-with-sampe": "samekh3",
@@ -1481,6 +1590,7 @@
               "type": "spi-samekh3"
             },
             {
+              "type": "verse",
               "osisID": "Lam.3.66",
               "yeivinID": "Lam 3:66",
               "starts-with-sampe": "samekh3",
@@ -1497,6 +1607,7 @@
           "osisID": "Lam.4",
           "contents": [
             {
+              "type": "verse",
               "osisID": "Lam.4.1",
               "yeivinID": "Lam 4:1",
               "starts-with-sampe": "pe2",
@@ -1507,6 +1618,7 @@
               "type": "spi-samekh2"
             },
             {
+              "type": "verse",
               "osisID": "Lam.4.2",
               "yeivinID": "Lam 4:2",
               "starts-with-sampe": "samekh2",
@@ -1517,6 +1629,7 @@
               "type": "spi-samekh2"
             },
             {
+              "type": "verse",
               "osisID": "Lam.4.3",
               "yeivinID": "Lam 4:3",
               "starts-with-sampe": "samekh2",
@@ -1566,6 +1679,7 @@
               "type": "spi-samekh2"
             },
             {
+              "type": "verse",
               "osisID": "Lam.4.4",
               "yeivinID": "Lam 4:4",
               "starts-with-sampe": "samekh2",
@@ -1576,6 +1690,7 @@
               "type": "spi-samekh2"
             },
             {
+              "type": "verse",
               "osisID": "Lam.4.5",
               "yeivinID": "Lam 4:5",
               "starts-with-sampe": "samekh2",
@@ -1586,6 +1701,7 @@
               "type": "spi-samekh2"
             },
             {
+              "type": "verse",
               "osisID": "Lam.4.6",
               "yeivinID": "Lam 4:6",
               "starts-with-sampe": "samekh2",
@@ -1596,6 +1712,7 @@
               "type": "spi-samekh2"
             },
             {
+              "type": "verse",
               "osisID": "Lam.4.7",
               "yeivinID": "Lam 4:7",
               "starts-with-sampe": "samekh2",
@@ -1606,6 +1723,7 @@
               "type": "spi-samekh2"
             },
             {
+              "type": "verse",
               "osisID": "Lam.4.8",
               "yeivinID": "Lam 4:8",
               "starts-with-sampe": "samekh2",
@@ -1616,6 +1734,7 @@
               "type": "spi-samekh2"
             },
             {
+              "type": "verse",
               "osisID": "Lam.4.9",
               "yeivinID": "Lam 4:9",
               "starts-with-sampe": "samekh2",
@@ -1626,6 +1745,7 @@
               "type": "spi-samekh2"
             },
             {
+              "type": "verse",
               "osisID": "Lam.4.10",
               "yeivinID": "Lam 4:10",
               "starts-with-sampe": "samekh2",
@@ -1636,6 +1756,7 @@
               "type": "spi-samekh2"
             },
             {
+              "type": "verse",
               "osisID": "Lam.4.11",
               "yeivinID": "Lam 4:11",
               "starts-with-sampe": "samekh2",
@@ -1646,6 +1767,7 @@
               "type": "spi-samekh2"
             },
             {
+              "type": "verse",
               "osisID": "Lam.4.12",
               "yeivinID": "Lam 4:12",
               "starts-with-sampe": "samekh2",
@@ -1678,6 +1800,7 @@
               "type": "spi-samekh2"
             },
             {
+              "type": "verse",
               "osisID": "Lam.4.13",
               "yeivinID": "Lam 4:13",
               "starts-with-sampe": "samekh2",
@@ -1688,6 +1811,7 @@
               "type": "spi-samekh2"
             },
             {
+              "type": "verse",
               "osisID": "Lam.4.14",
               "yeivinID": "Lam 4:14",
               "starts-with-sampe": "samekh2",
@@ -1698,6 +1822,7 @@
               "type": "spi-samekh2"
             },
             {
+              "type": "verse",
               "osisID": "Lam.4.15",
               "yeivinID": "Lam 4:15",
               "starts-with-sampe": "samekh2",
@@ -1708,6 +1833,7 @@
               "type": "spi-samekh2"
             },
             {
+              "type": "verse",
               "osisID": "Lam.4.16",
               "yeivinID": "Lam 4:16",
               "starts-with-sampe": "samekh2",
@@ -1740,6 +1866,7 @@
               "type": "spi-samekh2"
             },
             {
+              "type": "verse",
               "osisID": "Lam.4.17",
               "yeivinID": "Lam 4:17",
               "starts-with-sampe": "samekh2",
@@ -1768,6 +1895,7 @@
               "type": "spi-samekh2"
             },
             {
+              "type": "verse",
               "osisID": "Lam.4.18",
               "yeivinID": "Lam 4:18",
               "starts-with-sampe": "samekh2",
@@ -1778,6 +1906,7 @@
               "type": "spi-samekh2"
             },
             {
+              "type": "verse",
               "osisID": "Lam.4.19",
               "yeivinID": "Lam 4:19",
               "starts-with-sampe": "samekh2",
@@ -1788,6 +1917,7 @@
               "type": "spi-samekh2"
             },
             {
+              "type": "verse",
               "osisID": "Lam.4.20",
               "yeivinID": "Lam 4:20",
               "starts-with-sampe": "samekh2",
@@ -1798,6 +1928,7 @@
               "type": "spi-samekh2"
             },
             {
+              "type": "verse",
               "osisID": "Lam.4.21",
               "yeivinID": "Lam 4:21",
               "starts-with-sampe": "samekh2",
@@ -1830,6 +1961,7 @@
               "type": "spi-samekh2"
             },
             {
+              "type": "verse",
               "osisID": "Lam.4.22",
               "yeivinID": "Lam 4:22",
               "starts-with-sampe": "samekh2",
@@ -1846,6 +1978,7 @@
           "osisID": "Lam.5",
           "contents": [
             {
+              "type": "verse",
               "osisID": "Lam.5.1",
               "yeivinID": "Lam 5:1",
               "starts-with-sampe": "pe2",
@@ -1874,11 +2007,13 @@
               ]
             },
             {
+              "type": "verse",
               "osisID": "Lam.5.2",
               "yeivinID": "Lam 5:2",
               "text": "נַחֲלָתֵ֙נוּ֙ נֶֽהֶפְכָ֣ה לְזָרִ֔ים בָּתֵּ֖ינוּ לְנׇכְרִֽים׃"
             },
             {
+              "type": "verse",
               "osisID": "Lam.5.3",
               "yeivinID": "Lam 5:3",
               "contents": [
@@ -1906,11 +2041,13 @@
               ]
             },
             {
+              "type": "verse",
               "osisID": "Lam.5.4",
               "yeivinID": "Lam 5:4",
               "text": "מֵימֵ֙ינוּ֙ בְּכֶ֣סֶף שָׁתִ֔ינוּ עֵצֵ֖ינוּ בִּמְחִ֥יר יָבֹֽאוּ׃"
             },
             {
+              "type": "verse",
               "osisID": "Lam.5.5",
               "yeivinID": "Lam 5:5",
               "contents": [
@@ -1938,11 +2075,13 @@
               ]
             },
             {
+              "type": "verse",
               "osisID": "Lam.5.6",
               "yeivinID": "Lam 5:6",
               "text": "מִצְרַ֙יִם֙ נָתַ֣נּוּ יָ֔ד אַשּׁ֖וּר לִשְׂבֹּ֥עַֽ לָֽחֶם׃"
             },
             {
+              "type": "verse",
               "osisID": "Lam.5.7",
               "yeivinID": "Lam 5:7",
               "contents": [
@@ -1987,56 +2126,67 @@
               ]
             },
             {
+              "type": "verse",
               "osisID": "Lam.5.8",
               "yeivinID": "Lam 5:8",
               "text": "עֲבָדִים֙ מָ֣שְׁלוּ בָ֔נוּ פֹּרֵ֖ק אֵ֥ין מִיָּדָֽם׃"
             },
             {
+              "type": "verse",
               "osisID": "Lam.5.9",
               "yeivinID": "Lam 5:9",
               "text": "בְּנַפְשֵׁ֙נוּ֙ נָבִ֣יא לַחְמֵ֔נוּ מִפְּנֵ֖י חֶ֥רֶב הַמִּדְבָּֽר׃"
             },
             {
+              "type": "verse",
               "osisID": "Lam.5.10",
               "yeivinID": "Lam 5:10",
               "text": "עוֹרֵ֙נוּ֙ כְּתַנּ֣וּר נִכְמָ֔רוּ מִפְּנֵ֖י זַלְעֲפ֥וֹת רָעָֽב׃"
             },
             {
+              "type": "verse",
               "osisID": "Lam.5.11",
               "yeivinID": "Lam 5:11",
               "text": "נָשִׁים֙ בְּצִיּ֣וֹן עִנּ֔וּ בְּתֻלֹ֖ת בְּעָרֵ֥י יְהוּדָֽה׃"
             },
             {
+              "type": "verse",
               "osisID": "Lam.5.12",
               "yeivinID": "Lam 5:12",
               "text": "שָׂרִים֙ בְּיָדָ֣ם נִתְל֔וּ פְּנֵ֥י זְקֵנִ֖ים לֹ֥א נֶהְדָּֽרוּ׃"
             },
             {
+              "type": "verse",
               "osisID": "Lam.5.13",
               "yeivinID": "Lam 5:13",
               "text": "בַּחוּרִים֙ טְח֣וֹן נָשָׂ֔אוּ וּנְעָרִ֖ים בָּעֵ֥ץ כָּשָֽׁלוּ׃"
             },
             {
+              "type": "verse",
               "osisID": "Lam.5.14",
               "yeivinID": "Lam 5:14",
               "text": "זְקֵנִים֙ מִשַּׁ֣עַר שָׁבָ֔תוּ בַּחוּרִ֖ים מִנְּגִינָתָֽם׃"
             },
             {
+              "type": "verse",
               "osisID": "Lam.5.15",
               "yeivinID": "Lam 5:15",
               "text": "שָׁבַת֙ מְשׂ֣וֹשׂ לִבֵּ֔נוּ נֶהְפַּ֥ךְ לְאֵ֖בֶל מְחֹלֵֽנוּ׃"
             },
             {
+              "type": "verse",
               "osisID": "Lam.5.16",
               "yeivinID": "Lam 5:16",
               "text": "נָֽפְלָה֙ עֲטֶ֣רֶת רֹאשֵׁ֔נוּ אֽוֹי־נָ֥א לָ֖נוּ כִּ֥י חָטָֽאנוּ׃"
             },
             {
+              "type": "verse",
               "osisID": "Lam.5.17",
               "yeivinID": "Lam 5:17",
               "text": "עַל־זֶ֗ה הָיָ֤ה דָוֶה֙ לִבֵּ֔נוּ עַל־אֵ֖לֶּה חָשְׁכ֥וּ עֵינֵֽינוּ׃"
             },
             {
+              "type": "verse",
               "osisID": "Lam.5.18",
               "yeivinID": "Lam 5:18",
               "ends-with-sampe": "pe2",
@@ -2046,17 +2196,20 @@
               "type": "spi-pe2"
             },
             {
+              "type": "verse",
               "osisID": "Lam.5.19",
               "yeivinID": "Lam 5:19",
               "starts-with-sampe": "pe2",
               "text": "אַתָּ֤ה יְהֹוָה֙ לְעוֹלָ֣ם תֵּשֵׁ֔ב כִּסְאֲךָ֖ לְד֥וֹר וָדֽוֹר׃"
             },
             {
+              "type": "verse",
               "osisID": "Lam.5.20",
               "yeivinID": "Lam 5:20",
               "text": "לָ֤מָּה לָנֶ֙צַח֙ תִּשְׁכָּחֵ֔נוּ תַּֽעַזְבֵ֖נוּ לְאֹ֥רֶךְ יָמִֽים׃"
             },
             {
+              "type": "verse",
               "osisID": "Lam.5.21",
               "yeivinID": "Lam 5:21",
               "contents": [
@@ -2091,6 +2244,7 @@
               ]
             },
             {
+              "type": "verse",
               "osisID": "Lam.5.22",
               "yeivinID": "Lam 5:22",
               "contents": [

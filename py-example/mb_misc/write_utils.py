@@ -4,11 +4,11 @@ Exports:
     bkg_path
 """
 
-from py_misc import my_html
+from mb_misc import mb_html
 from mb_cmn import file_io
 from mb_cmn import my_utils
 from mb_cmn import uni_heb as uh
-from py_misc import verse_and_friends as vaf
+from mb_misc import verse_and_friends as vaf
 from mb_cmn import bib_locales as tbn
 from mb_cmn import str_defs as sd
 
@@ -134,7 +134,7 @@ def _write_segments_from_html_els(out_fp, html_els, cant_dab=None, indent=""):
                 out_fp.write(indent + line + "\n")
             continue
         if isinstance(html_el, dict):
-            segtag = my_html.htel_get_tag(html_el)  # e.g. 'span'
+            segtag = mb_html.htel_get_tag(html_el)  # e.g. 'span'
             attr = html_el.get("attr")
             kev_strs = _key_eq_val_strs(attr or {})
             if contents := html_el.get("contents"):

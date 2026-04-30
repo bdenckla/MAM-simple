@@ -1,31 +1,31 @@
 """Exports HANDLERS"""
 
-from py_misc import my_html
+from mb_misc import mb_html
 from mb_cmn import str_defs as sd
 from mb_cmn import hebrew_punctuation as hpu
 from mb_cmn import shrink
 
-# etel: ElementTree element
+# jobj: JSON dict
 # ofc1: output for all children, summed together
 # ofc2: output for all children, per child
 
 
-def _verse(etel, ofc1, _ofc2):
-    return ofc1 + _maybe_sampe(etel)
+def _verse(jobj, ofc1, _ofc2):
+    return ofc1 + _maybe_sampe(jobj)
 
 
-def _text(etel, _ofc1, _ofc2):
-    return [etel.attrib["text"]]
+def _text(jobj, _ofc1, _ofc2):
+    return [jobj["text"]]
 
 
 def _samekh2_or_3(_etel, _ofc1, _ofc2):
-    span = my_html.span_c(("{ס}",), "mam-spi-samekh")
+    span = mb_html.span_c(("{ס}",), "mam-spi-samekh")
     return [sd.NBSP, span, sd.OCTO_NBSP]
 
 
 def _pe2_or_3(_etel, _ofc1, _ofc2):
-    span = my_html.span_c(("{פ}",), "mam-spi-pe")
-    return [sd.NBSP, span, my_html.line_break()]
+    span = mb_html.span_c(("{פ}",), "mam-spi-pe")
+    return [sd.NBSP, span, mb_html.line_break()]
 
 
 def _samekh3_nin(_etel, _ofc1, _ofc2):
@@ -33,7 +33,7 @@ def _samekh3_nin(_etel, _ofc1, _ofc2):
     return [sd.NBSP]
 
 
-def _invnun(etel, _ofc1, _ofc2):
+def _invnun(jobj, _ofc1, _ofc2):
     """
     Handle either of the following two types of invnun elements:
 
@@ -46,17 +46,17 @@ def _invnun(etel, _ofc1, _ofc2):
         at the start of verses 23-28 and 40.
     """
     maybe_nbsp_dic = {"including-trailing-space": [sd.NBSP], None: []}
-    maybe_nbsp = maybe_nbsp_dic[etel.attrib.get("class")]
-    span = my_html.span_c((hpu.NUN_HAF,), "mam-spi-invnun")
+    maybe_nbsp = maybe_nbsp_dic[jobj.get("class")]
+    span = mb_html.span_c((hpu.NUN_HAF,), "mam-spi-invnun")
     return [span, *maybe_nbsp]
 
 
 def _legarmeih(_etel, _ofc1, _ofc2):
-    return [sd.THSP, my_html.bold((hpu.PASOLEG,))]
+    return [sd.THSP, mb_html.bold((hpu.PASOLEG,))]
 
 
 def _paseq(_etel, _ofc1, _ofc2):
-    return [sd.THSP, my_html.small((hpu.PASOLEG,)), sd.THSP]
+    return [sd.THSP, mb_html.small((hpu.PASOLEG,)), sd.THSP]
 
 
 def _empty(_etel, _ofc1, _ofc2):
@@ -68,28 +68,28 @@ def _pass_thru(_etel, ofc1, _ofc2):
 
 
 def _letter_small(_etel, ofc1, _ofc2):
-    return [my_html.small(ofc1)]
+    return [mb_html.small(ofc1)]
 
 
 def _letter_large(_etel, ofc1, _ofc2):
-    return [my_html.big(ofc1)]
+    return [mb_html.big(ofc1)]
 
 
 def _letter_hung(_etel, ofc1, _ofc2):
-    return [my_html.sup(ofc1)]
+    return [mb_html.sup(ofc1)]
 
 
 def _kq_trivial(_etel, ofc1, _ofc2):
     """Handle a trivial ketiv/qere element"""
-    return [my_html.span_c(ofc1, "mam-kq-trivial")]
+    return [mb_html.span_c(ofc1, "mam-kq-trivial")]
 
 
-def _ketiv_qere(etel, _ofc1, ofc2):
+def _ketiv_qere(jobj, _ofc1, ofc2):
     sep_dic = {"sep-maqaf": hpu.MAQ, None: " "}
-    separator = sep_dic[etel.attrib.get("class")]
-    k_or_q, q_or_k = ofc2.values()
+    separator = sep_dic[jobj.get("class")]
+    k_or_q, q_or_k = [v for _, v in ofc2]
     inside = [*k_or_q, separator, *q_or_k]
-    return [my_html.span_c(inside, "mam-kq")]
+    return [mb_html.span_c(inside, "mam-kq")]
 
 
 def _ketiv(etel, ofc1, _ofc2):
@@ -105,7 +105,7 @@ def _k_velo_q_maq(_etel, _ofc1, _ofc2):
     """
     Handle the rare-within-rare (2 cases) of maqaf after ketiv velo qere.
     """
-    return [my_html.span(hpu.MAQ, {"class": "k-velo-q-maq"})]
+    return [mb_html.span(hpu.MAQ, {"class": "k-velo-q-maq"})]
 
 
 def _qere(_etel, ofc1, _ofc2):
@@ -117,9 +117,9 @@ def _qere(_etel, ofc1, _ofc2):
     return _ketiv_or_qere_helper("mam-kq-q", "[]", ofc1)
 
 
-def _scrdfftar(etel, _ofc1, ofc2):
-    target, _note = ofc2.values()
-    # starpos = etel.attrib["sdt-starpos"]
+def _scrdfftar(_jobj, _ofc1, ofc2):
+    target, _note = [v for _, v in ofc2]
+    # starpos = jobj["sdt-starpos"]
     # assert starpos in ("before-word", "after-word")
     # maybe_note_0 = note if starpos == "before-word" else []
     # maybe_note_1 = note if starpos == "after-word" else []
@@ -134,8 +134,8 @@ def _scrdfftar_target(_etel, ofc1, _ofc2):
 # def _scrdfftar_note(_etel, ofc1, _ofc2):
 #     """Handle a scroll difference note element"""
 #     paren_ofc1 = _paren(ofc1)
-#     el_sup = my_html.sup(["*"], {"class": "footnote-marker"})
-#     el_italic = my_html.italic(paren_ofc1, {"class": "footnote"})
+#     el_sup = mb_html.sup(["*"], {"class": "footnote-marker"})
+#     el_italic = mb_html.italic(paren_ofc1, {"class": "footnote"})
 #     return [el_sup, el_italic]
 
 
@@ -144,7 +144,7 @@ def _shirah_space(_etel, _ofc1, _ofc2):
 
 
 def _implicit_maqaf(_etel, _ofc1, _ofc2):
-    return [my_html.span_c([hpu.MAQ], "mam-implicit-maqaf")]
+    return [mb_html.span_c([hpu.MAQ], "mam-implicit-maqaf")]
 
 
 #######################################################################
@@ -158,11 +158,11 @@ def _paren(lst: list):
 def _ketiv_or_qere_helper(the_class, brackets, ofc1):
     b0_ofc1_b1 = [brackets[0], *ofc1, brackets[1]]
     contents = shrink.shrink(b0_ofc1_b1)
-    return [my_html.span(contents, {"class": the_class})]
+    return [mb_html.span(contents, {"class": the_class})]
 
 
-def _maybe_sampe(etel):
-    ews = etel.attrib.get("ends-with-sampe")
+def _maybe_sampe(jobj):
+    ews = jobj.get("ends-with-sampe")
     if ews is None:
         return []
     sampe_fn_dic = {

@@ -6,7 +6,7 @@ from dataclasses import dataclass
 from typing import Union
 
 from mb_cmn import file_io
-from py_misc import my_html_get_lines as hgl
+from mb_misc import mb_html_get_lines
 from mb_cmn import str_defs as sd
 from mb_cmn.my_utils import st_map
 from mb_cmn.my_utils import sum_of_map
@@ -47,7 +47,7 @@ def el_to_str_for_sef(html_el):
         "hgl-max-line-len": -1,
         "hgl-line-breaks-allowed": False,
     }
-    lines = hgl.get_lines_from_html_el(hgl_opts, html_el)
+    lines = mb_html_get_lines.get_lines_from_html_el(hgl_opts, html_el)
     assert len(lines) == 1
     return lines[0]
 
@@ -360,7 +360,7 @@ def _write_callback(add_wbr, html_comment, html_el, out_fp):
         "hgl-max-line-len": 100,
         "hgl-line-breaks-allowed": True,
     }
-    lines = hgl.get_lines_from_html_el(hgl_opts, html_el)
+    lines = mb_html_get_lines.get_lines_from_html_el(hgl_opts, html_el)
     out_fp.write("\n".join(lines))
 
 

@@ -1,7 +1,7 @@
 """Exports sef_header"""
 
 from mb_sefaria import sef_cmn
-from py_misc import ws_urls
+from mb_misc import ws_urls
 
 
 def sef_header(bkid):

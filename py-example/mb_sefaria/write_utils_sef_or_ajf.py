@@ -4,7 +4,7 @@ Exports:
 """
 
 import csv
-from py_misc import my_html
+from mb_misc import mb_html
 from mb_cmn import file_io
 from mb_cmn import my_utils
 from mb_sefaria import sef_header
@@ -37,7 +37,7 @@ def _maybe_get(verses_dicts, cant_dab, bcvt):
 
 
 def _html_str(html_els):
-    return "".join(map(my_html.el_to_str_for_sef, html_els)) if html_els else ""
+    return "".join(map(mb_html.el_to_str_for_sef, html_els)) if html_els else ""
 
 
 def _write_callback(variant, bkid, contents, file_handle):
