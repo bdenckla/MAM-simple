@@ -41,7 +41,7 @@ There are three main kinds of difference:
 
 Note that here in this document, we are not concerned with the notion of a *chanted verse*;
 that is, we are not concerned with where *sof pasuq* and/or *silluq* falls. Here, when we say
-"verse", we mean only the span of text between verse-number labels. The fact that this span
+"verse", we mean only the span of text between cv-labels. The fact that this span
 usually corresponds to a chanted verse is irrelevant here.
 
 The eight cases where differences occur are:
@@ -59,7 +59,7 @@ The eight cases where differences occur are:
 
 ---
 
-## BHS Labeling
+## BHS Versification
 
 <a id="bhs-1sam-23-24-boundary"></a>
 
@@ -202,7 +202,7 @@ and they are marked `contents-corresponds-to="no verse in MAM"`.
 
 ---
 
-## Sefaria Labeling
+## Sefaria Versification
 
 Sefaria has the same simple chapter-boundary shifts as BHS in 1 Samuel and
 Jeremiah, the same one-vs-many cases as BHS at the start of both Decalogues,
