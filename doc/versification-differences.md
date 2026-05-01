@@ -61,6 +61,8 @@ The eight cases where differences occur are:
 
 ## BHS Labeling
 
+<a id="bhs-1sam-23-24-boundary"></a>
+
 ### 1 Samuel — chapter 23/24 boundary
 
 The span of text labeled 23:29 in MAM is labeled 24:1 in BHS.
@@ -74,6 +76,8 @@ Then MAM's verse numbers are one lower than BHS's for the rest of chapter 24.
 | | … | … |
 | וישבע…המצודה | 24:22 | 24:23 |
 
+<a id="bhs-jer-30-31-boundary"></a>
+
 ### 2. Jeremiah — chapter 30/31 boundary
 
 The span of text labeled 30:25 in MAM is labeled 31:1 in BHS.
@@ -85,6 +89,8 @@ Then MAM's verse numbers are one lower than BHS's for the rest of chapter 31.
 | כה…ישראל | 31:1 | 31:2 |
 | | … | … |
 | וכל־העמק…לעולם | 31:39 | 31:40 |
+
+<a id="bhs-exod-20-early-decalogue"></a>
 
 ### 3. Exodus — early Decalogue (ch 20)
 
@@ -98,6 +104,8 @@ is labeled as 20:2 and 20:3 in BHS.
 | לא־תעשה…לארץ | 20:3 | 20:4 |
 | | … | … |
 | כבד…לך | 20:11 | 20:12 |
+
+<a id="bhs-exod-20-late-decalogue"></a>
 
 ### 4. Exodus — late Decalogue (ch 20)
 
@@ -117,6 +125,8 @@ is labeled as 20:13, 20:14, 20:15, and 20:16 in BHS.
 > **Note:** This second Decalogue split is present in BHS but **not** in
 > Sefaria. See the [combined table](#combined-table-all-differences) below.
 
+<a id="bhs-num-25-26-boundary"></a>
+
 ### 5. Numbers — chapter 25/26 boundary
 
 The span of text labeled 26:1 in MAM
@@ -128,6 +138,8 @@ is labeled as 25:19 and 26:1 in BHS: a complex boundary shift.
 | ויאמר…לאמר | 26:1b | 26:1 |
 
 > **Note:** This split is present in BHS but **not** in Sefaria.
+
+<a id="bhs-deut-5-early-decalogue"></a>
 
 ### 6. Deuteronomy — early Decalogue (ch 5)
 
@@ -141,6 +153,8 @@ is labeled as 5:6 and 5:7 in BHS.
 | לא־תעשה…לארץ | 5:7 | 5:8 |
 | | … | … |
 | כבד…לך | 5:15 | 5:16 |
+
+<a id="bhs-deut-5-late-decalogue"></a>
 
 ### 7. Deuteronomy — late Decalogue (ch 5)
 
@@ -159,6 +173,8 @@ is labeled as 5:17, 5:18, 5:19, and 5:20 in BHS.
 
 > **Note:** This second Decalogue split is present in BHS but **not** in
 > Sefaria.
+
+<a id="bhs-josh-21-present-vs-absent"></a>
 
 ### 8. Joshua 21 — present-vs-absent
 
@@ -189,11 +205,11 @@ one-vs-many case with a complex chapter-boundary shift.
 
 ### 1. 1 Samuel — chapter 23/24 boundary
 
-Same simple chapter-boundary shift as in BHS; see the BHS table above.
+As in [BHS](#bhs-1sam-23-24-boundary), Sef has a simple chapter-boundary shift here.
 
 ### 2. Jeremiah — chapter 30/31 boundary
 
-Same simple chapter-boundary shift as in BHS; see the BHS table above.
+As in [BHS](#bhs-jer-30-31-boundary), Sef has a simple chapter-boundary shift here.
 
 ### 3. Exodus — early Decalogue (ch 20)
 
@@ -231,7 +247,7 @@ Unlike BHS, Sef does not further split the span of text labeled 5:16 in MAM.
 
 ### 5. Joshua 21 — present-vs-absent
 
-Same present-vs-absent case as in BHS; see the BHS table above.
+As in [BHS](#bhs-josh-21-present-vs-absent), Sef has a present-vs-absent case here.
 
 ---
 
