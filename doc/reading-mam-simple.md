@@ -145,19 +145,26 @@ for child in book39:
 **Note:** The above `get_verse_text` is a simplification suitable for
 extracting the basic consonantal text with vowels and accents.
 For handling ketiv/qere, special letters, legarmeih rendering, etc.,
-see the handler-based approach in `py-example/mb_sefaria/mam4sef_handlers.py`.
+see the handler-based approach in `py-examples/mb_sefaria/mam4sef_handlers.py`.
 
-## The `py-example/` Program
+## The `py-examples/` Programs
 
-The `py-example/` directory contains a complete working example
-of reading MAM-simple and producing the MAM-for-Sefaria CSV/HTML output.
-It uses a recursive handler pattern where each element type
+The `py-examples/` directory contains two complete working examples:
+
+- **`main_mam4sef.py`** — reads MAM-simple JSON and produces the
+  MAM-for-Sefaria CSV/HTML output.
+- **`main_mam_osis.py`** — reads MAM-simple XML and produces the
+  MAM-OSIS XML output.
+
+Both examples use a recursive handler pattern where each element type
 has a registered handler function:
 
 - **`mam4sef_or_ajf.py`** — reads JSON, walks the tree with `_handle()`
 - **`mam4sef_handlers.py`** — handler functions for every element type, keyed by `(tag, class)` tuple
 
-This is the canonical reference for how to process the full range of MAM-simple element types.
+The OSIS example additionally uses the `osis/` helper modules.
+Together these examples are the canonical reference for how to process
+the full range of MAM-simple element types.
 
 ## JSON Structure
 

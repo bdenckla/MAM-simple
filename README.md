@@ -13,9 +13,13 @@ expressed as nested JSON objects instead of XML elements).
 For a detailed guide to the structure, element types, and how to extract text,
 see [Reading MAM-simple](doc/reading-mam-simple.md).
 
-This repo also has a program, `py-example/main_mam4sef.py`,
-that is an example of how the XML can be used.
-This program uses the XML to create the Sefaria-format (CSV/HTML) version of MAM.
+This repo also has example programs under `py-examples/`:
+
+* `py-examples/main_mam4sef.py` uses the XML to create the
+       Sefaria-format (CSV/HTML) version of MAM.
+* `py-examples/main_mam_osis.py` uses the XML to create the OSIS XML
+       output in the sibling `MAM-OSIS` repo. It validates the output against
+       the OSIS XSD and therefore requires `lxml`.
 
 The source of this data is
 [MAM-parsed](https://github.com/bdenckla/MAM-parsed)/plus.
