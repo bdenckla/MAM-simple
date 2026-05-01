@@ -63,13 +63,14 @@ The eight cases where differences occur are:
 
 <a id="bhs-1sam-23-24-boundary"></a>
 
-### 1 Samuel — chapter 23/24 boundary
+### 1. 1 Samuel — chapter 23/24 boundary
 
 The span of text labeled 23:29 in MAM is labeled 24:1 in BHS.
 Then MAM's verse numbers are one lower than BHS's for the rest of chapter 24.
 
 | Hebrew range | MAM | BHS |
 |---------------:|-----|-----|
+| וישב…המחלקות | 23:28 | 23:28 |
 | ויעל…עין־גדי | 23:29 | 24:1 |
 | ויהי…גדי | 24:1 | 24:2 |
 | ויקח…היעלים | 24:2 | 24:3 |
@@ -85,6 +86,7 @@ Then MAM's verse numbers are one lower than BHS's for the rest of chapter 31.
 
 | Hebrew range | MAM | BHS |
 |-----------------:|-----|-----|
+| לא ישוב…בה | 30:24 | 30:24 |
 | בעת…לעם | 30:25 | 31:1 |
 | כה…ישראל | 31:1 | 31:2 |
 | | … | … |
@@ -99,6 +101,7 @@ is labeled as 20:2 and 20:3 in BHS.
 
 | Hebrew range | MAM | BHS |
 |-----------------:|-----|-----|
+| וידבר…לאמר | 20:1 | 20:1 |
 | אנכי…עבדים | 20:2a | 20:2 |
 | לא יהיה…פני | 20:2b | 20:3 |
 | לא־תעשה…לארץ | 20:3 | 20:4 |
@@ -114,6 +117,7 @@ is labeled as 20:13, 20:14, 20:15, and 20:16 in BHS.
 
 | Hebrew range | MAM | BHS |
 |-----------------:|-----|-----|
+| כבד…לך | 20:11 | 20:11 |
 | לא תרצח | 20:12a | 20:13 |
 | לא תנאף | 20:12b | 20:14 |
 | לא תגנב | 20:12c | 20:15 |
@@ -134,6 +138,7 @@ is labeled as 25:19 and 26:1 in BHS: a complex boundary shift.
 
 | Hebrew range | MAM | BHS |
 |---------------:|-----|-----|
+| כי…דבר־פעור | 25:18 | 25:18 |
 | ויהי…המגפה | 26:1a | 25:19 |
 | ויאמר…לאמר | 26:1b | 26:1 |
 
@@ -148,6 +153,7 @@ is labeled as 5:6 and 5:7 in BHS.
 
 | Hebrew range | MAM | BHS |
 |-----------------:|-----|-----|
+| אנכי…לאמר | 5:5 | 5:5 |
 | אנכי…עבדים | 5:6a | 5:6 |
 | לא יהיה…פני | 5:6b | 5:7 |
 | לא־תעשה…לארץ | 5:7 | 5:8 |
@@ -163,6 +169,7 @@ is labeled as 5:17, 5:18, 5:19, and 5:20 in BHS.
 
 | Hebrew range | MAM | BHS |
 |-----------------:|-----|-----|
+| כבד…לך | 5:15 | 5:15 |
 | לא תרצח | 5:16a | 5:17 |
 | ולא תנאף | 5:16b | 5:18 |
 | ולא תגנב | 5:16c | 5:19 |
@@ -270,7 +277,7 @@ relative to the MAM reference shown in the MAM column.
       <td colspan="2" style="text-align:center;">M+1</td>
     </tr>
     <tr>
-      <th colspan="4" style="text-align:left;">Exodus 20</th>
+      <th colspan="4" style="text-align:left;">Exodus — chapter 20</th>
     </tr>
     <tr>
       <td style="text-align:right;">אנכי…עבדים</td>
@@ -318,7 +325,7 @@ relative to the MAM reference shown in the MAM column.
       <td>M+1</td>
     </tr>
     <tr>
-      <th colspan="4" style="text-align:left;">Numbers — chapter 25/26 boundary</th>
+      <th colspan="4" style="text-align:left;">Joshua — chapter 21</th>
     </tr>
     <tr>
       <td style="text-align:right;">ויהי…המגפה</td>
@@ -333,7 +340,7 @@ relative to the MAM reference shown in the MAM column.
       <td>26:1b</td>
     </tr>
     <tr>
-      <th colspan="4" style="text-align:left;">Deuteronomy 5</th>
+      <th colspan="4" style="text-align:left;">Deuteronomy — chapter 5</th>
     </tr>
     <tr>
       <td style="text-align:right;">אנכי…עבדים</td>
