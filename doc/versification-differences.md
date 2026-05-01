@@ -23,13 +23,13 @@ There are three main kinds of difference:
   In particular, they disagree about where a new chapter starts.
   The span of text labeled as the last verse of chapter N in T1
   is labeled as the first verse of chapter N+1 in T2.
-  Then T1's verse numbers are one lower that T2's for the rest of chapter N+1.
+  Then T1's verse numbers are one lower than T2's for the rest of chapter N+1.
 2. **One-vs-many** —
   The span of text labeled X in T1
-  is labelled as two or more verses in T2, i.e. is labeled Y, Z, ....
+  is labeled as two or more verses in T2, i.e. is labeled Y, Z, ....
   This can result in a complex chapter-boundary shift
   if the span of text labeled N:1 in T1
-  is labelled as the last verse of chapter N-1 and the first verse of chapter N.
+  is labeled as the last verse of chapter N-1 and the first verse of chapter N.
 3. **present-vs-absent** —
   This is not just a versification difference because
   the two editions in question actually have different text.
@@ -44,17 +44,17 @@ that is, we are not concerned with where *sof pasuq* and/or *silluq* falls. Here
 "verse", we mean only the span of text between verse-number labels. The fact that this span
 usually corresponds to a chanted verse is irrelevant here.
 
-The six locations where differences occur are:
+The eight cases where differences occur are:
 
 | Book | Passage | Classification |
 |------|---------|----------------|
-| 1 Samuel | ch 23/24 boundary | simple boundary shift |
-| Jeremiah | ch 30/31 boundary | simple boundary shift |
+| 1 Samuel | ch 23/24 boundary | simple chapter-boundary shift |
+| Jeremiah | ch 30/31 boundary | simple chapter-boundary shift |
 | Exodus | early Decalogue (ch 20) | one-vs-many |
 | Exodus | late Decalogue (ch 20) | one-vs-many |
 | Numbers | ch 25/26 boundary | one-vs-many with a complex boundary shift |
-| Deut. | early Decalogue (ch 5) | one-vs-many |
-| Deut. | late Decalogue (ch 5) | one-vs-many |
+| Deuteronomy | early Decalogue (ch 5) | one-vs-many |
+| Deuteronomy | late Decalogue (ch 5) | one-vs-many |
 | Joshua | ch 21 | present-vs-absent |
 
 ---
@@ -64,7 +64,7 @@ The six locations where differences occur are:
 ### 1 Samuel — chapter 23/24 boundary
 
 The span of text labeled 23:29 in MAM is labeled 24:1 in BHS.
-Then MAM's verse numbers are one lower that BHS's for the rest of chapter 24.
+Then MAM's verse numbers are one lower than BHS's for the rest of chapter 24.
 
 | Hebrew range | MAM | BHS |
 |---------------:|-----|-----|
@@ -77,7 +77,7 @@ Then MAM's verse numbers are one lower that BHS's for the rest of chapter 24.
 ### 2. Jeremiah — chapter 30/31 boundary
 
 The span of text labeled 30:25 in MAM is labeled 31:1 in BHS.
-Then MAM's verse numbers are one lower that BHS's for the rest of chapter 31.
+Then MAM's verse numbers are one lower than BHS's for the rest of chapter 31.
 
 | Hebrew range | MAM | BHS |
 |-----------------:|-----|-----|
@@ -89,7 +89,7 @@ Then MAM's verse numbers are one lower that BHS's for the rest of chapter 31.
 ### 3. Exodus — early Decalogue (ch 20)
 
 The span of text labeled 20:2 in MAM
-is labelled as 20:2 and 20:3 in BHS.
+is labeled as 20:2 and 20:3 in BHS.
 
 | Hebrew range | MAM | BHS |
 |-----------------:|-----|-----|
@@ -99,10 +99,10 @@ is labelled as 20:2 and 20:3 in BHS.
 | | … | … |
 | כבד…לך | 20:11 | 20:12 |
 
-### 4. Exodus 20 — late Decalogue (ch 20)
+### 4. Exodus — late Decalogue (ch 20)
 
 The span of text labeled 20:12 in MAM
-is labelled as 20:13, 20:14, 20:15, and 20:16 in BHS.
+is labeled as 20:13, 20:14, 20:15, and 20:16 in BHS.
 
 | Hebrew range | MAM | BHS |
 |-----------------:|-----|-----|
@@ -120,7 +120,7 @@ is labelled as 20:13, 20:14, 20:15, and 20:16 in BHS.
 ### 5. Numbers — chapter 25/26 boundary
 
 The span of text labeled 26:1 in MAM
-is labelled as 25:19 and 26:1 in BHS: a complex boundary shift.
+is labeled as 25:19 and 26:1 in BHS: a complex boundary shift.
 
 | Hebrew range | MAM | BHS |
 |---------------:|-----|-----|
@@ -131,7 +131,8 @@ is labelled as 25:19 and 26:1 in BHS: a complex boundary shift.
 
 ### 6. Deuteronomy — early Decalogue (ch 5)
 
-Analogous to Exodus 20:2, MAM uses one verse here where BHS uses two:
+The span of text labeled 5:6 in MAM
+is labeled as 5:6 and 5:7 in BHS.
 
 | Hebrew range | MAM | BHS |
 |-----------------:|-----|-----|
@@ -143,8 +144,8 @@ Analogous to Exodus 20:2, MAM uses one verse here where BHS uses two:
 
 ### 7. Deuteronomy — late Decalogue (ch 5)
 
-Analogous to Exodus 20:12, MAM keeps four short commandments here inside one
-verse, while BHS gives each its own verse:
+The span of text labeled 5:16 in MAM
+is labeled as 5:17, 5:18, 5:19, and 5:20 in BHS.
 
 | Hebrew range | MAM | BHS |
 |-----------------:|-----|-----|
@@ -159,7 +160,7 @@ verse, while BHS gives each its own verse:
 > **Note:** This second Decalogue split is present in BHS but **not** in
 > Sefaria.
 
-### 8. Joshua 21 — BHS inserts 21:36-37
+### 8. Joshua 21 — present-vs-absent
 
 BHS inserts verse numbers Josh 21:36-37 at a point where MAM has no
 corresponding Hebrew text (these verses are absent from the Aleppo Codex and
@@ -180,24 +181,25 @@ text. The remaining verses of the chapter are then renumbered:
 
 ## Sefaria Labeling
 
-Across these same passages, Sefaria matches BHS at the 1 Samuel and Jeremiah
-chapter boundaries, at the opening splits of both Decalogues, and in Joshua 21.
-It does **not** adopt the BHS short-commandment splits in Exodus 20 and
-Deuteronomy 5, nor the Numbers chapter-boundary split.
+Sefaria has the same simple chapter-boundary shifts as BHS in 1 Samuel and
+Jeremiah, the same one-vs-many cases as BHS at the start of both Decalogues,
+and the same present-vs-absent case in Joshua 21. It does **not** adopt the
+BHS one-vs-many cases in the late Decalogue passages, nor the Numbers
+one-vs-many case with a complex chapter-boundary shift.
 
 ### 1. 1 Samuel — chapter 23/24 boundary
 
-Same labeling as BHS for this passage; see the BHS table above.
+Same simple chapter-boundary shift as in BHS; see the BHS table above.
 
 ### 2. Jeremiah — chapter 30/31 boundary
 
-Same labeling as BHS for this passage; see the BHS table above.
+Same simple chapter-boundary shift as in BHS; see the BHS table above.
 
-### 3. Exodus 20 — Decalogue (beginning only)
+### 3. Exodus — early Decalogue (ch 20)
 
-Here Sefaria matches BHS at the opening split (20:2 / 20:3), but it does
-**not** further split the short-commandment span that BHS divides into
-20:13-16. The mapping from that opening split onward is therefore:
+The span of text labeled 20:2 in MAM
+is labeled as 20:2 and 20:3 in Sef.
+Unlike BHS, Sef does not further split the span of text labeled 20:12 in MAM.
 
 | Hebrew range | MAM | Sef |
 |-----------------:|-----|-----|
@@ -210,11 +212,11 @@ Here Sefaria matches BHS at the opening split (20:2 / 20:3), but it does
 | | … | … |
 | ולא־תעלה…עליו | 20:22 | 20:23 |
 
-### 4. Deuteronomy 5 — Decalogue (beginning only)
+### 4. Deuteronomy — early Decalogue (ch 5)
 
-Here too Sefaria matches BHS at the opening split (5:6 / 5:7), but it does
-**not** further split the short-commandment span that BHS divides into
-5:17-20.
+The span of text labeled 5:6 in MAM
+is labeled as 5:6 and 5:7 in Sef.
+Unlike BHS, Sef does not further split the span of text labeled 5:16 in MAM.
 
 | Hebrew range | MAM | Sef |
 |-----------------:|-----|-----|
@@ -227,9 +229,9 @@ Here too Sefaria matches BHS at the opening split (5:6 / 5:7), but it does
 | | … | … |
 | בכל־הדרך…תירשון | 5:29 | 5:30 |
 
-### 5. Joshua 21 — same as BHS
+### 5. Joshua 21 — present-vs-absent
 
-Same labeling as BHS for this passage; see the BHS table above.
+Same present-vs-absent case as in BHS; see the BHS table above.
 
 ---
 
@@ -259,7 +261,7 @@ has no corresponding Hebrew text.
       <td style="text-align:right;">ויעל…עין־גדי</td>
       <td>23:29</td>
       <td colspan="2" style="text-align:center;">24:1 ↕</td>
-      <td>Chapter boundary shifted</td>
+      <td>simple chapter-boundary shift</td>
     </tr>
     <tr>
       <td style="text-align:right;">ויהי…המצודה</td>
@@ -274,7 +276,7 @@ has no corresponding Hebrew text.
       <td style="text-align:right;">בעת…לעם</td>
       <td>30:25</td>
       <td colspan="2" style="text-align:center;">31:1 ↕</td>
-      <td>Chapter boundary shifted</td>
+      <td>simple chapter-boundary shift</td>
     </tr>
     <tr>
       <td style="text-align:right;">כה…לעולם</td>
@@ -424,13 +426,13 @@ has no corresponding Hebrew text.
       <td style="text-align:right;">—</td>
       <td><em>(absent)</em></td>
       <td colspan="2" style="text-align:center;">21:36 ∅</td>
-      <td>No content in MAM</td>
+      <td>present-vs-absent</td>
     </tr>
     <tr>
       <td style="text-align:right;">—</td>
       <td><em>(absent)</em></td>
       <td colspan="2" style="text-align:center;">21:37 ∅</td>
-      <td>No content in MAM</td>
+      <td>present-vs-absent</td>
     </tr>
     <tr>
       <td style="text-align:right;">וממטה־גד…בא</td>
