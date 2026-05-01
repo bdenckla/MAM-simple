@@ -3,48 +3,59 @@
 # Versification Differences: MAM, BHS, and Sefaria
 
 MAM-simple provides three versification traditions (vtrad), that is, three
-ways of assigning verse numbers across the same Hebrew text:
+ways of placing cv-labels (chapter/verse labels) across the same Hebrew text:
 
 - **vtrad-mam** — MAM versification
 - **vtrad-bhs** — BHS versification (Biblia Hebraica Stuttgartensia)
 - **vtrad-sef** — Sefaria versification
 
-In most of the Bible all three traditions place the same verse numbers at the
-same points in the text. This document describes every place where they number
-the same Hebrew spans differently.
+In most of the Bible, all three traditions place the same cv-labels at the
+same points in the text. This document describes every place where cv-labels
+differ in location and/or contents.
 
 ## Overview
 
 There are three main kinds of difference:
 
-1. **Simple chapter-boundary shift** — two traditions agree on where verse
-  boundaries fall, but not on where a chapter boundary falls, so a run of
-  subsequent verse numbers is offset.
-2. **One-to-many disagreement** — one tradition labels a Hebrew span as a
-  single verse while another divides that same span into two or more whole
-  verses. This can result in a complex chapter-boundary shift if one tradition labels
-  a Hebrew span as the first verse of chapter N while another divides that
-  same span into the last verse of chapter N-1 and the first verse of chapter
-  N.
-3. **Whole-verse insertion/absence** — one tradition has one or more whole
-  verses where another has none, because there is no corresponding
-  Hebrew text at that point in that tradition.
+1. **Simple chapter-boundary shift** —
+  Two traditions T1 and T2 agree on where cv-labels should be placed,
+  but they do not agree on the contents of those labels.
+  In particular, they disagree about where a new chapter starts.
+  The span of text labeled as the last verse of chapter N in T1
+  is labeled as the first verse of chapter N+1 in T2.
+  Then T1's verse numbers are one lower that T2's for the rest of chapter N+1.
+2. **One-vs-many** —
+  The span of text labeled X in T1
+  is labelled as two or more verses in T2, i.e. is labeled Y, Z, ....
+  This can result in a complex chapter-boundary shift
+  if the span of text labeled N:1 in T1
+  is labelled as the last verse of chapter N-1 and the first verse of chapter N.
+3. **present-vs-absent** —
+  This is not just a versification difference because
+  the two editions in question actually have different text.
+  One edition has one or more whole verses where the other has none.
+  Viewed solely as a versification difference,
+  i.e. viewed solely as what happens across the text that is in common,
+  T1 skips one or more verse numbers
+  but T2 stays sequential.
 
-In all of this, we are not concerned with the notion of a *chanted verse*;
-that is, we are not concerned with where *sof pasuq* falls. Here, when we say
-"verse", we mean only the span between verse-number labels. The fact that this
-usually corresponds to a chanted verse is irrelevant for the present purpose.
+Note that here in this document, we are not concerned with the notion of a *chanted verse*;
+that is, we are not concerned with where *sof pasuq* and/or *silluq* falls. Here, when we say
+"verse", we mean only the span of text between verse-number labels. The fact that this span
+usually corresponds to a chanted verse is irrelevant here.
 
 The six locations where differences occur are:
 
 | Book | Passage | Classification |
 |------|---------|----------------|
-| 1 Samuel | ch 23/24 boundary | simple chapter-boundary shift |
-| Jeremiah | ch 30/31 boundary | simple chapter-boundary shift |
-| Exodus | ch 20 Decalogue | one-to-many disagreement |
-| Numbers | ch 25/26 boundary | one-to-many disagreement with complex chapter-boundary shift |
-| Deuteronomy | ch 5 Decalogue | one-to-many disagreement |
-| Joshua | ch 21 | whole-verse insertion/absence |
+| 1 Samuel | ch 23/24 boundary | simple boundary shift |
+| Jeremiah | ch 30/31 boundary | simple boundary shift |
+| Exodus | early Decalogue (ch 20) | one-vs-many |
+| Exodus | late Decalogue (ch 20) | one-vs-many |
+| Numbers | ch 25/26 boundary | one-vs-many with a complex boundary shift |
+| Deut. | early Decalogue (ch 5) | one-vs-many |
+| Deut. | late Decalogue (ch 5) | one-vs-many |
+| Joshua | ch 21 | present-vs-absent |
 
 ---
 
@@ -52,8 +63,8 @@ The six locations where differences occur are:
 
 ### 1 Samuel — chapter 23/24 boundary
 
-This passage is labeled 1 Sam 23:29 in MAM but 1 Sam 24:1 in BHS, so the rest
-of BHS chapter 24 is offset by +1.
+The span of text labeled 23:29 in MAM is labeled 24:1 in BHS.
+Then MAM's verse numbers are one lower that BHS's for the rest of chapter 24.
 
 | Hebrew range | MAM | BHS |
 |---------------:|-----|-----|
@@ -65,8 +76,8 @@ of BHS chapter 24 is offset by +1.
 
 ### 2. Jeremiah — chapter 30/31 boundary
 
-This passage is labeled Jer 30:25 in MAM but Jer 31:1 in BHS, so the rest of
-BHS chapter 31 is offset by +1.
+The span of text labeled 30:25 in MAM is labeled 31:1 in BHS.
+Then MAM's verse numbers are one lower that BHS's for the rest of chapter 31.
 
 | Hebrew range | MAM | BHS |
 |-----------------:|-----|-----|
@@ -75,9 +86,10 @@ BHS chapter 31 is offset by +1.
 | | … | … |
 | וכל־העמק…לעולם | 31:39 | 31:40 |
 
-### 3. Exodus 20 — Decalogue (beginning)
+### 3. Exodus — early Decalogue (ch 20)
 
-In this stretch of the Decalogue, MAM uses one verse where BHS uses two:
+The span of text labeled 20:2 in MAM
+is labelled as 20:2 and 20:3 in BHS.
 
 | Hebrew range | MAM | BHS |
 |-----------------:|-----|-----|
@@ -87,10 +99,10 @@ In this stretch of the Decalogue, MAM uses one verse where BHS uses two:
 | | … | … |
 | כבד…לך | 20:11 | 20:12 |
 
-### 4. Exodus 20 — Decalogue (short commandments)
+### 4. Exodus 20 — late Decalogue (ch 20)
 
-In this stretch of the Decalogue, MAM keeps four short commandments inside
-one verse, while BHS gives each its own verse:
+The span of text labeled 20:12 in MAM
+is labelled as 20:13, 20:14, 20:15, and 20:16 in BHS.
 
 | Hebrew range | MAM | BHS |
 |-----------------:|-----|-----|
@@ -107,9 +119,8 @@ one verse, while BHS gives each its own verse:
 
 ### 5. Numbers — chapter 25/26 boundary
 
-This Hebrew span crosses a chapter boundary in BHS: its first part is labeled
-at the end of BHS chapter 25, and its second part at the start of BHS
-chapter 26:
+The span of text labeled 26:1 in MAM
+is labelled as 25:19 and 26:1 in BHS: a complex boundary shift.
 
 | Hebrew range | MAM | BHS |
 |---------------:|-----|-----|
@@ -118,7 +129,7 @@ chapter 26:
 
 > **Note:** This split is present in BHS but **not** in Sefaria.
 
-### 6. Deuteronomy 5 — Decalogue (beginning)
+### 6. Deuteronomy — early Decalogue (ch 5)
 
 Analogous to Exodus 20:2, MAM uses one verse here where BHS uses two:
 
@@ -130,7 +141,7 @@ Analogous to Exodus 20:2, MAM uses one verse here where BHS uses two:
 | | … | … |
 | כבד…לך | 5:15 | 5:16 |
 
-### 7. Deuteronomy 5 — Decalogue (short commandments)
+### 7. Deuteronomy — late Decalogue (ch 5)
 
 Analogous to Exodus 20:12, MAM keeps four short commandments here inside one
 verse, while BHS gives each its own verse:
