@@ -325,7 +325,7 @@ relative to the MAM reference shown in the MAM column.
       <td>M+1</td>
     </tr>
     <tr>
-      <th colspan="4" style="text-align:left;">Joshua — chapter 21</th>
+      <th colspan="4" style="text-align:left;">Numbers — chapter 25/26 boundary</th>
     </tr>
     <tr>
       <td style="text-align:right;">ויהי…המגפה</td>
@@ -388,7 +388,7 @@ relative to the MAM reference shown in the MAM column.
       <td>M+1</td>
     </tr>
     <tr>
-      <th colspan="4" style="text-align:left;">Joshua 21 — present-vs-absent</th>
+      <th colspan="4" style="text-align:left;">Joshua — chapter 21</th>
     </tr>
     <tr>
       <td style="text-align:right;">את־דמנה…ארבע</td>
