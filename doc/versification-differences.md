@@ -2,269 +2,444 @@
 
 # Versification Differences: MAM, BHS, and Sefaria
 
-MAM-simple provides three versification traditions (vtrad):
+MAM-simple provides three versification traditions (vtrad), that is, three
+ways of assigning verse numbers across the same Hebrew text:
 
-- **vtrad-mam** — MAM's native versification
-- **vtrad-bhs** — BHS versification (Biblia Hebraica Stuttgartensia), the
-  standard academic critical edition
-- **vtrad-sef** — Sefaria versification, used by the Sefaria digital library
+- **vtrad-mam** — MAM versification
+- **vtrad-bhs** — BHS versification (Biblia Hebraica Stuttgartensia)
+- **vtrad-sef** — Sefaria versification
 
-In most of the Bible the three traditions agree. This document describes every
-place they differ.
+In most of the Bible all three traditions place the same verse numbers at the
+same points in the text. This document describes every place where they number
+the same Hebrew spans differently.
 
 ## Overview
 
-There are two distinct kinds of difference:
+There are three main kinds of difference:
 
-1. **Chapter-boundary shift** — MAM places the last verse of one chapter at
-   the start of the next chapter (or vice versa), so all verse numbers in a
-   range are shifted by one.
-2. **Verse split** — One MAM verse corresponds to two or more verses in BHS
-   or Sefaria (or, in the Joshua 21 case, the reverse: BHS/Sef have verses
-   that are absent from MAM entirely).
+1. **Simple chapter-boundary shift** — two traditions agree on where verse
+  boundaries fall, but not on where a chapter boundary falls, so a run of
+  subsequent verse numbers is offset.
+2. **One-to-many disagreement** — one tradition labels a Hebrew span as a
+  single verse while another divides that same span into two or more whole
+  verses. This can result in a complex chapter-boundary shift if one tradition labels
+  a Hebrew span as the first verse of chapter N while another divides that
+  same span into the last verse of chapter N-1 and the first verse of chapter
+  N.
+3. **Whole-verse insertion/absence** — one tradition has one or more whole
+  verses where another has none, because there is no corresponding
+  Hebrew text at that point in that tradition.
 
-The five locations where differences occur are:
+In all of this, we are not concerned with the notion of a *chanted verse*;
+that is, we are not concerned with where *sof pasuq* falls. Here, when we say
+"verse", we mean only the span between verse-number labels. The fact that this
+usually corresponds to a chanted verse is irrelevant for the present purpose.
 
-| Book | Passage | BHS differs from MAM | Sef differs from MAM |
-|------|---------|:--------------------:|:--------------------:|
-| 1 Samuel | ch 23/24 boundary | yes | yes |
-| Jeremiah | ch 30/31 boundary | yes | yes |
-| Exodus | ch 20 Decalogue | yes | yes |
-| Numbers | ch 25/26 boundary | yes | — |
-| Deuteronomy | ch 5 Decalogue | yes | yes |
-| Joshua | ch 21 | yes | yes |
+The six locations where differences occur are:
+
+| Book | Passage | Classification |
+|------|---------|----------------|
+| 1 Samuel | ch 23/24 boundary | simple chapter-boundary shift |
+| Jeremiah | ch 30/31 boundary | simple chapter-boundary shift |
+| Exodus | ch 20 Decalogue | one-to-many disagreement |
+| Numbers | ch 25/26 boundary | one-to-many disagreement with complex chapter-boundary shift |
+| Deuteronomy | ch 5 Decalogue | one-to-many disagreement |
+| Joshua | ch 21 | whole-verse insertion/absence |
 
 ---
 
-## BHS versus MAM
+## BHS Labeling
 
 ### 1 Samuel — chapter 23/24 boundary
 
-MAM chapter 23 has **29 verses**; BHS chapter 23 has only 28.
-MAM 23:29 is renumbered to BHS 24:1, shifting all subsequent verses in
-chapter 24 by +1.
+This passage is labeled 1 Sam 23:29 in MAM but 1 Sam 24:1 in BHS, so the rest
+of BHS chapter 24 is offset by +1.
 
-| MAM | BHS | Hebrew range |
-|-----|-----|----------------|
-| 1 Sam 23:29 | 1 Sam 24:1 | ויעל…עין־גדי |
-| 1 Sam 24:1 | 1 Sam 24:2 | ויהי…גדי |
-| 1 Sam 24:2 | 1 Sam 24:3 | ויקח…היעלים |
-| … (22 verses total shifted) | | |
-| 1 Sam 24:22 | 1 Sam 24:23 | וישבע…המצודה |
+| Hebrew range | MAM | BHS |
+|---------------:|-----|-----|
+| ויעל…עין־גדי | 23:29 | 24:1 |
+| ויהי…גדי | 24:1 | 24:2 |
+| ויקח…היעלים | 24:2 | 24:3 |
+| | … | … |
+| וישבע…המצודה | 24:22 | 24:23 |
 
 ### 2. Jeremiah — chapter 30/31 boundary
 
-MAM chapter 30 has **25 verses**; BHS chapter 30 has only 24.
-MAM 30:25 is renumbered to BHS 31:1, shifting all subsequent verses in
-chapter 31 by +1.
+This passage is labeled Jer 30:25 in MAM but Jer 31:1 in BHS, so the rest of
+BHS chapter 31 is offset by +1.
 
-| MAM | BHS | Hebrew range |
-|-----|-----|------------------|
-| Jer 30:25 | Jer 31:1 | בעת…לעם |
-| Jer 31:1 | Jer 31:2 | כה…ישראל |
-| … (39 verses total shifted) | | |
-| Jer 31:39 | Jer 31:40 | וכל־העמק…לעולם |
+| Hebrew range | MAM | BHS |
+|-----------------:|-----|-----|
+| בעת…לעם | 30:25 | 31:1 |
+| כה…ישראל | 31:1 | 31:2 |
+| | … | … |
+| וכל־העמק…לעולם | 31:39 | 31:40 |
 
 ### 3. Exodus 20 — Decalogue (beginning)
 
-MAM Exod 20:2 is a single long verse that BHS splits into two:
+In this stretch of the Decalogue, MAM uses one verse where BHS uses two:
 
-| MAM | BHS | Hebrew range |
-|-----|-----|------------------|
-| Exod 20:2a | Exod 20:2 | אנכי…עבדים |
-| Exod 20:2b | Exod 20:3 | לא…פני |
-| Exod 20:3 | Exod 20:4 | לא־תעשה…לארץ |
-| … (9 verses total shifted) | | |
-| Exod 20:11 | Exod 20:12 | כבד…לך |
+| Hebrew range | MAM | BHS |
+|-----------------:|-----|-----|
+| אנכי…עבדים | 20:2a | 20:2 |
+| לא יהיה…פני | 20:2b | 20:3 |
+| לא־תעשה…לארץ | 20:3 | 20:4 |
+| | … | … |
+| כבד…לך | 20:11 | 20:12 |
 
 ### 4. Exodus 20 — Decalogue (short commandments)
 
-MAM Exod 20:12 is a single verse containing four short commandments
-(murder, adultery, theft, false witness). BHS gives each its own verse:
+In this stretch of the Decalogue, MAM keeps four short commandments inside
+one verse, while BHS gives each its own verse:
 
-| MAM | BHS | Hebrew range |
-|-----|-----|------------------|
-| Exod 20:12a | Exod 20:13 | לא…תרצח |
-| Exod 20:12b | Exod 20:14 | לא…תנאף |
-| Exod 20:12c | Exod 20:15 | לא…תגנב |
-| Exod 20:12d | Exod 20:16 | לא־תענה…שקר |
-| Exod 20:13 | Exod 20:17 | לא…לרעך |
-| … (10 verses total shifted) | | |
-| Exod 20:22 | Exod 20:26 | ולא־תעלה…עליו |
+| Hebrew range | MAM | BHS |
+|-----------------:|-----|-----|
+| לא תרצח | 20:12a | 20:13 |
+| לא תנאף | 20:12b | 20:14 |
+| לא תגנב | 20:12c | 20:15 |
+| לא־תענה…שקר | 20:12d | 20:16 |
+| לא תחמד…לרעך | 20:13 | 20:17 |
+| | … | … |
+| ולא־תעלה…עליו | 20:22 | 20:26 |
 
 > **Note:** This second Decalogue split is present in BHS but **not** in
 > Sefaria. See the [combined table](#combined-table-all-differences) below.
 
 ### 5. Numbers — chapter 25/26 boundary
 
-MAM Numbers 26:1 is a single verse whose text spans both the end of BHS
-chapter 25 and the start of BHS chapter 26. BHS splits it across the
-chapter boundary:
+This Hebrew span crosses a chapter boundary in BHS: its first part is labeled
+at the end of BHS chapter 25, and its second part at the start of BHS
+chapter 26:
 
-| MAM | BHS | Hebrew range |
-|-----|-----|----------------|
-| Num 26:1a | Num 25:19 | ויהי…המגפה |
-| Num 26:1b | Num 26:1 | ויאמר…לאמר |
+| Hebrew range | MAM | BHS |
+|---------------:|-----|-----|
+| ויהי…המגפה | 26:1a | 25:19 |
+| ויאמר…לאמר | 26:1b | 26:1 |
 
 > **Note:** This split is present in BHS but **not** in Sefaria.
 
 ### 6. Deuteronomy 5 — Decalogue (beginning)
 
-Analogous to Exodus 20:2, MAM Deut 5:6 is a single long verse that BHS
-splits into two:
+Analogous to Exodus 20:2, MAM uses one verse here where BHS uses two:
 
-| MAM | BHS | Hebrew range |
-|-----|-----|------------------|
-| Deut 5:6a | Deut 5:6 | אנכי…עבדים |
-| Deut 5:6b | Deut 5:7 | לא…פני |
-| Deut 5:7 | Deut 5:8 | לא־תעשה…לארץ |
-| … (9 verses total shifted) | | |
-| Deut 5:15 | Deut 5:16 | כבד…לך |
+| Hebrew range | MAM | BHS |
+|-----------------:|-----|-----|
+| אנכי…עבדים | 5:6a | 5:6 |
+| לא יהיה…פני | 5:6b | 5:7 |
+| לא־תעשה…לארץ | 5:7 | 5:8 |
+| | … | … |
+| כבד…לך | 5:15 | 5:16 |
 
 ### 7. Deuteronomy 5 — Decalogue (short commandments)
 
-Analogous to Exodus 20:12, MAM Deut 5:16 is a single verse containing four
-short commandments. BHS gives each its own verse:
+Analogous to Exodus 20:12, MAM keeps four short commandments here inside one
+verse, while BHS gives each its own verse:
 
-| MAM | BHS | Hebrew range |
-|-----|-----|------------------|
-| Deut 5:16a | Deut 5:17 | לא…תרצח |
-| Deut 5:16b | Deut 5:18 | ולא…תנאף |
-| Deut 5:16c | Deut 5:19 | ולא…תגנב |
-| Deut 5:16d | Deut 5:20 | ולא־תענה…שוא |
-| Deut 5:17 | Deut 5:21 | ולא…לרעך |
-| … (13 verses total shifted) | | |
-| Deut 5:29 | Deut 5:33 | בכל־הדרך…תירשון |
+| Hebrew range | MAM | BHS |
+|-----------------:|-----|-----|
+| לא תרצח | 5:16a | 5:17 |
+| ולא תנאף | 5:16b | 5:18 |
+| ולא תגנב | 5:16c | 5:19 |
+| ולא־תענה…שוא | 5:16d | 5:20 |
+| ולא תחמד…לרעך | 5:17 | 5:21 |
+| | … | … |
+| בכל־הדרך…תירשון | 5:29 | 5:33 |
 
 > **Note:** This second Decalogue split is present in BHS but **not** in
 > Sefaria.
 
-### 8. Joshua 21 — two verses absent from MAM
+### 8. Joshua 21 — BHS inserts 21:36-37
 
-BHS includes Joshua 21:36–37, two verses for which there is no corresponding
-verse in MAM (these verses are absent from the Aleppo Codex and the Leningrad
-Codex). In the BHS output those two verse elements are present but marked
-`contents-corresponds-to="no verse in MAM"` with a dash (—) as text.
-The remaining verses of the chapter are then renumbered:
+BHS inserts verse numbers Josh 21:36-37 at a point where MAM has no
+corresponding Hebrew text (these verses are absent from the Aleppo Codex and
+the Leningrad Codex). In the BHS output those two verse elements are present
+but marked `contents-corresponds-to="no verse in MAM"` with a dash (—) as
+text. The remaining verses of the chapter are then renumbered:
 
-| MAM | BHS | Hebrew range |
-|-----|-----|------------------------|
-| Josh 21:35 | Josh 21:35 | את־דמנה…ארבע |
-| *(absent)* | Josh 21:36 (no content in MAM) | — |
-| *(absent)* | Josh 21:37 (no content in MAM) | — |
-| Josh 21:36 | Josh 21:38 | וממטה־גד…ואת־מגרשה |
-| … (8 verses total shifted) | | |
-| Josh 21:43 | Josh 21:45 | לא־נפל…בא |
+| Hebrew range | MAM | BHS |
+|-----------------------:|-----|-----|
+| את־דמנה…ארבע | 21:35 | 21:35 |
+| — | *(absent)* | 21:36 |
+| — | *(absent)* | 21:37 |
+| וממטה־גד…ואת־מגרשה | 21:36 | 21:38 |
+| | … | … |
+| לא־נפל…בא | 21:43 | 21:45 |
 
 ---
 
-## Sefaria versus MAM
+## Sefaria Labeling
 
-Sefaria shares five of the eight BHS differences (1 Samuel, Jeremiah, the
-*beginning* splits of both Decalogues, and Joshua 21). It does **not** share
-the BHS splits for the short commandments of either Decalogue (Exod 20:12 →
-4 verses; Deut 5:16 → 4 verses) nor the Numbers chapter-boundary split.
+Across these same passages, Sefaria matches BHS at the 1 Samuel and Jeremiah
+chapter boundaries, at the opening splits of both Decalogues, and in Joshua 21.
+It does **not** adopt the BHS short-commandment splits in Exodus 20 and
+Deuteronomy 5, nor the Numbers chapter-boundary split.
 
 ### 1. 1 Samuel — chapter 23/24 boundary
 
-Identical to BHS. See [BHS §1](#1-samuel--chapter-2324-boundary).
+Same labeling as BHS for this passage; see the BHS table above.
 
 ### 2. Jeremiah — chapter 30/31 boundary
 
-Identical to BHS. See [BHS §2](#2-jeremiah--chapter-3031-boundary).
+Same labeling as BHS for this passage; see the BHS table above.
 
 ### 3. Exodus 20 — Decalogue (beginning only)
 
-MAM Exod 20:2 is split into Sef 20:2 and 20:3, exactly as in BHS.
-However, Sefaria does **not** further split the short commandments verse
-(MAM 20:12). The mapping from the split onwards is therefore:
+Here Sefaria matches BHS at the opening split (20:2 / 20:3), but it does
+**not** further split the short-commandment span that BHS divides into
+20:13-16. The mapping from that opening split onward is therefore:
 
-| MAM | Sef | Hebrew range |
-|-----|-----|------------------|
-| Exod 20:2a | Exod 20:2 | אנכי…עבדים |
-| Exod 20:2b | Exod 20:3 | לא…פני |
-| Exod 20:3 | Exod 20:4 | לא־תעשה…לארץ |
-| … (20 verses total shifted) | | |
-| Exod 20:12 | Exod 20:13 | לא…שקר |
-| Exod 20:13 | Exod 20:14 | לא…לרעך |
-| … | | |
-| Exod 20:22 | Exod 20:23 | ולא־תעלה…עליו |
+| Hebrew range | MAM | Sef |
+|-----------------:|-----|-----|
+| אנכי…עבדים | 20:2a | 20:2 |
+| לא יהיה…פני | 20:2b | 20:3 |
+| לא־תעשה…לארץ | 20:3 | 20:4 |
+| | … | … |
+| לא תרצח…שקר | 20:12 | 20:13 |
+| לא תחמד…לרעך | 20:13 | 20:14 |
+| | … | … |
+| ולא־תעלה…עליו | 20:22 | 20:23 |
 
 ### 4. Deuteronomy 5 — Decalogue (beginning only)
 
-MAM Deut 5:6 is split into Sef 5:6 and 5:7, exactly as in BHS.
-Sefaria does **not** further split the short commandments verse (MAM 5:16).
+Here too Sefaria matches BHS at the opening split (5:6 / 5:7), but it does
+**not** further split the short-commandment span that BHS divides into
+5:17-20.
 
-| MAM | Sef | Hebrew range |
-|-----|-----|------------------|
-| Deut 5:6a | Deut 5:6 | אנכי…עבדים |
-| Deut 5:6b | Deut 5:7 | לא…פני |
-| Deut 5:7 | Deut 5:8 | לא־תעשה…לארץ |
-| … (23 verses total shifted) | | |
-| Deut 5:16 | Deut 5:17 | לא…שוא |
-| Deut 5:17 | Deut 5:18 | ולא…לרעך |
-| … | | |
-| Deut 5:29 | Deut 5:30 | בכל־הדרך…תירשון |
+| Hebrew range | MAM | Sef |
+|-----------------:|-----|-----|
+| אנכי…עבדים | 5:6a | 5:6 |
+| לא יהיה…פני | 5:6b | 5:7 |
+| לא־תעשה…לארץ | 5:7 | 5:8 |
+| | … | … |
+| לא תרצח…שוא | 5:16 | 5:17 |
+| ולא תחמד…לרעך | 5:17 | 5:18 |
+| | … | … |
+| בכל־הדרך…תירשון | 5:29 | 5:30 |
 
-### 5. Joshua 21 — two verses absent from MAM
+### 5. Joshua 21 — same as BHS
 
-Identical to BHS. See [BHS §8](#8-joshua-21--two-verses-absent-from-mam).
+Same labeling as BHS for this passage; see the BHS table above.
 
 ---
 
 ## Combined Table: All Differences
 
-This table lists every place where at least one of BHS or Sefaria differs
-from MAM, showing both columns side by side. "=" means the vtrad agrees with
-MAM on that verse reference; "↕" means a shift (same content, different
-number); "∅" means no corresponding content in MAM.
+This table treats the Hebrew range as the anchor and shows how each tradition
+labels that same span. "↕" means the same Hebrew span has a shifted verse
+number; `M+N` means the verse number is shifted by `+N` relative to the MAM
+reference shown in the MAM column; "∅" marks a verse number inserted where MAM
+has no corresponding Hebrew text.
 
-| MAM verse | BHS verse | Sef verse | Hebrew range | Note |
-|-----------|-----------|-----------|--------------|------|
-| **1 Samuel** | | | | |
-| 23:29 | 24:1 ↕ | 24:1 ↕ | ויעל…עין־גדי | Chapter boundary shifted |
-| 24:1–22 | 24:2–23 ↕ | 24:2–23 ↕ | ויהי…המצודה | |
-| **Jeremiah** | | | | |
-| 30:25 | 31:1 ↕ | 31:1 ↕ | בעת…לעם | Chapter boundary shifted |
-| 31:1–39 | 31:2–40 ↕ | 31:2–40 ↕ | כה…לעולם | |
-| **Exodus 20** | | | | |
-| 20:2a | 20:2 | 20:2 | אנכי…עבדים | MAM verse split |
-| 20:2b | 20:3 | 20:3 | לא…פני | |
-| 20:3–11 | 20:4–12 ↕ | 20:4–12 ↕ | לא־תעשה…לך | |
-| 20:12a | 20:13 | — | לא…תרצח | BHS only: MAM verse split into 4 |
-| 20:12b | 20:14 | — | לא…תנאף | |
-| 20:12c | 20:15 | — | לא…תגנב | |
-| 20:12d | 20:16 | — | לא־תענה…שקר | |
-| 20:12 | — | 20:13 ↕ | לא…שקר | Sef: no further split |
-| 20:13–22 | 20:17–26 ↕ | 20:14–23 ↕ | לא…עליו | |
-| **Numbers** | | | | |
-| 26:1a | 25:19 | — | ויהי…המגפה | BHS only: cross-chapter split |
-| 26:1b | 26:1 | — | ויאמר…לאמר | |
-| 26:1 | — | 26:1 = | ויהי…לאמר | Sef: no split |
-| **Deuteronomy 5** | | | | |
-| 5:6a | 5:6 | 5:6 | אנכי…עבדים | MAM verse split |
-| 5:6b | 5:7 | 5:7 | לא…פני | |
-| 5:7–15 | 5:8–16 ↕ | 5:8–16 ↕ | לא־תעשה…לך | |
-| 5:16a | 5:17 | — | לא…תרצח | BHS only: MAM verse split into 4 |
-| 5:16b | 5:18 | — | ולא…תנאף | |
-| 5:16c | 5:19 | — | ולא…תגנב | |
-| 5:16d | 5:20 | — | ולא־תענה…שוא | |
-| 5:16 | — | 5:17 ↕ | לא…שוא | Sef: no further split |
-| 5:17–29 | 5:21–33 ↕ | 5:18–30 ↕ | ולא…תירשון | |
-| **Joshua 21** | | | | |
-| 21:35 | 21:35 = | 21:35 = | את־דמנה…ארבע | |
-| *(absent)* | 21:36 ∅ | 21:36 ∅ | — | No content in MAM |
-| *(absent)* | 21:37 ∅ | 21:37 ∅ | — | No content in MAM |
-| 21:36–43 | 21:38–45 ↕ | 21:38–45 ↕ | וממטה־גד…בא | |
+<table>
+  <thead>
+    <tr>
+      <th style="text-align:right;">Hebrew range</th>
+      <th>MAM verse</th>
+      <th>BHS verse</th>
+      <th>Sef verse</th>
+      <th>Note</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th colspan="5" style="text-align:left;">1 Samuel</th>
+    </tr>
+    <tr>
+      <td style="text-align:right;">ויעל…עין־גדי</td>
+      <td>23:29</td>
+      <td colspan="2" style="text-align:center;">24:1 ↕</td>
+      <td>Chapter boundary shifted</td>
+    </tr>
+    <tr>
+      <td style="text-align:right;">ויהי…המצודה</td>
+      <td>24:1–22</td>
+      <td colspan="2" style="text-align:center;">M+1</td>
+      <td></td>
+    </tr>
+    <tr>
+      <th colspan="5" style="text-align:left;">Jeremiah</th>
+    </tr>
+    <tr>
+      <td style="text-align:right;">בעת…לעם</td>
+      <td>30:25</td>
+      <td colspan="2" style="text-align:center;">31:1 ↕</td>
+      <td>Chapter boundary shifted</td>
+    </tr>
+    <tr>
+      <td style="text-align:right;">כה…לעולם</td>
+      <td>31:1–39</td>
+      <td colspan="2" style="text-align:center;">M+1</td>
+      <td></td>
+    </tr>
+    <tr>
+      <th colspan="5" style="text-align:left;">Exodus 20</th>
+    </tr>
+    <tr>
+      <td style="text-align:right;">אנכי…עבדים</td>
+      <td>20:2a</td>
+      <td colspan="2" style="text-align:center;">20:2</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td style="text-align:right;">לא יהיה…פני</td>
+      <td>20:2b</td>
+      <td colspan="2" style="text-align:center;">20:3</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td style="text-align:right;">לא־תעשה…לך</td>
+      <td>20:3–11</td>
+      <td colspan="2" style="text-align:center;">M+1</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td style="text-align:right;">לא תרצח</td>
+      <td>20:12a</td>
+      <td>20:13</td>
+      <td>20:13a</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td style="text-align:right;">לא תנאף</td>
+      <td>20:12b</td>
+      <td>20:14</td>
+      <td>20:13b</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td style="text-align:right;">לא תגנב</td>
+      <td>20:12c</td>
+      <td>20:15</td>
+      <td>20:13c</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td style="text-align:right;">לא־תענה…שקר</td>
+      <td>20:12d</td>
+      <td>20:16</td>
+      <td>20:13d</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td style="text-align:right;">לא תחמד…עליו</td>
+      <td>20:13–22</td>
+      <td>M+4</td>
+      <td>M+1</td>
+      <td></td>
+    </tr>
+    <tr>
+      <th colspan="5" style="text-align:left;">Numbers</th>
+    </tr>
+    <tr>
+      <td style="text-align:right;">ויהי…המגפה</td>
+      <td>26:1a</td>
+      <td>25:19</td>
+      <td>26:1a</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td style="text-align:right;">ויאמר…לאמר</td>
+      <td>26:1b</td>
+      <td>26:1</td>
+      <td>26:1b</td>
+      <td></td>
+    </tr>
+    <tr>
+      <th colspan="5" style="text-align:left;">Deuteronomy 5</th>
+    </tr>
+    <tr>
+      <td style="text-align:right;">אנכי…עבדים</td>
+      <td>5:6a</td>
+      <td colspan="2" style="text-align:center;">5:6</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td style="text-align:right;">לא יהיה…פני</td>
+      <td>5:6b</td>
+      <td colspan="2" style="text-align:center;">5:7</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td style="text-align:right;">לא־תעשה…לך</td>
+      <td>5:7–15</td>
+      <td colspan="2" style="text-align:center;">M+1</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td style="text-align:right;">לא תרצח</td>
+      <td>5:16a</td>
+      <td>5:17</td>
+      <td>5:17a</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td style="text-align:right;">ולא תנאף</td>
+      <td>5:16b</td>
+      <td>5:18</td>
+      <td>5:17b</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td style="text-align:right;">ולא תגנב</td>
+      <td>5:16c</td>
+      <td>5:19</td>
+      <td>5:17c</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td style="text-align:right;">ולא־תענה…שוא</td>
+      <td>5:16d</td>
+      <td>5:20</td>
+      <td>5:17d</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td style="text-align:right;">ולא תחמד…תירשון</td>
+      <td>5:17–29</td>
+      <td>M+4</td>
+      <td>M+1</td>
+      <td></td>
+    </tr>
+    <tr>
+      <th colspan="5" style="text-align:left;">Joshua 21</th>
+    </tr>
+    <tr>
+      <td style="text-align:right;">את־דמנה…ארבע</td>
+      <td>21:35</td>
+      <td colspan="2" style="text-align:center;">21:35</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td style="text-align:right;">—</td>
+      <td><em>(absent)</em></td>
+      <td colspan="2" style="text-align:center;">21:36 ∅</td>
+      <td>No content in MAM</td>
+    </tr>
+    <tr>
+      <td style="text-align:right;">—</td>
+      <td><em>(absent)</em></td>
+      <td colspan="2" style="text-align:center;">21:37 ∅</td>
+      <td>No content in MAM</td>
+    </tr>
+    <tr>
+      <td style="text-align:right;">וממטה־גד…בא</td>
+      <td>21:36–43</td>
+      <td colspan="2" style="text-align:center;">M+2</td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
 
-**Key:** ⇕ same content, renumbered · ∅ no corresponding content in MAM · = same number and content · — same as MAM (no difference for this vtrad)
+**Key:** ⇕ same Hebrew span, renumbered · `M+N` verse number shifted by `+N` from the MAM reference in the MAM column · ∅ verse number inserted where MAM has no corresponding Hebrew text · — no separate label shown in this tradition
 
 ---
 
-## How These Differences Are Recorded in the Data
+## How MAM-simple Records These Differences
 
-In the `vtrad-bhs` and `vtrad-sef` output files (XML and JSON), every verse
-whose versification differs from MAM carries two attributes:
+The tables above treat the Hebrew span as primary. Internally, however, the
+`vtrad-bhs` and `vtrad-sef` output files (XML and JSON) still record these
+differences relative to MAM, because MAM is the underlying source text. Every
+non-MAM verse whose label diverges from its MAM source carries two attributes:
 
 - **`contents-corresponds-to`** — one of:
   - `"a full verse in MAM"` — shifted verse; the content is identical to a
@@ -289,7 +464,7 @@ For example:
        contents-corresponds-to="less than a full verse in MAM"
        osisID-of-MAM-src="Deut.5.6" .../>
 
-<!-- Joshua 21: verse absent from MAM -->
+<!-- Joshua 21: verse number inserted where MAM has no text -->
 <verse osisID="Josh.21.36"
        contents-corresponds-to="no verse in MAM"
        text="—"/>
