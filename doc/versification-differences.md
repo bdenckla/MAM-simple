@@ -71,8 +71,8 @@ MAM Exod 20:2 is a single long verse that BHS splits into two:
 
 | MAM | BHS | Hebrew range |
 |-----|-----|------------------|
-| Exod 20:2 | Exod 20:2 | אנכי…עבדים |
-| Exod 20:2 | Exod 20:3 | לא…פני |
+| Exod 20:2a | Exod 20:2 | אנכי…עבדים |
+| Exod 20:2b | Exod 20:3 | לא…פני |
 | Exod 20:3 | Exod 20:4 | לא־תעשה…לארץ |
 | … (9 verses total shifted) | | |
 | Exod 20:11 | Exod 20:12 | כבד…לך |
@@ -84,10 +84,10 @@ MAM Exod 20:12 is a single verse containing four short commandments
 
 | MAM | BHS | Hebrew range |
 |-----|-----|------------------|
-| Exod 20:12 | Exod 20:13 | לא…תרצח |
-| Exod 20:12 | Exod 20:14 | לא…תנאף |
-| Exod 20:12 | Exod 20:15 | לא…תגנב |
-| Exod 20:12 | Exod 20:16 | לא־תענה…שקר |
+| Exod 20:12a | Exod 20:13 | לא…תרצח |
+| Exod 20:12b | Exod 20:14 | לא…תנאף |
+| Exod 20:12c | Exod 20:15 | לא…תגנב |
+| Exod 20:12d | Exod 20:16 | לא־תענה…שקר |
 | Exod 20:13 | Exod 20:17 | לא…לרעך |
 | … (10 verses total shifted) | | |
 | Exod 20:22 | Exod 20:26 | ולא־תעלה…עליו |
@@ -103,8 +103,8 @@ chapter boundary:
 
 | MAM | BHS | Hebrew range |
 |-----|-----|----------------|
-| Num 26:1 | Num 25:19 | ויהי…המגפה |
-| Num 26:1 | Num 26:1 | ויאמר…לאמר |
+| Num 26:1a | Num 25:19 | ויהי…המגפה |
+| Num 26:1b | Num 26:1 | ויאמר…לאמר |
 
 > **Note:** This split is present in BHS but **not** in Sefaria.
 
@@ -115,8 +115,8 @@ splits into two:
 
 | MAM | BHS | Hebrew range |
 |-----|-----|------------------|
-| Deut 5:6 | Deut 5:6 | אנכי…עבדים |
-| Deut 5:6 | Deut 5:7 | לא…פני |
+| Deut 5:6a | Deut 5:6 | אנכי…עבדים |
+| Deut 5:6b | Deut 5:7 | לא…פני |
 | Deut 5:7 | Deut 5:8 | לא־תעשה…לארץ |
 | … (9 verses total shifted) | | |
 | Deut 5:15 | Deut 5:16 | כבד…לך |
@@ -128,10 +128,10 @@ short commandments. BHS gives each its own verse:
 
 | MAM | BHS | Hebrew range |
 |-----|-----|------------------|
-| Deut 5:16 | Deut 5:17 | לא…תרצח |
-| Deut 5:16 | Deut 5:18 | ולא…תנאף |
-| Deut 5:16 | Deut 5:19 | ולא…תגנב |
-| Deut 5:16 | Deut 5:20 | ולא־תענה…שוא |
+| Deut 5:16a | Deut 5:17 | לא…תרצח |
+| Deut 5:16b | Deut 5:18 | ולא…תנאף |
+| Deut 5:16c | Deut 5:19 | ולא…תגנב |
+| Deut 5:16d | Deut 5:20 | ולא־תענה…שוא |
 | Deut 5:17 | Deut 5:21 | ולא…לרעך |
 | … (13 verses total shifted) | | |
 | Deut 5:29 | Deut 5:33 | בכל־הדרך…תירשון |
@@ -181,8 +181,8 @@ However, Sefaria does **not** further split the short commandments verse
 
 | MAM | Sef | Hebrew range |
 |-----|-----|------------------|
-| Exod 20:2 | Exod 20:2 | אנכי…עבדים |
-| Exod 20:2 | Exod 20:3 | לא…פני |
+| Exod 20:2a | Exod 20:2 | אנכי…עבדים |
+| Exod 20:2b | Exod 20:3 | לא…פני |
 | Exod 20:3 | Exod 20:4 | לא־תעשה…לארץ |
 | … (20 verses total shifted) | | |
 | Exod 20:12 | Exod 20:13 | לא…שקר |
@@ -197,8 +197,8 @@ Sefaria does **not** further split the short commandments verse (MAM 5:16).
 
 | MAM | Sef | Hebrew range |
 |-----|-----|------------------|
-| Deut 5:6 | Deut 5:6 | אנכי…עבדים |
-| Deut 5:6 | Deut 5:7 | לא…פני |
+| Deut 5:6a | Deut 5:6 | אנכי…עבדים |
+| Deut 5:6b | Deut 5:7 | לא…פני |
 | Deut 5:7 | Deut 5:8 | לא־תעשה…לארץ |
 | … (23 verses total shifted) | | |
 | Deut 5:16 | Deut 5:17 | לא…שוא |
@@ -217,48 +217,47 @@ Identical to BHS. See [BHS §8](#8-joshua-21--two-verses-absent-from-mam).
 This table lists every place where at least one of BHS or Sefaria differs
 from MAM, showing both columns side by side. "=" means the vtrad agrees with
 MAM on that verse reference; "↕" means a shift (same content, different
-number); "½" means a partial verse (the content is a fraction of the MAM
-verse); "∅" means no corresponding content in MAM.
+number); "∅" means no corresponding content in MAM.
 
 | MAM verse | BHS verse | Sef verse | Hebrew range | Note |
 |-----------|-----------|-----------|--------------|------|
 | **1 Samuel** | | | | |
-| 1 Sam 23:29 | 1 Sam 24:1 ↕ | 1 Sam 24:1 ↕ | ויעל…עין־גדי | Chapter boundary shifted |
-| 1 Sam 24:1–22 | 1 Sam 24:2–23 ↕ | 1 Sam 24:2–23 ↕ | ויהי…המצודה | |
+| 23:29 | 24:1 ↕ | 24:1 ↕ | ויעל…עין־גדי | Chapter boundary shifted |
+| 24:1–22 | 24:2–23 ↕ | 24:2–23 ↕ | ויהי…המצודה | |
 | **Jeremiah** | | | | |
-| Jer 30:25 | Jer 31:1 ↕ | Jer 31:1 ↕ | בעת…לעם | Chapter boundary shifted |
-| Jer 31:1–39 | Jer 31:2–40 ↕ | Jer 31:2–40 ↕ | כה…לעולם | |
+| 30:25 | 31:1 ↕ | 31:1 ↕ | בעת…לעם | Chapter boundary shifted |
+| 31:1–39 | 31:2–40 ↕ | 31:2–40 ↕ | כה…לעולם | |
 | **Exodus 20** | | | | |
-| Exod 20:2 (part 1) | Exod 20:2 ½ | Exod 20:2 ½ | אנכי…עבדים | MAM verse split |
-| Exod 20:2 (part 2) | Exod 20:3 ½ | Exod 20:3 ½ | לא…פני | |
-| Exod 20:3–11 | Exod 20:4–12 ↕ | Exod 20:4–12 ↕ | לא־תעשה…לך | |
-| Exod 20:12 (part 1) | Exod 20:13 ½ | — | לא…תרצח | BHS only: MAM verse split into 4 |
-| Exod 20:12 (part 2) | Exod 20:14 ½ | — | לא…תנאף | |
-| Exod 20:12 (part 3) | Exod 20:15 ½ | — | לא…תגנב | |
-| Exod 20:12 (part 4) | Exod 20:16 ½ | — | לא־תענה…שקר | |
-| Exod 20:12 | — | Exod 20:13 ↕ | לא…שקר | Sef: no further split |
-| Exod 20:13–22 | Exod 20:17–26 ↕ | Exod 20:14–23 ↕ | לא…עליו | |
+| 20:2a | 20:2 | 20:2 | אנכי…עבדים | MAM verse split |
+| 20:2b | 20:3 | 20:3 | לא…פני | |
+| 20:3–11 | 20:4–12 ↕ | 20:4–12 ↕ | לא־תעשה…לך | |
+| 20:12a | 20:13 | — | לא…תרצח | BHS only: MAM verse split into 4 |
+| 20:12b | 20:14 | — | לא…תנאף | |
+| 20:12c | 20:15 | — | לא…תגנב | |
+| 20:12d | 20:16 | — | לא־תענה…שקר | |
+| 20:12 | — | 20:13 ↕ | לא…שקר | Sef: no further split |
+| 20:13–22 | 20:17–26 ↕ | 20:14–23 ↕ | לא…עליו | |
 | **Numbers** | | | | |
-| Num 26:1 (part 1) | Num 25:19 ½ | — | ויהי…המגפה | BHS only: cross-chapter split |
-| Num 26:1 (part 2) | Num 26:1 ½ | — | ויאמר…לאמר | |
-| Num 26:1 | — | Num 26:1 = | ויהי…לאמר | Sef: no split |
+| 26:1a | 25:19 | — | ויהי…המגפה | BHS only: cross-chapter split |
+| 26:1b | 26:1 | — | ויאמר…לאמר | |
+| 26:1 | — | 26:1 = | ויהי…לאמר | Sef: no split |
 | **Deuteronomy 5** | | | | |
-| Deut 5:6 (part 1) | Deut 5:6 ½ | Deut 5:6 ½ | אנכי…עבדים | MAM verse split |
-| Deut 5:6 (part 2) | Deut 5:7 ½ | Deut 5:7 ½ | לא…פני | |
-| Deut 5:7–15 | Deut 5:8–16 ↕ | Deut 5:8–16 ↕ | לא־תעשה…לך | |
-| Deut 5:16 (part 1) | Deut 5:17 ½ | — | לא…תרצח | BHS only: MAM verse split into 4 |
-| Deut 5:16 (part 2) | Deut 5:18 ½ | — | ולא…תנאף | |
-| Deut 5:16 (part 3) | Deut 5:19 ½ | — | ולא…תגנב | |
-| Deut 5:16 (part 4) | Deut 5:20 ½ | — | ולא־תענה…שוא | |
-| Deut 5:16 | — | Deut 5:17 ↕ | לא…שוא | Sef: no further split |
-| Deut 5:17–29 | Deut 5:21–33 ↕ | Deut 5:18–30 ↕ | ולא…תירשון | |
+| 5:6a | 5:6 | 5:6 | אנכי…עבדים | MAM verse split |
+| 5:6b | 5:7 | 5:7 | לא…פני | |
+| 5:7–15 | 5:8–16 ↕ | 5:8–16 ↕ | לא־תעשה…לך | |
+| 5:16a | 5:17 | — | לא…תרצח | BHS only: MAM verse split into 4 |
+| 5:16b | 5:18 | — | ולא…תנאף | |
+| 5:16c | 5:19 | — | ולא…תגנב | |
+| 5:16d | 5:20 | — | ולא־תענה…שוא | |
+| 5:16 | — | 5:17 ↕ | לא…שוא | Sef: no further split |
+| 5:17–29 | 5:21–33 ↕ | 5:18–30 ↕ | ולא…תירשון | |
 | **Joshua 21** | | | | |
-| Josh 21:35 | Josh 21:35 = | Josh 21:35 = | את־דמנה…ארבע | |
-| *(absent)* | Josh 21:36 ∅ | Josh 21:36 ∅ | — | No content in MAM |
-| *(absent)* | Josh 21:37 ∅ | Josh 21:37 ∅ | — | No content in MAM |
-| Josh 21:36–43 | Josh 21:38–45 ↕ | Josh 21:38–45 ↕ | וממטה־גד…בא | |
+| 21:35 | 21:35 = | 21:35 = | את־דמנה…ארבע | |
+| *(absent)* | 21:36 ∅ | 21:36 ∅ | — | No content in MAM |
+| *(absent)* | 21:37 ∅ | 21:37 ∅ | — | No content in MAM |
+| 21:36–43 | 21:38–45 ↕ | 21:38–45 ↕ | וממטה־גד…בא | |
 
-**Key:** ↕ same content, renumbered · ½ partial content (fraction of one MAM verse) · ∅ no corresponding content in MAM · = same number and content · — same as MAM (no difference for this vtrad)
+**Key:** ⇕ same content, renumbered · ∅ no corresponding content in MAM · = same number and content · — same as MAM (no difference for this vtrad)
 
 ---
 
