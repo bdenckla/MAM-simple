@@ -185,11 +185,11 @@ is labeled as 5:17–20 in BHS.
 
 ### 8. Joshua — chapter 21
 
-BHS inserts verse numbers Josh 21:36-37 at a point where MAM has no
+BHS inserts verses 36 and 37 at a point where MAM has no
 corresponding Hebrew text (these verses are absent from the Aleppo Codex and
-the Leningrad Codex). In the BHS output those two verse elements are present
-but marked `contents-corresponds-to="no verse in MAM"` with a dash (—) as
-text. The remaining verses of the chapter are then renumbered:
+the Leningrad Codex). In the MAM output that needs to have BHS versification,
+those two verse elements are present but have only a dash (—) as their text
+and they are marked `contents-corresponds-to="no verse in MAM"`.
 
 | Hebrew range | MAM | BHS |
 |-----------------------:|-----|-----|
