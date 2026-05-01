@@ -16,6 +16,7 @@ out/
 
 Each folder contains one file per book group (e.g., `Job.xml` / `Job.json`, `Gen.xml` / `Gen.json`, `1Sam-2Sam.xml` / `1Sam-2Sam.json`).
 Within each format, the three versification folders differ only in versification — the text content is the same.
+For a full description of where and how the three versifications differ, see [Versification Differences](versification-differences.md).
 
 The JSON format mirrors the XML structure: the same hierarchy (book group → book → chapter → verse → child elements) and the same element types appear in both, with XML elements and attributes mapped to JSON objects and fields. See [JSON Structure](#json-structure) below.
 
@@ -112,8 +113,8 @@ interspersed with markup elements:
 | `text` | Full verse text (only present for simple verses) |
 | `starts-with-sampe` | Verse starts after a parashah marker (`pe2`, `samekh2`, etc.) |
 | `ends-with-sampe` | Verse ends with a parashah marker |
-| `contents-corresponds-to` | Versification note (see README) |
-| `osisID-of-MAM-src` | Source verse in MAM versification (see README) |
+| `contents-corresponds-to` | Versification note (see [Versification Differences](versification-differences.md)) |
+| `osisID-of-MAM-src` | Source verse in MAM versification (see [Versification Differences](versification-differences.md)) |
 
 ## Example: Extracting Plain Text in Python
 

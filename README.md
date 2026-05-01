@@ -51,5 +51,9 @@ The `osisID-of-MAM-src` attribute complements the first two cases
 above. It says _which_ verse in MAM this verse fully or partially
 corresponds to.
 
+For a complete, human-readable description of every place where the three
+versifications differ, see
+[doc/versification-differences.md](doc/versification-differences.md).
+
 
 Questions? Email maintainer@miqra.simplelogin.com.
