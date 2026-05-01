@@ -230,10 +230,8 @@ As in [BHS](#bhs-josh-21-present-vs-absent), Sef has a present-vs-absent case he
 ## Combined Table: All Differences
 
 This table treats the Hebrew range as the anchor and shows how each tradition
-labels that same span. "↕" means the same Hebrew span has a shifted verse
-number; `M+N` means the verse number is shifted by `+N` relative to the MAM
-reference shown in the MAM column; "∅" marks a verse number inserted where MAM
-has no corresponding Hebrew text.
+labels that same span. `M+N` means the verse number is shifted by `+N`
+relative to the MAM reference shown in the MAM column.
 
 <table>
   <thead>
@@ -242,200 +240,173 @@ has no corresponding Hebrew text.
       <th>MAM verse</th>
       <th>BHS verse</th>
       <th>Sef verse</th>
-      <th>Note</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <th colspan="5" style="text-align:left;">1 Samuel</th>
+      <th colspan="4" style="text-align:left;">1 Samuel — chapter 23/24 boundary</th>
     </tr>
     <tr>
       <td style="text-align:right;">ויעל…עין־גדי</td>
       <td>23:29</td>
-      <td colspan="2" style="text-align:center;">24:1 ↕</td>
-      <td>simple chapter-boundary shift</td>
+      <td colspan="2" style="text-align:center;">24:1</td>
     </tr>
     <tr>
       <td style="text-align:right;">ויהי…המצודה</td>
       <td>24:1–22</td>
       <td colspan="2" style="text-align:center;">M+1</td>
-      <td></td>
     </tr>
     <tr>
-      <th colspan="5" style="text-align:left;">Jeremiah</th>
+      <th colspan="4" style="text-align:left;">Jeremiah — chapter 30/31 boundary</th>
     </tr>
     <tr>
       <td style="text-align:right;">בעת…לעם</td>
       <td>30:25</td>
-      <td colspan="2" style="text-align:center;">31:1 ↕</td>
-      <td>simple chapter-boundary shift</td>
+      <td colspan="2" style="text-align:center;">31:1</td>
     </tr>
     <tr>
       <td style="text-align:right;">כה…לעולם</td>
       <td>31:1–39</td>
       <td colspan="2" style="text-align:center;">M+1</td>
-      <td></td>
     </tr>
     <tr>
-      <th colspan="5" style="text-align:left;">Exodus 20</th>
+      <th colspan="4" style="text-align:left;">Exodus 20</th>
     </tr>
     <tr>
       <td style="text-align:right;">אנכי…עבדים</td>
       <td>20:2a</td>
       <td colspan="2" style="text-align:center;">20:2</td>
-      <td></td>
     </tr>
     <tr>
       <td style="text-align:right;">לא יהיה…פני</td>
       <td>20:2b</td>
       <td colspan="2" style="text-align:center;">20:3</td>
-      <td></td>
     </tr>
     <tr>
       <td style="text-align:right;">לא־תעשה…לך</td>
       <td>20:3–11</td>
       <td colspan="2" style="text-align:center;">M+1</td>
-      <td></td>
     </tr>
     <tr>
       <td style="text-align:right;">לא תרצח</td>
       <td>20:12a</td>
       <td>20:13</td>
       <td>20:13a</td>
-      <td></td>
     </tr>
     <tr>
       <td style="text-align:right;">לא תנאף</td>
       <td>20:12b</td>
       <td>20:14</td>
       <td>20:13b</td>
-      <td></td>
     </tr>
     <tr>
       <td style="text-align:right;">לא תגנב</td>
       <td>20:12c</td>
       <td>20:15</td>
       <td>20:13c</td>
-      <td></td>
     </tr>
     <tr>
       <td style="text-align:right;">לא־תענה…שקר</td>
       <td>20:12d</td>
       <td>20:16</td>
       <td>20:13d</td>
-      <td></td>
     </tr>
     <tr>
       <td style="text-align:right;">לא תחמד…עליו</td>
       <td>20:13–22</td>
       <td>M+4</td>
       <td>M+1</td>
-      <td></td>
     </tr>
     <tr>
-      <th colspan="5" style="text-align:left;">Numbers</th>
+      <th colspan="4" style="text-align:left;">Numbers — chapter 25/26 boundary</th>
     </tr>
     <tr>
       <td style="text-align:right;">ויהי…המגפה</td>
       <td>26:1a</td>
       <td>25:19</td>
       <td>26:1a</td>
-      <td></td>
     </tr>
     <tr>
       <td style="text-align:right;">ויאמר…לאמר</td>
       <td>26:1b</td>
       <td>26:1</td>
       <td>26:1b</td>
-      <td></td>
     </tr>
     <tr>
-      <th colspan="5" style="text-align:left;">Deuteronomy 5</th>
+      <th colspan="4" style="text-align:left;">Deuteronomy 5</th>
     </tr>
     <tr>
       <td style="text-align:right;">אנכי…עבדים</td>
       <td>5:6a</td>
       <td colspan="2" style="text-align:center;">5:6</td>
-      <td></td>
     </tr>
     <tr>
       <td style="text-align:right;">לא יהיה…פני</td>
       <td>5:6b</td>
       <td colspan="2" style="text-align:center;">5:7</td>
-      <td></td>
     </tr>
     <tr>
       <td style="text-align:right;">לא־תעשה…לך</td>
       <td>5:7–15</td>
       <td colspan="2" style="text-align:center;">M+1</td>
-      <td></td>
     </tr>
     <tr>
       <td style="text-align:right;">לא תרצח</td>
       <td>5:16a</td>
       <td>5:17</td>
       <td>5:17a</td>
-      <td></td>
     </tr>
     <tr>
       <td style="text-align:right;">ולא תנאף</td>
       <td>5:16b</td>
       <td>5:18</td>
       <td>5:17b</td>
-      <td></td>
     </tr>
     <tr>
       <td style="text-align:right;">ולא תגנב</td>
       <td>5:16c</td>
       <td>5:19</td>
       <td>5:17c</td>
-      <td></td>
     </tr>
     <tr>
       <td style="text-align:right;">ולא־תענה…שוא</td>
       <td>5:16d</td>
       <td>5:20</td>
       <td>5:17d</td>
-      <td></td>
     </tr>
     <tr>
       <td style="text-align:right;">ולא תחמד…תירשון</td>
       <td>5:17–29</td>
       <td>M+4</td>
       <td>M+1</td>
-      <td></td>
     </tr>
     <tr>
-      <th colspan="5" style="text-align:left;">Joshua 21</th>
+      <th colspan="4" style="text-align:left;">Joshua 21 — present-vs-absent</th>
     </tr>
     <tr>
       <td style="text-align:right;">את־דמנה…ארבע</td>
       <td>21:35</td>
       <td colspan="2" style="text-align:center;">21:35</td>
-      <td></td>
     </tr>
     <tr>
       <td style="text-align:right;">—</td>
       <td><em>(absent)</em></td>
-      <td colspan="2" style="text-align:center;">21:36 ∅</td>
-      <td>present-vs-absent</td>
+      <td colspan="2" style="text-align:center;">21:36</td>
     </tr>
     <tr>
       <td style="text-align:right;">—</td>
       <td><em>(absent)</em></td>
-      <td colspan="2" style="text-align:center;">21:37 ∅</td>
-      <td>present-vs-absent</td>
+      <td colspan="2" style="text-align:center;">21:37</td>
     </tr>
     <tr>
       <td style="text-align:right;">וממטה־גד…בא</td>
       <td>21:36–43</td>
       <td colspan="2" style="text-align:center;">M+2</td>
-      <td></td>
     </tr>
   </tbody>
 </table>
 
-**Key:** ⇕ same Hebrew span, renumbered · `M+N` verse number shifted by `+N` from the MAM reference in the MAM column · ∅ verse number inserted where MAM has no corresponding Hebrew text · — no separate label shown in this tradition
+**Key:** `M+N` verse number shifted by `+N` from the MAM reference in the MAM column · — no corresponding Hebrew text in MAM
 
 ---
 
