@@ -113,7 +113,7 @@ is labeled as 20:2 and 20:3 in BHS.
 ### 4. Exodus — late Decalogue (ch 20)
 
 The span of text labeled 20:12 in MAM
-is labeled as 20:13, 20:14, 20:15, and 20:16 in BHS.
+is labeled as 20:13–16 in BHS.
 
 | Hebrew range | MAM | BHS |
 |-----------------:|-----|-----|
@@ -165,7 +165,7 @@ is labeled as 5:6 and 5:7 in BHS.
 ### 7. Deuteronomy — late Decalogue (ch 5)
 
 The span of text labeled 5:16 in MAM
-is labeled as 5:17, 5:18, 5:19, and 5:20 in BHS.
+is labeled as 5:17–20 in BHS.
 
 | Hebrew range | MAM | BHS |
 |-----------------:|-----|-----|
