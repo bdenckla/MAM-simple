@@ -213,37 +213,13 @@ As in [BHS](#bhs-jer-30-31-boundary), Sef has a simple chapter-boundary shift he
 
 ### 3. Exodus — early Decalogue (ch 20)
 
-The span of text labeled 20:2 in MAM
-is labeled as 20:2 and 20:3 in Sef.
-Unlike BHS, Sef does not further split the span of text labeled 20:12 in MAM.
-
-| Hebrew range | MAM | Sef |
-|-----------------:|-----|-----|
-| אנכי…עבדים | 20:2a | 20:2 |
-| לא יהיה…פני | 20:2b | 20:3 |
-| לא־תעשה…לארץ | 20:3 | 20:4 |
-| | … | … |
-| לא תרצח…שקר | 20:12 | 20:13 |
-| לא תחמד…לרעך | 20:13 | 20:14 |
-| | … | … |
-| ולא־תעלה…עליו | 20:22 | 20:23 |
+As in [BHS](#bhs-exod-20-early-decalogue), the span of text labeled 20:2 in MAM
+is labeled as 20:2 and 20:3 in Sef. Unlike [BHS](#bhs-exod-20-late-decalogue), Sef does not go on to split the span of text labeled 20:12 in MAM.
 
 ### 4. Deuteronomy — early Decalogue (ch 5)
 
-The span of text labeled 5:6 in MAM
-is labeled as 5:6 and 5:7 in Sef.
-Unlike BHS, Sef does not further split the span of text labeled 5:16 in MAM.
-
-| Hebrew range | MAM | Sef |
-|-----------------:|-----|-----|
-| אנכי…עבדים | 5:6a | 5:6 |
-| לא יהיה…פני | 5:6b | 5:7 |
-| לא־תעשה…לארץ | 5:7 | 5:8 |
-| | … | … |
-| לא תרצח…שוא | 5:16 | 5:17 |
-| ולא תחמד…לרעך | 5:17 | 5:18 |
-| | … | … |
-| בכל־הדרך…תירשון | 5:29 | 5:30 |
+As in [BHS](#bhs-deut-5-early-decalogue), the span of text labeled 5:6 in MAM
+is labeled as 5:6 and 5:7 in Sef. Unlike [BHS](#bhs-deut-5-late-decalogue), Sef does not go on to split the span of text labeled 5:16 in MAM.
 
 ### 5. Joshua 21 — present-vs-absent
 
