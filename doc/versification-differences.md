@@ -183,7 +183,7 @@ is labeled as 5:17–20 in BHS.
 
 <a id="bhs-josh-21-present-vs-absent"></a>
 
-### 8. Joshua 21 — present-vs-absent
+### 8. Joshua — chapter 21
 
 BHS inserts verse numbers Josh 21:36-37 at a point where MAM has no
 corresponding Hebrew text (these verses are absent from the Aleppo Codex and
@@ -228,7 +228,7 @@ is labeled as 20:2 and 20:3 in Sef. Unlike [BHS](#bhs-exod-20-late-decalogue), S
 As in [BHS](#bhs-deut-5-early-decalogue), the span of text labeled 5:6 in MAM
 is labeled as 5:6 and 5:7 in Sef. Unlike [BHS](#bhs-deut-5-late-decalogue), Sef does not go on to split the span of text labeled 5:16 in MAM.
 
-### 5. Joshua 21 — present-vs-absent
+### 5. Joshua — chapter 21
 
 As in [BHS](#bhs-josh-21-present-vs-absent), Sef has a present-vs-absent case here.
 
