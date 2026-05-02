@@ -8025,7 +8025,7 @@ v,:,h,_,y,:,$,·sh,a,r,a,(mos),h,(sopa)
 α,_,(mun),k.,:
 START/STOP lp-legarmeih
 SPACE
-y,:,r,(mun),α,v,·
+y,:,r,(mun),α,‾,v,·
 SPACE
 α,∵,τ,-,y,:,h,o,v,a,(rev),h
 SPACE
