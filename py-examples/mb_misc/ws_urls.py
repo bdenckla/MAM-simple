@@ -13,4 +13,4 @@ def he_url(path: str, fragment: str | None = None) -> str:
     return f"{out}#{pct_fragment(fragment)}"
 
 
-HEBREW = he_url("משתמש:Dovi/מקרא_על_פי_המסורה")
+HEBREW = he_url("מקרא_על_פי_המסורה")

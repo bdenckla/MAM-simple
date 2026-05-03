@@ -15,7 +15,7 @@ def sef_header(bkid):
     }
 
 
-_INTRODUCTION_URL = ws_urls.he_url("משתמש:Dovi/מקרא_על_פי_המסורה/מידע_על_מהדורה_זו")
+_INTRODUCTION_URL = ws_urls.he_url("ויקיטקסט:מבוא_למקרא_על_פי_המסורה")
 _REPORT_URL = ws_urls.he_url("שיחת_משתמש:Dovi")
 _ENGLISH_ABSTRACT = (
     "https://en.wikisource.org/wiki/"
