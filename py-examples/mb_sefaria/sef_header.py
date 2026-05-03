@@ -16,7 +16,9 @@ def sef_header(bkid):
 
 
 _INTRODUCTION_URL = ws_urls.he_url("ויקיטקסט:מבוא_למקרא_על_פי_המסורה")
+# No non-Dovi equivalent exists for this Hebrew talk-page URL.
 _REPORT_URL = ws_urls.he_url("שיחת_משתמש:Dovi")
+# No non-Dovi equivalent exists for this English page URL.
 _ENGLISH_ABSTRACT = (
     "https://en.wikisource.org/wiki/"
     "User:Dovi/"
