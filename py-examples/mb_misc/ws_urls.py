@@ -1,10 +1,16 @@
-"""Exports HEBREW"""
+"""Exports HEBREW and Hebrew Wikisource URL helpers."""
 
-HEBREW = (
-    "https://he.wikisource.org/wiki/"
-    r"%D7%9E%D7%A9%D7%AA%D7%9E%D7%A9:Dovi/"
-    r"%D7%9E%D7%A7%D7%A8%D7%90_"
-    r"%D7%A2%D7%9C_"
-    r"%D7%A4%D7%99_"
-    r"%D7%94%D7%9E%D7%A1%D7%95%D7%A8%D7%94"
-)
+from mb_cmn.url_percent import pct_fragment, pct_path_component
+
+_HE_WIKISOURCE_BASE = "https://he.wikisource.org/wiki"
+
+
+def he_url(path: str, fragment: str | None = None) -> str:
+    """Build a Hebrew Wikisource URL from readable path and optional fragment."""
+    out = f"{_HE_WIKISOURCE_BASE}/{pct_path_component(path, safe='/:')}"
+    if fragment is None:
+        return out
+    return f"{out}#{pct_fragment(fragment)}"
+
+
+HEBREW = he_url("משתמש:Dovi/מקרא_על_פי_המסורה")

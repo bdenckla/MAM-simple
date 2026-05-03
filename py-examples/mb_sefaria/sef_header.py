@@ -15,18 +15,8 @@ def sef_header(bkid):
     }
 
 
-_INTRODUCTION_URL = (
-    ws_urls.HEBREW + "/"
-    r"%D7%9E%D7%99%D7%93%D7%A2_"
-    r"%D7%A2%D7%9C_"
-    r"%D7%9E%D7%94%D7%93%D7%95%D7%A8%D7%94_"
-    r"%D7%96%D7%95"
-)
-_REPORT_URL = (
-    "https://he.wikisource.org/wiki/"
-    r"%D7%A9%D7%99%D7%97%D7%AA_"
-    r"%D7%9E%D7%A9%D7%AA%D7%9E%D7%A9:Dovi"
-)
+_INTRODUCTION_URL = ws_urls.he_url("משתמש:Dovi/מקרא_על_פי_המסורה/מידע_על_מהדורה_זו")
+_REPORT_URL = ws_urls.he_url("שיחת_משתמש:Dovi")
 _ENGLISH_ABSTRACT = (
     "https://en.wikisource.org/wiki/"
     "User:Dovi/"
