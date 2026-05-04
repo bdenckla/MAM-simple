@@ -23,7 +23,4 @@ def he_taamim_url(name_he: str, chapter_he: str) -> str:
 def he_diff_url(title: str, diff: str | int, oldid: str | int) -> str:
     """Build a Hebrew Wikisource diff URL without double-encoding."""
     title_enc = pct_path_component(title)
-    return (
-        f"{_HE_WIKISOURCE_DIFF_BASE}?"
-        f"title={title_enc}&diff={diff}&oldid={oldid}"
-    )
+    return f"{_HE_WIKISOURCE_DIFF_BASE}?" f"title={title_enc}&diff={diff}&oldid={oldid}"
