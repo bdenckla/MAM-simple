@@ -69,11 +69,6 @@ interspersed with markup elements:
 </verse>
 ```
 
-### Rule for extracting plain text
-
-1. If the verse has a `text` attribute → use it directly.
-2. Otherwise → concatenate the `text` attributes of all `<text>` child elements, in order.
-
 ## Child Element Types
 
 | Element | Meaning |
@@ -116,36 +111,37 @@ interspersed with markup elements:
 | `contents-corresponds-to` | Versification note (see [Versification Differences](versification-differences.md)) |
 | `osisID-of-MAM-src` | Source verse in MAM versification (see [Versification Differences](versification-differences.md)) |
 
-## Example: Extracting Plain Text in Python
+## Example: Catalog `<letter-small>` (in Python)
 
 ```python
+import pathlib
 import xml.etree.ElementTree as ET
 
-def get_verse_text(verse_el):
-    """Extract plain text from a <verse> element."""
-    if 'text' in verse_el.attrib:
-        return verse_el.attrib['text']
-    return ''.join(
-        c.attrib['text'] for c in verse_el if c.tag == 'text'
-    )
+xml_dir = pathlib.Path('out/xml-vtrad-mam')
 
-tree = ET.parse('out/xml-vtrad-mam/Job.xml')
-book39 = tree.getroot()[0]  # <book39 osisID="Job">
+for xml_path in sorted(xml_dir.glob('*.xml')):
+  tree = ET.parse(xml_path)
+  root = tree.getroot()  # <book24>
 
-for child in book39:
-    if child.tag != 'chapter':
+  for book39 in root:
+    if book39.tag != 'book39':
+      continue
+    for chapter in book39:
+      if chapter.tag != 'chapter':
         continue
-    for verse in child:
+      for verse in chapter:
         if verse.tag != 'verse':
-            continue
-        text = get_verse_text(verse)
-        print(f"{verse.attrib['osisID']}: {text}")
+          continue
+
+        osis = verse.attrib['osisID']
+        book, chapter_num, verse_num = osis.split('.')
+
+        for small_el in verse.iter('letter-small'):
+          small_text = small_el.attrib['text']
+          print(f"{book} {chapter_num}:{verse_num} {small_text}")
 ```
 
-**Note:** The above `get_verse_text` is a simplification suitable for
-extracting the basic consonantal text with vowels and accents.
-For handling ketiv/qere, special letters, legarmeih rendering, etc.,
-see the handler-based approach in `py-examples/mb_sefaria/mam4sef_handlers.py`.
+This example catalogs all case of `<letter-small>`.
 
 ## The `py-examples/` Programs
 
