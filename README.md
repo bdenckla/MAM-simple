@@ -21,6 +21,44 @@ This repo also has example programs under `py-examples/`:
        output in the sibling `MAM-OSIS` repo. It validates the output against
        the OSIS XSD and therefore requires `lxml`.
 
+To catalog all `<letter-small>` occurrences into a file you can use this
+function (identical to `write_letter_small_report_from_xml_dir` in
+`py-examples/mb_sefaria/mam4sef_letter_small_report.py`):
+
+```python
+import pathlib
+import xml.etree.ElementTree as ET
+
+
+def write_letter_small_report_from_xml_dir(xml_dir, out_path):
+    lines = []
+    for xml_path in sorted(pathlib.Path(xml_dir).glob("*.xml")):
+        tree = ET.parse(xml_path)
+        root = tree.getroot()
+        for book39 in root:
+            if book39.tag != "book39":
+                continue
+            for chapter in book39:
+                if chapter.tag != "chapter":
+                    continue
+                for verse in chapter:
+                    if verse.tag != "verse":
+                        continue
+                    book, ch, vr = verse.attrib["osisID"].split(".")
+                    for el in verse.iter("letter-small"):
+                        lines.append(
+                            f"{book} {ch}:{vr}\t<small>{el.attrib['text']}</small>"
+                        )
+    with open(out_path, "w", encoding="utf-8") as fp:
+        fp.write("\n".join(lines))
+        if lines:
+            fp.write("\n")
+    print(f"Wrote {len(lines)} lines to {out_path}")
+
+
+write_letter_small_report_from_xml_dir("out/xml-vtrad-mam", "out/letter-small.txt")
+```
+
 The source of this data is
 [MAM-parsed](https://github.com/bdenckla/MAM-parsed)/plus.
 
