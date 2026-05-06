@@ -111,56 +111,32 @@ interspersed with markup elements:
 | `contents-corresponds-to` | Versification note (see [Versification Differences](versification-differences.md)) |
 | `osisID-of-MAM-src` | Source verse in MAM versification (see [Versification Differences](versification-differences.md)) |
 
-## Example: Catalog `<letter-small>` (in Python)
-
-```python
-import pathlib
-import xml.etree.ElementTree as ET
-
-xml_dir = pathlib.Path('out/xml-vtrad-mam')
-
-for xml_path in sorted(xml_dir.glob('*.xml')):
-  tree = ET.parse(xml_path)
-  root = tree.getroot()  # <book24>
-
-  for book39 in root:
-    if book39.tag != 'book39':
-      continue
-    for chapter in book39:
-      if chapter.tag != 'chapter':
-        continue
-      for verse in chapter:
-        if verse.tag != 'verse':
-          continue
-
-        osis = verse.attrib['osisID']
-        book, chapter_num, verse_num = osis.split('.')
-
-        for small_el in verse.iter('letter-small'):
-          small_text = small_el.attrib['text']
-          print(f"{book} {chapter_num}:{verse_num} {small_text}")
-```
-
-This example catalogs all case of `<letter-small>`.
-
 ## The `py-examples/` Programs
 
-The `py-examples/` directory contains two complete working examples:
+The `py-examples/` directory contains three complete working examples:
 
-- **`main_mam4sef.py`** — reads MAM-simple JSON and produces the
+- **[`main_mam4sef.py`](../py-examples/main_mam4sef.py)** — reads MAM-simple JSON and produces the
   MAM-for-Sefaria CSV/HTML output.
-- **`main_mam_osis.py`** — reads MAM-simple XML and produces the
+- **[`main_mam_osis.py`](../py-examples/main_mam_osis.py)** — reads MAM-simple XML and produces the
   MAM-OSIS XML output.
+- **[`main_letter_small_job.py`](../py-examples/main_letter_small_job.py)** — reads MAM-simple XML and writes a
+  report of all `<letter-small>` occurrences in Job.
 
-Both examples use a recursive handler pattern where each element type
-has a registered handler function:
+`main_mam4sef.py` and `main_mam_osis.py` both use a recursive handler
+pattern where each element type has a registered handler function. For
+`main_mam4sef.py` the relevant modules are:
 
 - **`mam4sef_or_ajf.py`** — reads JSON, walks the tree with `_handle()`
 - **`mam4sef_handlers.py`** — handler functions for every element type, keyed by `(tag, class)` tuple
 
-The OSIS example additionally uses the `osis/` helper modules.
-Together these examples are the canonical reference for how to process
-the full range of MAM-simple element types.
+`main_mam_osis.py` uses the same pattern over XML elements, with handler
+functions in the `osis/` helper modules.
+
+`main_letter_small_job.py` is a simpler example that iterates directly
+over XML elements without the handler pattern.
+
+Together, `main_mam4sef.py` and `main_mam_osis.py` are the canonical
+reference for how to process the full range of MAM-simple element types.
 
 ## JSON Structure
 
