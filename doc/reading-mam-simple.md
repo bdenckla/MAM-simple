@@ -122,17 +122,17 @@ The `py-examples/` directory contains three complete working examples:
 - **[`main_letter_small_job.py`](../py-examples/main_letter_small_job.py)** — reads MAM-simple XML and writes a
   report of all `<letter-small>` occurrences in Job.
 
-`main_mam4sef.py` and `main_mam_osis.py` both use a recursive handler
+The example programs `main_mam4sef.py` and `main_mam_osis.py` both use a recursive handler
 pattern where each element type has a registered handler function. For
 `main_mam4sef.py` the relevant modules are:
 
 - **`mam4sef_or_ajf.py`** — reads JSON, walks the tree with `_handle()`
 - **`mam4sef_handlers.py`** — handler functions for every element type, keyed by `(tag, class)` tuple
 
-`main_mam_osis.py` uses the same pattern over XML elements, with handler
+The program `main_mam_osis.py` uses the same pattern over XML elements, with handler
 functions in the `osis/` helper modules.
 
-`main_letter_small_job.py` is a simpler example that iterates directly
+The program `main_letter_small_job.py` is a simpler example that iterates directly
 over XML elements without the handler pattern.
 
 Together, `main_mam4sef.py` and `main_mam_osis.py` are the canonical
