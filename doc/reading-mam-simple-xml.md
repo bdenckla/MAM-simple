@@ -3,6 +3,8 @@
 
 ## XML Element Hierarchy
 
+You can get a feel for the hierarchy from this schematic overview of how the book of Job is encoded:
+
 ```xml
 <book24 versification-tradition="..."> <!-- root element -->
   <book39 osisID="Job">
@@ -20,16 +22,18 @@
 </book24>
 ```
 
-Parashah elements (`spi-pe2`, `spi-pe3`, `spi-samekh2`, `spi-samekh3`)
-can appear between chapters (as children of `book39`),
-between books (as children of `book24` — e.g., between 1 Samuel and 2 Samuel),
-and within verses (as children of `verse`).
+A parashah element (`spi-pe2`, `spi-pe3`, `spi-samekh2`, `spi-samekh3`)
+can appear:
+
+- as a child of `book24`, between `book39` elements (e.g., between 1 Samuel and 2 Samuel)
+- as a child of `book39`, between chapters
+- as a child of `verse`, within a verse
 
 ## How Verse Text Is Stored
 
 ### Simple verses: `text` attribute
 
-Most verses store their full text in a `text` attribute on the `<verse>` element:
+Verses without special features store their full, plain text in a `text` attribute of the `<verse>` element:
 
 ```xml
 <verse osisID="Job.34.2" yeivinID="Job 34:2"
@@ -40,8 +44,8 @@ Most verses store their full text in a `text` attribute on the `<verse>` element
 
 Verses with special features (legarmeih, paseq, ketiv/qere, etc.)
 have **no** `text` attribute.
-Instead, the text is distributed across `<text>` child elements,
-interspersed with markup elements:
+Instead, the plain text between special features is encoded in `<text>` child elements,
+interspersed with elements encoding special features:
 
 ```xml
 <verse osisID="Job.1.1" yeivinID="Job 1:1">
@@ -50,6 +54,14 @@ interspersed with markup elements:
   <text text=" הָאִ֣ישׁ הַה֗וּא תָּ֧ם וְיָשָׁ֛ר וִירֵ֥א אֱלֹהִ֖ים וְסָ֥ר מֵרָֽע׃"/>
 </verse>
 ```
+
+Plain text is always stored in a `text` attribute.
+Above we've seen this `text` attribute appear on `<verse>` and `<text>` elements,
+and it can appear on other elements as well.
+A consequence of this is that MAM-simple doesn't really use XML
+as a markup language in the sense that it has no PCDATA (parsed character data).
+I.e. MAM-simple's XML has no text between tags.
+Among other advantages, this makes its relationship to the JSON version much tighter.
 
 ## Child Element Types
 
