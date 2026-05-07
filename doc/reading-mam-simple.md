@@ -153,12 +153,13 @@ The full set of child element types is the same as in XML (see [Child Element Ty
 ```json
 {
   "versification-tradition": "vtmam",
-  "contents": [ ... ]
+  "contents": [ "...", "...", "..." ]
 }
 ```
 
 The `versification-tradition` field is one of `"vtbhs"`, `"vtsef"`, or `"vtmam"`.
 The `contents` array contains `book39` objects and parashah-marker objects.
+(Throughout this section, `["...", "...", "..."]` is used to express "one or more elements" while still being valid JSON.)
 
 ### Book39 objects
 
@@ -166,7 +167,7 @@ The `contents` array contains `book39` objects and parashah-marker objects.
 {
   "type": "book39",
   "osisID": "Ruth",
-  "contents": [ ... ]
+  "contents": [ "...", "...", "..." ]
 }
 ```
 
@@ -178,7 +179,7 @@ The `contents` array contains chapter objects and parashah-marker objects (same 
 {
   "type": "chapter",
   "osisID": "Ruth.1",
-  "contents": [ ... ]
+  "contents": [ "...", "...", "..." ]
 }
 ```
 
@@ -237,7 +238,7 @@ pattern where each element type has a registered handler function. For
 - **[`mam4sef_handlers.py`](../py-examples/mb_sefaria/mam4sef_handlers.py)** — handler functions for every element type, keyed by `(tag, class)` tuple
 
 The program [`main_mam_osis.py`](../py-examples/main_mam_osis.py) uses the same pattern over XML elements, with handler
-functions in the [`osis/`](../py-examples/osis/) helper modules.
+functions in [`osis/osis_handlers.py`](../py-examples/osis/osis_handlers.py).
 
 Together, [`main_mam4sef.py`](../py-examples/main_mam4sef.py) and [`main_mam_osis.py`](../py-examples/main_mam_osis.py) are the canonical
 reference for how to process the full range of MAM-simple element types.
