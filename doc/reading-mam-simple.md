@@ -112,6 +112,36 @@ interspersed with markup elements:
 | `contents-corresponds-to` | Versification note (see [Versification Differences](versification-differences.md)) |
 | `osisID-of-MAM-src` | Source verse in MAM versification (see [Versification Differences](versification-differences.md)) |
 
+### Versification Attributes
+
+The BHS and Sefaria versions describe the way in which their versifications
+differ from MAM's native versification via two `<verse>` attributes:
+`contents-corresponds-to` and `osisID-of-MAM-src`.
+Here are three abbreviated examples, using the XML format:
+```xml
+<verse osisID="1Sam.24.1"
+       contents-corresponds-to="a full verse in MAM"
+       osisID-of-MAM-src="1Sam.23.29"/>
+<verse osisID="Deut.5.7"
+       contents-corresponds-to="less than a full verse in MAM"
+       osisID-of-MAM-src="Deut.5.6">
+<verse osisID="Josh.21.36"
+       contents-corresponds-to="no verse in MAM"/>
+```
+The `contents-corresponds-to` attribute can take on one of three values:
+
+* `a full verse in MAM`
+* `less than a full verse in MAM`
+* `no verse in MAM`
+
+The `osisID-of-MAM-src` attribute complements the first two cases
+above. It says _which_ verse in MAM this verse fully or partially
+corresponds to.
+
+For a complete, human-readable description of every place where the three
+versifications differ, see
+[versification-differences.md](versification-differences.md).
+
 ## JSON Structure
 
 The JSON format mirrors the XML structure.
