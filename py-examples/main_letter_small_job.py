@@ -5,47 +5,19 @@ When run from the MAM-simple repo root (e.g. as a standalone example):
 
     python py-examples/main_letter_small_job.py
 
-This file is also used in the MAM-basics pipeline via run(out_path),
-which is called from main_0_mega with MAM-basics-relative paths.
+This file is also used in the MAM-basics pipeline.
 """
 
 import xml.etree.ElementTree as ET
 
-# MAM-basics-relative paths; not relevant when run from MAM-simple.
-_JOB_XML_PATH = "../MAM-simple/out/xml-vtrad-mam/Job.xml"
-_OUT_PATH = "out/letter-small.txt"
 
-
-def find_letter_small_in_job(xml_path, out_path):
-    """Find all <letter-small> elements in Job.xml and write a report."""
-    tree = ET.parse(xml_path)
-    root = tree.getroot()
-    lines = []
-    for book39 in root:
-        if book39.tag != "book39":
-            continue
-        for chapter in book39:
-            if chapter.tag != "chapter":
-                continue
-            for verse in chapter:
-                if verse.tag != "verse":
-                    continue
-                book, ch, vr = verse.attrib["osisID"].split(".")
-                for el in verse.iter("letter-small"):
-                    lines.append(
-                        f"{book} {ch}:{vr}\t<small>{el.attrib['text']}</small>"
-                    )
-    with open(out_path, "w", encoding="utf-8") as fp:
-        fp.write("\n".join(lines))
-        if lines:
-            fp.write("\n")
-    print(f"Wrote {len(lines)} lines to {out_path}")
-
-
-def run(out_path):
-    """Entry point for main_0_mega; uses the MAM-basics-relative XML path."""
-    find_letter_small_in_job(_JOB_XML_PATH, out_path)
+def find_letter_small_in_job(xml_path, out_fp):
+    for root_child in ET.parse(xml_path).getroot():
+        for verse in root_child.iter("verse"):
+            for el in verse.iter("letter-small"):
+                out_fp.write(f"{verse.attrib['osisID']}\t{el.attrib['text']}\n")
 
 
 if __name__ == "__main__":
-    find_letter_small_in_job("out/xml-vtrad-mam/Job.xml", _OUT_PATH)
+    with open("out/letter-small.txt", "w", encoding="utf-8") as fp:
+        find_letter_small_in_job("out/xml-vtrad-mam/Job.xml", fp)

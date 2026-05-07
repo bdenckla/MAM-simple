@@ -14,11 +14,12 @@ out/
   json-vtrad-mam/   # JSON, MAM native versification
 ```
 
-Each folder contains one file per book group (e.g., `Job.xml` / `Job.json`, `Gen.xml` / `Gen.json`, `1Sam-2Sam.xml` / `1Sam-2Sam.json`).
-Within each format, the three versification folders differ only in versification — the text content is the same.
+Each folder contains one file per `book24` (e.g., `1Sam-2Sam.xml`, `Gen.xml`, `Hos-Mal.xml`).
+A `book24` corresponds to one of the 24 books of the Hebrew Bible; some of them span more than one `book39`, i.e. some of them span more than one book in the system that divides the Hebrew Bible up into 39 rather than 24 books.
+
 For a full description of where and how the three versifications differ, see [Versification Differences](versification-differences.md).
 
-The JSON format mirrors the XML structure: the same hierarchy (book group → book → chapter → verse → child elements) and the same element types appear in both, with XML elements and attributes mapped to JSON objects and fields. See [JSON Structure](#json-structure) below.
+The JSON format mirrors the XML structure: the same hierarchy (`book24` → `book39` → chapter → verse → child elements) and the same element types appear in both, with XML elements and attributes mapped to JSON objects and fields. See [JSON Structure](#json-structure) below.
 
 ## XML Element Hierarchy
 
@@ -111,36 +112,10 @@ interspersed with markup elements:
 | `contents-corresponds-to` | Versification note (see [Versification Differences](versification-differences.md)) |
 | `osisID-of-MAM-src` | Source verse in MAM versification (see [Versification Differences](versification-differences.md)) |
 
-## The `py-examples/` Programs
-
-The `py-examples/` directory contains three complete working examples:
-
-- **[`main_mam4sef.py`](../py-examples/main_mam4sef.py)** — reads MAM-simple JSON and produces the
-  MAM-for-Sefaria CSV/HTML output.
-- **[`main_mam_osis.py`](../py-examples/main_mam_osis.py)** — reads MAM-simple XML and produces the
-  MAM-OSIS XML output.
-- **[`main_letter_small_job.py`](../py-examples/main_letter_small_job.py)** — reads MAM-simple XML and writes a
-  report of all `<letter-small>` occurrences in Job.
-
-The example programs `main_mam4sef.py` and `main_mam_osis.py` both use a recursive handler
-pattern where each element type has a registered handler function. For
-`main_mam4sef.py` the relevant modules are:
-
-- **`mam4sef_or_ajf.py`** — reads JSON, walks the tree with `_handle()`
-- **`mam4sef_handlers.py`** — handler functions for every element type, keyed by `(tag, class)` tuple
-
-The program `main_mam_osis.py` uses the same pattern over XML elements, with handler
-functions in the `osis/` helper modules.
-
-The program `main_letter_small_job.py` is a simpler example that iterates directly
-over XML elements without the handler pattern.
-
-Together, `main_mam4sef.py` and `main_mam_osis.py` are the canonical
-reference for how to process the full range of MAM-simple element types.
-
 ## JSON Structure
 
 The JSON format mirrors the XML structure.
+The full set of child element types is the same as in XML (see [Child Element Types](#child-element-types) above).
 The root object has two fields:
 
 | Field | Value |
@@ -148,7 +123,7 @@ The root object has two fields:
 | `versification-tradition` | `"vtbhs"`, `"vtsef"`, or `"vtmam"` |
 | `contents` | Array of `book39` objects and parashah-marker objects |
 
-### Book39 object
+### Book39 objects
 
 ```json
 {
@@ -160,7 +135,7 @@ The root object has two fields:
 
 `contents` is an array of chapter objects and parashah-marker objects (same types as in XML).
 
-### Chapter object
+### Chapter objects
 
 ```json
 {
@@ -200,10 +175,37 @@ Complex verses (with legarmeih, ketiv/qere, etc.) have a `contents` array instea
 }
 ```
 
-### Rule for extracting plain text (JSON)
+### Parashah-marker objects
 
-1. If the verse object has a `text` field → use it directly.
-2. Otherwise → concatenate the `text` fields of all objects in `contents` where `type == "text"`, in order.
+```json
+{ "type": "spi-pe2" }
+```
 
-Verse objects can be identified by `"type": "verse"`. The full set of child element types is the same as in XML (see [Child Element Types](#child-element-types) above).
-Parashah-marker objects (e.g., `{ "type": "spi-pe2" }`) can appear as children of the root object's `contents` array (between `book39` objects — e.g., between 1 Samuel and 2 Samuel), or as children of `book39`, `chapter`, or `verse` `contents` arrays.
+Parashah-marker objects can appear as children of the root object's `contents` array (between `book39` objects — e.g., between 1 Samuel and 2 Samuel), or as children of `book39`, `chapter`, or `verse` `contents` arrays.
+
+## The `py-examples/` Programs
+
+The `py-examples/` directory contains three complete working examples:
+
+- **[`main_mam4sef.py`](../py-examples/main_mam4sef.py)** — reads MAM-simple JSON and produces the
+  MAM-for-Sefaria CSV/HTML output.
+- **[`main_mam_osis.py`](../py-examples/main_mam_osis.py)** — reads MAM-simple XML and produces the
+  MAM-OSIS XML output.
+- **[`main_letter_small_job.py`](../py-examples/main_letter_small_job.py)** — reads MAM-simple XML and writes a
+  report of all `<letter-small>` occurrences in Job.
+
+The example programs [`main_mam4sef.py`](../py-examples/main_mam4sef.py) and [`main_mam_osis.py`](../py-examples/main_mam_osis.py) both use a recursive handler
+pattern where each element type has a registered handler function. For
+[`main_mam4sef.py`](../py-examples/main_mam4sef.py) the relevant modules are:
+
+- **`mam4sef_or_ajf.py`** — reads JSON, walks the tree with `_handle()`
+- **`mam4sef_handlers.py`** — handler functions for every element type, keyed by `(tag, class)` tuple
+
+The program [`main_mam_osis.py`](../py-examples/main_mam_osis.py) uses the same pattern over XML elements, with handler
+functions in the `osis/` helper modules.
+
+Together, [`main_mam4sef.py`](../py-examples/main_mam4sef.py) and [`main_mam_osis.py`](../py-examples/main_mam_osis.py) are the canonical
+reference for how to process the full range of MAM-simple element types.
+
+The program [`main_letter_small_job.py`](../py-examples/main_letter_small_job.py) is a simpler example that iterates directly
+over XML elements without the handler pattern.
