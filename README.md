@@ -3,6 +3,7 @@ This repo has extracts of MAM in XML and JSON formats that are simple but not co
 Each of these two formats is, in turn, available in three versifications.
 This yields a total of six extracts of MAM:
 
+<!-- sync: folder table also appears in doc/reading-mam-simple.md ##File-Layout -->
 folder | format | versification
 ---- | ---- | ----
 `out/xml-vtrad-bhs` | XML | BHS
@@ -19,6 +20,7 @@ see [Reading MAM-simple](doc/reading-mam-simple.md).
 
 This repo also has example programs under `py-examples/`:
 
+<!-- sync: bullet list of example programs also appears in doc/reading-mam-simple.md ##The-py-examples-Programs -->
 * [`py-examples/main_mam4sef.py`](py-examples/main_mam4sef.py)
 creates the Sefaria edition of MAM, using the JSON format as its input.
 * [`py-examples/main_mam_osis.py`](py-examples/main_mam_osis.py)

@@ -4,6 +4,7 @@ This document describes the XML and JSON formats used in MAM-simple and how to e
 
 ## File Layout
 
+<!-- sync: folder table also appears in README.md -->
 folder | format | versification
 ---- | ---- | ----
 `out/xml-vtrad-bhs` | XML | BHS
@@ -223,22 +224,20 @@ Parashah-marker objects can appear as children of the root object's `contents` a
 
 The `py-examples/` directory contains three complete working examples:
 
-- **[`main_mam4sef.py`](../py-examples/main_mam4sef.py)** — reads MAM-simple JSON and produces the
-  MAM-for-Sefaria CSV/HTML output.
-- **[`main_mam_osis.py`](../py-examples/main_mam_osis.py)** — reads MAM-simple XML and produces the
-  MAM-OSIS XML output.
-- **[`main_letter_small_job.py`](../py-examples/main_letter_small_job.py)** — reads MAM-simple XML and writes a
-  report of all `<letter-small>` occurrences in Job.
+<!-- sync: bullet list of example programs also appears in README.md -->
+- **[`main_mam4sef.py`](../py-examples/main_mam4sef.py)** — creates the Sefaria edition of MAM, using the JSON format as its input.
+- **[`main_mam_osis.py`](../py-examples/main_mam_osis.py)** — creates the OSIS edition of MAM, using the XML format as its input.
+- **[`main_letter_small_job.py`](../py-examples/main_letter_small_job.py)** — reports all of the `<letter-small>` elements in `Job.xml`.
 
 The example programs [`main_mam4sef.py`](../py-examples/main_mam4sef.py) and [`main_mam_osis.py`](../py-examples/main_mam_osis.py) both use a recursive handler
 pattern where each element type has a registered handler function. For
 [`main_mam4sef.py`](../py-examples/main_mam4sef.py) the relevant modules are:
 
-- **`mam4sef_or_ajf.py`** — reads JSON, walks the tree with `_handle()`
-- **`mam4sef_handlers.py`** — handler functions for every element type, keyed by `(tag, class)` tuple
+- **[`mam4sef_or_ajf.py`](../py-examples/mb_sefaria/mam4sef_or_ajf.py)** — reads JSON, walks the tree with `_handle()`
+- **[`mam4sef_handlers.py`](../py-examples/mb_sefaria/mam4sef_handlers.py)** — handler functions for every element type, keyed by `(tag, class)` tuple
 
 The program [`main_mam_osis.py`](../py-examples/main_mam_osis.py) uses the same pattern over XML elements, with handler
-functions in the `osis/` helper modules.
+functions in the [`osis/`](../py-examples/osis/) helper modules.
 
 Together, [`main_mam4sef.py`](../py-examples/main_mam4sef.py) and [`main_mam_osis.py`](../py-examples/main_mam_osis.py) are the canonical
 reference for how to process the full range of MAM-simple element types.
