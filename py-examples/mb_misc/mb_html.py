@@ -259,6 +259,11 @@ def bdi(contents, attr=None):
     return htel_mk("bdi", attr, contents)
 
 
+def code(contents, attr=None):
+    """Make a <code> (inline code) element."""
+    return htel_mk("code", attr=attr, flex_contents=contents)
+
+
 def horizontal_rule(attr=None):
     """
     Make a <hr> element
@@ -316,6 +321,20 @@ def is_htel(obj):
     return isinstance(obj, dict) and "_htel_tag" in obj
 
 
+def is_raw_html(obj):
+    """Return True for raw-HTML leaf dicts created by raw_html()."""
+    return isinstance(obj, dict) and "_raw_html" in obj
+
+
+def raw_html(html_str: str):
+    """Return an opaque raw-HTML leaf element.
+
+    The string is emitted verbatim (not HTML-escaped) by the HTML writer.
+    Only use for trusted, internally-generated HTML.
+    """
+    return {"_raw_html": html_str}
+
+
 ###########################################################
 
 
@@ -348,7 +367,7 @@ def _iswlts(x, strip_fn):
 
 
 def _is_str_or_htel(obj):
-    return isinstance(obj, str) or is_htel(obj)
+    return isinstance(obj, str) or is_htel(obj) or is_raw_html(obj)
 
 
 def _write_callback(add_wbr, html_comment, html_el, out_fp):

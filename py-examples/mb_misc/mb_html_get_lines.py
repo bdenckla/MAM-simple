@@ -17,6 +17,9 @@ def _el_to_paragraphs(hgl_opts, io_paragraphs, html_el):
     if isinstance(html_el, str):
         _add_str(io_paragraphs[-1], _finalize_string(add_wbr, html_el))
         return
+    if isinstance(html_el, dict) and "_raw_html" in html_el:
+        _add_word(io_paragraphs[-1], html_el["_raw_html"])
+        return
     eltag = html_el["_htel_tag"]
     attr_str = _attr_str(html_el.get("attr"))
     _add_word(io_paragraphs[-1], f"<{eltag}{attr_str}>")
@@ -131,6 +134,8 @@ _LB2 = {
     "small": "",
     "b": "",
     "strong": "",
+    "code": "",
+    "pre": "\n",
 }
 _LB1 = {
     **_LB2,

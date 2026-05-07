@@ -7,7 +7,7 @@ import lxml.etree as lxml_etree
 from mb_misc import my_utils_for_mainish as my_utils_fm
 from mb_misc import mb_html
 from mb_cmn import bib_locales as tbn
-from mb_misc import two_col_css_styles as tcstyles
+from mb_misc import styles_mam_with_doc
 from mb_misc import osis_book_abbrevs
 from mb_cmn import my_utils
 from mb_cmn import file_io
@@ -111,7 +111,7 @@ def _write_index_dot_html():
     title = "MAM OSIS: features present and features absent"
     out_dir_path = "../MAM-OSIS/gh-pages"
     css_href = "two_col_style.css"
-    tcstyles.make_css_file_for_mwd(f"{out_dir_path}/{css_href}")
+    styles_mam_with_doc.make_css_file_for_mwd(f"{out_dir_path}/{css_href}")
     write_ctx = mb_html.WriteCtx(
         title,
         f"{out_dir_path}/index.html",
