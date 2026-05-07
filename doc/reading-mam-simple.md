@@ -4,15 +4,14 @@ This document describes the XML and JSON formats used in MAM-simple and how to e
 
 ## File Layout
 
-```
-out/
-  xml-vtrad-bhs/    # XML, BHS versification
-  xml-vtrad-sef/    # XML, Sefaria versification
-  xml-vtrad-mam/    # XML, MAM native versification
-  json-vtrad-bhs/   # JSON, BHS versification
-  json-vtrad-sef/   # JSON, Sefaria versification
-  json-vtrad-mam/   # JSON, MAM native versification
-```
+folder | format | versification
+---- | ---- | ----
+`out/xml-vtrad-bhs` | XML | BHS
+`out/xml-vtrad-sef` | XML | Sefaria
+`out/xml-vtrad-mam` | XML | MAM native
+`out/json-vtrad-bhs` | JSON | BHS
+`out/json-vtrad-sef` | JSON | Sefaria
+`out/json-vtrad-mam` | JSON | MAM native
 
 Each folder contains one file per `book24` (e.g., `1Sam-2Sam.xml`, `Gen.xml`, `Hos-Mal.xml`).
 A `book24` corresponds to one of the 24 books of the Hebrew Bible; some of them span more than one `book39`, i.e. some of them span more than one book in the system that divides the Hebrew Bible up into 39 rather than 24 books.
@@ -23,15 +22,16 @@ The JSON format mirrors the XML structure: the same hierarchy (`book24` → `boo
 
 ## XML Element Hierarchy
 
-```
-<book24 versification-tradition="...">       ← root element
-  <book39 osisID="Job">                      ← one per biblical book in the group
-    <chapter osisID="Job.1">                 ← one per chapter
-      <verse osisID="Job.1.1" .../>          ← one per verse
+```xml
+<book24 versification-tradition="..."> <!-- root element -->
+  <book39 osisID="Job">
+    <chapter osisID="Job.1">
+      <verse osisID="Job.1.1" .../>
       <verse osisID="Job.1.2" .../>
       ...
     </chapter>
-    <spi-pe2/>                               ← parashah marker between chapters
+    <spi-pe2/>
+    <!-- parashah marker between chapters; can also appear between books and within verses -->
     <chapter osisID="Job.2">
       ...
     </chapter>
@@ -109,8 +109,8 @@ interspersed with markup elements:
 | `text` | Full verse text (only present for simple verses) |
 | `starts-with-sampe` | Verse starts after a parashah marker (`pe2`, `samekh2`, etc.) |
 | `ends-with-sampe` | Verse ends with a parashah marker |
-| `contents-corresponds-to` | Versification note (see [Versification Differences](versification-differences.md)) |
-| `osisID-of-MAM-src` | Source verse in MAM versification (see [Versification Differences](versification-differences.md)) |
+| `contents-corresponds-to` | Versification note |
+| `osisID-of-MAM-src` | Source verse in MAM's native versification |
 
 ### Versification Attributes
 
@@ -138,7 +138,7 @@ The `osisID-of-MAM-src` attribute complements the first two cases
 above. It says _which_ verse in MAM this verse fully or partially
 corresponds to.
 
-For a complete, human-readable description of every place where the three
+For a description of every place where the three
 versifications differ, see
 [versification-differences.md](versification-differences.md).
 
@@ -146,12 +146,18 @@ versifications differ, see
 
 The JSON format mirrors the XML structure.
 The full set of child element types is the same as in XML (see [Child Element Types](#child-element-types) above).
-The root object has two fields:
 
-| Field | Value |
-|-------|-------|
-| `versification-tradition` | `"vtbhs"`, `"vtsef"`, or `"vtmam"` |
-| `contents` | Array of `book39` objects and parashah-marker objects |
+### Root object
+
+```json
+{
+  "versification-tradition": "vtmam",
+  "contents": [ ... ]
+}
+```
+
+The `versification-tradition` field is one of `"vtbhs"`, `"vtsef"`, or `"vtmam"`.
+The `contents` array contains `book39` objects and parashah-marker objects.
 
 ### Book39 objects
 
@@ -163,7 +169,7 @@ The root object has two fields:
 }
 ```
 
-`contents` is an array of chapter objects and parashah-marker objects (same types as in XML).
+The `contents` array contains chapter objects and parashah-marker objects (same types as in XML).
 
 ### Chapter objects
 
@@ -175,7 +181,7 @@ The root object has two fields:
 }
 ```
 
-`contents` is an array of verse objects and parashah-marker objects.
+The `contents` array contains verse objects and parashah-marker objects.
 
 ### Verse objects
 
