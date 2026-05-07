@@ -19,8 +19,6 @@ A `book24` corresponds to one of the 24 books of the Hebrew Bible; some of them 
 
 For a full description of where and how the three versifications differ, see [Versification Differences](versification-differences.md).
 
-The JSON format mirrors the XML structure: the same hierarchy (`book24` → `book39` → chapter → verse → child elements) and the same element types appear in both, with XML elements and attributes mapped to JSON objects and fields. See [JSON Structure](#json-structure) below.
-
 ## XML Element Hierarchy
 
 ```xml
@@ -145,8 +143,7 @@ versifications differ, see
 
 ## JSON Structure
 
-The JSON format mirrors the XML structure.
-The full set of child element types is the same as in XML (see [Child Element Types](#child-element-types) above).
+The JSON format mirrors the XML structure: the same hierarchy (`book24` → `book39` → chapter → verse → child elements) and the same element types appear in both, with XML elements and attributes mapped to JSON objects and fields.
 
 ### Root object
 
