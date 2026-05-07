@@ -76,4 +76,9 @@ Complex verses (with legarmeih, ketiv/qere, etc.) have a `contents` array instea
 { "type": "spi-pe2" }
 ```
 
-Parashah-marker objects can appear as children of the root object's `contents` array (between `book39` objects — e.g., between 1 Samuel and 2 Samuel), or as children of `book39`, `chapter`, or `verse` `contents` arrays.
+Parashah-marker objects can appear:
+
+- as a child of the root object's `contents` array, between `book39` objects (e.g., between 1 Samuel and 2 Samuel)
+- as a child of a `book39` `contents` array, between chapters
+- as a child of a `chapter` `contents` array, between verses
+- as a child of a `verse` `contents` array, within a verse

@@ -13,8 +13,7 @@ You can get a feel for the hierarchy from this schematic overview of how the boo
       <verse osisID="Job.1.2" .../>
       ...
     </chapter>
-    <spi-pe2/>
-    <!-- parashah marker between chapters; can also appear between books and within verses -->
+    <spi-pe2/> <!-- parashah marker between chapters -->
     <chapter osisID="Job.2">
       ...
     </chapter>
@@ -27,13 +26,23 @@ can appear:
 
 - as a child of `book24`, between `book39` elements (e.g., between 1 Samuel and 2 Samuel)
 - as a child of `book39`, between chapters
+- as a child of `chapter`, between verses
 - as a child of `verse`, within a verse
+
+This treatment of parashah breaks is a distinctive feature of MAM-simple. Most encodings of the Tanakh make every parashah break belong to a verse. This requires the vast majority of breaks to be assigned to either the preceding or following verse. (The few mid-verse breaks of course naturally belong to their verse.)
+
+Each system (freely-placed breaks and verse-assigned breaks) has its merits. MAM-simple has freely-placed breaks, but also provides `starts-with-sampe` and `ends-with-sampe` verse attributes. These attributes support use-cases for which a starts-with or ends-with encoding is a better fit.
+
+Thus, MAM-simple has three encodings of each parashah break: free, starts-with, and ends-with.
+This makes MAM-simple less simple, but we believe the tradeoff is a good one.
+Choosing a single encoding would simplify the data at a cost to use-cases that don't fit
+that encoding well.
 
 ## How Verse Text Is Stored
 
 ### Simple verses: `text` attribute
 
-Verses without special features store their full, plain text in a `text` attribute of the `<verse>` element:
+A `<verse>` element without any special features stores its full, plain text in a `text` attribute, e.g.:
 
 ```xml
 <verse osisID="Job.34.2" yeivinID="Job 34:2"
@@ -42,10 +51,11 @@ Verses without special features store their full, plain text in a `text` attribu
 
 ### Complex verses: child elements
 
-Verses with special features (legarmeih, paseq, ketiv/qere, etc.)
-have **no** `text` attribute.
+A `<verse>` element with one or more special features
+(legarmeih, paseq, ketiv/qere, etc.)
+has **no** `text` attribute.
 Instead, the plain text between special features is encoded in `<text>` child elements,
-interspersed with elements encoding special features:
+interspersed with elements encoding special features, e.g.:
 
 ```xml
 <verse osisID="Job.1.1" yeivinID="Job 1:1">
@@ -56,10 +66,10 @@ interspersed with elements encoding special features:
 ```
 
 Plain text is always stored in a `text` attribute.
-Above we've seen this `text` attribute appear on `<verse>` and `<text>` elements,
-and it can appear on other elements as well.
-A consequence of this is that MAM-simple doesn't really use XML
-as a markup language in the sense that it has no PCDATA (parsed character data).
+Above we've seen this `text` attribute appear on `<verse>` and `<text>` elements.
+It can appear on other elements as well.
+As a result, MAM-simple doesn't really use XML
+as a markup language: it has no PCDATA (parsed character data).
 I.e. MAM-simple's XML has no text between tags.
 Among other advantages, this makes its relationship to the JSON version much tighter.
 
