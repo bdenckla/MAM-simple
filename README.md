@@ -1,34 +1,34 @@
 # MAM-simple
-This repo has an extract of MAM in XML and JSON formats that are simple but not complete. See:
-* `out/xml-vtrad-bhs` for XML files that use BHS versification
-* `out/xml-vtrad-sef` for XML files that use Sefaria versification
-* `out/xml-vtrad-mam` for XML files that use MAM native versification
-* `out/json-vtrad-bhs` for JSON files that use BHS versification
-* `out/json-vtrad-sef` for JSON files that use Sefaria versification
-* `out/json-vtrad-mam` for JSON files that use MAM native versification
+This repo has extracts of MAM in XML and JSON formats that are simple but not complete.
+Each of these two formats is, in turn, available in three versifications.
+This yields a total of six extracts of MAM:
 
-The JSON format mirrors the XML structure (same hierarchy and element types,
-expressed as nested JSON objects instead of XML elements).
+folder | format | versification
+---- | ---- | ----
+`out/xml-vtrad-bhs` | XML | BHS
+`out/xml-vtrad-sef` | XML | Sefaria
+`out/xml-vtrad-mam` | XML | MAM native
+`out/json-vtrad-bhs` | JSON | BHS
+`out/json-vtrad-sef` | JSON | Sefaria
+`out/json-vtrad-mam` | JSON | MAM native
 
-For a detailed guide to the structure, element types, and how to extract text,
+The JSON format mirrors the XML structure: it has the same hierarchy and element types.
+
+For a detailed guide to the hierarchy and element types of both formats,
 see [Reading MAM-simple](doc/reading-mam-simple.md).
 
 This repo also has example programs under `py-examples/`:
 
-* [`py-examples/main_mam4sef.py`](py-examples/main_mam4sef.py) uses the JSON to create the
-       Sefaria-format (CSV/HTML) version of MAM.
-* [`py-examples/main_mam_osis.py`](py-examples/main_mam_osis.py) uses the XML to create the OSIS XML
-       output in the sibling `MAM-OSIS` repo. It validates the output against
-       the OSIS XSD and therefore requires `lxml`.
-* [`py-examples/main_letter_small_job.py`](py-examples/main_letter_small_job.py) uses the XML to find all
-       `<letter-small>` elements in Job and write a report.
+* [`py-examples/main_mam4sef.py`](py-examples/main_mam4sef.py)
+creates the Sefaria edition of MAM, using the JSON format as its input.
+* [`py-examples/main_mam_osis.py`](py-examples/main_mam_osis.py)
+creates the OSIS edition of MAM, using the XML format as its input.
+* [`py-examples/main_letter_small_job.py`](py-examples/main_letter_small_job.py)
+reports all of the `<letter-small>` elements in `Job.xml`.
 
-The source of this data is
-[MAM-parsed](https://github.com/bdenckla/MAM-parsed)/plus.
-
-Other versions/formats of MAM (each with their tradeoffs) include:
-
-* [MAM-parsed](https://github.com/bdenckla/MAM-parsed)
-* [MAM for Sefaria](https://github.com/bdenckla/MAM-for-Sefaria)
+As I said above, MAM-simple is not complete.
+It is an extract of MAM, not a full version of the MAM dataset.
+For a version of the MAM dataset that is complete (but therefore far from simple),
+see [MAM-parsed](https://github.com/bdenckla/MAM-parsed)/plus.
 
 Questions? Email maintainer@miqra.simplelogin.com.
