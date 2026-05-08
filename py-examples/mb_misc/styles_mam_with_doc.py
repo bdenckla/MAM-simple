@@ -43,4 +43,3 @@ th, td { padding-right: 0.4em; padding-left: 0.4em; }
 def make_css_file_for_mwd(out_path):
     with open(out_path, "w", encoding="utf-8") as out_fp:
         out_fp.write(MWD_STYLES_STR.lstrip())
-

@@ -80,4 +80,3 @@ MAM_PARSED_STYLES_STR = _BASE_CSS + _EXTRA_CSS
 def make_css_file_for_mam_parsed(out_path):
     with open(out_path, "w", encoding="utf-8") as out_fp:
         out_fp.write(MAM_PARSED_STYLES_STR.lstrip())
-

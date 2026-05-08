@@ -50,4 +50,3 @@ img { max-width: 100%; }
 def make_css_file_for_authored(out_path):
     with open(out_path, "w", encoding="utf-8") as out_fp:
         out_fp.write(AUTHORED_STYLES_STR.lstrip())
-
