@@ -26,17 +26,23 @@ def build_ajf_variant():
     }
 
 
-def run_sef():
+def run_sef(overrides=None):
     """Create the Sefaria MAM from the XML MAM."""
-    mam4sef_or_ajf.main_helper(build_sef_variant())
+    variant = build_sef_variant()
+    if overrides:
+        variant.update(overrides)
+    mam4sef_or_ajf.main_helper(variant)
 
 
-def run_ajf():
+def run_ajf(overrides=None):
     """Create the AJF MAM from the XML MAM."""
-    mam4sef_or_ajf.main_helper(build_ajf_variant())
+    variant = build_ajf_variant()
+    if overrides:
+        variant.update(overrides)
+    mam4sef_or_ajf.main_helper(variant)
 
 
-def run_both_sef_and_ajf():
+def run_both_sef_and_ajf(overrides=None):
     """Create both the Sefaria and AJF MAM variants from the XML MAM."""
-    run_sef()
-    run_ajf()
+    run_sef(overrides=overrides)
+    run_ajf(overrides=overrides)

@@ -96,8 +96,12 @@ def bkg_path(
     path_qual = variant.get("variant-path-qual") or ""
     # path_qual examples include '' (the empty string) and 'vpq-ajf'
     folders = _FOLDERS[path_qual]
-    mam_for_xxx = variant.get("variant-mam-for-xxx") or "MAM-for-Sefaria"
-    repo_root = f"../{mam_for_xxx}"
+    output_root = variant.get("variant-output-root")
+    if output_root is not None:
+        repo_root = output_root
+    else:
+        mam_for_xxx = variant.get("variant-mam-for-xxx") or "MAM-for-Sefaria"
+        repo_root = f"../{mam_for_xxx}"
     if out_subdir:
         parent = f"{repo_root}/{out_subdir}"
     else:

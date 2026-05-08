@@ -25,9 +25,11 @@ def _write_output_provenance(variant, bkgs):
     if not bkgs:
         return
     sample_name = sef_cmn.SEF_BKNA[bkgs[0]["bkg-bkids"][0]]
-    csv_dir = os.path.dirname(write_utils.bkg_path(variant, sample_name))
+    csv_dir = os.path.dirname(write_utils.bkg_path(variant, sample_name, out_subdir=""))
     unicode_dir = os.path.dirname(
-        write_utils.bkg_path(variant, sample_name, fmt_is_unicode_names=True)
+        write_utils.bkg_path(
+            variant, sample_name, fmt_is_unicode_names=True, out_subdir="misc"
+        )
     )
     provenance.write_directory_provenance(
         csv_dir,
@@ -65,7 +67,8 @@ def _read_book_group(variant, bkg_name):
         tbn.VT_SEF: "json-vtrad-sef",
     }
     json_vtrad_xxx = json_vtrad_xxx_dic[vtrad]
-    json_path = f"../MAM-simple/{json_vtrad_xxx}/{bkg_name}.json"
+    input_base = variant.get("variant-input-base", "../MAM-simple")
+    json_path = f"{input_base}/{json_vtrad_xxx}/{bkg_name}.json"
     with open(json_path, encoding="utf-8") as f:
         return json.load(f)
 
@@ -139,12 +142,12 @@ def _do_one_book_group(variant, bkg):
         _do_for_cant_dab(bkg_out, variant, root, cant_dab)
     for bkid, cant_to_verses in bkg_out.items():
         sef_bkna = sef_cmn.SEF_BKNA[bkid]
-        csv_path = write_utils.bkg_path(variant, sef_bkna)
+        csv_path = write_utils.bkg_path(variant, sef_bkna, out_subdir="")
         write_utils_sef_or_ajf.write_bkg_in_csv_fmt(
             csv_path, variant, cant_to_verses, cant_dabs
         )
         write_utils.write_bkg_in_un_fmt(
-            variant, sef_bkna, cant_to_verses, "rv-cant-combined"
+            variant, sef_bkna, cant_to_verses, "rv-cant-combined", out_subdir="misc"
         )
 
 
