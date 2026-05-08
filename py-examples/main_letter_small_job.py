@@ -12,14 +12,14 @@ import pathlib
 import xml.etree.ElementTree as ET
 
 
-def find_letter_small_in_job(xml_path, out_fp):
-    for root_child in ET.parse(xml_path).getroot():
-        for verse in root_child.iter("verse"):
-            for el in verse.iter("letter-small"):
-                out_fp.write(f"{verse.attrib['osisID']}\t{el.attrib['text']}\n")
+def find_letter_small_in_job(xml_path):
+    pathlib.Path("py-examples-out").mkdir(parents=True, exist_ok=True)
+    with open("py-examples-out/letter-small-job.txt", "w", encoding="utf-8") as out_fp:
+        for root_child in ET.parse(xml_path).getroot():
+            for verse in root_child.iter("verse"):
+                for el in verse.iter("letter-small"):
+                    out_fp.write(f"{verse.attrib['osisID']}\t{el.attrib['text']}\n")
 
 
 if __name__ == "__main__":
-    pathlib.Path("py-examples-out").mkdir(parents=True, exist_ok=True)
-    with open("py-examples-out/letter-small-job.txt", "w", encoding="utf-8") as fp:
-        find_letter_small_in_job("xml-vtrad-mam/Job.xml", fp)
+    find_letter_small_in_job("xml-vtrad-mam/Job.xml")
