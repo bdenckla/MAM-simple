@@ -5,7 +5,7 @@ from mb_sefaria import mam4sef_runners
 
 _OVERRIDES = {
     "variant-input-base": ".",
-    "variant-output-root": "py-examples/out/sefaria",
+    "variant-output-root": "py-examples-out/sefaria",
 }
 
 
