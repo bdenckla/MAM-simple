@@ -8,12 +8,12 @@ This yields a total of six flavors of MAM-simple:
 <!-- sync: folder table also appears in doc/reading-mam-simple.md ##File-Layout -->
 folder | format | versification
 ---- | ---- | ----
-`out/xml-vtrad-bhs` | XML | BHS
-`out/xml-vtrad-sef` | XML | Sefaria
-`out/xml-vtrad-mam` | XML | MAM native
-`out/json-vtrad-bhs` | JSON | BHS
-`out/json-vtrad-sef` | JSON | Sefaria
-`out/json-vtrad-mam` | JSON | MAM native
+`xml-vtrad-bhs` | XML | BHS
+`xml-vtrad-sef` | XML | Sefaria
+`xml-vtrad-mam` | XML | MAM native
+`json-vtrad-bhs` | JSON | BHS
+`json-vtrad-sef` | JSON | Sefaria
+`json-vtrad-mam` | JSON | MAM native
 
 The JSON format mirrors the XML structure: it has the same hierarchy and element types.
 
@@ -28,7 +28,8 @@ creates the Sefaria edition of MAM, using the JSON format as its input.
 * The [`main_mam_osis.py`](py-examples/main_mam_osis.py) program
 creates the OSIS edition of MAM, using the XML format as its input.
 * The [`main_letter_small_job.py`](py-examples/main_letter_small_job.py) program
-reports all of the `<letter-small>` elements in `Job.xml`.
+reports all of the `<letter-small>` elements in `Job.xml`,
+writing output to `py-examples-out/letter-small-job.txt`.
 
 As I said above, MAM-simple is not complete.
 It is an extract of MAM, not a full version of MAM.

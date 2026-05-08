@@ -7,20 +7,37 @@ Exports:
 from mb_misc import mb_html
 from mb_cmn import file_io
 from mb_cmn import my_utils
+from mb_cmn import provenance
 from mb_cmn import uni_heb as uh
 from mb_misc import verse_and_friends as vaf
 from mb_cmn import bib_locales as tbn
 from mb_cmn import str_defs as sd
 
 
-def write_bkg_in_un_fmt(variant, bkg_name, verses, rv_cant_that_covers):
+def write_bkg_in_un_fmt(
+    variant,
+    bkg_name,
+    verses,
+    rv_cant_that_covers,
+    out_subdir="out",
+    generator_file=None,
+):
     """Write book group in "Unicode names" format."""
     do_quick_test_of_get_pre_lines()
-    out_path = bkg_path(variant, bkg_name, fmt_is_unicode_names=True)
+    out_path = bkg_path(
+        variant, bkg_name, fmt_is_unicode_names=True, out_subdir=out_subdir
+    )
     title = f"unicode_names {bkg_name}"
     verses_dicts = my_utils.dv_map(dict, verses)
     file_io.with_tmp_openw(
-        out_path, {}, _write_callback, verses, rv_cant_that_covers, title, verses_dicts
+        out_path,
+        {},
+        _write_callback,
+        verses,
+        rv_cant_that_covers,
+        title,
+        verses_dicts,
+        generator_file,
     )
 
 
@@ -66,7 +83,9 @@ _EXTENSIONS = {
 }
 
 
-def bkg_path(variant, bkg_name, fmt_is_unicode_names=False, fmt_override=None):
+def bkg_path(
+    variant, bkg_name, fmt_is_unicode_names=False, fmt_override=None, out_subdir="out"
+):
     """Return path based on book group name bkg_name."""
     if fmt_is_unicode_names:
         fmt = "vff-unicode-names"
@@ -78,11 +97,19 @@ def bkg_path(variant, bkg_name, fmt_is_unicode_names=False, fmt_override=None):
     # path_qual examples include '' (the empty string) and 'vpq-ajf'
     folders = _FOLDERS[path_qual]
     mam_for_xxx = variant.get("variant-mam-for-xxx") or "MAM-for-Sefaria"
-    parent = f"../{mam_for_xxx}/out"
+    repo_root = f"../{mam_for_xxx}"
+    if out_subdir:
+        parent = f"{repo_root}/{out_subdir}"
+    else:
+        parent = repo_root
     return f"{parent}/{folders[fmt]}/{bkg_name}{_EXTENSIONS[fmt]}"
 
 
-def _write_callback(verses, rv_cant_that_covers, title, verses_dicts, out_fp):
+def _write_callback(
+    verses, rv_cant_that_covers, title, verses_dicts, generator_file, out_fp
+):
+    if generator_file is not None:
+        out_fp.write(f"# {provenance.generated_by_text(generator_file)}\n")
     out_fp.write(f"{title}\n")
     for bcvt, _verse_body in verses[rv_cant_that_covers]:
         multiverse = {

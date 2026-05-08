@@ -7,12 +7,12 @@ This document describes the XML and JSON formats used in MAM-simple and how to e
 <!-- sync: folder table also appears in README.md -->
 folder | format | versification
 ---- | ---- | ----
-`out/xml-vtrad-bhs` | XML | BHS
-`out/xml-vtrad-sef` | XML | Sefaria
-`out/xml-vtrad-mam` | XML | MAM native
-`out/json-vtrad-bhs` | JSON | BHS
-`out/json-vtrad-sef` | JSON | Sefaria
-`out/json-vtrad-mam` | JSON | MAM native
+`xml-vtrad-bhs` | XML | BHS
+`xml-vtrad-sef` | XML | Sefaria
+`xml-vtrad-mam` | XML | MAM native
+`json-vtrad-bhs` | JSON | BHS
+`json-vtrad-sef` | JSON | Sefaria
+`json-vtrad-mam` | JSON | MAM native
 
 Each folder contains one file per `book24` (e.g., `1Sam-2Sam.xml`, `Gen.xml`, `Hos-Mal.xml`).
 A `book24` corresponds to one of the 24 books of the Hebrew Bible; some of them span more than one `book39`, i.e. some of them span more than one book in the system that divides the Hebrew Bible up into 39 rather than 24 books.
@@ -31,7 +31,7 @@ The `py-examples/` directory contains three complete working examples:
 <!-- sync: bullet list of example programs also appears in README.md -->
 - **[`main_mam4sef.py`](../py-examples/main_mam4sef.py)** — creates the Sefaria edition of MAM, using the JSON format as its input.
 - **[`main_mam_osis.py`](../py-examples/main_mam_osis.py)** — creates the OSIS edition of MAM, using the XML format as its input.
-- **[`main_letter_small_job.py`](../py-examples/main_letter_small_job.py)** — reports all of the `<letter-small>` elements in `Job.xml`.
+- **[`main_letter_small_job.py`](../py-examples/main_letter_small_job.py)** — reports all of the `<letter-small>` elements in `Job.xml`, writing output to `py-examples-out/letter-small-job.txt`.
 
 The example programs [`main_mam4sef.py`](../py-examples/main_mam4sef.py) and [`main_mam_osis.py`](../py-examples/main_mam_osis.py) both use a recursive handler
 pattern where each element type has a registered handler function. For

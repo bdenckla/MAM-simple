@@ -8,6 +8,7 @@ When run from the MAM-simple repo root (e.g. as a standalone example):
 This file is also used in the MAM-basics pipeline.
 """
 
+import pathlib
 import xml.etree.ElementTree as ET
 
 
@@ -19,5 +20,6 @@ def find_letter_small_in_job(xml_path, out_fp):
 
 
 if __name__ == "__main__":
-    with open("out/letter-small.txt", "w", encoding="utf-8") as fp:
-        find_letter_small_in_job("out/xml-vtrad-mam/Job.xml", fp)
+    pathlib.Path("py-examples-out").mkdir(parents=True, exist_ok=True)
+    with open("py-examples-out/letter-small-job.txt", "w", encoding="utf-8") as fp:
+        find_letter_small_in_job("xml-vtrad-mam/Job.xml", fp)
