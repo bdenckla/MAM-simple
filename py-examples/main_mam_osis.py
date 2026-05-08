@@ -2,30 +2,17 @@
 """Convert MAM-simple XML data to per-book OSIS XML files."""
 
 from mb_cmn import bib_locales as tbn
-from mb_misc import my_utils_for_mainish as my_utils_fm
 from osis import osis_runner
 
 _PATHS = {
     "input_xml_dir": "xml-vtrad-bhs",
     "output_book_dir": "py-examples-out/osis",
-    "header_path": None,
-    "osis_output_path": None,
-    "xsd_path": None,
-    "index_html_dir": None,
 }
-
-
-def almost_main(bkids=None):
-    """Create per-book OSIS XML from MAM-simple data."""
-    if bkids is None:
-        bkids = tbn.ALL_BK39_IDS
-    osis_runner.almost_main(bkids, _PATHS)
 
 
 def main():
     """Create per-book OSIS XML from MAM-simple data."""
-    bkids = my_utils_fm.get_bk39_tuple_from_argparse()
-    almost_main(bkids)
+    osis_runner.almost_main(tbn.ALL_BK39_IDS, _PATHS)
 
 
 if __name__ == "__main__":
