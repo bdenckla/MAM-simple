@@ -1,6 +1,6 @@
 """Exports HANDLERS, child_handlers"""
 
-from py_misc import slh_description
+from mb_misc import slh_description
 from mb_cmn import str_defs as sd
 from mb_cmn import hebrew_punctuation as hpu
 from mb_cmn import shrink
