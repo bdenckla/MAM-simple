@@ -34,12 +34,17 @@ _NS_URL_FOR_XML = "http://www.w3.org/XML/1998/namespace"
 
 
 def almost_main(bkids, paths):
-    """Create MAM-OSIS XML from MAM XML data, writing to the locations in paths."""
-    if paths["index_html_dir"] is not None:
+    """Create MAM-OSIS XML from MAM XML data, writing to the locations in paths.
+
+    Required paths keys: input_xml_dir, output_book_dir.
+    Optional paths keys: header_path, osis_output_path, xsd_path, index_html_dir.
+    Omitted optional keys default to None (feature skipped).
+    """
+    if paths.get("index_html_dir") is not None:
         _write_index_dot_html(paths)
     bkgs = osis_book_abbrevs.bk24_bkgs(bkids)
     proots = tuple(_do_one_book_group(bkg, paths) for bkg in bkgs)
-    if paths["header_path"] is not None:
+    if paths.get("header_path") is not None:
         header = _read_header(paths)
         _write_osis(header, proots, paths)
 

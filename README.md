@@ -23,9 +23,9 @@ see [Reading MAM-simple](doc/reading-mam-simple.md).
 This repo also has example programs. They are found under `py-examples/`:
 
 <!-- sync: bullet list of example programs also appears in doc/reading-mam-simple.md ##The-py-examples-Programs -->
-* The [`main_mam4sef.py`](py-examples/main_mam4sef.py) program
+* The [`main_mam4sef_example.py`](py-examples/main_mam4sef_example.py) program
 creates the Sefaria edition of MAM, using the JSON format as its input.
-* The [`main_mam_osis.py`](py-examples/main_mam_osis.py) program
+* The [`main_mam_osis_example.py`](py-examples/main_mam_osis_example.py) program
 creates the OSIS edition of MAM, using the XML format as its input.
 * The [`main_letter_small_job.py`](py-examples/main_letter_small_job.py) program
 reports all of the `<letter-small>` elements in `Job.xml`,

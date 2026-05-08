@@ -29,21 +29,21 @@ For a full description of where and how the three versifications differ, see [Ve
 The `py-examples/` directory contains three complete working examples:
 
 <!-- sync: bullet list of example programs also appears in README.md -->
-- **[`main_mam4sef.py`](../py-examples/main_mam4sef.py)** — creates the Sefaria edition of MAM, using the JSON format as its input.
-- **[`main_mam_osis.py`](../py-examples/main_mam_osis.py)** — creates the OSIS edition of MAM, using the XML format as its input.
+- **[`main_mam4sef_example.py`](../py-examples/main_mam4sef_example.py)** — creates the Sefaria edition of MAM, using the JSON format as its input.
+- **[`main_mam_osis_example.py`](../py-examples/main_mam_osis_example.py)** — creates the OSIS edition of MAM, using the XML format as its input.
 - **[`main_letter_small_job.py`](../py-examples/main_letter_small_job.py)** — reports all of the `<letter-small>` elements in `Job.xml`, writing output to `py-examples-out/letter-small-job.txt`.
 
-The example programs [`main_mam4sef.py`](../py-examples/main_mam4sef.py) and [`main_mam_osis.py`](../py-examples/main_mam_osis.py) both use a recursive handler
+The example programs [`main_mam4sef_example.py`](../py-examples/main_mam4sef_example.py) and [`main_mam_osis_example.py`](../py-examples/main_mam_osis_example.py) both use a recursive handler
 pattern where each element type has a registered handler function. For
-[`main_mam4sef.py`](../py-examples/main_mam4sef.py) the relevant modules are:
+[`main_mam4sef_example.py`](../py-examples/main_mam4sef_example.py) the relevant modules are:
 
 - **[`mam4sef_or_ajf.py`](../py-examples/mb_sefaria/mam4sef_or_ajf.py)** — reads JSON, walks the tree with `_handle()`
 - **[`mam4sef_handlers.py`](../py-examples/mb_sefaria/mam4sef_handlers.py)** — handler functions for every element type, keyed by `(tag, class)` tuple
 
-The program [`main_mam_osis.py`](../py-examples/main_mam_osis.py) uses the same pattern over XML elements, with handler
+The program [`main_mam_osis_example.py`](../py-examples/main_mam_osis_example.py) uses the same pattern over XML elements, with handler
 functions in [`osis/osis_handlers.py`](../py-examples/osis/osis_handlers.py).
 
-Together, [`main_mam4sef.py`](../py-examples/main_mam4sef.py) and [`main_mam_osis.py`](../py-examples/main_mam_osis.py) are the canonical
+Together, [`main_mam4sef_example.py`](../py-examples/main_mam4sef_example.py) and [`main_mam_osis_example.py`](../py-examples/main_mam_osis_example.py) are the canonical
 reference for how to process the full range of MAM-simple element types.
 
 The program [`main_letter_small_job.py`](../py-examples/main_letter_small_job.py) is a simpler example that iterates directly

@@ -8,14 +8,14 @@
             "name": "MAM for Sef: all",
             "type": "debugpy",
             "request": "launch",
-            "program": "py-examples/main_mam4sef.py",
+            "program": "py-examples/main_mam4sef_example.py",
             "console": "integratedTerminal"
         },
         {
             "name": "MAM OSIS: all",
             "type": "debugpy",
             "request": "launch",
-            "program": "py-examples/main_mam_osis.py",
+            "program": "py-examples/main_mam_osis_example.py",
             "console": "integratedTerminal"
         }
     ]
