@@ -73,6 +73,43 @@ pre.json-block {
     font-size: 1.2em;
     line-height: 1.8;
 }
+.json-block .ellipsis {
+    color: light-dark(#888, #666);
+    font-style: italic;
+    background: light-dark(#e8e8e8, #2e2e2e);
+    border-radius: 3px;
+    padding: 0 0.2em;
+}
+.json-block .ln {
+    user-select: none;
+    color: light-dark(#aaa, #555);
+    margin-right: 1em;
+    display: inline-block;
+    text-align: right;
+    min-width: 2ch;
+}
+.json-notes {
+    font-family: sans-serif;
+    font-size: 0.9em;
+    margin: 0.3em 0 1em 0;
+    padding: 0.4em 0.6em 0.4em 0.8em;
+    border-left: 3px solid light-dark(#ccc, #444);
+    background: light-dark(#f5f5f5, #2a2a2a);
+    overflow: hidden;
+}
+.json-notes dt {
+    font-weight: bold;
+    color: light-dark(#555, #aaa);
+    float: left;
+    clear: left;
+    margin-right: 0.6em;
+    margin-top: 0.3em;
+}
+.json-notes dd {
+    margin-left: 5em;
+    margin-top: 0.3em;
+    margin-bottom: 0;
+}
 """
 
 MAM_PARSED_STYLES_STR = _BASE_CSS + _EXTRA_CSS
