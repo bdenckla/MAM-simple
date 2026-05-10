@@ -3,6 +3,7 @@
 from mb_cmn import ws_tmpl1 as wtp1
 from mb_cmn import ws_tmpl_named_params as wtnp
 from mb_cmn import template_names as tmpln
+from mb_cmn import hebrew_punctuation as hpu
 from mb_cmn.my_utils import first_and_only
 from mb_cmn.my_utils import ss_map
 from mb_cmn.my_utils import sl_map
@@ -28,7 +29,7 @@ def template_len(tmpl):
 
 
 def template_name(tmpl):
-    return tmpl["tmpl_name"]
+    return _normalize_template_name(tmpl["tmpl_name"])
 
 
 def is_template(wtel):
@@ -46,12 +47,14 @@ def dic_is_template(dic: dict):
 
 def is_template_with_name(wtel, name):
     """Return whether wtel is a template with the given name."""
-    return template_name_if_is_template(wtel) == name
+    return template_name_if_is_template(wtel) == _normalize_template_name(name)
 
 
 def is_template_with_name_in(wtel, names):
     """Return whether wtel is a template with one of the given names."""
-    return template_name_if_is_template(wtel) in names
+    return template_name_if_is_template(wtel) in {
+        _normalize_template_name(name) for name in names
+    }
 
 
 def is_doc_template(wtel):
@@ -61,7 +64,7 @@ def is_doc_template(wtel):
 
 def mktmpl(elements, *, ignore_equals=False):
     """Construct a template."""
-    name = first_and_only(elements[0])
+    name = _normalize_template_name(first_and_only(elements[0]))
     args = elements[1:]
     if len(args) == 0:
         return {"tmpl_name": name}
@@ -80,7 +83,7 @@ def mktmpl(elements, *, ignore_equals=False):
 
 
 def template_name_if_is_template(wtel):
-    return is_template(wtel) and wtel["tmpl_name"]
+    return is_template(wtel) and template_name(wtel)
 
 
 def template_param_val(tmpl, param_name: str):
@@ -170,3 +173,10 @@ _TMPL_KEYTUPLES = {
     ("tmpl_name",),
     ("tmpl_name", "tmpl_params"),
 }
+
+_Q2_TO_G2 = str.maketrans({'"': hpu.GERSHAYIM})
+
+
+def _normalize_template_name(name):
+    assert isinstance(name, str), name
+    return name.translate(_Q2_TO_G2)

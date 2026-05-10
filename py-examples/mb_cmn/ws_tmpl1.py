@@ -1,5 +1,6 @@
 """Exports functions that help create and use templates"""
 
+from mb_cmn import hebrew_punctuation as hpu
 from mb_cmn.my_utils import first_and_only
 from mb_cmn.my_utils import sl_map
 
@@ -35,7 +36,7 @@ def template_name(tmpl):
     if len(el0) == 2:
         assert el0[0] == "#בלי קטע:"
         assert template_elements(el0[1]) == [["שם הדף המלא"]]
-    return el0[0]
+    return _normalize_template_name(el0[0])
 
 
 def is_template(wtel):
@@ -53,12 +54,14 @@ def dic_is_template(dic: dict):
 
 def is_template_with_name(wtel, name):
     """Return whether wtel is a template with the given name."""
-    return is_template(wtel) and template_name(wtel) == name
+    return is_template(wtel) and template_name(wtel) == _normalize_template_name(name)
 
 
 def is_template_with_name_in(wtel, names):
     """Return whether wtel is a template with on eof the given names."""
-    return is_template(wtel) and template_name(wtel) in names
+    return is_template(wtel) and template_name(wtel) in {
+        _normalize_template_name(name) for name in names
+    }
 
 
 def is_doc_template(wtel):
@@ -118,6 +121,14 @@ def _simplify_wtseq(tel):
 
 def _is_singleton(wtseq):
     return len(wtseq) == 1 and isinstance(wtseq[0], str) and "|" not in wtseq[0]
+
+
+_Q2_TO_G2 = str.maketrans({'"': hpu.GERSHAYIM})
+
+
+def _normalize_template_name(name):
+    assert isinstance(name, str), name
+    return name.translate(_Q2_TO_G2)
 
 
 def _strip_prefix(prefix, in_list):

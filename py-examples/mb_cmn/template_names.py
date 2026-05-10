@@ -2,16 +2,16 @@
 
 TWO_ACCENTS_OF_QUPO = "שני טעמים באות אחת קמץ-תחתון-פתח-עליון"
 NO_PAR_AT_STA_OF_CHAP21 = "מ:אין פרשה בתחילת פרק"
-NO_PAR_AT_STA_OF_CHAP03 = 'מ:אין פרשה בתחילת פרק בספרי אמ"ת'
+NO_PAR_AT_STA_OF_CHAP03 = "מ:אין פרשה בתחילת פרק בספרי אמ״ת"
 NO_PAR_AT_STA_OF_WEEKLY = "מ:אין רווח של פרשה בתחילת פרשת השבוע"
 SLH_WORD = "מ:אות-מיוחדת-במילה"
 SCRDFF_TAR = "מ:הערה-2"
 SCRDFF_NO_TAR = "מ:הערה"
 
 LATIN_SHORTS = {
-    'כו"ק': "k1q1-kq",  # 1
-    'קו"כ': "k1q1-qk",  # 2
-    'מ:קו"כ-אם-2': "kq-trivial",
+    "כו״ק": "k1q1-kq",  # 1
+    "קו״כ": "k1q1-qk",  # 2
+    "מ:קו״כ-אם-2": "kq-trivial",
     "קרי ולא כתיב": "kq-q-velo-k",
     "כתיב ולא קרי": "kq-k-velo-q",
 }
@@ -30,9 +30,9 @@ def map_all_whitespace_to_a_constant(the_constant):
 
 
 STD_KQ_TMPL_NAMES = (
-    'כו"ק',
-    'קו"כ',
-    'מ:כו"ק מיוחד',
+    "כו״ק",
+    "קו״כ",
+    "מ:כו״ק מיוחד",
 )
 WHITESPACE_TMPL_NAMES = {
     "מ:ששש",
