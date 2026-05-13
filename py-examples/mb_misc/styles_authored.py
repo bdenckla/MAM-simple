@@ -1,4 +1,6 @@
 AUTHORED_STYLES_STR = """
+/* Generated file - DO NOT EDIT DIRECTLY.
+     Edit py/mb_misc/styles_authored.py in MAM-basics and regenerate. */
 :root {
   color-scheme: light dark;
 }

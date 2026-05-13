@@ -4,6 +4,7 @@
 from pathlib import Path
 
 _SIDECAR_NAME = "provenance.md"
+_CANONICAL_REPO_NAME = "MAM-basics"
 
 
 def generated_by_text(generator_file: str) -> str:
@@ -58,9 +59,16 @@ def _display_path(generator_file: str) -> str:
     generator_path = Path(generator_file).resolve()
     repo_root = Path(__file__).resolve().parents[2]
     repos_root = repo_root.parent
-    for base_path in (repo_root, repos_root):
-        try:
-            return generator_path.relative_to(base_path).as_posix()
-        except ValueError:
-            continue
-    return generator_path.as_posix()
+    try:
+        repos_rel = generator_path.relative_to(repos_root).as_posix()
+        if repos_rel.startswith(f"{_CANONICAL_REPO_NAME}/"):
+            return repos_rel
+    except ValueError:
+        pass
+    try:
+        repo_rel = generator_path.relative_to(repo_root).as_posix()
+    except ValueError as exc:
+        raise ValueError(
+            f"Generator path is outside both {repo_root} and {repos_root}: {generator_path}"
+        ) from exc
+    return f"{_CANONICAL_REPO_NAME}/{repo_rel}"
