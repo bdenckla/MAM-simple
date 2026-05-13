@@ -4,7 +4,6 @@
 from pathlib import Path
 
 _SIDECAR_NAME = "provenance.md"
-_CANONICAL_REPO_NAME = "MAM-basics"
 
 
 def generated_by_text(generator_file: str) -> str:
@@ -58,10 +57,11 @@ def directory_provenance_markdown(
 def _display_path(generator_file: str) -> str:
     generator_path = Path(generator_file).resolve()
     repo_root = Path(__file__).resolve().parents[2]
+    repo_name = repo_root.name
     repos_root = repo_root.parent
     try:
         repos_rel = generator_path.relative_to(repos_root).as_posix()
-        if repos_rel.startswith(f"{_CANONICAL_REPO_NAME}/"):
+        if repos_rel.startswith(f"{repo_name}/"):
             return repos_rel
     except ValueError:
         pass
@@ -71,4 +71,4 @@ def _display_path(generator_file: str) -> str:
         raise ValueError(
             f"Generator path is outside both {repo_root} and {repos_root}: {generator_path}"
         ) from exc
-    return f"{_CANONICAL_REPO_NAME}/{repo_rel}"
+    return f"{repo_name}/{repo_rel}"
