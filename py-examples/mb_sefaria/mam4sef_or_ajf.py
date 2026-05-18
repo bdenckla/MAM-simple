@@ -12,6 +12,12 @@ from mb_sefaria import write_utils_sef_or_ajf
 from mb_cmn import shrink
 
 
+# Raw-name book-list folders sort provenance.md between Obadiah and Proverbs,
+# which interrupts scan flow. Use _provenance.md there; prefixed names like
+# FC-Chronicles are not affected and keep provenance.md.
+_BOOK_LIST_PROVENANCE_SIDECAR_NAME = "_provenance.md"
+
+
 def main_helper(variant):
     """Create the Sefaria MAM or AJF MAM from the XML MAM."""
     bkids = my_utils_fm.get_bk39_tuple_from_argparse()
@@ -35,11 +41,13 @@ def _write_output_provenance(variant, bkgs):
         csv_dir,
         __file__,
         "Sefaria CSV exports",
+        sidecar_name=_BOOK_LIST_PROVENANCE_SIDECAR_NAME,
     )
     provenance.write_directory_provenance(
         unicode_dir,
         __file__,
         "Sefaria Unicode-name exports",
+        sidecar_name=_BOOK_LIST_PROVENANCE_SIDECAR_NAME,
     )
 
 
