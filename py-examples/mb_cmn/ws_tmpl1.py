@@ -31,7 +31,11 @@ def template_len(tmpl):
 
 
 def template_name(tmpl):
-    """Return element 0 of element 0 of the given template."""
+    """Return normalized template name from element 0.
+
+    The ASCII double-quote shorthand is normalized to Hebrew gershayim
+    (U+05F4). This applies to both tmpl and stmpl template representations.
+    """
     el0 = template_element(tmpl, 0)
     if len(el0) == 2:
         assert el0[0] == "#בלי קטע:"
@@ -127,6 +131,10 @@ _Q2_TO_G2 = str.maketrans({'"': hpu.GERSHAYIM})
 
 
 def _normalize_template_name(name):
+    """Normalize template names for stable matching and reporting.
+
+    Convert ASCII double quote shorthand (") to gershayim (U+05F4).
+    """
     assert isinstance(name, str), name
     return name.translate(_Q2_TO_G2)
 

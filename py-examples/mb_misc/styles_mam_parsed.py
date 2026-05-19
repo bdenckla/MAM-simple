@@ -23,7 +23,10 @@ em { font-style: normal; font-weight: bold; }
 span.romanized { font-style: italic; }
 *[lang="he"] span.book-title { font-weight: bold; font-style: normal; }
 span.book-title { font-style: italic; }
-*[title] {
+abbr[title] {
+    text-decoration: none;
+}
+.ellipsis-title {
     text-decoration-line: underline;
     text-decoration-style: dotted;
     text-underline-offset: 0.14em;
@@ -52,6 +55,7 @@ table tbody tr:nth-child(even) td {
     background-color: light-dark(#f5f5f5, #1f1f1f);
 }
 td.wide-col, th.wide-col { max-width: 20em; overflow-wrap: break-word; }
+td.template-col, th.template-col { text-align: right; }
 img { max-width: 100%; }
 """
 

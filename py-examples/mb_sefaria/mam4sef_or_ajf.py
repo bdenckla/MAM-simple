@@ -11,7 +11,6 @@ from mb_misc import write_utils
 from mb_sefaria import write_utils_sef_or_ajf
 from mb_cmn import shrink
 
-
 # Raw-name book-list folders sort provenance.md between Obadiah and Proverbs,
 # which interrupts scan flow. Use _provenance.md there; prefixed names like
 # FC-Chronicles are not affected and keep provenance.md.
