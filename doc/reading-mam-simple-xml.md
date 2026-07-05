@@ -100,7 +100,7 @@ Among other advantages, this makes its relationship to the JSON version much tig
 | `<sdt-target>` | The `<scrdfftar>` target |
 | `<sdt-note>` | The `<scrdfftar>` note itself |
 | `<spi-samekh2>`, `<spi-samekh3>` | Parashah setumah markers |
-| `<spi-pe2>`, `<spi-pe3>` | Parashah petuḥah markers |
+| `<spi-pe2>`, `<spi-pe3>` | Parashah petuḥah markers |
 | `<spi-invnun>` | Inverted nun |
 
 ## Verse Attributes

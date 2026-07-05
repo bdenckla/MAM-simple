@@ -39,10 +39,12 @@ There are three main kinds of difference:
   T1 skips one or more verse numbers
   but T2 stays sequential.
 
-Note that here in this document, we are not concerned with the notion of a *chanted verse*;
-that is, we are not concerned with where *sof pasuq* and/or *silluq* falls. Here, when we say
-"verse", we mean only the span of text between cv-labels. The fact that this span
-usually corresponds to a chanted verse is irrelevant here.
+Within *this* document, "verse" means only the span of text between cv-labels; the
+definitions and tables below do not depend on the notion of a *chanted verse* (where
+*sof pasuq* / *silluq* falls). Most of these spans do coincide with chanted verses.
+For five of the eight cases below — the four Decalogue splits and the Num. 25/26 boundary — cantillation helps explain the cause of the difference; that cause is explained in a companion document,
+[versification-and-cantillation.md](versification-and-cantillation.md), which this
+catalog deliberately keeps separate from the per-case descriptions here.
 
 The eight cases where differences occur are:
 
