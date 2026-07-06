@@ -19,11 +19,13 @@ def with_tmp_openw(out_path: str, kwargs_dic, write_fun, *write_fun_args):
     return retval
 
 
-def json_dump_to_file_path(dumpable, out_path: str, generator_file: str = None):
+def json_dump_to_file_path(
+    dumpable, out_path: str, generator_file: str = None, newline: str = ""
+):
     """Dump JSON to a file path"""
     if generator_file is not None:
         dumpable = provenance.with_json_provenance(dumpable, generator_file)
-    with_tmp_openw(out_path, {}, _json_dump_to_file_pointer, dumpable)
+    with_tmp_openw(out_path, {"newline": newline}, _json_dump_to_file_pointer, dumpable)
 
 
 def _replace_file(tmp_path: str, path: str):
