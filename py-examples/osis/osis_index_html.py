@@ -48,7 +48,7 @@ def _section_scrdff(heading):
             "Below is one of the 29 scroll difference notes. This one "
             "is in Exodus 25:31. It is noting the presence of a malei "
             "(full) spelling (note the yod) in scrolls of the Ashkenazic "
-            "and Sephardic traditions. (This is as opposed to the ḥaser "
+            "and Sephardic traditions. (This is as opposed to the ḥaser "
             "(“deficient”) spelling in MapM’s body text.)",
         )
     )
@@ -187,16 +187,16 @@ def _section_par(heading):
             "",
         )
     )
-    part3_subhead = heading_level_3(("Parashot petuḥot of type 1",))
+    part3_subhead = heading_level_3(("Parashot petuḥot of type 1",))
     part3_para1 = para(
         (
             "In English these are sometimes known as “open sections” or “open "
-            "paragraphs”. Below are three examples of parashot petuḥot of "
-            "type 1. A parashah petuḥah of type 1 (like a parashah petuḥah "
+            "paragraphs”. Below are three examples of parashot petuḥot of "
+            "type 1. A parashah petuḥah of type 1 (like a parashah petuḥah "
             "of type 2 (see below)) is implemented as a line break. Importantly, "
             "in xulsword, a line break also includes a blank line, i.e., it "
             "includes some vertical whitespace. MapM doesn’t implement parashot "
-            "petuḥot of type 1 as distinct from type 2 (both are simply a "
+            "petuḥot of type 1 as distinct from type 2 (both are simply a "
             "line break), but I’m still counting it as a feature present rather "
             "than absent."
             "",
@@ -222,15 +222,15 @@ def _section_par(heading):
         )
     )
     part3_imgs = (
-        *_img_br("png/par-petuḥah-type-1-number-1.png"),
-        *_img_br("png/par-petuḥah-type-1-number-2.png"),
+        *_img_br("png/par-petuḥah-type-1-number-1.png"),
+        *_img_br("png/par-petuḥah-type-1-number-2.png"),
     )
-    part4_subhead = heading_level_3(("Parashot petuḥot of type 2",))
+    part4_subhead = heading_level_3(("Parashot petuḥot of type 2",))
     part4_para1 = para(
         (
-            "Below are three examples of parashot petuḥot of type 2. These "
-            "are rare (there are only 18 of them). A parashah petuḥah of type "
-            "2 (like a parashah petuḥah of type 1 (see above)) is implemented "
+            "Below are three examples of parashot petuḥot of type 2. These "
+            "are rare (there are only 18 of them). A parashah petuḥah of type "
+            "2 (like a parashah petuḥah of type 1 (see above)) is implemented "
             "as a line break. Unlike type 1, ideally type 2 would be a line "
             "break without an additional blank line, but so be it. Here’s "
             "a within-verse case, from 1Kgs 1:19:"
@@ -254,7 +254,7 @@ def _section_par(heading):
         *part3_imgs,
         part4_subhead,
         part4_para1,
-        *_img_br("png/par-petuḥah-type-2.png"),
+        *_img_br("png/par-petuḥah-type-2.png"),
     )
 
 
@@ -493,7 +493,7 @@ INTRO = para(
 HEADING_GE = "Good endings (4 of them)"
 HEADING_SCRDFF = "Scroll difference notes (29 of them)"
 HEADING_KQ = "Ketiv/qere, ketiv velo qere, & qere velo ketiv"
-HEADING_PAR = "Parashot setumot & petuḥot, each of types 1 & 2"
+HEADING_PAR = "Parashot setumot & petuḥot, each of types 1 & 2"
 HEADING_INVNUN = "Inverted nun markers (Numbers 10 & Psalm 107 types)"
 HEADING_SHIRAH = "Shirah spaces"
 HEADING_PASEQ = "Paseq marks (as distinct from legarmeih marks)"
