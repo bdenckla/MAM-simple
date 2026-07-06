@@ -143,7 +143,7 @@ _CONJUNCTIVES_BCC_POETIC = [  # See Yeivin ITM #358 (page 264) and, for ATN_H on
     YBY,
     MAH,  # (but mehuppak legarmeih is disjunctive)
     QOM,  # aka azla (but azla legarmeih is disjunctive)
-    SHA,  # shalshelet qeṭannah (but shalshelet gedolah (shalshelet legarmeih) is disjunctive)
+    SHA,  # shalshelet qeṭannah (but shalshelet gedolah (shalshelet legarmeih) is disjunctive)
     NU_TSIT,  # tsinnorit
     ATN_H,
     # In Yeivin ITM (#361 (page 266)), atnax hafukh is called only "a 'v' shaped sign"
