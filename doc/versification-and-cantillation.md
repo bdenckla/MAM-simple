@@ -81,8 +81,12 @@ verse (MAM 20:2), the *elyon* ends a verse early, at עֲבָדִֽים׃
 
 In the table below each end-word carries its own strand's mark: a bare *sof pasuq*
 (`׃`) means that strand ends its verse there; an ordinary accent means it reads
-on. The one long *elyon* verse (ל֣א…מצותֽי׃) spans four *taḥton*
-verses, shown as the merged cell.
+on. Within each cantillation a chanted verse's **first** word is shown in green
+(*start*) and its **last** word in red (*stop*); the words between (and the `…`)
+are left plain. The one long *elyon* verse (ל֣א…מצותֽי׃) has no verse-end of
+its own until מצותי, so across the four *taḥton* rows it spans (MAM 20:2b–20:5) only
+its opening word (green, in the 20:2b row) and closing word (red, in the 20:5 row)
+are colored.
 
 <table>
   <tr>
@@ -92,35 +96,37 @@ verses, shown as the merged cell.
     <th>BHS</th>
   </tr>
   <tr>
-    <td>וידב֣ר…לאמֽר׃</td>
-    <td>וידב֣ר…לאמֽר׃</td>
+    <td><span style="color:green">וידב֣ר</span>…<span style="color:red">לאמֽר׃</span></td>
+    <td><span style="color:green">וידב֣ר</span>…<span style="color:red">לאמֽר׃</span></td>
     <td>20:1</td>
     <td>20:1</td>
   </tr>
   <tr>
-    <td>אנכי֙…עבד֑ים</td>
-    <td>אנכ֖י…עבדֽים׃</td>
-    <td>20:2a</td>
+    <td><span style="color:green">אנכי֙</span>…עבד֑ים</td>
+    <td><span style="color:green">אנכ֖י</span>…<span style="color:red">עבדֽים׃</span></td>
+    <td rowspan="2">20:2</td>
     <td>20:2</td>
   </tr>
   <tr>
-    <td>לא־יהי֥ה…על־פנֽי׃</td>
-    <td rowspan="4">ל֣א…מצותֽי׃</td>
-    <td>20:2b</td>
+    <td>לא־יהי֥ה…<span style="color:red">על־פנֽי׃</span></td>
+    <td><span style="color:green">ל֣א</span>…על־פנ֗י</td>
     <td>20:3</td>
   </tr>
   <tr>
-    <td>לא־תעש֨ה…לאֽרץ׃</td>
+    <td><span style="color:green">לא־תעש֨ה</span>…<span style="color:red">לאֽרץ׃</span></td>
+    <td>ל֣א…לא֗רץ</td>
     <td>20:3</td>
     <td>20:4</td>
   </tr>
   <tr>
-    <td>כ֣י…לשנאֽי׃</td>
+    <td><span style="color:green">כ֣י</span>…<span style="color:red">לשנאֽי׃</span></td>
+    <td>לא־תשתחו֣ה…לשנא֑י</td>
     <td>20:4</td>
     <td>20:5</td>
   </tr>
   <tr>
-    <td>וע֥שה…מצותֽי׃</td>
+    <td><span style="color:green">וע֥שה</span>…<span style="color:red">מצותֽי׃</span></td>
+    <td>וע֤שה…<span style="color:red">מצותֽי׃</span></td>
     <td>20:5</td>
     <td>20:6</td>
   </tr>
@@ -131,8 +137,8 @@ verses, shown as the merged cell.
     <td>…</td>
   </tr>
   <tr>
-    <td>כב֥ד…לֽך׃</td>
-    <td>כב֥ד…לֽך׃</td>
+    <td><span style="color:green">כב֥ד</span>…<span style="color:red">לֽך׃</span></td>
+    <td><span style="color:green">כב֥ד</span>…<span style="color:red">לֽך׃</span></td>
     <td>20:11</td>
     <td>20:12</td>
   </tr>
