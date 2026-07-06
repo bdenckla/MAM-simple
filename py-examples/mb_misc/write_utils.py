@@ -31,7 +31,9 @@ def write_bkg_in_un_fmt(
     verses_dicts = my_utils.dv_map(dict, verses)
     file_io.with_tmp_openw(
         out_path,
-        {},
+        # Force LF: a plain text-mode write would emit CRLF on Windows and churn
+        # the deployed LF copies in sibling repos (e.g. MAM-simple).
+        {"newline": ""},
         _write_callback,
         verses,
         rv_cant_that_covers,
