@@ -1,0 +1,39 @@
+/* Styles for versification-and-cantillation.html.
+
+   This .css file is the source of truth; generate_doc.py copies it verbatim into
+   MAM-simple/gh-pages/ alongside the generated HTML, which links it as a sibling
+   <link rel="stylesheet">. Edit this file, then regenerate (do not edit the copy
+   under gh-pages/).
+
+   Light/dark theming uses the browser-native color-scheme + light-dark() idiom
+   — the same lightweight, pure-CSS mechanism the standard MAM-basics generator
+   uses (see py/mb_misc/styles_authored.py). */
+:root { color-scheme: light dark; }
+body {
+  max-width: 46rem;
+  margin: 2rem auto;
+  padding: 0 1rem;
+  font-family: -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  line-height: 1.55;
+  color: light-dark(#1a1a1a, #e6e6e6);
+  background: light-dark(#ffffff, #161616);
+}
+h1, h2, h3 { line-height: 1.25; }
+h1 { font-size: 1.9rem; }
+h2 { margin-top: 2rem; }
+code {
+  background: light-dark(#f0f0f0, #2a2a2a);
+  padding: 0.1em 0.3em;
+  border-radius: 3px;
+  font-size: 0.9em;
+}
+table { border-collapse: collapse; margin: 1rem 0; }
+th, td { border: 1px solid light-dark(#ccc, #444); padding: 0.3rem 0.6rem; text-align: start; }
+th { background: light-dark(#f5f5f5, #242424); }
+blockquote {
+  border-inline-start: 4px solid light-dark(#ddd, #444);
+  margin: 1rem 0;
+  padding: 0.2rem 1rem;
+  color: light-dark(#333, #c9c9c9);
+}
+a { color: light-dark(#0645ad, #6ea8fe); }
