@@ -36,4 +36,17 @@ blockquote {
   padding: 0.2rem 1rem;
   color: light-dark(#333, #c9c9c9);
 }
+/* A quoted Hebrew verse. "Right-aligned and centered" are not contradictory here:
+   the box shrink-wraps to its widest line (fit-content) and is centered on the page
+   (margin-inline: auto), while the lines within share a common right edge
+   (text-align: right) — i.e. the block is centered, the lines are right-aligned to
+   each other. text-align (not direction: rtl) suffices: each line is a single Hebrew
+   run, so no BiDi reordering is at stake, only where the line box sits. */
+blockquote.verse {
+  width: fit-content;
+  margin-inline: auto;
+  text-align: right;
+  border-inline-start: none;
+  padding-inline-start: 0;
+}
 a { color: light-dark(#0645ad, #6ea8fe); }
