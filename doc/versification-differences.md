@@ -30,7 +30,7 @@ There are three main kinds of difference:
   This can result in a complex chapter-boundary shift
   if the span of text labeled N:1 in T1
   is labeled as the last verse of chapter N-1 and the first verse of chapter N.
-3. **present-vs-absent** —
+3. **Present-vs-absent** —
   This is not just a versification difference because
   the two editions in question actually have different text.
   One edition has one or more whole verses where the other has none.
@@ -39,12 +39,9 @@ There are three main kinds of difference:
   T1 skips one or more verse numbers
   but T2 stays sequential.
 
-Within *this* document, "verse" means only the span of text between cv-labels; the
-definitions and tables below do not depend on the notion of a *chanted verse* (where
-*sof pasuq* / *silluq* falls). Most of these spans do coincide with chanted verses.
-For five of the eight cases below — the four Decalogue splits and the Num. 25/26 boundary — cantillation helps explain the cause of the difference; that cause is explained in a companion document,
-[versification-and-cantillation.md](versification-and-cantillation.md), which this
-catalog deliberately keeps separate from the per-case descriptions here.
+Within *this* document, "verse" means only the span of text between cv-labels.
+ How these spans are cantillated is not relevant to this document. So, we could say that this document is only concerned with the boundaries of numbered verses, not the boundaries of chanted verses. For example, this document is not concerned with where *sof pasuq* falls. Nonetheless, in five of the eight cases below — the four Decalogue splits and the Num. 25/26 boundary — cantillation can help explain why the versification difference arose. The role of cantillation in those five cases is discussed in
+[versification-and-cantillation.md](versification-and-cantillation.md).
 
 The eight cases where differences occur are:
 

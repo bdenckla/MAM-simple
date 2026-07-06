@@ -3,28 +3,32 @@
 # Versification and Cantillation
 
 This is a companion to
-[versification-differences.md](versification-differences.md). That catalog
-deliberately treats a "verse" as nothing more than *the span of text between two
-cv-labels*, and stays silent about cantillation. This document discusses the
-cases in which cantillation helps explain the cause of the versification
-difference: the four Decalogue splits and the Numbers 25/26 boundary.
+[versification-differences.md](versification-differences.md). That document
+deliberately treats a "verse" as nothing more than the span of text between two
+cv-labels, ignoring cantillation. This document discusses the
+cases in which cantillation helps explain why the versification
+differences arose: the four Decalogue splits and the Numbers 25/26 boundary.
 
 Every MAM numbered verse ends at a *sof pasuq* — all 23,202 numbered verses, not
-just the cases below. But some numbered verses in the Decalogues in MAM have one
-or more *sof pasuq* marks besides the one at the end, and it is at these *sof
-pasuq* marks where the Decalogue versification differences occur, because BHS ends
-a numbered verse at those locations, too. (Sefaria is a mix of MAM and BHS
-versification.)
+just the cases below. But some MAM numbered verses in the Decalogues have one
+or more "extra" *sof pasuq* marks besides the one at the end.
+It is at these places where the Decalogue versification differences occur,
+because BHS ends a numbered verse at these "extra" *sof pasuq* marks, too.
+(The Sefaria Decalogues have a mix of MAM and BHS versification.)
 
-Then there is the difference regarding the Numbers 25/26 boundary. This is
-something quite different than the Decalogue cases. There in Numbers, the chanted
-verse that MAM calls 26:1 is divided by BHS into a 25:19 span (a verse number that
-does not exist in MAM) and a 26:1 span, with the division point being an
-*etnaḥta*. Apparently someone felt that the *etnaḥta*, even reinforced with a
-פסקא באמצע פסוק, was insufficient to reflect the desired strength of semantic
-division at this point.
-Or, perhaps this verse-break has its origin in some version of the text other than
-the Masoretic, perhaps not even the Hebrew!
+The difference regarding the Numbers 25/26 boundary
+has little in common with the Decalogue cases.
+There in Numbers, BHS splits the chanted verse that MAM calls 26:1 into
+a 25:19 span (a verse number that does not exist in MAM)
+and a 26:1 span.
+BHS 26:1 starts right after an *etnaḥta*.
+Although this *etnaḥta* is reinforced with a פסקא באמצע פסוק,
+perhaps someone felt that a chapter break, too,
+was needed to communicate an even stronger break at this point.
+Or, perhaps this chapter break has its origin in a
+non-cantillated (perhaps even non-Hebrew) version of the text.
+In such a text, this chapter break's defiance of the chanted verse boundary
+becomes irrelevant (or at least invisible).
 
 ## Terminology
 
@@ -61,7 +65,7 @@ traditions agree.)
 
 The whole story is then *how the two cantillations' boundaries sit relative to each
 other* — and this differs between the two splits. At the **early** split they
-**overlap** (the cuts interleave); at the **late** split the upper is **strictly
+**overlap** (the splits interleave); at the **late** split the upper is **strictly
 contained within** a single lower verse.
 
 ### The early split — overlapping boundaries
@@ -73,11 +77,11 @@ verse (MAM 20:2), the *elyon* ends a verse early, at עֲבָדִֽים׃
 (עֲבָדִ֑ים) and reads on. Conversely, where *taḥton* ends at
 עַל־פָּנָֽי׃ (*sof pasuq*), the *elyon* has only *revia*
 (עַל־פָּנַ֗י) and reads on — its verse running to מִצְוֺתָֽי׃
-(end of MAM 20:5). So the two sets of cuts interleave rather than nest.
+(end of MAM 20:5). So the two sets of splits interleave rather than nest.
 
 In the table below each end-word carries its own strand's mark: a bare *sof pasuq*
 (`׃`) means that strand ends its verse there; an ordinary accent means it reads
-on. The one long *elyon* verse (לֹ֣א…מִצְוֺתָֽי׃) spans four *taḥton*
+on. The one long *elyon* verse (ל֣א…מצותֽי׃) spans four *taḥton*
 verses, shown as the merged cell.
 
 <table>
@@ -88,35 +92,35 @@ verses, shown as the merged cell.
     <th>BHS</th>
   </tr>
   <tr>
-    <td>וַיְדַבֵּ֣ר…לֵאמֹֽר׃</td>
-    <td>וַיְדַבֵּ֣ר…לֵאמֹֽר׃</td>
+    <td>וידב֣ר…לאמֽר׃</td>
+    <td>וידב֣ר…לאמֽר׃</td>
     <td>20:1</td>
     <td>20:1</td>
   </tr>
   <tr>
-    <td>אָֽנֹכִי֙…עֲבָדִ֑ים</td>
-    <td>אָֽנֹכִ֖י…עֲבָדִֽים׃</td>
+    <td>אנכי֙…עבד֑ים</td>
+    <td>אנכ֖י…עבדֽים׃</td>
     <td>20:2a</td>
     <td>20:2</td>
   </tr>
   <tr>
-    <td>לֹֽא־יִהְיֶ֥ה…עַל־פָּנָֽי׃</td>
-    <td rowspan="4">לֹ֣א…מִצְוֺתָֽי׃</td>
+    <td>לא־יהי֥ה…על־פנֽי׃</td>
+    <td rowspan="4">ל֣א…מצותֽי׃</td>
     <td>20:2b</td>
     <td>20:3</td>
   </tr>
   <tr>
-    <td>לֹֽא־תַעֲשֶׂ֨ה…לָאָֽרֶץ׃</td>
+    <td>לא־תעש֨ה…לאֽרץ׃</td>
     <td>20:3</td>
     <td>20:4</td>
   </tr>
   <tr>
-    <td>כִּ֣י…לְשֹׂנְאָֽי׃</td>
+    <td>כ֣י…לשנאֽי׃</td>
     <td>20:4</td>
     <td>20:5</td>
   </tr>
   <tr>
-    <td>וְעֹ֥שֶׂה…מִצְוֺתָֽי׃</td>
+    <td>וע֥שה…מצותֽי׃</td>
     <td>20:5</td>
     <td>20:6</td>
   </tr>
@@ -127,8 +131,8 @@ verses, shown as the merged cell.
     <td>…</td>
   </tr>
   <tr>
-    <td>כַּבֵּ֥ד…לָֽךְ׃</td>
-    <td>כַּבֵּ֥ד…לָֽךְ׃</td>
+    <td>כב֥ד…לֽך׃</td>
+    <td>כב֥ד…לֽך׃</td>
     <td>20:11</td>
     <td>20:12</td>
   </tr>
