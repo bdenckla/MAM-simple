@@ -41,7 +41,7 @@ There are three main kinds of difference:
 
 Within *this* document, "verse" means only the span of text between cv-labels.
  How these spans are cantillated is not relevant to this document. So, we could say that this document is only concerned with the boundaries of numbered verses, not the boundaries of chanted verses. For example, this document is not concerned with where *sof pasuq* falls. Nonetheless, in five of the eight cases below — the four Decalogue splits and the Num. 25/26 boundary — cantillation can help explain why the versification difference arose. The role of cantillation in those five cases is discussed in
-[versification-and-cantillation.md](versification-and-cantillation.md).
+[versification-and-cantillation.html](https://bdenckla.github.io/MAM-simple/versification-and-cantillation.html).
 
 The eight cases where differences occur are:
 
