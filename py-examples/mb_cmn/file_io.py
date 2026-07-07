@@ -52,9 +52,15 @@ def _sleep(fail_count):
     time.sleep(sleep_time)
 
 
-def _openw(out_path: str, **kwargs):
+def _openw(out_path: str, *, newline: str = "", **kwargs):
+    # Default newline="" (not open()'s newline=None): for ordinary "\n"-bearing
+    # text this yields LF on every OS, avoiding the CRLF churn a plain text-mode
+    # write causes on Windows; for a csv.writer it lets the module's own "\r\n"
+    # pass through untouched (-> CRLF, matching *.csv eol=crlf). The same rule is
+    # correct for both, so callers of with_tmp_openw get LF by default. Callers
+    # that need something else still pass an explicit newline= in kwargs_dic.
     os.makedirs(os.path.dirname(out_path), exist_ok=True)
-    return open(out_path, "w", encoding="utf-8", **kwargs)
+    return open(out_path, "w", encoding="utf-8", newline=newline, **kwargs)
 
 
 def _tmp_path(path: str):
