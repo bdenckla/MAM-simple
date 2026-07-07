@@ -72,3 +72,21 @@ a { color: light-dark(#0645ad, #6ea8fe); }
 .vc-start.vc-agree { color: light-dark(#a8cfa8, #59835a); }
 .vc-stop.vc-agree  { color: light-dark(#d7abab, #8a5a5a); }
 .vc-mid.vc-agree   { color: light-dark(#b3b3b3, #6f6f6f); }
+
+/* Schematic gradient rows (lowercase t/e) below the T/E/M/B tables: an experiment
+   echoing the first-word/last-word green→red coloring as a single per-verse gradient
+   rather than as tinted words. One cell per chanted verse — a verse spanning several
+   taxton columns is one colspanning cell, so its gradient stretches across the whole
+   span. These tables are rtl, so a verse runs green at its start (right) to red at its
+   stop (left) — hence `to left`. The cells carry no text, only hue, so a small fixed
+   height gives them something to show. */
+td.vc-grad {
+  height: 1.2rem;
+  /* light-dark() picks the light value under a light color-scheme, the dark value under
+     dark. Unlike the vc-start/vc-stop *text* hues (bright, so thin glyphs read on black),
+     these are full-cell fills: the dark-mode greens/reds are deliberately muted so the
+     band isn't blinding on the near-black body. Light mode keeps the vivid hues. */
+  background: linear-gradient(to left,
+    light-dark(#0a7a0a, #1f6b1f),
+    light-dark(#c11414, #8a2020));
+}
