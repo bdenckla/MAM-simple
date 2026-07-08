@@ -76,6 +76,12 @@ blockquote.verse {
 }
 a { color: light-dark(#0645ad, #6ea8fe); }
 
+/* Romanized (transliterated) Hebrew terms — etnaḥta, sof pasuq, petuḥah, taḥton, … —
+   emitted by doc.py's _romanized() as <span class="romanized">. Italic, matching the
+   repo's other generated docs (mb_misc/styles_authored.css, sibling gh-pages/*.css). Not
+   <em>: these words are transliterated, not emphasized. */
+span.romanized { font-style: italic; }
+
 /* Deuteronomy appendix: anti-highlighting. Hue marks a chanted verse's role
    (vc-start = green "start", vc-stop = red "stop", vc-mid = neutral interior);
    the vc-agree modifier washes a word out when it is identical to its Exodus
