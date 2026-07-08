@@ -41,6 +41,20 @@ th abbr[title] { text-decoration: underline dotted; cursor: help; }
    keep the default start alignment. */
 table[dir="rtl"] th { text-align: center; }
 table[dir="rtl"] tr.cv td { text-align: center; }
+/* Let the transposed ETMBet strand-and-number tables (all rtl) spill wider than the
+   46rem prose column. Their Hebrew example words, taken across the row, can run wider
+   than the body text — most of all the five-column early-split table — and squeezing
+   them to prose width wraps cells and cramps the layout. width:max-content lets each
+   table grow as wide as its cells want (no cap — as wide as it "wants"); the body
+   content box is itself viewport-centered (margin:auto), so margin-left:50% puts the
+   table's left edge at the viewport center and translateX(-50%) pulls it back by half
+   its own width, re-centering the now-wider-than-parent table on the page. Only the
+   top/bottom margins from the general `table` rule are kept. */
+table[dir="rtl"] {
+  width: max-content;
+  margin-left: 50%;
+  transform: translateX(-50%);
+}
 blockquote {
   border-inline-start: 4px solid light-dark(#ddd, #444);
   margin: 1rem 0;
