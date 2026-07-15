@@ -3,7 +3,6 @@ Exports various functions of general utility.
 """
 
 from functools import reduce
-from itertools import groupby
 
 
 def init_at_key(dic, key, val):
