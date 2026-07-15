@@ -141,7 +141,8 @@ is labeled as 25:19 and 26:1 in BHS: a complex boundary shift.
 | ויהי…המגפה | 26:1a | 25:19 |
 | ויאמר…לאמר | 26:1b | 26:1 |
 
-> **Note:** This split is present in BHS but **not** in Sefaria.
+> **Note:** This split is present in BHS but **not** in Sefaria. See the
+> [combined table](#combined-table-all-differences) below.
 
 <a id="bhs-deut-5-early-decalogue"></a>
 
@@ -178,7 +179,7 @@ is labeled as 5:17–20 in BHS.
 | בכל־הדרך…תירשון | 5:29 | 5:33 |
 
 > **Note:** This second Decalogue split is present in BHS but **not** in
-> Sefaria.
+> Sefaria. See the [combined table](#combined-table-all-differences) below.
 
 <a id="bhs-josh-21-present-vs-absent"></a>
 
