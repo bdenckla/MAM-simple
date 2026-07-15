@@ -76,6 +76,36 @@ blockquote.verse {
 }
 a { color: light-dark(#0645ad, #6ea8fe); }
 
+/* Pointed Hebrew — the house block, matching the accgram island (wlc-utils gh-pages/style.css)
+   and this repo's own mb_misc/styles_authored.css. Taamey D is the point: this page's payload is
+   boundary words stripped to consonants + accents, and a system default font renders those
+   accents badly or not at all.
+
+   Tagged: the strand-table cells, the Numbers blockquote, and the Hebrew spliced into prose.
+   Deliberately NOT tagged: unpointed Hebrew, i.e. bare-letter terms (תחתון, פסקא באמצע פסוק,
+   שמור/זכור, …). They need no accent-legible font, and lang="hbo" here is that font's hook. This
+   is a decision, not an oversight — don't "fix" it.
+
+   On the size: unlike wlc-utils, we need no per-table override. It tunes its bordered range cells
+   down to 120% because 140% of its 14pt body is too tall there. Our body sets no font-size, so
+   140% is of the 16px default = 22.4px — exactly wlc-utils's 120% of 14pt. Same pixels, different
+   arithmetic.
+
+   The attribute selector matches only the tagged element (it is not :lang()), so the .vc-* spans
+   nested inside a tagged cell don't re-match and the 140% does not compound. */
+*[lang="hbo"] {
+  font-family: "Taamey D WOFF2";
+  font-size: 140%;
+  font-feature-settings: 'ss01'; /* ss01 = xataf qamats qatan */
+  font-style: normal; /* never italicize Hebrew, even inside italic context */
+}
+/* Deployed next to this stylesheet by generate_doc.py (a third output file beside the .html and
+   this .css), so the url is a sibling-relative path resolved against the CSS, not the page. */
+@font-face {
+  font-family: "Taamey D WOFF2";
+  src: url("woff2/Taamey_D.woff2");
+}
+
 /* Romanized (transliterated) Hebrew terms — etnaḥta, sof pasuq, petuḥah, taḥton, … —
    emitted by doc.py's _romanized() as <span class="romanized">. Italic, matching the
    repo's other generated docs (mb_misc/styles_authored.css, sibling gh-pages/*.css). Not

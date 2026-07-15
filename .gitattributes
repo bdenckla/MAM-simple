@@ -15,3 +15,9 @@
 #       for them in the working dir.
 #
 *.csv text eol=crlf
+
+# Binary assets: never convert. (gh-pages/woff2/Taamey_D.woff2, the Hebrew font
+# versification-and-cantillation.css loads, is the only one so far.) Git's own NUL-byte
+# heuristic would already class it binary under the text=auto above; say so explicitly
+# rather than lean on the heuristic. Mirrors MAM-with-doc's .gitattributes.
+*.woff2 binary
