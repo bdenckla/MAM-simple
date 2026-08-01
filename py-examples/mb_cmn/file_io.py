@@ -20,12 +20,18 @@ def with_tmp_openw(out_path: str, kwargs_dic, write_fun, *write_fun_args):
 
 
 def json_dump_to_file_path(
-    dumpable, out_path: str, generator_file: str = None, newline: str = ""
+    dumpable,
+    out_path: str,
+    generator_file: str = None,
+    newline: str = "",
+    indent: int = 2,
 ):
     """Dump JSON to a file path"""
     if generator_file is not None:
         dumpable = provenance.with_json_provenance(dumpable, generator_file)
-    with_tmp_openw(out_path, {"newline": newline}, _json_dump_to_file_pointer, dumpable)
+    with_tmp_openw(
+        out_path, {"newline": newline}, _json_dump_to_file_pointer, dumpable, indent
+    )
 
 
 def _replace_file(tmp_path: str, path: str):
@@ -70,6 +76,12 @@ def _tmp_path(path: str):
     return pathobj.parent / (str(pathobj.stem) + ".tmp" + pathobj.suffix)
 
 
-def _json_dump_to_file_pointer(dumpable, out_fp):
-    json.dump(dumpable, out_fp, ensure_ascii=False, indent=2)
+def _json_dump_to_file_pointer(dumpable, indent, out_fp):
+    # indent is a default (2), not a fixed choice: a big committed corpus may want
+    # a smaller one to stay small while keeping one element per line, so that git
+    # still diffs it element by element (wlc-utils' accgram writes its per-book
+    # prose and poetic corpora at indent=0 and two surveys at indent=1). Callers
+    # wanting any other indent were otherwise forced to open the file themselves,
+    # giving up the temp-file-plus-retry this module exists to provide.
+    json.dump(dumpable, out_fp, ensure_ascii=False, indent=indent)
     out_fp.write("\n")

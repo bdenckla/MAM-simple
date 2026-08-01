@@ -46,6 +46,7 @@ def el_to_str_for_sef(html_el):
         "hgl-add-wbr": False,
         "hgl-max-line-len": -1,
         "hgl-line-breaks-allowed": False,
+        **_HGL_POLICY,
     }
     lines = mb_html_get_lines.get_lines_from_html_el(hgl_opts, html_el)
     assert len(lines) == 1
@@ -378,6 +379,7 @@ def _write_callback(add_wbr, html_comment, html_el, out_fp):
         "hgl-add-wbr": add_wbr,
         "hgl-max-line-len": 100,
         "hgl-line-breaks-allowed": True,
+        **_HGL_POLICY,
     }
     lines = mb_html_get_lines.get_lines_from_html_el(hgl_opts, html_el)
     out_fp.write("\n".join(lines))
@@ -398,3 +400,75 @@ def _link_to_css(css_href):
 
 def _html_el1(attr, contents):
     return htel_mk("html", attr, contents)
+
+
+# THIS REPO'S OWN LINE-BREAK POLICY, spliced into every hgl_opts above.  It lived in
+# mb_html_get_lines.py until that module was made pure algorithm; it belongs here
+# because it describes how MAM-basics' pages break, which is a fact about this repo and
+# not about the serializer.  A repo whose pages break differently -- wlc-utils does --
+# now supplies its own tables instead of forking the serializer to edit these.
+_NOCLOSE_TUPLE = "br", "hr", "meta", "link", "col", "img"
+_NOCLOSE_SET = {*_NOCLOSE_TUPLE}
+# Emitted raw: entities are not decoded inside <style>, so escaping its CSS would break
+# it.  (This generalizes what used to be a hardcoded ``eltag == "style"`` case.)
+_VERBATIM_TAGS = {"style"}
+_LB2 = {
+    "html": "\n",
+    "head": "\n",
+    "title": "\n",
+    "style": "\n",
+    "body": "\n",
+    "h1": "\n",
+    "h2": "\n",
+    "h3": "\n",
+    "div": "\n",
+    "p": "\n",
+    "blockquote": "\n",
+    "table": "\n",
+    "colgroup": "\n",
+    "tr": "\n",
+    "td": "\n",
+    "th": "\n",
+    "ul": "\n",
+    "ol": "\n",
+    "li": "\n",
+    "img": "\n",
+    #
+    **{tag: "\n" for tag in _NOCLOSE_TUPLE},
+    #
+    "bdi": "",
+    "a": "",
+    "span": "",
+    "abbr": "",
+    "em": "",
+    "sub": "",
+    "sup": "",
+    "big": "",
+    "small": "",
+    "b": "",
+    "strong": "",
+    "code": "",
+    "pre": "\n",
+}
+_LB1 = {
+    **_LB2,
+    #
+    **{tag: "" for tag in _NOCLOSE_TUPLE},
+    #
+    "title": "",
+    "h1": "",
+    "h2": "",
+    "h3": "",
+    "p": "",
+    "blockquote": "",
+    "caption": "",
+    "td": "",
+    "th": "",
+    "li": "",
+}
+_HGL_POLICY = {
+    "hgl-lb1": _LB1,
+    "hgl-lb2": _LB2,
+    "hgl-noclose": _NOCLOSE_SET,
+    "hgl-verbatim-tags": _VERBATIM_TAGS,
+}

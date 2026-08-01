@@ -8,7 +8,6 @@ from mb_cmn.my_utils import first_and_only
 from mb_cmn.my_utils import ss_map
 from mb_cmn.my_utils import sl_map
 from mb_cmn.my_utils import dv_map
-from mb_cmn.shrink import shrink
 
 
 def template_element(tmpl: dict, idx: int):
