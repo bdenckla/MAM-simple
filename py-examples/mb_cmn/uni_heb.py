@@ -201,9 +201,9 @@ _HE_AND_NONHE_POINT_PAIRS = (
 _HE_AND_NONHE_ACC_PAIRS = (
     # These first three are the only ones not of the form (ha.X, "(x)")
     (ha.Z_OR_TSOR, "(zarnor)"),
-    # Above is zarqa or tsinnor; see: Note on zinor
+    # Above is zarqa or tsinnor; see: Note on ZINOR
     (ha.ZSH_OR_TSIT, "(zarshit)"),
-    # Above is zarqa stress helper or tsinnorit; see: Note on zinor
+    # Above is zarqa stress helper or tsinnorit; see: Note on ZINOR
     (hpo.MTGOSLQ, "(mos)"),
     # Above is meteg or silluq; here we consider it an accent not a point
     # The ones below are all of the form (ha.X, "(x)")
@@ -266,7 +266,7 @@ _DROP_HEBREW_ABBREV_MARKS = str.maketrans("", "", "׳״")
 # We chose theta for tet because its name reminded us of tet.
 # Similarly we chose tau for tav because of its name reminded us of tav.
 #######################################
-# Note on zinor
+# Note on ZINOR
 #
 # Really the accent called ZINOR in Unicode
 # should be called TSINOR or TSINOR/ZARQA.

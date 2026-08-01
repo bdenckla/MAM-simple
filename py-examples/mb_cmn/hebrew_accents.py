@@ -141,7 +141,7 @@ _CONJUNCTIVES_BCC_POETIC = [  # See Yeivin ITM #358 (page 264) and, for ATN_H on
     ILU,
     TIP,  # tarxa
     YBY,
-    MAH,  # (but mehuppak legarmeih is disjunctive)
+    MAH,  # (but mahapakh legarmeih is disjunctive)
     QOM,  # aka azla (but azla legarmeih is disjunctive)
     SHA,  # shalshelet qeṭannah (but shalshelet gedolah (shalshelet legarmeih) is disjunctive)
     NU_TSIT,  # tsinnorit
