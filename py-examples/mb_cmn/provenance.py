@@ -65,10 +65,17 @@ def _display_path(generator_file: str, repo_name: str | None = None) -> str:
     """Repo-relative breadcrumb for ``generator_file``.
 
     The top-level path segment is ``repo_name`` when supplied, else the checkout
-    directory name (``repo_root.name``).  Passing the logical name lets a
-    consuming repo whose checkout directory may differ from its name -- most
-    notably a git worktree rooted at ``.../.claude/worktrees/agent-xxx`` rather
-    than literally ``wlc-utils`` -- still emit stable ``wlc-utils/...`` paths.
+    directory name (``repo_root.name``).  Passing the logical name is for a repo
+    whose checkout directory may differ from its name -- most notably a git
+    worktree rooted at ``.../.claude/worktrees/agent-xxx``, where the default
+    would write ``agent-xxx`` into every breadcrumb it generates.
+
+    Nothing in MAM-basics passes ``repo_name`` any more.  It was wlc-utils'
+    ``REPO_NAME`` override, which held the breadcrumbs at ``wlc-utils/...`` while
+    that repo's Python was being copied into MAM-basics, and was dropped on
+    2026-08-01 once the generators really did live here; regenerating from a
+    worktree writes the worktree's name, exactly as it always has for every other
+    repo this one generates into.
     """
     generator_path = Path(generator_file).resolve()
     repo_root = Path(__file__).resolve().parents[2]

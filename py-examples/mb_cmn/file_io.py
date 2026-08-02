@@ -79,7 +79,7 @@ def _tmp_path(path: str):
 def _json_dump_to_file_pointer(dumpable, indent, out_fp):
     # indent is a default (2), not a fixed choice: a big committed corpus may want
     # a smaller one to stay small while keeping one element per line, so that git
-    # still diffs it element by element (wlc-utils' accgram writes its per-book
+    # still diffs it element by element (MAM-basics' accgram writes its per-book
     # prose and poetic corpora at indent=0 and two surveys at indent=1). Callers
     # wanting any other indent were otherwise forced to open the file themselves,
     # giving up the temp-file-plus-retry this module exists to provide.
