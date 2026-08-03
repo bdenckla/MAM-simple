@@ -27,7 +27,7 @@ This repo also has example programs. They are found under `py-examples/`:
 creates the Sefaria edition of MAM, using the JSON format as its input.
 * The [`main_mam_osis_example.py`](py-examples/main_mam_osis_example.py) program
 creates the OSIS edition of MAM, using the XML format as its input.
-* The [`main_letter_small_job.py`](py-examples/main_letter_small_job.py) program
+* The [`main_letter_small_job_example.py`](py-examples/main_letter_small_job_example.py) program
 reports all of the `<letter-small>` elements in `Job.xml`,
 writing output to `py-examples-out/letter-small-job.txt`.
 
