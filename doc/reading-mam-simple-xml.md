@@ -85,7 +85,7 @@ interspersed with elements encoding special features, e.g.:
 
 1. If the `<verse>` has a `text` attribute, that attribute is the whole plain text.
 2. Otherwise, walk its children in document order. Each child contributes either its
-   own `text` attribute or, if it has children instead, the text assembled from those.
+   `text` attribute or, if it has children instead, the text assembled from those.
 
 **Step 2 has to recurse, and a reader that skips the recursion loses text silently.**
 It is tempting to write step 2 as "concatenate the `text` attributes of the `<text>`
@@ -116,7 +116,7 @@ The "Text" column says where an element's text is: `text` means the `text` attri
 | `<lp-legarmeih/>` | Legarmeh | none |
 | `<lp-paseq/>` | Paseq in the narrow sense | none |
 | `<implicit-maqaf/>` | Maqaf that is implicit in the manuscript | none |
-| `<slh-word>` | A word with a small, large, or hung letter | children |
+| `<slh-word>` | An atom with a small, large, or hung letter | children |
 | `<letter-small>` | Small letter | `text` |
 | `<letter-large>` | Large letter | `text` |
 | `<letter-hung>` | Hung (aka suspended) letter | `text` |
@@ -187,7 +187,7 @@ read, and occurs at 2Kgs.5.18 and 2Sam.13.33.
 ### Suspended-letter words: `<slh-word>`
 
 `<slh-word>` wraps an atom one or more of whose letters is small (קטנה), large (גדולה),
-or hung (תלויה). Its children spell the atom out, with each such letter in its own
+or hung (תלויה). Its children spell the atom out, with each such letter in a
 `<letter-small>`, `<letter-large>`, or `<letter-hung>` element. It also has four
 description attributes:
 
