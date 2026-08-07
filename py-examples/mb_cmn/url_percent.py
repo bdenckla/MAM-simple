@@ -12,13 +12,3 @@ def pct_path_component(text: str, safe: str = "") -> str:
 def pct_fragment(text: str, safe: str = "") -> str:
     """Percent-encode a URL fragment payload when needed."""
     return parse.quote(text, safe=safe)
-
-
-def pct_query(params: dict[str, str | int]) -> str:
-    """Percent-encode URL query parameters."""
-    return parse.urlencode(params)
-
-
-def pct_decode(text: str) -> str:
-    """Decode a percent-encoded string."""
-    return parse.unquote(text)

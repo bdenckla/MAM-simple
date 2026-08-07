@@ -61,26 +61,86 @@ def directory_provenance_markdown(
     )
 
 
+def this_repo_name() -> str:
+    """Name of the repo this module's checkout belongs to.
+
+    Named ``this_repo_name`` rather than ``repo_name`` because every public function
+    here already takes a ``repo_name`` parameter, which would shadow it.
+
+    The checkout directory's own name, except in a git worktree, where that name is the
+    worktree's (``.../.claude/worktrees/agent-xxx``) and the repo is the main clone the
+    worktree's ``.git`` file points into.
+
+    A WORKTREE IS THE SAME REPO, so a breadcrumb generated from one must name the repo.
+    These breadcrumbs are written into git-tracked artifacts, several of which are
+    compared against a fresh regeneration by the test suite; naming the worktree makes
+    the same generator emit different bytes depending on which checkout ran it, which
+    shows up either as a spurious test failure or -- worse -- as a real commit carrying
+    a throwaway worktree name in a published file.  Found 2026-08-07, when
+    MAM-simple/doc/versification-differences.md regenerated from a worktree as "generated
+    by busy-chebyshev-613a3b/py/...".
+
+    Standard library only, and deliberately consulting no other module of ours: this file
+    is vendored verbatim into sibling repos (al-hatorah's ``py/mb_cmn/`` among them) that
+    have no ``mb_cmn/paths.py`` to import.  A normal clone keeps ``.git`` as a directory
+    and so takes the unchanged path through here.
+    """
+    root = _repo_root()
+    return _main_clone_name(root) or root.name
+
+
+def _repo_root() -> Path:
+    return Path(__file__).resolve().parents[2]
+
+
+def _main_clone_name(root: Path) -> str | None:
+    """Main clone's directory name if ``root`` is a linked worktree, else ``None``.
+
+    A linked worktree's ``.git`` is a *file* holding ``gitdir: <path>``, pointing at
+    ``<main clone>/.git/worktrees/<worktree name>``.  So the clone is the parent of the
+    ``.git`` component of that path.  Every way of failing to recognize that shape --
+    ``.git`` a directory, unreadable, missing the line, or pointing somewhere without a
+    ``.git`` component (a bare repo, ``--separate-git-dir``) -- returns ``None``, and the
+    caller falls back to the directory name, which is what this has always used.
+    """
+    dot_git = root / ".git"
+    if not dot_git.is_file():
+        return None
+    try:
+        text = dot_git.read_text(encoding="utf-8")
+    except OSError:
+        return None
+    prefix = "gitdir:"
+    line = next((ln for ln in text.splitlines() if ln.strip().startswith(prefix)), None)
+    if line is None:
+        return None
+    gitdir = Path(line.strip()[len(prefix) :].strip())
+    if not gitdir.is_absolute():
+        # Git 2.48+ can write this relative to the worktree, with --relative-paths.
+        gitdir = (root / gitdir).resolve()
+    for parent in gitdir.parents:
+        if parent.name == ".git":
+            return parent.parent.name
+    return None
+
+
 def _display_path(generator_file: str, repo_name: str | None = None) -> str:
     """Repo-relative breadcrumb for ``generator_file``.
 
-    The top-level path segment is ``repo_name`` when supplied, else the checkout
-    directory name (``repo_root.name``).  Passing the logical name is for a repo
-    whose checkout directory may differ from its name -- most notably a git
-    worktree rooted at ``.../.claude/worktrees/agent-xxx``, where the default
-    would write ``agent-xxx`` into every breadcrumb it generates.
+    The top-level path segment is the ``repo_name`` argument when supplied, else the
+    repo's own name as ``this_repo_name()`` above resolves it.
 
     Nothing in MAM-basics passes ``repo_name`` any more.  It was wlc-utils'
     ``REPO_NAME`` override, which held the breadcrumbs at ``wlc-utils/...`` while
     that repo's Python was being copied into MAM-basics, and was dropped on
-    2026-08-01 once the generators really did live here; regenerating from a
-    worktree writes the worktree's name, exactly as it always has for every other
-    repo this one generates into.
+    2026-08-01 once the generators really did live here.
     """
     generator_path = Path(generator_file).resolve()
-    repo_root = Path(__file__).resolve().parents[2]
+    repo_root = _repo_root()
+    # The DIRECTORY name, which is what the path arithmetic below needs, and which in a
+    # worktree is exactly what the emitted logical_name must not be.
     actual_name = repo_root.name
-    logical_name = repo_name if repo_name is not None else actual_name
+    logical_name = repo_name if repo_name is not None else this_repo_name()
     repos_root = repo_root.parent
     try:
         repos_rel = generator_path.relative_to(repos_root).as_posix()

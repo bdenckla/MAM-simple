@@ -17,7 +17,6 @@ __all__ = [
     "t_shunnas",
     "he_to_ascii_direct",
     "he_ascii_slug",
-    "he_ascii_identifier",
 ]
 
 
@@ -84,17 +83,6 @@ def he_ascii_slug(string: str, digit_prefix=""):
     if slug[0].isdigit() and digit_prefix:
         return f"{digit_prefix}-{slug}"
     return slug
-
-
-def he_ascii_identifier(string: str, digit_prefix="h_"):
-    """Return a lowercase ASCII identifier using the direct Hebrew-letter mapping."""
-    mapped = he_to_ascii_direct(string).lower().translate(_DROP_HEBREW_ABBREV_MARKS)
-    ident = _NON_IDENT_RE.sub("_", mapped).strip("_")
-    if not ident:
-        return digit_prefix.rstrip("_")
-    if ident[0].isdigit():
-        return digit_prefix + ident
-    return ident
 
 
 def _mk_he_to_nonhe_dic():
@@ -254,7 +242,6 @@ _HE_TO_NONHE_DIC = _mk_he_to_nonhe_dic()
 _HE_TO_NONHE_ACC_DIC = dict(_HE_AND_NONHE_ACC_PAIRS)
 _HE_TO_DIRECT_ASCII_LETT_DIC = dict(_HE_AND_DIRECT_ASCII_LETT_PAIRS)
 _NON_ALNUM_RE = re.compile(r"[^0-9a-z]+")
-_NON_IDENT_RE = re.compile(r"[^0-9a-z_]+")
 _DROP_HEBREW_ABBREV_MARKS = str.maketrans("", "", "׳״")
 
 #######################################
