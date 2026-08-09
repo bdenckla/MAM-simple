@@ -12,13 +12,16 @@ this project's intentional, documented non-Unicode Hebrew mark order. So
 this test checks only the specific h-with-dot-below sequence, which composes
 unambiguously ("h"/"H" + U+0323 -> U+1E25/U+1E24).
 
-MAM-simple specifics: this repo is entirely generated output (produced by
-MAM-basics py/main_mam_simple.py -- json/xml/txt exports, docs, copied
-py-examples sources). There is no hand-authored source of its own. The guard
-still runs over the generated tree so drift is caught if the generators ever
-regress; only GitHub Pages output (gh-pages/) is excluded, as it is a
-separate publish artifact. Root is discovered via git so the test runs under
-any interpreter from the repo directory (this repo has no .venv of its own).
+MAM-simple specifics: this repo is very nearly all generated output (produced
+by MAM-basics py/main_mam_simple.py -- json/xml/txt exports, docs, copied
+py-examples sources). What is hand-authored is small: the three
+main_*_example.py files that py-examples/provenance.md names as not vendored,
+plus py/main_test.py and this file. The guard still runs over the generated
+tree so drift is caught if the generators ever regress; only GitHub Pages
+output (gh-pages/) is excluded, as it is a separate publish artifact. Root is
+discovered via git so the test runs under any interpreter from the repo
+directory; this repo's own .venv holds black and pip but not pytest, which is
+why py/main_test.py runs the suite on the stdlib unittest runner.
 """
 
 import subprocess
