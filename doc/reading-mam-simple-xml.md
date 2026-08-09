@@ -41,7 +41,7 @@ This makes MAM-simple less simple, but we believe the tradeoff is a good one.
 Choosing a single encoding would simplify the data at a cost to use-cases that don't fit
 that encoding well.
 
-## Two invariants worth relying on
+## Three invariants worth relying on
 
 **All text is in a `text` attribute. There is no PCDATA.**
 MAM-simple's XML has no text between tags.
@@ -51,6 +51,35 @@ It also means an XML reader never has to consult `element.text` or `element.tail
 **An element has a `text` attribute or children, never both.**
 So for any element, either its text is the `text` attribute directly, or its text
 is assembled from its children — there is no case in which you must combine the two.
+
+**The combining marks of a letter are in MAM's order, not Unicode's.**
+Four marks come first, in this order: shin dot (U+05C1), sin dot (U+05C2),
+dagesh or mapiq (U+05BC), and rafe (U+05BF).
+Every other mark keeps the relative order it already had.
+The consequence you will meet first is that a dagesh comes before its vowel,
+where Unicode's canonical order puts the vowel first.
+
+This text is therefore neither NFC nor NFD, so
+**do not run `unicodedata.normalize`, or any other normalization, over it.**
+Normalizing reorders the marks of tens of thousands of clusters, changes nothing on
+screen, and raises no error: the two orders render identically, so the damage surfaces
+only where something later compares bytes.
+Genesis alone has 337 clusters with a shin or sin dot before a dagesh and 8,325 with
+a dagesh before a vowel; across all 24 files of a flavour the counts are 4,836 and
+122,797, and are the same in all six flavours.
+
+MAM's mark order is a property of MAM itself, which MAM-simple preserves rather than
+imposes: the generator checks every element it renders and aborts on a violation
+instead of repairing one.
+The implementation is `give_std_mark_order`, in MAM-basics'
+[`py/mb_cmn/uni_denorm.py`](https://github.com/bdenckla/MAM-basics/blob/main/py/mb_cmn/uni_denorm.py).
+The combining-class values `give_std_mark_order` sorts by follow the recommendation at
+the end of the SBL Hebrew Font user manual.
+
+Only those four marks have a declared place.
+A vowel and an accent pass in either order, so MAM's mark order is not a full canonical
+form: agreement on the four marks does not imply byte-identity after a round trip
+through some other sort.
 
 ## How Verse Text Is Stored
 

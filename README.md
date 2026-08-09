@@ -20,6 +20,17 @@ The JSON format mirrors the XML structure: it has the same hierarchy and element
 For a detailed guide to the hierarchy and element types of both formats,
 see [Reading MAM-simple](doc/reading-mam-simple.md).
 
+One property of the text is worth knowing before you write any code against it:
+**the Hebrew is in neither NFC nor NFD, and normalizing it will silently corrupt it.**
+The combining marks of a letter are in MAM's order, in which shin dot, sin dot, dagesh
+and rafe come first — so a dagesh comes before its vowel, where Unicode's canonical
+order puts the vowel first.
+The two orders render identically and no error is raised, so a pipeline that normalizes
+by reflex, as many tools do on save, changes tens of thousands of code points with
+nothing to show for it until something compares bytes.
+For the full statement, including what the guarantee does and does not cover, see
+[Three invariants worth relying on](doc/reading-mam-simple-xml.md#three-invariants-worth-relying-on).
+
 This repo also has example programs. They are found under `py-examples/`:
 
 <!-- sync: bullet list of example programs also appears in doc/reading-mam-simple.md ##The-py-examples-Programs -->
@@ -35,5 +46,9 @@ As I said above, MAM-simple is not complete.
 It is an extract of MAM, not a full version of MAM.
 For versions of MAM that are complete (but therefore far from simple),
 see [MAM-parsed](https://github.com/bdenckla/MAM-parsed).
+
+MAM-simple is available under CC BY-SA 4.0.
+See [LICENSE.md](LICENSE.md) for the licence text and for the attribution it asks for,
+which differs between Hebrew and every other language.
 
 Questions? Email maintainer@miqra.simplelogin.com.
