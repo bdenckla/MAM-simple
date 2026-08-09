@@ -60,7 +60,7 @@ A `<verse>` element without any special features stores its full, plain text in 
 
 ```xml
 <verse osisID="Job.34.2" yeivinID="Job 34:2"
-       text="שִׁמְע֣וּ חֲכָמִ֣ים מִלָּ֑י וְ֝יֹדְעִ֗ים הַאֲזִ֥ינוּ לִֽי׃"/>
+       text="שִׁמְע֣וּ חֲכָמִ֣ים מִלָּ֑י וְ֝יֹדְעִ֗ים הַאֲזִ֥ינוּ לִֽי׃"/>
 ```
 
 Most verses are of this kind.
@@ -75,9 +75,9 @@ interspersed with elements encoding special features, e.g.:
 
 ```xml
 <verse osisID="Job.1.1" yeivinID="Job 1:1">
-  <text text="אִ֛ישׁ הָיָ֥ה בְאֶֽרֶץ־ע֖וּץ אִיּ֣וֹב שְׁמ֑וֹ וְהָיָ֣ה"/>
+  <text text="אִ֛ישׁ הָיָ֥ה בְאֶֽרֶץ־ע֖וּץ אִיּ֣וֹב שְׁמ֑וֹ וְהָיָ֣ה"/>
   <lp-legarmeih/>
-  <text text=" הָאִ֣ישׁ הַה֗וּא תָּ֧ם וְיָשָׁ֛ר וִירֵ֥א אֱלֹהִ֖ים וְסָ֥ר מֵרָֽע׃"/>
+  <text text=" הָאִ֣ישׁ הַה֗וּא תָּ֧ם וְיָשָׁ֛ר וִירֵ֥א אֱלֹהִ֖ים וְסָ֥ר מֵרָֽע׃"/>
 </verse>
 ```
 
@@ -162,7 +162,7 @@ unpointed and the qere is pointed.
 Both children usually have a `text` attribute, but not always:
 
 - A `<kq-q>` may instead have children, when the qere spans a legarmeh or a paseq, e.g.
-  1Chr.27.12, where the qere is `<text text="לַבֵּ֣ן"/><lp-paseq/><text text="יְמִינִ֑י"/>`.
+  1Chr.27.12, where the qere is `<text text="לַבֵּ֣ן"/><lp-paseq/><text text="יְמִינִ֑י"/>`.
 - A `<kq-k>` may instead have an `<slh-word>` child. This happens once, at Job.7.5:
 
 ```xml
@@ -193,7 +193,7 @@ description attributes:
 
 | Attribute | Meaning | Example (Dan.6.20) |
 |-----------|---------|--------------------|
-| `slhw-desc-0` | The whole atom, pointed | `בִּשְׁפַּרְפָּרָ֖א` |
+| `slhw-desc-0` | The whole atom, pointed | `בִּשְׁפַּרְפָּרָ֖א` |
 | `slhw-desc-1` | One character per letter: the letter itself where it is small, large, or hung, and `.` elsewhere; maqafs kept | `..פ.פ..` |
 | `slhw-desc-2` | One code per marked letter: `ק` small, `ג` large, `ת` hung | `קג` |
 | `slhw-desc-3` | `letter/code` pairs, comma-separated | `פ/ק,פ/ג` |
