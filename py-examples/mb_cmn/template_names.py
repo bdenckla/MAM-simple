@@ -1,4 +1,28 @@
-"""Exports Latin-alphabet symbols for some template names"""
+"""Exports Latin-alphabet symbols for some template names
+
+QUOTE MARKS: a name here carrying a quote mark uses Hebrew gershayim (U+05F4),
+which is the canonical form of the name rather than one format's variant of it.
+The raw wikitext writes an ASCII double quote as a shorthand for the gershayim,
+and ``ws_tmpl1.template_name()`` resolves that shorthand — it normalizes the quote
+to gershayim for both the ``stmpl`` and the ``tmpl`` shape, via
+``py_misc.true_gershayim``, whose ``in_str`` is named for treating the gershayim as
+the true character and the ASCII quote as the stand-in. So the parsed name is
+always the canonical one, and these constants are what it equals.
+
+The shorthand is still visible in stored data, which is the one thing to watch:
+MAM-parsed-PLAIN keeps the raw wikitext spelling in its ``stmpl`` strings and
+``tmpl`` lists — ``קו"כ``, ``מ:קו"כ-אם-2``, ``מ:כו"ק מיוחד``,
+``מ:אין פרשה בתחילת פרק בספרי אמ"ת`` — so a raw plain name compared without going
+through ``template_name()`` will not equal any constant here. MAM-parsed-PLUS
+stores the canonical spelling directly in ``tmpl_name`` and can be compared raw,
+and has since MAM-parsed 2993dbd of 2026-05-09, "Use g2 not q2 in tmpl names".
+Names with no quote mark are spelled identically everywhere and raise none of this.
+"""
+
+# Named because more than one comparison site needs them, in this repo's siblings
+# as well as here; see the quote-mark note above for how each name is spelled.
+INVERTED_NUN = "מ:נו״ן הפוכה"
+TRIVIAL_QERE = "מ:קו״כ-אם-2"
 
 TWO_ACCENTS_OF_QUPO = "שני טעמים באות אחת קמץ-תחתון-פתח-עליון"
 NO_PAR_AT_STA_OF_CHAP21 = "מ:אין פרשה בתחילת פרק"
@@ -11,7 +35,7 @@ SCRDFF_NO_TAR = "מ:הערה"
 LATIN_SHORTS = {
     "כו״ק": "k1q1-kq",  # 1
     "קו״כ": "k1q1-qk",  # 2
-    "מ:קו״כ-אם-2": "kq-trivial",
+    TRIVIAL_QERE: "kq-trivial",
     "קרי ולא כתיב": "kq-q-velo-k",
     "כתיב ולא קרי": "kq-k-velo-q",
 }
