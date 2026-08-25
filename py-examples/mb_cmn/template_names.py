@@ -16,6 +16,11 @@ MAM-parsed-PLAIN keeps the raw wikitext spelling in its ``stmpl`` strings and
 through ``template_name()`` will not equal any constant here. MAM-parsed-PLUS
 stores the canonical spelling directly in ``tmpl_name`` and can be compared raw,
 and has since MAM-parsed 2993dbd of 2026-05-09, "Use g2 not q2 in tmpl names".
+Before 2993dbd, though, plus data has the ASCII shorthand in ``tmpl_name`` just as
+plain data does. So code reading plus data from arbitrary git revisions, rather than
+from the working tree, must normalize the quote before comparing;
+``py/mb_diff_mpu/mpplus_extract.py``'s ``_canonicalize_template_names`` is the
+worked example.
 Names with no quote mark are spelled identically everywhere and raise none of this.
 """
 
