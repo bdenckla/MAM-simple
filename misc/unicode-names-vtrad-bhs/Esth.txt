@@ -4196,6 +4196,8 @@ b,m,g,y,l,v,τ
 SPACE
 α,$,k,n,z
 SPACE
+k,τ,v,b
+SPACE
 l,_,h,:_,r,o,(qom),g
 STOP sdt-note
 STOP scrdfftar sdt-starpos=after-word
@@ -4502,6 +4504,8 @@ START sdt-note
 b,m,g,y,l,v,τ
 SPACE
 α,$,k,n,z
+SPACE
+k,τ,v,b
 SPACE
 b,·,i,p,:,n,‥,y,h,∵,(zaq_q),m.
 STOP sdt-note

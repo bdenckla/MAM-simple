@@ -18200,6 +18200,22 @@ SPACE
 h,_,m,·,i,$,·sh,:,k,·,a,(tip),n.
 SPACE
 α,∵,x,a,(mos),d,(sopa)
+START scrdfftar sdt-starpos=after-word
+START/STOP sdt-target
+START sdt-note
+σ,p,q
+SPACE
+p,r,$,h
+SPACE
+p,τ,v,x,h
+SPACE
+b,k,τ,r
+SPACE
+α,r,m.
+SPACE
+c,v,b,h
+STOP sdt-note
+STOP scrdfftar sdt-starpos=after-word
 
 Exodus 26:7 in vtrad vtbhs
 v,:,3,a,$,·si,i,(pash),y,τ,a,(pash)
