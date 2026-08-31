@@ -68,17 +68,12 @@ def this_repo_name() -> str:
     Named ``this_repo_name`` rather than ``repo_name`` because every public function
     here already takes a ``repo_name`` parameter, which would shadow it.
 
-    Derived by this chain, first answer wins:
-
-    1. the common git dir -- ``repo_root/.git`` itself when that is a directory, and in
-       a linked worktree the main clone's ``.git`` that the worktree's ``.git`` *file*
-       points into (``_common_git_dir``);
-    2. the basename of ``remote.origin.url`` in that dir's ``config``, a trailing
-       ``.git`` stripped (``_origin_basename``).  This is the step that also gets a
-       renamed clone directory right;
-    3. the common git dir's parent name, when that dir is literally named ``.git``
-       (``_clone_dir_name``) -- a clone or worktree whose config names no origin;
-    4. ``repo_root.name``, which is what this used before any of the above existed.
+    ``repo_name_of`` below does the deriving and its docstring holds the chain; this
+    function only supplies the root.  The two were one function, the private
+    ``_derived_repo_name``, until 2026-08-27, when ``repo_util/report_destination.py``
+    needed to name an ARBITRARY repo -- whatever contains a report's destination -- and
+    so could not call ``this_repo_name``.  It had been comparing a DIRECTORY name, which
+    is the worktree bug below in its other form.
 
     A WORKTREE IS THE SAME REPO, so a breadcrumb generated from one must name the repo.
     These breadcrumbs are written into git-tracked artifacts, several of which are
@@ -89,21 +84,15 @@ def this_repo_name() -> str:
     MAM-simple/doc/versification-differences.md regenerated from a worktree as "generated
     by busy-chebyshev-613a3b/py/...".
 
-    FAILURE DEGRADES, NEVER RAISES.  A malformed ``.git`` file, an unreadable config, or
-    a bare or exported tree with no ``.git`` at all falls through to step 4 and so
-    reproduces exactly the output of before this chain existed, rather than exploding
-    several hundred generated files into a full regeneration.  (``_display_path``'s
-    ``ValueError`` for a generator outside both roots is a different contract and stays.)
-
     Standard library only, and deliberately consulting no other module of ours: this file
     is vendored verbatim into sibling repos (al-hatorah's ``py/mb_cmn/`` among them) that
     have no ``mb_cmn/paths.py`` to import.  It reads git's own files and never shells out,
     so it does not require git on PATH.  A tree nested inside another repo's checkout --
     al-hatorah at ``MAM-private/al-hatorah`` since 2026-08-10 -- has no ``.git`` of its
-    own at ``repo_root``, so it takes step 4 and is named for its directory, which is the
-    right answer and is why nesting needs no override.
+    own at ``repo_root``, so it takes step 4 of the chain and is named for its directory,
+    which is the right answer and is why nesting needs no override.
     """
-    return _derived_repo_name(_repo_root())
+    return repo_name_of(_repo_root())
 
 
 def _repo_root() -> Path:
@@ -111,11 +100,37 @@ def _repo_root() -> Path:
 
 
 @functools.lru_cache(maxsize=None)
-def _derived_repo_name(root: Path) -> str:
-    """``this_repo_name``'s chain, memoized on the resolved repo root.
+def repo_name_of(root: Path) -> str:
+    """Name of the repo whose working tree is ``root`` -- ANY repo, not only this one.
+
+    Derived by this chain, first answer wins:
+
+    1. the common git dir -- ``root/.git`` itself when that is a directory, and in
+       a linked worktree the main clone's ``.git`` that the worktree's ``.git`` *file*
+       points into (``_common_git_dir``);
+    2. the basename of ``remote.origin.url`` in that dir's ``config``, a trailing
+       ``.git`` stripped (``_origin_basename``).  This is the step that also gets a
+       renamed clone directory right;
+    3. the common git dir's parent name, when that dir is literally named ``.git``
+       (``_clone_dir_name``) -- a clone or worktree whose config names no origin;
+    4. ``root.name``, which is what this used before any of the above existed.
+
+    THE POINT OF STEPS 1-3 IS THAT ``root.name`` IS THE WRONG ANSWER IN A WORKTREE, where
+    it is the worktree's throwaway directory name -- "vibrant-mirzakhani-3e2369" -- rather
+    than the repo's.  Two callers have been bitten by taking that shortcut:
+    ``this_repo_name``'s breadcrumbs (2026-08-07) and
+    ``repo_util/report_destination.py``'s private-repo classification (2026-08-27).
+
+    FAILURE DEGRADES, NEVER RAISES.  A malformed ``.git`` file, an unreadable config, or
+    a bare or exported tree with no ``.git`` at all falls through to step 4 and so
+    reproduces exactly the output of before this chain existed, rather than exploding
+    several hundred generated files into a full regeneration.  (``_display_path``'s
+    ``ValueError`` for a generator outside both roots is a different contract and stays.)
 
     Memoized because a full ``main_0_mega.py`` run asks for a breadcrumb thousands of
-    times and should read git's config once.
+    times and should read git's config once.  Pass a RESOLVED root: the cache is keyed on
+    the argument as given, so an unresolved path costs a second derivation of the same
+    answer rather than a wrong one.
     """
     try:
         common_git_dir = _common_git_dir(root)
