@@ -20,6 +20,11 @@ The JSON format mirrors the XML structure: it has the same hierarchy and element
 For a detailed guide to the hierarchy and element types of both formats,
 see [Reading MAM-simple](doc/reading-mam-simple.md).
 
+For the versification and cantillation choices behind this extract, the two Decalogues
+above all, see
+[Versification and cantillation](https://bdenckla.github.io/MAM-simple/versification-and-cantillation.html),
+a page served from this repo's `gh-pages/` directory.
+
 One property of the text is worth knowing before you write any code against it:
 **the Hebrew is in neither NFC nor NFD, and normalizing it will silently corrupt it.**
 The combining marks of a letter are in MAM's order, in which shin dot, sin dot, dagesh
