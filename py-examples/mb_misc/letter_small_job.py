@@ -6,7 +6,9 @@ import xml.etree.ElementTree as ET
 
 def almost_main(xml_path):
     """Find <letter-small> elements in the given XML book."""
-    with open("py-examples-out/letter-small-job.txt", "w", encoding="utf-8") as out_fp:
+    with open(
+        "py-examples-out/letter-small-job.txt", "w", encoding="utf-8", newline=""
+    ) as out_fp:
         for root_child in ET.parse(xml_path).getroot():
             for verse in root_child.iter("verse"):
                 for el in verse.iter("letter-small"):
