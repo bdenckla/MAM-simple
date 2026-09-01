@@ -10,6 +10,8 @@ output_book_dir  : directory to write per-book OSIS XML files
 header_path      : path to header.xml; None => skip combined osis.xml output
 osis_output_path : path for combined mapm.osis.xml; None => skip
 xsd_path         : path to OSIS XSD schema for validation; None => skip
+xml_xsd_path     : local copy of the W3C xml.xsd the OSIS schema imports;
+                   None => let libxml2 fetch it from w3.org over the network
 index_html_dir   : directory for gh-pages index.html/CSS; None => skip
 """
 
@@ -37,7 +39,8 @@ def almost_main(paths, bkids=None):
     """Create MAM-OSIS XML from MAM XML data, writing to the locations in paths.
 
     Required paths keys: input_xml_dir, output_book_dir.
-    Optional paths keys: header_path, osis_output_path, xsd_path, index_html_dir.
+    Optional paths keys: header_path, osis_output_path, xsd_path, xml_xsd_path,
+    index_html_dir.
     Omitted optional keys default to None (feature skipped).
     """
     if bkids is None:
@@ -126,15 +129,83 @@ def _write_osis(header, proots, paths):
     root.append(osis_text)
     _write_xml(root, out_path)
     if paths["xsd_path"] is not None:
-        _assert_is_valid_osis_according_to_xsd(out_path, paths["xsd_path"])
+        _assert_is_valid_osis_according_to_xsd(
+            out_path, paths["xsd_path"], paths.get("xml_xsd_path")
+        )
 
 
-def _assert_is_valid_osis_according_to_xsd(xml_path: str, xsd_path: str):
-    xmlschema_doc = lxml_etree.parse(xsd_path)
+def _assert_is_valid_osis_according_to_xsd(
+    xml_path: str, xsd_path: str, xml_xsd_path: str | None = None
+):
+    xmlschema_doc = lxml_etree.parse(xsd_path, _xsd_parser(xml_xsd_path))
     xmlschema = lxml_etree.XMLSchema(xmlschema_doc)
     #
     xml_doc = lxml_etree.parse(xml_path)
     xmlschema.assertValid(xml_doc)
+
+
+# The URLs at which the W3C publishes the schema for the XML namespace, which is what
+# declares xml:lang and xml:space.  osisCore imports the first of these by absolute URL;
+# the schema's own annotation names the second as its permanent home, so both spellings
+# are answered here, over either protocol.
+_XML_NAMESPACE_XSD_URLS = frozenset(
+    {
+        "http://www.w3.org/2001/xml.xsd",
+        "http://www.w3.org/2001/03/xml.xsd",
+        "https://www.w3.org/2001/xml.xsd",
+        "https://www.w3.org/2001/03/xml.xsd",
+    }
+)
+
+
+class _XmlNamespaceXsdResolver(lxml_etree.Resolver):
+    """Answer the OSIS schema's xml.xsd import from a local file rather than the network.
+
+    WITHOUT THIS, VALIDATING OSIS SILENTLY REQUIRES HTTP ACCESS TO w3.org.  Line 4 of
+    in/osisCore.2.1.1-cw6.xsd is an ``xs:import`` of the XML namespace by absolute URL,
+    and libxml2 fetches it while parsing the schema.  Where that fetch is refused the
+    import yields nothing and the schema fails to parse at all -- with a message naming
+    xml:lang rather than the network, which is what makes it hard to place::
+
+        XMLSchemaParseError: attribute use (unknown), attribute 'ref': The QName value
+        '{http://www.w3.org/XML/1998/namespace}lang' does not resolve to a(n) attribute
+        declaration., line 56
+
+    Found 2026-08-31 by the first cloud run of main_0_mega.py, in a sandbox whose egress
+    policy rejects w3.org.  An open network had hidden it for as long as this code existed.
+
+    Resolving in code rather than repointing the ``schemaLocation`` keeps
+    osisCore.2.1.1-cw6.xsd byte-verbatim as the Bible Technologies Group published it --
+    DATA-LICENSES.md cites its opening annotation as the licence notice, so it is not a
+    file to edit.
+    """
+
+    def __init__(self, xml_xsd_path: str):
+        super().__init__()
+        self._xml_xsd_path = xml_xsd_path
+
+    def resolve(self, system_url, public_id, context):
+        if system_url in _XML_NAMESPACE_XSD_URLS:
+            return self.resolve_filename(self._xml_xsd_path, context)
+        return None
+
+
+def _xsd_parser(xml_xsd_path: str | None):
+    """A parser whose resolvers answer the xml.xsd import locally, given a local copy.
+
+    lxml applies the resolvers of the parser that read the schema DOCUMENT to the imports
+    that schema goes on to make, which is what lets a local file satisfy an absolute-URL
+    ``xs:import`` without touching the schema.
+
+    ``None`` -- no local copy supplied -- leaves the fetch to the network, which is the
+    behaviour every caller had before 2026-08-31.  The vendored MAM-simple example passes
+    no ``xsd_path`` at all and so never reaches here.
+    """
+    if xml_xsd_path is None:
+        return None
+    parser = lxml_etree.XMLParser()
+    parser.resolvers.add(_XmlNamespaceXsdResolver(xml_xsd_path))
+    return parser
 
 
 def _write_index_dot_html(paths):
