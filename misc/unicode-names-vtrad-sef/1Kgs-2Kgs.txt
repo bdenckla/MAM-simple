@@ -6697,7 +6697,7 @@ h,_,p,·,:,q,a,3,i,(zaq_q),y,m.
 SPACE
 y,:,c,u,q,i,(tip),y,m.
 SPACE
-b,·,i,y,c,u,(mos),q,a,τ,(mos),v,o,(sopa)
+b,·,i,y,c,u,q,a,τ,(mos),v,o,(sopa)
 
 1Kings 7:25 in vtrad vtsef
 3,o,m,‥,(ger_2),d
@@ -11245,7 +11245,7 @@ SPACE
 SPACE
 α,:_,d,o,(mun),m,i,y,·,o,(zaq_q),τ
 SPACE
-c,‥,(mos),d,:,n,i,y,·,o,(tip),τ
+c,‥,d,:,n,i,y,·,o,(tip),τ
 SPACE
 x,i,τ,·,i,y,·,o,(mos),τ,(sopa)
 
@@ -13064,7 +13064,7 @@ b,·,_,m,·,∵,r,:,k,·,a,b,a,(zaq_q),h
 SPACE
 l,a,n,(tip),v,·,σ
 SPACE
-y,:,r,(mos),v,·,$,·sh,a,l,a,(mos),CGJ,i,m.,(sopa)
+y,:,r,v,·,$,·sh,a,l,a,(mos),CGJ,i,m.,(sopa)
 
 1Kings 12:19 in vtrad vtsef
 v,_,y,·,i,p,:,$,·sh,:,3,(mah),v,·
@@ -15656,7 +15656,7 @@ b,·,i,d,:,b,_,(tip),r
 SPACE
 α,v,·,r,i,y,·,a,(mer),h
 SPACE
-h,_,(mos),x,i,τ,·,i,(mos),y,(sopa)
+h,_,x,i,τ,·,i,(mos),y,(sopa)
 
 1Kings 15:6 in vtrad vtsef
 v,·,m,i,l,:,x,a,m,a,(qom),h
@@ -16016,7 +16016,7 @@ m,∵,l,∵,k.,:,-,y,i,$,·si,:,r,a,α,‥,(zaq_q),l
 SPACE
 v,:,y,_,3,:_,l,∵,(tip),h
 SPACE
-m,‥,(mos),3,a,l,a,(mos),y,(sopa)
+m,‥,3,a,l,a,(mos),y,(sopa)
 
 1Kings 15:20 in vtrad vtsef
 v,_,y,·,i,$,·sh,:,m,_,(qom),3
@@ -17857,7 +17857,7 @@ d,·,i,b,·,∵,(tip),r
 SPACE
 b,·,:,y,_,(mer),d
 SPACE
-α,‥,(mos),l,i,y,·,a,(mos),h,v,·,(sopa)
+α,‥,l,i,y,·,a,(mos),h,v,·,(sopa)
 START/STOP spi-pe2
 
 1Kings 17:17 in vtrad vtsef
@@ -18104,7 +18104,7 @@ m,a,θ,a,(tip),r
 SPACE
 3,_,l,-,p,·,:,n,‥,(mer),y
 SPACE
-h,a,(mos),α,:_,d,a,m,a,(mos),h,(sopa)
+h,a,α,:_,d,a,m,a,(mos),h,(sopa)
 
 1Kings 18:2 in vtrad vtsef
 v,_,y,·,‥,(pash),l,∵,k.,:,(pash)
@@ -22429,7 +22429,7 @@ p,·,o,(mer),h
 SPACE
 n,a,b,i,(tev),y,α
 SPACE
-l,_,(mos),y,h,o,v,a,(tip),h
+l,_,y,h,o,v,a,(tip),h
 SPACE
 3,(atn),v,o,d
 SPACE
@@ -29371,7 +29371,7 @@ k,·,i,(mos),y,-,r,:,3,‥,b,i,(mun),y,m.
 SPACE
 α,:_,n,_,(rev),x,:,n,v,·
 SPACE
-v,_,y,·,‥,(mos),c,:,α,(mah),v,·
+v,_,y,·,‥,c,:,α,(mah),v,·
 SPACE
 m,i,n.,-,h,_,(mos),m,·,_,x,:_,n,∵,h,(pash)
 SPACE
@@ -41854,9 +41854,9 @@ m,‥,b,i,(mun),y,α
 SPACE
 r,a,3,a,(zaq_q),h
 SPACE
-3,_,l,-,y,:,r,(mos),v,·,$,·sh,a,l,_,(tip),CGJ,i,m.
+3,_,l,-,y,:,r,v,·,$,·sh,a,l,_,(tip),CGJ,i,m.
 SPACE
-v,i,(mos),y,h,v,·,d,a,(atn),h
+v,i,y,h,v,·,d,a,(atn),h
 SPACE
 α,:_,$,·sh,∵,r,(pash)
 SPACE

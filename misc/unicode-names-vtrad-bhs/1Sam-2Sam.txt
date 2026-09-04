@@ -13814,7 +13814,7 @@ STOP kq
 SPACE
 α,∵,τ,-,d,·,a,v,i,(atn),d
 SPACE
-m,‥,(mos),h,_,y,·,(mer),v,o,m.
+m,‥,h,_,y,·,(mer),v,o,m.
 SPACE
 h,_,h,(tip),v,·,α
 SPACE
@@ -21514,7 +21514,7 @@ SPACE
 SPACE
 h,_,y,·,i,z,:,r,:,3,‥,α,l,i,(zaq_q),τ
 SPACE
-v,_,(mos),α,:_,b,i,y,g,_,(mer),y,i,l
+v,_,α,:_,b,i,y,g,_,(mer),y,i,l
 SPACE
 α,‥,(mos),$,·sh,∵,τ,-,n,a,b,a,(tip),l
 SPACE
@@ -31035,7 +31035,7 @@ SPACE
 SPACE
 α,v,·,r,i,y,·,a,(mer),h
 SPACE
-h,_,(mos),x,i,τ,·,i,(mos),y,(sopa)
+h,_,x,i,τ,·,i,(mos),y,(sopa)
 
 2Samuel 11:4 in vtrad vtbhs
 v,_,y,·,i,$,·sh,:,l,_,x,(tel_q)
@@ -32689,7 +32689,7 @@ d,·,a,v,i,(tev),d
 SPACE
 v,:,k,oa,l,-,h,a,3,a,(tip),m.
 SPACE
-y,:,r,(mos),v,·,$,·sh,a,l,a,(mos),CGJ,i,m.,(sopa)
+y,:,r,v,·,$,·sh,a,l,a,(mos),CGJ,i,m.,(sopa)
 START/STOP spi-pe2
 
 2Samuel 13:1 in vtrad vtbhs
@@ -35992,7 +35992,7 @@ v,:,α,_,(qom),b,:,$,·sh,a,l,(zaq_q),v,o,m.
 SPACE
 y,a,b,(tip),v,o,α
 SPACE
-y,:,r,(mos),v,·,$,·sh,a,l,a,(mos),CGJ,i,m.,(sopa)
+y,:,r,v,·,$,·sh,a,l,a,(mos),CGJ,i,m.,(sopa)
 START/STOP spi-samekh2
 
 2Samuel 16:1 in vtrad vtbhs
@@ -37723,7 +37723,7 @@ SPACE
 SPACE
 n,a,n,(ger),v,·,σ
 SPACE
-l,o,(mos),α,-,y,a,$,·si,i,(dar),y,m,v,·
+l,o,α,-,y,a,$,·si,i,(dar),y,m,v,·
 SPACE
 α,‥,l,‥,(mun),y,n,v,·
 SPACE
