@@ -74,3 +74,51 @@ WHITESPACE_TMPL_NAMES = {
     "ר2",
     "ר3",
 }
+
+# TEMPLATES THAT CONTRIBUTE NO ATOM.  None of them is an atom and none joins the
+# atoms around it, so a text collector renders each as a separator.  THERE IS NO
+# FALLBACK BEHIND THIS SET: a name absent from it, and from every rule of its
+# own, raises -- Ben Denckla's decision of 2026-09-02, "Don't have any fallbacks.
+# If you don't recognize a template, fail fast."  So a template that reaches a
+# verse payload has to be listed here or handled by name somewhere.
+#
+# TWO KINDS SIT HERE, FOR THE ONE THING THEY SHARE.  Most carry nothing at all:
+# WHITESPACE_TMPL_NAMES' shirah spaces and setuma/petucha and poetic-space
+# markers, ר4 alongside them, the three no-parashah chapter tags, and the
+# navigation and titling furniture, whose parameters are a verse reference, an
+# aliyah identifier, a book title, a prophet name and a Psalms division name.
+# The paseq, legarmeh and gray-maqaf templates DO carry a mark, and are here
+# because that mark is not an atom; whether one of them renders U+05C0 or a
+# maqaf is a separate question, which Ben Denckla settled as separate on
+# 2026-09-02.  That is also why the set is not called "no verse text", which
+# would be false of those three.
+#
+# NAMED AS A SET BECAUSE WHAT A TEMPLATE MEANS DECIDES WHAT IT CONTRIBUTES,
+# and whether it carries parameters does not.  The corpus evidence, and the
+# defect that reading a parameter as a proxy for meaning produced, are recorded
+# at hkq_cmn/mam_plus_verse_data._collect_text_fragments.
+NO_ATOM_TMPL_NAMES = WHITESPACE_TMPL_NAMES | {
+    "ר4",
+    "מ:פסק",
+    "מ:לגרמיה-2",
+    "מ:מקף אפור",
+    NO_PAR_AT_STA_OF_CHAP21,
+    NO_PAR_AT_STA_OF_CHAP03,
+    NO_PAR_AT_STA_OF_WEEKLY,
+    "מ:פסוק",
+    "מ:עלייה",
+    "מ:ספר חדש",
+    "מ:רווח בתרי עשר בפסוק הראשון",
+    "מ:רווח לספר בתהלים בפסוק הראשון",
+}
+
+# TEMPLATES WHOSE PARAM 1 IS THE WORD, OR THE PART OF IT, THAT THEY MARK: the
+# large, small and hung letters, and the whole word a special letter sits in.
+# Shared so that hkq_cmn/mam_plus_verse_data and hkq_cmn/qere_projection cannot
+# drift apart on it, their header comments each requiring that they mirror.
+IN_WORD_TMPL_NAMES = {
+    "מ:אות-ג",
+    "מ:אות-ק",
+    "מ:אות תלויה",
+    SLH_WORD,
+}
